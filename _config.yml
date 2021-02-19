@@ -1,17 +1,16 @@
 # Site settings
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
-baseurl:        "/tale"
-url:            "https://chesterhow.github.io"
+title:          Jan Sauermann
+description:    "Associate Professor, IFAU"
+url:            "https://jansauermann.github.io"
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         Jan Sauermann
+  url:          https://jansauermann.github.io
+  email:        jan.sauermann@ifau.uu.se
 
 # Build settings
 markdown:       kramdown
