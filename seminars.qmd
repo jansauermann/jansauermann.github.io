@@ -5,7 +5,7 @@ format:
     theme: callout_research.scss
 ---
 
-Links to the seminar websites
+Please find below a list of all economics related seminars in Stockholm and Uppsala. If links should be out of date or if something is missing, [please send me an email](jan.sauermann@ifau.uu.se).
 
 * Uppsala University [[seminar website](https://www.nek.uu.se)] [[google calendar](https://calendar.google.com/calendar/embed?src=miamjrfb97q8r5p1doq32uh6e8%40group.calendar.google.com&ctz=Europe%2FStockholm)]
 * IFAU Uppsala [[seminar website](https://www.ifau.se/Aktiviteter/Seminarier-vid-IFAU/)] [[google calendar](https://calendar.google.com/calendar/embed?src=uppuni.events%40gmail.com&ctz=Europe%2FStockholm)]

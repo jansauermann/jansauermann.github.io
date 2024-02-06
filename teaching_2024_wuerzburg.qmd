@@ -5,7 +5,7 @@ format:
     theme: callout_research.scss
 ---
 
-**_Company policies, public policies, and the organization of the firm_**
+**Company policies, public policies, and the organization of the firm**
 
 # Introduction
 
@@ -48,7 +48,7 @@ Regarding the formal requirements, the Chair has provided [formal references (pd
 
 - Term papers need to be written in English
 - Term papers may at most be 20 pages of text. This _includes_ any tables and figure, but _excludes_ table of contents, assurance, and references.
-- Please use in-text citations (such as "as shown by Mayer (2008)" or "text here (Mayer, 2008).". Most of the assigned papers follow this style.
+- Please use in-text citations (such as "as shown by Mayer (2008)" or "text here (Mayer, 2008)."). Most of the assigned papers follow this style.
 
 ## Presentation
 Each student needs to present his/her term paper. The presentation needs to be done in English. In the case that two students are assigned to the same topic, both students should together present their thesis in a joint presentation. Each presentation is supposed to be no longer than 15 minutes. 

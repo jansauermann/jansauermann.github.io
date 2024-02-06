@@ -14,7 +14,7 @@ Click the title for details.
 
 *Type:* Graduate course\
 *Role:* Course coordinator\
-[[syllabus and more information](teaching/teaching_2024_wuerzburg/teaching_2024_wuerzburg.qmd)]
+[[syllabus and more information](teaching_2024_wuerzburg.qmd)]
 :::
 
 ::: {.callout-abstractbox .callout-warning collapse=true}
