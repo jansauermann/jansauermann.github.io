@@ -1,0 +1,24 @@
+---
+title: "Contact"
+about:
+  template: trestles
+  image: profile.jpg
+  links:
+    - icon: cloud-sun
+      text: Bluesky
+      href: https://bsky.app/profile/jansauermann.bsky.social
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/jansauermann
+
+---
+
+Jan Sauermann
+
+Institute for Evaluation of Labour Market and Education Policy (IFAU) in Uppsala
+
+Visiting Address: [IFAU](https://www.ifau.se/en/), Kyrkogårdsgatan 6, SE-753 12 Uppsala, Sweden\
+Postal Address: Box 513, 751 20 Uppsala, Sweden
+
+e-mail [jan.sauermann@ifau.uu.se](mailto:jan.sauermann@ifau.uu.se)\
+telephone +46 (0) 737 169 102

@@ -1,0 +1,24 @@
+---
+title: "Seminars in Stockholm/Uppsala"
+format: 
+  html: 
+    theme: callout_research.scss
+---
+
+Links to the seminar websites
+
+* Uppsala University [[seminar website](https://www.nek.uu.se)] [[google calendar](https://calendar.google.com/calendar/embed?src=miamjrfb97q8r5p1doq32uh6e8%40group.calendar.google.com&ctz=Europe%2FStockholm)]
+* IFAU Uppsala [[seminar website](https://www.ifau.se/Aktiviteter/Seminarier-vid-IFAU/)] [[google calendar](https://calendar.google.com/calendar/embed?src=uppuni.events%40gmail.com&ctz=Europe%2FStockholm)]
+* Research Institute of Industrial Economics (IFN) [[seminar website](https://www.ifn.se/seminarier-och-kalender/?EventCategory=38899)] [[google calendar](https://calendar.google.com/calendar/embed?src=ifnsem%40gmail.com&ctz=Europe%2FStockholm)]
+* Stockholm School of Economics 
+  + Department of Economics [[seminar website](https://www.hhs.se/en/research/departments/de/calendar/)] [no google calendar available]
+  + Stockholm Institute of Transition Economics (SITE) [[seminar website](https://www.hhs.se/en/Research/Institutes/site/events/?themeId=0&typeId=94&PastEvents=False)] [no google calendar available]
+  + Swedish House of Finance (SHoF) [[seminar website](https://www.hhs.se/en/about-us/calendar/?senderId=56&themeId=128&typeId=175&PastEvents=False)] [no google calendar available]
+* Stockholm University 
+  + Department of Economics (NE) [[seminar website](https://www.su.se/nationalekonomiska-institutionen/kalender)] [[google calendar](https://www.google.com/calendar/embed?src=info@ne.su.se&ctz=Europe/Stockholm&gsessionid=OK)]
+  + Institute for International Economic Studies (IIES) [[seminar website](https://www.su.se/institute-for-international-economic-studies/research/conferences-and-seminars)] [[google calendar](https://calendar.google.com/calendar/embed?src=b7s262i7e7kn5ukvv6fsc2i8j4%40group.calendar.google.com&ctz=Europe%2FStockholm)]
+  + Swedish Institute for Social Research (SOFI) [[seminar website](https://www.su.se/institutet-for-social-forskning/om-institutet)] [[google calendar](https://www.google.com/calendar/embed?src=skui7mt0rjc4beqhg827p1dp9k@group.calendar.google.com)]
+
+```{=html}
+<iframe src="https://calendar.google.com/calendar/embed?title=Stockholm%20Uppsala%20Econ%20Seminars&amp;showDate=0&amp;showPrint=0&amp;showTz=0&amp;mode=AGENDA&amp;height=600&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=miamjrfb97q8r5p1doq32uh6e8%40group.calendar.google.com&amp;color=%23b6e5bf&amp;src=info%40ne.su.se&amp;color=%23b6e5bf&amp;src=ifnsem%40gmail.com&amp;color=%23b6e5bf&amp;src=b7s262i7e7kn5ukvv6fsc2i8j4%40group.calendar.google.com&amp;color=%23b6e5bf&amp;src=skui7mt0rjc4beqhg827p1dp9k%40group.calendar.google.com&amp;color=%234E5D6C&amp;src=uppuni.events%40gmail.com&amp;color=%23b6e5bf&amp;ctz=Europe%2FStockholm" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+```

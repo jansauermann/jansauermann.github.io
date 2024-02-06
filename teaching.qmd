@@ -1,0 +1,74 @@
+---
+title: "Teaching"
+format: 
+  html: 
+    theme: callout_research.scss
+---
+
+Click the title for details.
+
+## Courses 
+
+::: {.callout-abstractbox .callout-warning collapse=true}
+## Company policies, public policies, and the organization of the firm (University of Würzburg: 2023/24)
+
+*Type:* Graduate course\
+*Role:* Course coordinator\
+[[syllabus and more information](teaching/teaching_2024_wuerzburg/teaching_2024_wuerzburg.qmd)]
+:::
+
+::: {.callout-abstractbox .callout-warning collapse=true}
+## Gender difference in labor market outcomes (University of Würzburg: 2022/23)
+
+*Type:* Graduate course\
+*Role:* Course coordinator
+:::
+
+::: {.callout-abstractbox .callout-warning collapse=true}
+## Human capital and the Economics of Education (Stockholm University: 2017/18, 2018/19)
+
+*Type:* PhD course\
+*Role:* Lecturer
+[syllabus]
+:::
+
+::: {.callout-abstractbox .callout-warning collapse=true}
+## Gender differences: origins and consequences (Stockholm University: 2017/18)
+
+*Type:* PhD course\
+*Role:* Course coordinator and lecturer
+[syllabus]
+:::
+
+::: {.callout-abstractbox .callout-warning collapse=true}
+## Personnel Economics (Stockholm University:  2014/15; 2015/16; 2016/17; 2018/19)
+
+*Type:* Graduate course\
+*Role:* Course coordinator and lecturer
+[syllabus]
+:::
+
+::: {.callout-abstractbox .callout-warning collapse=true}
+## Topics in Personnel Economics (University of Hamburg: 2015/16)
+
+*Type:* Graduate course\
+*Role:* Course coordinator and lecturer
+[syllabus]
+:::
+
+::: {.callout-abstractbox .callout-warning collapse=true}
+## Education and Social Cohesion (Maastricht University: 2009/10)
+
+*Type:* Graduate course\
+*Role:* Teaching assistant
+:::
+
+## Supervision 
+Uppsala University, 2023-ongoing (main PhD supervisor Olle Törnquist)\
+University of Würzburg, 2023 (Master thesis supervision)\
+Stockholm School of Economics, 2019 (Master thesis supervision)\
+Maastricht Universitsy, 2010 (Master thesis supervision)
+
+## Opponent
+
+Uppsala University, 2018 (Gunnar Branden's final seminar)
