@@ -14,7 +14,7 @@ $background-color: #bfe4eb !default;
 
 .callout-abstractbox.callout {
   color: black ;
-  border-left:1px ;
+  border:0px ;
   padding: 0.5px ;
   font-weight: normal;
 }
@@ -22,11 +22,12 @@ $background-color: #bfe4eb !default;
 div.callout-abstractbox.callout {
   border: transparent;
   margin:0.25px ; 
-  font-size: 0.7em;
-  border-left: 1px ;
+  /* font-size: 0.7em; */
+  border: 0px ;
 }
 
 div.callout-title-container {
   padding-bottom: 10.5px ;
   font-weight: normal ; 
+  font-size: 1rem;
 }

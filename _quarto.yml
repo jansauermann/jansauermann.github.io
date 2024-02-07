@@ -15,7 +15,7 @@ website:
         file: educworkshop.qmd
       - seminars.qmd  
     tools: 
-      - icon: mailbox
+      - icon: at
         href: mailto:jan.sauermann@ifau.uu.se
       - icon: cloud-sun
         href: https://bsky.app/profile/jansauermann.bsky.social

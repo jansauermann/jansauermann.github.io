@@ -34,7 +34,7 @@ This paper examines the  effects of a gender quota on supervisory boards impleme
 ## Lindquist, Matthew J., Jan Sauermann, and Yves Zenou, "Peer Effects in the Workplace: A Network Approach", March 2022. 
 
 We study both endogenous and exogenous peer effects in worker productivity using an explicit network approach. We apply this method to data from an in-house call center of a multinational mobile network operator that include detailed information on individual performance. We find that an increase in average co-worker current productivity increases worker productivity, while an increase in average co-worker permanent productivity decreases worker productivity. We also investigate when peer effects matter and show that the relative importance of these two types of peer effects depends on the volume of incoming calls.\
-[most recent version: please e-mail me] [previously circulated as IZA DP No. 15131 and as "Network Effects on Worker Productivity" (CEPR DP 10928)] 
+[most recent version: [please e-mail me](mailto:jan.sauermann@ifau.uu.se)]] [previously circulated as IZA DP No. 15131 and as "Network Effects on Worker Productivity" (CEPR DP 10928)] 
 [non-technical summary: [Voxeu.org](http://www.voxeu.org/article/peer-effects-and-contagious-productivity)] 
 :::
 

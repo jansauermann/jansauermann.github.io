@@ -3,7 +3,7 @@ about:
   template: trestles
   image: profile.jpg
   links:
-    - icon: at
+    - icon: mailbox
       text: Email
       href: mailto:jan.sauermann@ifau.uu.se
     - icon: cloud-sun

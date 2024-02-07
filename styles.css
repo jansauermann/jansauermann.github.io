@@ -1,33 +1,5 @@
 /* css styles */
-.goals {
-    margin: 1em 0;
-    border: 2px red;
-    border-left: 10px red; 
-    border-radius: 10px;
-  }
 
-  .goals-header {
-    margin-left: 0em;
-    padding-left:  60px;
-    padding-top:  5px;
-    padding-bottom: 0.1em;
-    color: black;
-    background-color: rgb(123, 173, 173);
-    border-top-right-radius: 10px;
-    font-size: 1em;
-    font-weight: bold;
-    background-size: 40px;
-    background-repeat: no-repeat;
-    background-position: 15px center;
-}
-
-.goals-container {
-    padding-top: 5px;
-    padding-left: 10px;
-    color: black;
-    background-color: white;
-    border-bottom-right-radius: 10px;
-  }
 
 
   /*-- scss:defaults 
@@ -39,34 +11,23 @@ $background-color: #bfe4eb !default;
 
 /*-- scss:rules --*/
 
-.callout-abstractbox-body {
-  font-size: 9.0rem;
-  font-weight: 900;
-  text-decoration: blueviolet;
-}
 
-.callout-body.callout-abstractbox.callout {
-  border-left-color: $border-color-left;
-  font-size: 0.7em;
-  text-decoration: blueviolet; 
+.callout-abstractbox.callout {
+  color: black ;
+  border:0px ;
+  padding: 0.5px ;
+  font-weight: normal;
 }
 
 div.callout-abstractbox.callout {
-  /* border-left-color: $border-color-left; */
-  border-left-color: white;
-  font-size: 0.7em;
+  border: transparent;
+  margin:0.25px ; 
+  /* font-size: 0.7em; */
+  border: 0px ;
 }
 
-div.callout-abstractbox.callout-style-default>.callout-header {
-  background-color: $background-color;
-}
-
-.callout-abstractbox.icon .callout-icon {
-  display: unset !important;
-}
-
-.callout-abstractbox.icon.callout-style-default div.callout-icon-container {
-  padding-top: 0.9em;
-  padding-right: 0.35em;
-  font-size: 0.7em;
+div.callout-title-container {
+  padding-bottom: 10.5px ;
+  font-weight: normal ; 
+  font-size: 1rem;
 }

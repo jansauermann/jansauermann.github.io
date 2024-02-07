@@ -28,32 +28,32 @@ Click the title for details.
 ## Human capital and the Economics of Education (Stockholm University: 2017/18, 2018/19)
 
 *Type:* PhD course\
-*Role:* Lecturer
-[syllabus]
+*Role:* Lecturer\
+[[syllabus](https://jansauermann.github.io/teaching/labor3syllabus.pdf)]
 :::
 
 ::: {.callout-abstractbox .callout-warning collapse=true}
 ## Gender differences: origins and consequences (Stockholm University: 2017/18)
 
 *Type:* PhD course\
-*Role:* Course coordinator and lecturer
-[syllabus]
+*Role:* Course coordinator and lecturer\
+[[syllabus](https://jansauermann.github.io/teaching/PhD%20Course%20Economics%20of%20Gender.pdf)]
 :::
 
 ::: {.callout-abstractbox .callout-warning collapse=true}
 ## Personnel Economics (Stockholm University:  2014/15; 2015/16; 2016/17; 2018/19)
 
 *Type:* Graduate course\
-*Role:* Course coordinator and lecturer
-[syllabus]
+*Role:* Course coordinator and lecturer\
+[[syllabus](https://jansauermann.github.io/teaching/PAO_PE_2019.pdf)]
 :::
 
 ::: {.callout-abstractbox .callout-warning collapse=true}
 ## Topics in Personnel Economics (University of Hamburg: 2015/16)
 
 *Type:* Graduate course\
-*Role:* Course coordinator and lecturer
-[syllabus]
+*Role:* Course coordinator and lecturer\
+[[syllabus](https://jansauermann.github.io/teaching/PE_Sauermann_UH_4.pdf)]
 :::
 
 ::: {.callout-abstractbox .callout-warning collapse=true}
