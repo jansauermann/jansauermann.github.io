@@ -23,7 +23,7 @@ I edit the [NEP report on the economics of gender](https://econpapers.repec.org/
 
 Please [find my CV (pdf) here](https://jansauermann.github.io/cv/fullcv_sauermann.pdf). 
 
-### <span style="color:red;">News</span>
+### News
 
 **February 6**: (reminder) the next Stockholm Uppsala Education Economics Workshop will take place on April 26, 2024. The keynote presentation will be held by Matthew Wiswall. [Please submit your paper here](educworkshop.qmd).
 
