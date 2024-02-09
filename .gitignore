@@ -1,1 +1,5 @@
 /.quarto/
+
+*.qmd
+*.yml
+_site/
