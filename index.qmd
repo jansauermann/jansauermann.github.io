@@ -13,6 +13,9 @@ about:
       text: LinkedIn
       href: https://www.linkedin.com/in/jansauermann
 toc: false      
+format: 
+  html: 
+    theme: callout_research.scss
 ---
 
 I am associate professor (docent) at the [Institute for Evaluation of Labour Market and Education Policy (IFAU)](https://www.ifau.se/en/) in Uppsala and am affiliated with the [Uppsala Center for Labor Studies (UCLS)](https://www.ucls.nek.uu.se) at Uppsala University, [ROA at Maastricht University](https://roa.nl), and [IZA Bonn](https://www.iza.org).
