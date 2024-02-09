@@ -4,6 +4,7 @@ project:
 
 website: 
   title: "Jan Sauermann"
+  google-analytics: "G-TQPGCPC7H1"
   navbar: 
     search: true
     left:
