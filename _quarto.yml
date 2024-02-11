@@ -20,8 +20,10 @@ website:
         href: mailto:jan.sauermann@ifau.uu.se
       - icon: cloud-sun
         href: https://bsky.app/profile/jansauermann.bsky.social
+        target: _blank
       - icon: linkedin 
         href: https://www.linkedin.com/in/jansauermann
+        target: _blank
   page-footer: 
     left: "&copy; 2024, [Jan Sauermann](mailto:jan.sauermann@ifau.uu.se)" 
     right: "[IFAU](https://www.ifau.se/en/), Kyrkogårdsgatan 6, SE-753 12 Uppsala"
