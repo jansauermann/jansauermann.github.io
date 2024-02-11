@@ -9,9 +9,11 @@ about:
     - icon: cloud-sun
       text: Bluesky
       href: https://bsky.app/profile/jansauermann.bsky.social
+      target: _blank
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/jansauermann
+      target: _blank
 toc: false      
 format: 
   html: 
@@ -22,7 +24,7 @@ I am associate professor (docent) at the [Institute for Evaluation of Labour Mar
 
 My research interests are centred around learning and incentives in the workplace, origins and consequences of course choice in education, and gender differences in the labour market. 
 
-I edit the [NEP report on the economics of gender](https://econpapers.repec.org/scripts/nep.pf?list=nepger) ([subscribe here](https://nep.repec.org/nep-gen.html)),  organise the [Stockholm Uppsala Economics of Education Workshop Series](https://sites.google.com/site/educationeconomicsworkshop/home), and occasionally write up useful commands on my [StataTeX Blog]().
+I edit the [NEP report on the economics of gender](https://econpapers.repec.org/scripts/nep.pf?list=nepger) ([subscribe here](https://nep.repec.org/nep-gen.html)),  organise the [Stockholm Uppsala Economics of Education Workshop Series](educworkshop.qmd), and occasionally write up useful commands on my [StataTeX Blog](https://statatexblog.com).
 
 Please [find my CV (pdf) here](https://jansauermann.github.io/cv/fullcv_sauermann.pdf). 
 
