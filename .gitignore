@@ -1,5 +1,15 @@
 /.quarto/
 
-*.qmd
-*.yml
-_site/
+_quarto.yml
+callout_research.scss
+educworkshop.qmd
+index.qmd
+research.qmd
+seminars.qmd
+styles.css
+teaching_2024_wuerzburg.qmd
+teaching.qmd
+
+
+profiletest.jpg
+about.qmd
