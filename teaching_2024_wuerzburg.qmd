@@ -33,9 +33,9 @@ The course gives 10 ECTS. Students will need to write a term paper, present it i
 The course is led by [Associate Professor Jan Sauermann, IFAU Uppsala](https://sites.google.com/site/jansauermann/home). If you have any questions, comments, or would like to talk via zoom, please do not hesitate to send an email ([jan.sauermann@ifau.uu.se](mailto:jan.sauermann@ifau.uu.se)).
 
 ## Important dates
-- Registration deadline: December 12, 2023 [(application through Flip)](https://flip.wiwi.uni-wuerzburg.de/)
-- Kick-off seminar (virtual): April 16, 2024 (10:00-11:30) (Zoom link TBA)
-- Mid-term meeting (virtual): May 14, 2024 (10:00-11:30) (Zoom link TBA)
+- ~~Registration deadline: December 12, 2023 (application through Flip)~~
+- Kick-off seminar (virtual): April 16, 2024 (10:00-11:30) (Zoom link: see email)
+- Mid-term meeting (virtual): May 14, 2024 (10:00-11:30) (Zoom link: see email)
 - Seminar (in person): June 2024 (University of Würzburg, Room TBA)
 - Final deadline for term papers: TBA [(by email to jan.sauermann@ifau.uu.se)](mailto:jan.sauermann@ifau.uu.se)
 
