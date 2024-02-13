@@ -3,6 +3,9 @@ title: "Teaching"
 format: 
   html: 
     theme: callout_research.scss
+    other-links:
+      - text: CV (pdf)
+        href: https://jansauermann.github.io/cv/fullcv_sauermann.pdf
 ---
 
 Click the title for details.

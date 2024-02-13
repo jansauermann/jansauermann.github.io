@@ -4,13 +4,11 @@ format:
   html: 
     theme: callout_research.scss
     toc: true
-    include-in-header:
-      - text: |
-          <style type="text/css">
-          h2.hide {
-            display: none;
-          }
-          </style>
+    other-links:
+      - text: CV (pdf)
+        href: https://jansauermann.github.io/cv/fullcv_sauermann.pdf
+      - text: Google Scholar
+        href: https://scholar.google.com/citations?user=aaoGnKIAAAAJ&hl=en  
 ---
 
 Click the title for abstract and download options.
@@ -150,7 +148,7 @@ Similar to other European countries, the use of fixed-term contracts in Germany 
 [[publisher version (open access)](https://ideas.repec.org/a/iab/iabzaf/v41i4p489-499.html)] [[bibtex](https://github.com/jansauermann/papers/blob/master/ReinowskiSauermann2007.bib)] 
 :::
 
-## Retired working papers {.unnumbered}
+### Retired working papers {.unnumbered}
 
 ::: {.callout-abstractbox .callout-warning collapse=true}
 ## Sauermann, Jan, and Anders Stenberg (2017), "Short- and Long-term Effects of Vocational versus General Schooling: A Regression Discontinuity Approach".
