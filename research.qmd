@@ -3,6 +3,14 @@ title: "Research"
 format: 
   html: 
     theme: callout_research.scss
+    toc: true
+    include-in-header:
+      - text: |
+          <style type="text/css">
+          h2.hide {
+            display: none;
+          }
+          </style>
 ---
 
 Click the title for abstract and download options.
@@ -142,7 +150,10 @@ Similar to other European countries, the use of fixed-term contracts in Germany 
 [[publisher version (open access)](https://ideas.repec.org/a/iab/iabzaf/v41i4p489-499.html)] [[bibtex](https://github.com/jansauermann/papers/blob/master/ReinowskiSauermann2007.bib)] 
 :::
 
-## Retired working papers {.hidden}
+:::{.content-visible when-format="html"}
+## Retired working papers {.hide}
+:::
+
 ::: {.callout-abstractbox .callout-warning collapse=true}
 ## Sauermann, Jan, and Anders Stenberg (2017), "Short- and Long-term Effects of Vocational versus General Schooling: A Regression Discontinuity Approach".
 In this paper, we estimate the relative earnings returns for Swedish upper secondary schooling programs with vocational and general contents for individuals born 1955-75. Using data on individuals' application choices, we address endogeneity of program choice by exploiting admission cutoffs. These cutoffs, which are based on pupils' grade point averages (GPA), allow us to estimate the returns to educational contents in a regression discontinuity (RD) framework. In addition, we control for students' choice order to proxy for students' comparative advantages. We apply this RD design to estimate the effects of schooling contents on annual earnings from 1978-2014. For men, we find that vocational schooling has an earnings advantage over general schooling up and until the age of 27, with estimates thereafter close to zero. For women, we observe a similar earnings advantage for vocational schooling up and until the age of 23. For the longer term, there are no coherent earnings differences for men. For women with vocational schooling, there is a renewed earnings advantage from age 43 and onwards. We find suggestive evidence that this can be explained by further education completed in adulthood.\
