@@ -10,7 +10,7 @@ format:
       - text: Google Scholar
         href: https://scholar.google.com/citations?user=aaoGnKIAAAAJ&hl=en  
       - text: IDEAS/RePEc
-        href: https://ideas.repec.org/f/psa356.html  
+        href: https://ideas.repec.org/f/psa356.html
 ---
 
 Click the title for abstract and download options.
