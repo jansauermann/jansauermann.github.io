@@ -3,6 +3,13 @@ title: "Stockholm Uppsala Education Economics Workshop"
 format: 
   html: 
     theme: callout_research.scss
+    other-links:
+      - text: Call for papers (pdf)
+        icon: filetype-pdf
+        href: https://jansauermann.github.io/educworkshop/CfP_EducWorkshop_April2024.pdf
+      - text: Paper submission and workshop registration 
+        icon: arrow-up-right
+        href: https://bit.ly/StockholmUppsalaEducationWorkshop
 ---
 
 ## About the workshop series
