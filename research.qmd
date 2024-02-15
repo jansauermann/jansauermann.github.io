@@ -6,10 +6,13 @@ format:
     toc: true
     other-links:
       - text: CV (pdf)
+        icon: filetype-pdf
         href: https://jansauermann.github.io/cv/fullcv_sauermann.pdf
       - text: Google Scholar
+        icon: arrow-up-right
         href: https://scholar.google.com/citations?user=aaoGnKIAAAAJ&hl=en  
       - text: IDEAS/RePEc
+        icon: arrow-up-right
         href: https://ideas.repec.org/f/psa356.html
 ---
 

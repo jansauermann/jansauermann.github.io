@@ -31,9 +31,9 @@ If you would like to be updated about upcoming workshops, please sign up for our
 * April 2017: SOFI, Stockholm University (Keynote: **Edwin Leuven**) [[call for papers](https://jansauermann.github.io/educworkshop/CfP_EducationEconomics.pdf)] [[program](https://jansauermann.github.io/educworkshop/program_educworkshop.pdf)]
 
 ## Organizing comittee
-Jan Sauermann (IFAU and UCLS) [[email](mailto:jan.sauermann@ifau.uu.se)] [[website](https://sites.google.com/site/jansauermann/)]
-Jonas Vlachos (Stockholm University) [[email](mailto:jonas.vlachos@su.se)] [[website](https://sites.google.com/view/jonasvlachos/)]
-Björn Öckert (IFAU and Uppsala University) [[email](mailto:bjorn.ockert@ifau.uu.se)] [[website](https://www.ifau.se/Om-IFAU/Medarbetare/Forskare-Utredare/Bjorn-Ockert/)]
+- Jan Sauermann (IFAU and UCLS) [[email](mailto:jan.sauermann@ifau.uu.se)] [[website](index.html)]
+- Jonas Vlachos (Stockholm University) [[email](mailto:jonas.vlachos@su.se)] [[website](https://sites.google.com/view/jonasvlachos/)]
+- Björn Öckert (IFAU and Uppsala University) [[email](mailto:bjorn.ockert@ifau.uu.se)] [[website](https://www.ifau.se/Om-IFAU/Medarbetare/Forskare-Utredare/Bjorn-Ockert/)]
 
 ## Newsletter signup 
 ```{=html}
