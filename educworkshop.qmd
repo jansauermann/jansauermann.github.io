@@ -22,7 +22,8 @@ The sixth Stockholm Uppsala Education Economics Workshop will take place at the 
 Keynote speaker will be **Matthew Wiswall (University of Wisconsin-Madison)**
 
 Call for papers: [here](../educworkshop/CfP_EducWorkshop_April2024.pdf)\
-Paper submission and workshop registration: [here](https://bit.ly/StockholmUppsalaEducationWorkshop)
+Paper submission and workshop registration: [here](https://bit.ly/StockholmUppsalaEducationWorkshop)\
+Workshop homepage: [here](educworkshop_2024.qmd)
 
 If you would like to be updated about upcoming workshops, please sign up for our e-mail newsletter! If you have questions regarding the workshop, please get in touch with  Jan Sauermann at IFAU.
 
