@@ -29,7 +29,7 @@ If you would like to be updated about upcoming workshops, please sign up for our
 ### Past workshops
 * April 2023: IFAU, Uppsala (Keynote: **Barbara Biasi**) [[call for papers](https://jansauermann.github.io/educworkshop/CfP_EducWorkshop_April2023.pdf)] [[program](https://jansauermann.github.io/educworkshop/Program-apr-23.pdf)]
 
-* November 2019: SOFI, Stockholm University (Keynote: **Teodora Boneva**) [[call for papers](https://jansauermann.github.io/educworkshop/CfP_EducEc_Nov2019.pdf)] [[program](https://jansauermann.github.io/educworkshop/Program-nov-2019.pdf)]
+* November 2019: SOFI, Stockholm University (Keynote: **Teodora Boneva**) [[call for papers](../educworkshop/CfP_EducEc_Nov2019.pdf)] [[program](https://jansauermann.github.io/educworkshop/Program-nov-2019.pdf)]
 
 * November 2018: Department of Economics, Stockholm University (Keynote: **Julien Grenet**) [[call for papers](https://jansauermann.github.io/educworkshop/Call_for_papers_3rd_educ.pdf)] [[program](https://jansauermann.github.io/educworkshop/Program-nov-2018.pdf)]
 
