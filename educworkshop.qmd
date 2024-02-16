@@ -6,7 +6,7 @@ format:
     other-links:
       - text: Call for papers (pdf)
         icon: filetype-pdf
-        href: https://jansauermann.github.io/educworkshop/CfP_EducWorkshop_April2024.pdf
+        href: ../educworkshop/CfP_EducWorkshop_April2024.pdf
       - text: Paper submission and workshop registration 
         icon: arrow-up-right
         href: https://bit.ly/StockholmUppsalaEducationWorkshop
@@ -21,24 +21,24 @@ Since 2019, the Stockholm Uppsala Education Economics Workshop receives financia
 The sixth Stockholm Uppsala Education Economics Workshop will take place at the **Stockholm School of Economics** on **Friday, April 26, 2024**. 
 Keynote speaker will be **Matthew Wiswall (University of Wisconsin-Madison)**
 
-Call for papers: [here](https://jansauermann.github.io/educworkshop/CfP_EducWorkshop_April2024.pdf)\
+Call for papers: [here](../educworkshop/CfP_EducWorkshop_April2024.pdf)\
 Paper submission and workshop registration: [here](https://bit.ly/StockholmUppsalaEducationWorkshop)
 
 If you would like to be updated about upcoming workshops, please sign up for our e-mail newsletter! If you have questions regarding the workshop, please get in touch with  Jan Sauermann at IFAU.
 
 ### Past workshops
-* April 2023: IFAU, Uppsala (Keynote: **Barbara Biasi**) [[call for papers](https://jansauermann.github.io/educworkshop/CfP_EducWorkshop_April2023.pdf)] [[program](https://jansauermann.github.io/educworkshop/Program-apr-23.pdf)]
+* April 2023: IFAU, Uppsala (Keynote: **Barbara Biasi**) [[call for papers](..educworkshop/CfP_EducWorkshop_April2023.pdf)] [[program](../educworkshop/Program-apr-23.pdf)]
 
-* November 2019: SOFI, Stockholm University (Keynote: **Teodora Boneva**) [[call for papers](../educworkshop/CfP_EducEc_Nov2019.pdf)] [[program](https://jansauermann.github.io/educworkshop/Program-nov-2019.pdf)]
+* November 2019: SOFI, Stockholm University (Keynote: **Teodora Boneva**) [[call for papers](../educworkshop/CfP_EducEc_Nov2019.pdf)] [[program](../educworkshop/Program-nov-2019.pdf)]
 
-* November 2018: Department of Economics, Stockholm University (Keynote: **Julien Grenet**) [[call for papers](https://jansauermann.github.io/educworkshop/Call_for_papers_3rd_educ.pdf)] [[program](https://jansauermann.github.io/educworkshop/Program-nov-2018.pdf)]
+* November 2018: Department of Economics, Stockholm University (Keynote: **Julien Grenet**) [[call for papers](../educworkshop/Call_for_papers_3rd_educ.pdf)] [[program](../educworkshop/Program-nov-2018.pdf)]
 
-* October 2017: UCLS, Uppsala University (Keynote: **Katrine Vellesen Løken**) [[call for papers](https://jansauermann.github.io/educworkshop/Call_for_papers_2nd_educ.pdf)] [[program](https://jansauermann.github.io/educworkshop/Prog2ndworkshopeduc.pdf)]
+* October 2017: UCLS, Uppsala University (Keynote: **Katrine Vellesen Løken**) [[call for papers](../educworkshop/Call_for_papers_2nd_educ.pdf)] [[program](../educworkshop/Prog2ndworkshopeduc.pdf)]
 
-* April 2017: SOFI, Stockholm University (Keynote: **Edwin Leuven**) [[call for papers](https://jansauermann.github.io/educworkshop/CfP_EducationEconomics.pdf)] [[program](https://jansauermann.github.io/educworkshop/program_educworkshop.pdf)]
+* April 2017: SOFI, Stockholm University (Keynote: **Edwin Leuven**) [[call for papers](../educworkshop/CfP_EducationEconomics.pdf)] [[program](../educworkshop/program_educworkshop.pdf)]
 
 ## Organizing comittee
-- Jan Sauermann (IFAU and UCLS) [[email](mailto:jan.sauermann@ifau.uu.se)] [[website](index.html)]
+- Jan Sauermann (IFAU and UCLS) [[email](mailto:jan.sauermann@ifau.uu.se)] [[website](index.qmd)]
 - Jonas Vlachos (Stockholm University) [[email](mailto:jonas.vlachos@su.se)] [[website](https://sites.google.com/view/jonasvlachos/)]
 - Björn Öckert (IFAU and Uppsala University) [[email](mailto:bjorn.ockert@ifau.uu.se)] [[website](https://www.ifau.se/Om-IFAU/Medarbetare/Forskare-Utredare/Bjorn-Ockert/)]
 
