@@ -120,7 +120,7 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools tools-wide">
-    <a href="mailto:jan.sauermann@ifau.uu.se" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-at"></i></a>
+    <a href="mailto:jan.sauermann@ifau.uu.se" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-mailbox"></i></a>
     <a href="https://bsky.app/profile/jansauermann.bsky.social" title="" class="quarto-navigation-tool px-1" aria-label="" target="_blank"><i class="bi bi-cloud-sun"></i></a>
     <a href="https://www.linkedin.com/in/jansauermann" title="" class="quarto-navigation-tool px-1" aria-label="" target="_blank"><i class="bi bi-linkedin"></i></a>
 </div>
@@ -137,6 +137,7 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
    
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#updates" id="toc-updates" class="nav-link" data-scroll-target="#updates">Updates</a></li>
   <li><a href="#organization" id="toc-organization" class="nav-link" data-scroll-target="#organization">Organization</a>
   <ul class="collapse">
   <li><a href="#contact" id="toc-contact" class="nav-link" data-scroll-target="#contact">Contact</a></li>
@@ -149,7 +150,6 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
   <li><a href="#comment" id="toc-comment" class="nav-link" data-scroll-target="#comment">Comment</a></li>
   <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion">Discussion</a></li>
   </ul></li>
-  <li><a href="#updates" id="toc-updates" class="nav-link" data-scroll-target="#updates">Updates</a></li>
   <li><a href="#frequently-asked-questions" id="toc-frequently-asked-questions" class="nav-link" data-scroll-target="#frequently-asked-questions">Frequently asked questions</a></li>
   </ul>
 </nav>
@@ -194,6 +194,10 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
 <p>In February 2024, all registered students will be asked for their preference and students will be assigned to each of the topics.</p>
 <p>The course gives 10 ECTS. Students will need to write a term paper, present it in the seminar, present a shorter comment on another student’s presentation, and participate in the discussion. The course language is English.</p>
 <hr>
+</section>
+<section id="updates" class="level1">
+<h1>Updates</h1>
+<p><strong>February 22, 2024</strong>: Topic assignment and comment assignment have been emailed to all students.</p>
 </section>
 <section id="organization" class="level1">
 <h1>Organization</h1>
@@ -241,10 +245,6 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
 <p>After the term paper presentation and comment, the floor is open for all to ask questions or add own thoughts to the topic. Fair and constructive comments and contributions are a public good for the entire group.</p>
 </section>
 </section>
-<section id="updates" class="level1">
-<h1>Updates</h1>
-<p>TBA</p>
-</section>
 <section id="frequently-asked-questions" class="level1">
 <h1>Frequently asked questions</h1>
 <ul>
@@ -255,6 +255,24 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
 </section>
 
 </main> <!-- /main -->
+<script>
+  function abbrv_toc() {
+    let toc = document.querySelectorAll('nav#TOC li>a');
+    toc.forEach(e => {
+      let id = e.id.substring(4);
+      let sec = document.getElementById(id);
+      let toc_text = sec.getAttribute('data-toc-text');
+      if(toc_text != null) {
+        let new_toc_text = e.querySelector('span').outerHTML + ' ' + toc_text;
+        e.innerHTML = new_toc_text;
+      }
+    })
+  };
+
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    abbrv_toc();
+  });
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
