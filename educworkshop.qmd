@@ -7,7 +7,7 @@ format:
       - text: Call for papers (pdf)
         icon: filetype-pdf
         href: ../educworkshop/CfP_EducWorkshop_April2024.pdf
-      - text: Paper submission and workshop registration 
+      - text: Workshop registration 
         icon: arrow-up-right
         href: https://bit.ly/StockholmUppsalaEducationWorkshop
 ---
