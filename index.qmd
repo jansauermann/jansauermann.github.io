@@ -18,6 +18,7 @@ toc: false
 format: 
   html: 
     theme: callout_research.scss
+    anchor-sections: false
     other-links:
       - text: CV (pdf)
         icon: filetype-pdf

@@ -3,10 +3,8 @@ title: "Stockholm Uppsala Education Economics Workshop"
 format: 
   html: 
     theme: callout_research.scss
+    anchor-sections: false
     other-links:
-      - text: Call for papers (pdf)
-        icon: filetype-pdf
-        href: ../educworkshop/CfP_EducWorkshop_April2024.pdf
       - text: Workshop registration 
         icon: arrow-up-right
         href: https://bit.ly/StockholmUppsalaEducationWorkshop
@@ -21,11 +19,9 @@ Since 2019, the Stockholm Uppsala Education Economics Workshop receives financia
 The sixth Stockholm Uppsala Education Economics Workshop will take place at the **Stockholm School of Economics** on **Friday, April 26, 2024**. 
 Keynote speaker will be **[Matthew Wiswall](https://sites.google.com/site/mattwiswall/) (University of Wisconsin-Madison)**
 
-Call for papers: [here](../educworkshop/CfP_EducWorkshop_April2024.pdf)\
-Paper submission and workshop registration: [here](https://bit.ly/StockholmUppsalaEducationWorkshop)\
-Workshop homepage: [here](educworkshop_2024.qmd)
+Please find [more information on the workshop homepage](educworkshop_2024.qmd)
 
-If you would like to be updated about upcoming workshops, please sign up for our e-mail newsletter! If you have questions regarding the workshop, please get in touch with  Jan Sauermann at IFAU.
+If you would like to be updated about upcoming workshops, [please sign up for our e-mail newsletter!](educworkshop.qmd#newsletter-signup).
 
 ### Past workshops
 * April 2023: IFAU, Uppsala (Keynote: **Barbara Biasi**) [[program](../educworkshop/Program-apr-23.pdf)]

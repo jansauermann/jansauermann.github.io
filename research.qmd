@@ -2,7 +2,7 @@
 title: "Research"
 format: 
   html: 
-    theme: callout_research.scss
+    theme: callout_research.scss 
     toc: true
     other-links:
       - text: CV (pdf)
