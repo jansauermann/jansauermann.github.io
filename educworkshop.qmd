@@ -20,8 +20,6 @@ Keynote speaker will be **[Matthew Wiswall](https://sites.google.com/site/mattwi
 
 Please find [more information on the workshop homepage](educworkshop_2024.qmd)
 
-If you would like to be updated about upcoming workshops, [please sign up for our e-mail newsletter!](educworkshop.qmd#newsletter-signup).
-
 ### Past workshops
 * April 2023: IFAU, Uppsala (Keynote: **Barbara Biasi, Yale University**) [[program](../educworkshop/Program-apr-23.pdf)]
 
