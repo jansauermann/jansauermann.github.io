@@ -35,6 +35,7 @@ Please find [more information on the workshop homepage](educworkshop_2024.qmd)
 
 ## Organizing comittee
 - Jan Sauermann (IFAU and UCLS) [[email](mailto:jan.sauermann@ifau.uu.se)] [[website](index.qmd)]
+- Abhijeet Singh (SSE) [[email](mailto:abhijeet.singh@hhs.se)] [[website](https://sites.google.com/site/abhijeetsingh1/)]
 - Jonas Vlachos (Stockholm University) [[email](mailto:jonas.vlachos@su.se)] [[website](https://sites.google.com/view/jonasvlachos/)]
 - Björn Öckert (IFAU and Uppsala University) [[email](mailto:bjorn.ockert@ifau.uu.se)] [[website](https://www.ifau.se/Om-IFAU/Medarbetare/Forskare-Utredare/Bjorn-Ockert/)]
 
