@@ -44,7 +44,7 @@ Please [find my CV (pdf) here](https://jansauermann.github.io/cv/fullcv_sauerman
 
 ### News
 
-**June 13**: I am co-organizing IFAU/UU mini course on survey experiments (taught by Ingar Haaland) to take place on August 19/20, 2024. For more information, please send me an [email](mailto:jan.sauermann@ifau.uu.se).
+**June 13**: I am co-organizing a IFAU/UU mini course on survey experiments (taught by [Ingar Haaland](https://sites.google.com/site/ingarhaaland/)) on August 19/20, 2024. For more information, please send me an [email](mailto:jan.sauermann@ifau.uu.se).
 
 **March 15**: the [program of the next Stockholm Uppsala Education Economics Workshop is now online](educworkshop_2024.qmd). The keynote presentation will be held by Matthew Wiswall.
 
