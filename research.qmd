@@ -72,7 +72,7 @@ Many governments introduced temporary adjustments to counter the economic and he
 ::: {.callout-abstractbox .callout-warning collapse=true}
 ## Butschek, Sebastian, and Jan Sauermann (*forthcoming*), "The Effect of Employment Protection on Firms' Worker Selection", ***Journal of Human Resources***.
 To estimate the causal effect of employment protection on firms’ worker selection, we study a policy change that reduced dismissal costs for the employers of over a tenth of Sweden’s workforce. Our difference-in-differences analysis of firms’ hiring uses individual ability measures including estimated worker fixed effects, GPA at age 15, and military test scores. We find that the reform reduced minimum hire quality by around 2%. Our results show that firms both decreased their hiring thresholds and hired more workers. We find that firms increasingly hired young, foreign born and long-term non-employed individuals, suggesting potential welfare gains from the reform.\
-[[publisher version (gated)](https://jhr.uwpress.org/content/early/2022/05/02/jhr.0919-10433R1.abstract)] [[preprint](../papers/ButschekSauermann_EPL.pdf)] [previously released as IZA DP 12305] [[bibtex](https://github.com/jansauermann/papers/blob/master/ButschekSauermann_EPL.bib)]
+[[publisher version (gated)](https://jhr.uwpress.org/content/early/2022/05/02/jhr.0919-10433R1.abstract)] [[preprint](../papers/ButschekSauermann_EPL.pdf)] [[online appendix](ButschekSauermann_EPL_JHR_onlineappendix)] [previously released as IZA DP 12305] [[bibtex](https://github.com/jansauermann/papers/blob/master/ButschekSauermann_EPL.bib)]
 :::
 
 ::: {.callout-abstractbox .callout-warning collapse=true}
