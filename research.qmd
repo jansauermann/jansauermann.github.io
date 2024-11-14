@@ -62,7 +62,7 @@ We study both endogenous and exogenous peer effects in worker productivity using
 
 ## Publications
 ::: {.callout-abstractbox .callout-warning collapse=true}
-## Adermon, Adrian, Lisa Laun, Patrik Lind, Martin Olsson, Jan Sauermann, and Anna Sjögren (*forthcoming*), "Earnings Losses and the Role of the Welfare State during the COVID-19 Pandemic: Evidence from Sweden", ***Review of Income and Wealth*** *[click here for abstract and download]*
+## Adermon, Adrian, Lisa Laun, Patrik Lind, Martin Olsson, Jan Sauermann, and Anna Sjögren (2024), "Earnings Losses and the Role of the Welfare State during the COVID-19 Pandemic: Evidence from Sweden", ***Review of Income and Wealth***, 70(4), pp. 981-1010 *[click here for abstract and download]*
 Many governments introduced temporary adjustments to counter the economic and health consequences of the COVID-19 pandemic. We study the importance of already-existing government transfers and new pandemic measures to mitigate individual income losses during the onset of the pandemic in Sweden using a difference-in-differences approach and population-wide data on monthly earnings and government transfer payments. We find that labor earnings dropped by 2.7 percent in 2020. Existing transfers and new pandemic measures reduced earnings losses to 1.5 percent. These average effects mask considerable differences in earnings losses, which were, by and large, evened out by existing transfers and new pandemic measures.\
 [[publisher version (open access)](https://onlinelibrary.wiley.com/doi/10.1111/roiw.12670)] [[bibtex](../papers/Covid19_inequality.bib)]\
 [previously released as IZA DP15662, IFAU WP 2022:20 and IFN WP 1443] 
