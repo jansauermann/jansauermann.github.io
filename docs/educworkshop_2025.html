@@ -142,7 +142,7 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
   <li><a href="#workshop-lunch-and-dinner" id="toc-workshop-lunch-and-dinner" class="nav-link" data-scroll-target="#workshop-lunch-and-dinner">Workshop lunch and dinner</a></li>
   <li><a href="#contact-and-further-information" id="toc-contact-and-further-information" class="nav-link" data-scroll-target="#contact-and-further-information">Contact and further information</a></li>
   <li><a href="#organizing-comittee" id="toc-organizing-comittee" class="nav-link" data-scroll-target="#organizing-comittee">Organizing comittee</a></li>
-  <li><a href="#submit-your-feedback" id="toc-submit-your-feedback" class="nav-link" data-scroll-target="#submit-your-feedback">Submit Your Feedback</a></li>
+  <li><a href="#submit-your-paper" id="toc-submit-your-paper" class="nav-link" data-scroll-target="#submit-your-paper">Submit Your Paper</a></li>
   </ul>
 <div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="educworkshop.html#newsletter-signup"><i class="bi bi-arrow-up-right"></i>Newsletter sign-up</a></li></ul></div></nav>
     </div>
@@ -198,32 +198,83 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
 <li>Jonas Vlachos (Stockholm University) [<a href="mailto:jonas.vlachos@su.se">email</a>] [<a href="https://sites.google.com/view/jonasvlachos/">website</a>]</li>
 <li>Björn Öckert (IFAU and Uppsala University) [<a href="mailto:bjorn.ockert@ifau.uu.se">email</a>] [<a href="https://www.ifau.se/Om-IFAU/Medarbetare/Forskare-Utredare/Bjorn-Ockert/">website</a>]</li>
 </ul>
-<p>Testv9</p>
+<p>Testv11</p>
 </section>
-<section id="submit-your-feedback" class="level2">
-<h2 data-anchor-id="submit-your-feedback">Submit Your Feedback</h2>
-<!-- Feedback Form -->
-<form id="feedbackForm">
-    <label for="name">Name:</label><br>
-    <input type="text" id="name" name="name" required=""><br><br>
+<section id="submit-your-paper" class="level2">
+<h2 data-anchor-id="submit-your-paper">Submit Your Paper</h2>
+<!-- Paper Submission Form -->
+<form id="submissionForm" style="max-width: 75%; margin: 0; padding: 0;">
+    <label for="title">Paper Title:</label><br>
+    <input type="text" id="title" name="title" maxlength="250" placeholder="Enter the title of your paper" required="" style="width: 100%; border: 1px solid #ccc; padding: 5px; margin-bottom: 10px;"><br>
 
-    <label for="feedback">Feedback:</label><br>
-    <textarea id="feedback" name="feedback" rows="4" cols="50" required=""></textarea><br><br>
+    <label for="abstract">Abstract:</label><br>
+    <textarea id="abstract" name="abstract" rows="5" placeholder="Enter your abstract" required="" style="width: 100%; border: 1px solid #ccc; padding: 5px; margin-bottom: 10px;"></textarea><br>
 
-    <label for="choice">Select an option:</label><br>
-    <select id="choice" name="choice" required="">
-        <option value="option1">Option 1</option>
-        <option value="option2">Option 2</option>
-        <option value="option3">Option 3</option>
-    </select><br><br>
+    <label for="name">Your Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Enter your full name" required="" style="width: 100%; border: 1px solid #ccc; padding: 5px; margin-bottom: 10px;"><br>
 
-    <button type="button" id="submitButton">Submit</button>
+    <label for="email">Your Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="Enter a valid email address" required="" style="width: 100%; border: 1px solid #ccc; padding: 5px; margin-bottom: 10px;"><br>
+
+    <label for="institution">Your Main Institution:</label><br>
+    <select id="institution" name="institution" required="" style="width: 100%; border: 1px solid #ccc; padding: 5px; margin-bottom: 10px;">
+        <option value="">Select an institution</option>
+        <option value="Department of Economics, Uppsala University">Department of Economics, Uppsala University</option>
+        <option value="Department of Economics, Stockholm University">Department of Economics, Stockholm University</option>
+        <option value="Department of Economics, Stockholm School of Economics">Department of Economics, Stockholm School of Economics</option>
+        <option value="SOFI, Stockholm University">SOFI, Stockholm University</option>
+        <option value="IFAU">IFAU</option>
+        <option value="IFN">IFN</option>
+        <option value="IIES, Stockholm University">IIES, Stockholm University</option>
+        <option value="other">Other</option>
+    </select><br>
+    <div id="otherInstitutionDiv" style="display: none; margin-bottom: 10px;">
+        <label for="otherInstitution">Please specify your institution:</label><br>
+        <input type="text" id="otherInstitution" name="otherInstitution" style="width: 100%; border: 1px solid #ccc; padding: 5px; margin-bottom: 10px;"><br>
+    </div>
+
+    <label for="position">Your Position:</label><br>
+    <select id="position" name="position" required="" style="width: 100%; border: 1px solid #ccc; padding: 5px; margin-bottom: 10px;">
+        <option value="">Select your position</option>
+        <option value="PhD student">PhD student</option>
+        <option value="Assistant professor / postdoc">Assistant professor / postdoc</option>
+        <option value="Associate professor">Associate professor</option>
+        <option value="Full professor">Full professor</option>
+        <option value="other">Other</option>
+    </select><br>
+    <div id="otherPositionDiv" style="display: none; margin-bottom: 10px;">
+        <label for="otherPosition">Please specify your position:</label><br>
+        <input type="text" id="otherPosition" name="otherPosition" style="width: 100%; border: 1px solid #ccc; padding: 5px; margin-bottom: 10px;"><br>
+    </div>
+
+    <label for="comments">Comments or Feedback:</label><br>
+    <textarea id="comments" name="comments" rows="4" placeholder="Enter any additional comments or feedback" style="width: 100%; border: 1px solid #ccc; padding: 5px; margin-bottom: 10px;"></textarea><br>
+
+    <button type="button" id="submitButton" style="padding: 8px 16px; background-color: #f0f0f0; border: 1px solid #ccc; cursor: pointer;">Submit</button>
 </form>
 
-<!-- JavaScript for AJAX Form Submission -->
+<!-- JavaScript for Form Submission and Conditional Fields -->
 <script>
+  document.getElementById("institution").addEventListener("change", function () {
+    const otherInstitutionDiv = document.getElementById("otherInstitutionDiv");
+    if (this.value === "other") {
+      otherInstitutionDiv.style.display = "block";
+    } else {
+      otherInstitutionDiv.style.display = "none";
+    }
+  });
+
+  document.getElementById("position").addEventListener("change", function () {
+    const otherPositionDiv = document.getElementById("otherPositionDiv");
+    if (this.value === "other") {
+      otherPositionDiv.style.display = "block";
+    } else {
+      otherPositionDiv.style.display = "none";
+    }
+  });
+
   document.getElementById("submitButton").addEventListener("click", function () {
-    const form = document.getElementById("feedbackForm");
+    const form = document.getElementById("submissionForm");
     const formData = new FormData(form);
 
     // Convert FormData to a URL-encoded string
@@ -234,7 +285,7 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
 
     // Show a loading message while processing
     const loadingMessage = document.createElement("p");
-    loadingMessage.textContent = "Submitting your feedback, please wait...";
+    loadingMessage.textContent = "Submitting your paper, please wait...";
     loadingMessage.style.color = "blue";
     form.parentNode.insertBefore(loadingMessage, form);
 
