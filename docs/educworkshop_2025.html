@@ -198,12 +198,12 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
 <li>Jonas Vlachos (Stockholm University) [<a href="mailto:jonas.vlachos@su.se">email</a>] [<a href="https://sites.google.com/view/jonasvlachos/">website</a>]</li>
 <li>Björn Öckert (IFAU and Uppsala University) [<a href="mailto:bjorn.ockert@ifau.uu.se">email</a>] [<a href="https://www.ifau.se/Om-IFAU/Medarbetare/Forskare-Utredare/Bjorn-Ockert/">website</a>]</li>
 </ul>
-<p>Testv7</p>
+<p>Testv8</p>
 </section>
 <section id="submit-your-feedback" class="level2">
 <h2 data-anchor-id="submit-your-feedback">Submit Your Feedback</h2>
 <!-- Feedback Form -->
-<form id="feedbackForm" action="https://script.google.com/macros/s/AKfycbwWtqMMBNpLhtVdjWP1-kBmokLgmk6p_g7dUnmrxXPsBAPTG8rF1CBpnCrVlXwCmrjlzw/exec" method="post">
+<form id="feedbackForm">
     <label for="name">Name:</label><br>
     <input type="text" id="name" name="name" required=""><br><br>
 
@@ -217,8 +217,41 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
         <option value="option3">Option 3</option>
     </select><br><br>
 
-    <input type="submit" value="Submit">
+    <button type="button" id="submitButton">Submit</button>
 </form>
+
+<!-- JavaScript for AJAX Form Submission -->
+<script>
+  document.getElementById("submitButton").addEventListener("click", function () {
+    const form = document.getElementById("feedbackForm");
+    const formData = new FormData(form);
+
+    // Convert FormData to a URL-encoded string
+    const data = new URLSearchParams();
+    for (const pair of formData.entries()) {
+      data.append(pair[0], pair[1]);
+    }
+
+    // Send the data to Google Apps Script
+    fetch("https://script.google.com/macros/s/AKfycbwWtqMMBNpLhtVdjWP1-kBmokLgmk6p_g7dUnmrxXPsBAPTG8rF1CBpnCrVlXwCmrjlzw/exec", {
+      method: "POST",
+      body: data,
+    })
+      .then((response) => response.json())
+      .then((result) => {
+        if (result.status === "success") {
+          // Replace the form with a success message
+          form.innerHTML = '<p style="color: red; font-weight: bold;">You successfully submitted your paper!</p>';
+        } else {
+          alert("An error occurred: " + result.message);
+        }
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+        alert("An error occurred. Please try again.");
+      });
+  });
+</script>
 
 
 </section>
