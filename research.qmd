@@ -14,9 +14,10 @@ format:
       - text: IDEAS/RePEc
         icon: arrow-up-right
         href: https://ideas.repec.org/f/psa356.html
+      - text: ORCID
+        icon: arrow-up-right
+        href: https://orcid.org/0000-0002-0550-0675  
 ---
-
-Click the title for abstract and download options.
 
 ## Discussion Papers and papers in the editorial process
 
