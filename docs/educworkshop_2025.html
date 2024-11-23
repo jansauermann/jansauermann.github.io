@@ -198,7 +198,7 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
 <li>Jonas Vlachos (Stockholm University) [<a href="mailto:jonas.vlachos@su.se">email</a>] [<a href="https://sites.google.com/view/jonasvlachos/">website</a>]</li>
 <li>Björn Öckert (IFAU and Uppsala University) [<a href="mailto:bjorn.ockert@ifau.uu.se">email</a>] [<a href="https://www.ifau.se/Om-IFAU/Medarbetare/Forskare-Utredare/Bjorn-Ockert/">website</a>]</li>
 </ul>
-<p>Testv8</p>
+<p>Testv9</p>
 </section>
 <section id="submit-your-feedback" class="level2">
 <h2 data-anchor-id="submit-your-feedback">Submit Your Feedback</h2>
@@ -232,6 +232,15 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
       data.append(pair[0], pair[1]);
     }
 
+    // Show a loading message while processing
+    const loadingMessage = document.createElement("p");
+    loadingMessage.textContent = "Submitting your feedback, please wait...";
+    loadingMessage.style.color = "blue";
+    form.parentNode.insertBefore(loadingMessage, form);
+
+    // Disable the form to prevent multiple submissions
+    form.style.display = "none";
+
     // Send the data to Google Apps Script
     fetch("https://script.google.com/macros/s/AKfycbwWtqMMBNpLhtVdjWP1-kBmokLgmk6p_g7dUnmrxXPsBAPTG8rF1CBpnCrVlXwCmrjlzw/exec", {
       method: "POST",
@@ -239,16 +248,22 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
     })
       .then((response) => response.json())
       .then((result) => {
+        loadingMessage.remove(); // Remove the loading message
         if (result.status === "success") {
           // Replace the form with a success message
           form.innerHTML = '<p style="color: red; font-weight: bold;">You successfully submitted your paper!</p>';
+          form.style.display = "block"; // Redisplay the form container for success message
         } else {
-          alert("An error occurred: " + result.message);
+          // Show an error message
+          form.style.display = "block";
+          form.innerHTML = '<p style="color: red;">An error occurred: ' + result.message + '</p>';
         }
       })
       .catch((error) => {
+        loadingMessage.remove(); // Remove the loading message
+        form.style.display = "block";
+        form.innerHTML = '<p style="color: red;">An unexpected error occurred. Please try again later.</p>';
         console.error("Error:", error);
-        alert("An error occurred. Please try again.");
       });
   });
 </script>
