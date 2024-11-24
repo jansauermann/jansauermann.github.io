@@ -197,8 +197,8 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
 <li>Jonas Vlachos (Stockholm University) [<a href="mailto:jonas.vlachos@su.se">email</a>] [<a href="https://sites.google.com/view/jonasvlachos/">website</a>]</li>
 <li>Björn Öckert (IFAU and Uppsala University) [<a href="mailto:bjorn.ockert@ifau.uu.se">email</a>] [<a href="https://www.ifau.se/Om-IFAU/Medarbetare/Forskare-Utredare/Bjorn-Ockert/">website</a>]</li>
 </ul>
-<p>Testv20</p>
-<form id="submissionForm" enctype="multipart/form-data">
+<p>Testv21</p>
+<form id="submissionForm">
 <p><label for="name">Your Name:</label><br> <input type="text" id="name" name="name" required=""><br><br></p>
 <p><label for="email">Your Email:</label><br> <input type="email" id="email" name="email" required=""><br><br></p>
 <p><label for="file">Upload Your Paper (PDF only):</label><br> <input type="file" id="file" name="file" accept=".pdf" required=""><br><br></p>
@@ -207,13 +207,28 @@ Submit
 </button>
 </form>
 <script>
-  document.getElementById("submitButton").addEventListener("click", function () {
+  document.getElementById("submitButton").addEventListener("click", async function () {
     const form = document.getElementById("submissionForm");
     const formData = new FormData(form);
 
+    // Extract file data separately
+    const fileInput = document.getElementById("file");
+    const file = fileInput.files[0];
+    const fileContent = await file.text();
+
+    // Create JSON payload
+    const payload = {
+      name: formData.get("name"),
+      email: formData.get("email"),
+      fileName: file.name,
+      fileContent: btoa(fileContent), // Base64 encode file content
+    };
+
+    // Send JSON payload
     fetch("https://script.google.com/macros/s/AKfycbwWtqMMBNpLhtVdjWP1-kBmokLgmk6p_g7dUnmrxXPsBAPTG8rF1CBpnCrVlXwCmrjlzw/exec", {
       method: "POST",
-      body: formData,
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
     })
       .then((response) => response.json())
       .then((result) => {
