@@ -199,13 +199,18 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
 </ul>
 <p>Testv21</p>
 <form id="submissionForm">
-<p><label for="name">Your Name:</label><br> <input type="text" id="name" name="name" required=""><br><br></p>
-<p><label for="email">Your Email:</label><br> <input type="email" id="email" name="email" required=""><br><br></p>
-<p><label for="file">Upload Your Paper (PDF only):</label><br> <input type="file" id="file" name="file" accept=".pdf" required=""><br><br></p>
-<button type="button" id="submitButton">
-Submit
-</button>
+    <label for="name">Your Name:</label><br>
+    <input type="text" id="name" name="name" required=""><br><br>
+
+    <label for="email">Your Email:</label><br>
+    <input type="email" id="email" name="email" required=""><br><br>
+
+    <label for="file">Upload Your Paper (PDF only):</label><br>
+    <input type="file" id="file" name="file" accept=".pdf" required=""><br><br>
+
+    <button type="button" id="submitButton">Submit</button>
 </form>
+
 <script>
   document.getElementById("submitButton").addEventListener("click", async function () {
     const form = document.getElementById("submissionForm");
@@ -244,7 +249,6 @@ Submit
       });
   });
 </script>
-<p>´´´</p>
 
 
 </section>
