@@ -142,7 +142,6 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
   <li><a href="#workshop-lunch-and-dinner" id="toc-workshop-lunch-and-dinner" class="nav-link" data-scroll-target="#workshop-lunch-and-dinner">Workshop lunch and dinner</a></li>
   <li><a href="#contact-and-further-information" id="toc-contact-and-further-information" class="nav-link" data-scroll-target="#contact-and-further-information">Contact and further information</a></li>
   <li><a href="#organizing-comittee" id="toc-organizing-comittee" class="nav-link" data-scroll-target="#organizing-comittee">Organizing comittee</a></li>
-  <li><a href="#submit-your-paper" id="toc-submit-your-paper" class="nav-link" data-scroll-target="#submit-your-paper">Submit Your Paper</a></li>
   </ul>
 <div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="educworkshop.html#newsletter-signup"><i class="bi bi-arrow-up-right"></i>Newsletter sign-up</a></li></ul></div></nav>
     </div>
@@ -198,71 +197,39 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
 <li>Jonas Vlachos (Stockholm University) [<a href="mailto:jonas.vlachos@su.se">email</a>] [<a href="https://sites.google.com/view/jonasvlachos/">website</a>]</li>
 <li>Björn Öckert (IFAU and Uppsala University) [<a href="mailto:bjorn.ockert@ifau.uu.se">email</a>] [<a href="https://www.ifau.se/Om-IFAU/Medarbetare/Forskare-Utredare/Bjorn-Ockert/">website</a>]</li>
 </ul>
-<p>Testv18</p>
-</section>
-<section id="submit-your-paper" class="level2">
-<h2 data-anchor-id="submit-your-paper">Submit Your Paper</h2>
-<!-- Paper Submission Form -->
-<form id="submissionForm" style="max-width: 75%; margin: 0; padding: 0;" enctype="multipart/form-data">
-    <label for="title">Paper Title:</label><br>
-    <input type="text" id="title" name="title" placeholder="Enter the title of your paper" required="" style="width: 100%; border: 1px solid #ccc; padding: 5px; margin-bottom: 10px;"><br>
-
-    <label for="abstract">Abstract:</label><br>
-    <textarea id="abstract" name="abstract" rows="5" placeholder="Enter your abstract" required="" style="width: 100%; border: 1px solid #ccc; padding: 5px; margin-bottom: 10px;"></textarea><br>
-
-    <label for="name">Your Name:</label><br>
-    <input type="text" id="name" name="name" placeholder="Enter your full name" required="" style="width: 100%; border: 1px solid #ccc; padding: 5px; margin-bottom: 10px;"><br>
-
-    <label for="email">Your Email:</label><br>
-    <input type="email" id="email" name="email" placeholder="Enter a valid email address" required="" style="width: 100%; border: 1px solid #ccc; padding: 5px; margin-bottom: 10px;"><br>
-
-    <label for="file">Upload Your Paper (PDF only):</label><br>
-    <input type="file" id="file" name="file" accept=".pdf" required="" style="width: 100%; border: 1px solid #ccc; padding: 5px; margin-bottom: 10px;"><br>
-
-    <button type="button" id="submitButton" style="padding: 8px 16px; background-color: #f0f0f0; border: 1px solid #ccc; cursor: pointer;">Submit</button>
+<p>Testv19</p>
+<form id="submissionForm" enctype="multipart/form-data">
+<p><label for="name">Your Name:</label><br> <input type="text" id="name" name="name" required=""><br><br></p>
+<p><label for="email">Your Email:</label><br> <input type="email" id="email" name="email" required=""><br><br></p>
+<p><label for="file">Upload Your Paper (PDF only):</label><br> <input type="file" id="file" name="file" accept=".pdf" required=""><br><br></p>
+<button type="button" id="submitButton">
+Submit
+</button>
 </form>
-
-<!-- JavaScript for Form Submission -->
 <script>
   document.getElementById("submitButton").addEventListener("click", function () {
     const form = document.getElementById("submissionForm");
     const formData = new FormData(form);
 
-    // Show a loading message while processing
-    const loadingMessage = document.createElement("p");
-    loadingMessage.textContent = "Submitting your paper, please wait...";
-    loadingMessage.style.color = "blue";
-    form.parentNode.insertBefore(loadingMessage, form);
-
-    // Disable the form to prevent multiple submissions
-    form.style.display = "none";
-
-    // Send the data to Google Apps Script
     fetch("https://script.google.com/macros/s/AKfycbwWtqMMBNpLhtVdjWP1-kBmokLgmk6p_g7dUnmrxXPsBAPTG8rF1CBpnCrVlXwCmrjlzw/exec", {
       method: "POST",
       body: formData,
     })
       .then((response) => response.json())
       .then((result) => {
-        loadingMessage.remove(); // Remove the loading message
         if (result.status === "success") {
-          // Replace the form with a success message
-          form.innerHTML = '<p style="color: red;">You successfully submitted your paper!</p>';
-          form.style.display = "block"; // Redisplay the form container for success message
+          alert("File uploaded successfully: " + result.fileName);
         } else {
-          // Show an error message
-          form.style.display = "block";
-          form.innerHTML = '<p style="color: red;">An error occurred: ' + result.message + '</p>';
+          alert("An error occurred: " + result.message);
         }
       })
       .catch((error) => {
-        loadingMessage.remove(); // Remove the loading message
-        form.style.display = "block";
-        form.innerHTML = '<p style="color: red;">An unexpected error occurred. Please try again later.</p>';
+        alert("An unexpected error occurred. Please try again later.");
         console.error("Error:", error);
       });
   });
 </script>
+<p>```</p>
 
 
 </section>
