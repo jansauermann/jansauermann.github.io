@@ -167,9 +167,13 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
 <p>Please submit your paper here</p>
 <p>V06</p>
 <form id="uploadForm" action="https://script.google.com/macros/s/AKfycbwVVyHsO7fA9cT32LmFDCElOFObpWqJPmzJ-CipdevfjAjLiDlNqeWHXVUhutp50RTgjQ/exec" method="POST" enctype="multipart/form-data">
-  <input type="text" name="testInput" value="Hello World">
-  <button type="submit">Submit</button>
+  <div class="form-group">
+    <label for="fileUpload">Upload PDF</label>
+    <input type="file" class="form-control-file" id="fileUpload" name="fileUpload" accept=".pdf" required="">
+  </div>
+  <button type="submit" class="btn btn-primary btn-block">Submit</button>
 </form>
+
 
 
 </section>
