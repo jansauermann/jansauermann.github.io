@@ -156,7 +156,7 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
 <div class="container">
   <div class="row">
     <div class="col-6">
-      <form id="myForm" onsubmit="handleFormSubmit(this)">
+      <form id="myForm" onsubmit="handleFormSubmit(event)">
         <p class="h4 mb-4 text-center">Submission Form</p>
 
         <div class="form-group">
@@ -183,38 +183,33 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
 </div>
 
 <script>
-  function preventFormSubmit() {
-    var forms = document.querySelectorAll('form');
-    for (var i = 0; i < forms.length; i++) {
-      forms[i].addEventListener('submit', function(event) {
-        event.preventDefault();
+  const webAppUrl = 'https://script.google.com/macros/s/AKfycbwYl9U_YaC5X7JBSZFX2Y0dX9XcdDm8CV-GikpfcVMtv_xXnmfO7LfwZrZnnCTOHl3ZCQ/exec'; // Replace with your web app URL
+
+  async function handleFormSubmit(event) {
+    event.preventDefault(); // Prevent default form submission
+
+    const form = document.getElementById('myForm');
+    const formData = new FormData(form);
+
+    try {
+      const response = await fetch(webAppUrl, {
+        method: 'POST',
+        body: formData,
       });
-    }
-  }
-  window.addEventListener('load', preventFormSubmit);
 
-  function handleFormSubmit(formObject) {
-    google.script.run.withSuccessHandler(updateUrl).withFailureHandler(onFailure).uploadFiles(formObject);
-  }
+      if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
 
-  function updateUrl(url) {
-    var div = document.getElementById('output');
-    if (isValidURL(url)) {
-      div.innerHTML = '<div class="alert alert-success" role="alert"><a href="' + url + '">File uploaded successfully!</a></div>';
-      document.getElementById("myForm").reset();
-    } else {
-      div.innerHTML = '<div class="alert alert-danger" role="alert">' + url + '!</div>';
+      const result = await response.json();
+      displayMessage('success', `File uploaded successfully! <a href="${result.url}" target="_blank">View file</a>`);
+      form.reset(); // Clear the form after successful submission
+    } catch (error) {
+      displayMessage('danger', `Error: ${error.message}`);
     }
   }
 
-  function onFailure(error) {
-    var div = document.getElementById('output');
-    div.innerHTML = '<div class="alert alert-danger" role="alert">' + error.message + '!</div>';
-  }
-
-  function isValidURL(string) {
-    var res = string.match(/(http(s)?:\/\/.)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/g);
-    return res !== null;
+  function displayMessage(type, message) {
+    const outputDiv = document.getElementById('output');
+    outputDiv.innerHTML = `<div class="alert alert-${type}" role="alert">${message}</div>`;
   }
 </script>
 
