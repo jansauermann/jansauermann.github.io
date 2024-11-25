@@ -142,6 +142,7 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
   <li><a href="#workshop-lunch-and-dinner" id="toc-workshop-lunch-and-dinner" class="nav-link" data-scroll-target="#workshop-lunch-and-dinner">Workshop lunch and dinner</a></li>
   <li><a href="#contact-and-further-information" id="toc-contact-and-further-information" class="nav-link" data-scroll-target="#contact-and-further-information">Contact and further information</a></li>
   <li><a href="#organizing-comittee" id="toc-organizing-comittee" class="nav-link" data-scroll-target="#organizing-comittee">Organizing comittee</a></li>
+  <li><a href="#paper-submission" id="toc-paper-submission" class="nav-link" data-scroll-target="#paper-submission">Paper submission</a></li>
   </ul>
 <div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="educworkshop.html#newsletter-signup"><i class="bi bi-arrow-up-right"></i>Newsletter sign-up</a></li></ul></div></nav>
     </div>
@@ -197,43 +198,10 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
 <li>Jonas Vlachos (Stockholm University) [<a href="mailto:jonas.vlachos@su.se">email</a>] [<a href="https://sites.google.com/view/jonasvlachos/">website</a>]</li>
 <li>Björn Öckert (IFAU and Uppsala University) [<a href="mailto:bjorn.ockert@ifau.uu.se">email</a>] [<a href="https://www.ifau.se/Om-IFAU/Medarbetare/Forskare-Utredare/Bjorn-Ockert/">website</a>]</li>
 </ul>
-<p>Testv23</p>
-<form id="uploadForm">
-    <label for="name">Your Name:</label><br>
-    <input type="text" id="name" name="name" required=""><br><br>
-
-    <label for="email">Your Email:</label><br>
-    <input type="email" id="email" name="email" required=""><br><br>
-
-    <label for="myFile">Upload Your Paper (PDF only):</label><br>
-    <input type="file" id="myFile" name="myFile" accept=".pdf" required=""><br><br>
-
-    <button type="button" id="submitButton">Submit</button>
-</form>
-
-<script>
-  document.getElementById("submitButton").addEventListener("click", async function () {
-    const form = document.getElementById("uploadForm");
-    const formData = new FormData(form);
-
-    fetch("https://script.google.com/macros/s/AKfycbxqRJDgcLLuE4dNgc8-X7pmd3lcprL62iKnL48XTuNlFO6M6zQk5QPAryro47Y_wA40_Q/exec", {
-      method: "POST",
-      body: formData,
-    })
-      .then((response) => response.json())
-      .then((result) => {
-        if (result.status === "success") {
-          alert(`File uploaded successfully: ${result.fileName}\nFile URL: ${result.fileUrl}`);
-        } else {
-          alert(`An error occurred: ${result.message}`);
-        }
-      })
-      .catch((error) => {
-        alert("An unexpected error occurred. Please try again later.");
-        console.error("Error:", error);
-      });
-  });
-</script>
+</section>
+<section id="paper-submission" class="level2">
+<h2 data-anchor-id="paper-submission">Paper submission</h2>
+<p>Please <a href="./educworkshop_papersubmission.html">submit your paper here</a></p>
 
 
 </section>
