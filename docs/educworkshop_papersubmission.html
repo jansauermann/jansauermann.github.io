@@ -152,26 +152,26 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
 <section id="paper-submission" class="level2">
 <h2 class="anchored" data-anchor-id="paper-submission">Paper submission</h2>
 <p>Please submit your paper here</p>
-<p>V01</p>
+<p>V02</p>
 <div class="container">
   <div class="row">
     <div class="col-6">
-      <form id="myForm" onsubmit="handleFormSubmit(event)">
+      <form id="uploadForm" action="https://script.google.com/macros/s/AKfycbwMkdsi7wlHVM0aRDT-m9zkCG4nSmMt6cGbRBz3dY5K9kD9P72Gen0G0v5efn6H90zRXg/exec" method="POST" enctype="multipart/form-data">
         <p class="h4 mb-4 text-center">Submission Form</p>
 
         <div class="form-group">
           <label for="name">Name</label>
-          <input type="text" class="form-control" name="name" id="name" placeholder="Enter your name">
+          <input type="text" class="form-control" name="name" id="name" placeholder="Enter your name" required="">
         </div>
 
         <div class="form-group">
           <label for="email">Email</label>
-          <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email">
+          <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required="">
         </div>
 
         <div class="form-group">
           <label for="fileUpload">Upload PDF</label>
-          <input type="file" class="form-control-file" id="fileUpload" name="fileUpload" accept=".pdf">
+          <input type="file" class="form-control-file" id="fileUpload" name="fileUpload" accept=".pdf" required="">
         </div>
 
         <button type="submit" class="btn btn-primary btn-block">Submit</button>
@@ -181,37 +181,6 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
     </div>
   </div>
 </div>
-
-<script>
-  const webAppUrl = 'https://script.google.com/macros/s/AKfycbwYl9U_YaC5X7JBSZFX2Y0dX9XcdDm8CV-GikpfcVMtv_xXnmfO7LfwZrZnnCTOHl3ZCQ/exec'; // Replace with your web app URL
-
-  async function handleFormSubmit(event) {
-    event.preventDefault(); // Prevent default form submission
-
-    const form = document.getElementById('myForm');
-    const formData = new FormData(form);
-
-    try {
-      const response = await fetch(webAppUrl, {
-        method: 'POST',
-        body: formData,
-      });
-
-      if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-
-      const result = await response.json();
-      displayMessage('success', `File uploaded successfully! <a href="${result.url}" target="_blank">View file</a>`);
-      form.reset(); // Clear the form after successful submission
-    } catch (error) {
-      displayMessage('danger', `Error: ${error.message}`);
-    }
-  }
-
-  function displayMessage(type, message) {
-    const outputDiv = document.getElementById('output');
-    outputDiv.innerHTML = `<div class="alert alert-${type}" role="alert">${message}</div>`;
-  }
-</script>
 
 
 </section>
