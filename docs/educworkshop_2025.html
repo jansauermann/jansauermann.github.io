@@ -197,50 +197,35 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
 <li>Jonas Vlachos (Stockholm University) [<a href="mailto:jonas.vlachos@su.se">email</a>] [<a href="https://sites.google.com/view/jonasvlachos/">website</a>]</li>
 <li>Björn Öckert (IFAU and Uppsala University) [<a href="mailto:bjorn.ockert@ifau.uu.se">email</a>] [<a href="https://www.ifau.se/Om-IFAU/Medarbetare/Forskare-Utredare/Bjorn-Ockert/">website</a>]</li>
 </ul>
-<p>Testv21</p>
-<form id="submissionForm">
+<p>Testv22</p>
+<form id="uploadForm">
     <label for="name">Your Name:</label><br>
     <input type="text" id="name" name="name" required=""><br><br>
 
     <label for="email">Your Email:</label><br>
     <input type="email" id="email" name="email" required=""><br><br>
 
-    <label for="file">Upload Your Paper (PDF only):</label><br>
-    <input type="file" id="file" name="file" accept=".pdf" required=""><br><br>
+    <label for="myFile">Upload Your Paper (PDF only):</label><br>
+    <input type="file" id="myFile" name="myFile" accept=".pdf" required=""><br><br>
 
     <button type="button" id="submitButton">Submit</button>
 </form>
 
 <script>
   document.getElementById("submitButton").addEventListener("click", async function () {
-    const form = document.getElementById("submissionForm");
+    const form = document.getElementById("uploadForm");
     const formData = new FormData(form);
 
-    // Extract file data separately
-    const fileInput = document.getElementById("file");
-    const file = fileInput.files[0];
-    const fileContent = await file.text();
-
-    // Create JSON payload
-    const payload = {
-      name: formData.get("name"),
-      email: formData.get("email"),
-      fileName: file.name,
-      fileContent: btoa(fileContent), // Base64 encode file content
-    };
-
-    // Send JSON payload
     fetch("https://script.google.com/macros/s/AKfycbwWtqMMBNpLhtVdjWP1-kBmokLgmk6p_g7dUnmrxXPsBAPTG8rF1CBpnCrVlXwCmrjlzw/exec", {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
+      body: formData,
     })
       .then((response) => response.json())
       .then((result) => {
         if (result.status === "success") {
-          alert("File uploaded successfully: " + result.fileName);
+          alert(`File uploaded successfully: ${result.fileName}\nFile URL: ${result.fileUrl}`);
         } else {
-          alert("An error occurred: " + result.message);
+          alert(`An error occurred: ${result.message}`);
         }
       })
       .catch((error) => {
