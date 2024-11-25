@@ -164,16 +164,128 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
 
 <section id="paper-submission" class="level2">
 <h2 data-anchor-id="paper-submission">Paper submission</h2>
-<p>Please submit your paper here</p>
-<p>V08</p>
-<form id="uploadForm" action="https://script.google.com/macros/s/AKfycbx63yU2dHX_2-YA3bnUX2GWngLxHfyqev3qEPwXB-BDgXKiY5mmcq4DG5PWNDP03x_6Kg/exec" method="POST" enctype="multipart/form-data">
-  <div class="form-group">
-    <label for="fileUpload">Upload PDF</label>
-    <input type="file" class="form-control-file" id="fileUpload" name="fileUpload" accept=".pdf" required="">
-  </div>
-  <button type="submit" class="btn btn-primary btn-block">Submit</button>
+<p>For the 7th Stockholm Uppsala Education Economics Workshop. Please find more information <a href="educworkshop_2025.html">here</a>. In case of questions, please email <a href="mailto:jan.sauermann@ifau.uu.se">Jan Sauermann</a>.</p>
+<form id="submission-form" method="post" action="https://script.google.com/macros/s/AKfycbwNGTygfZP2-0LXlLmeKoKm0w8e7j_w416Z-841k9kEwiZx48zihW3eCmyXyFFeCGLCDw/exec">
+    <div>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required="">
+    </div>
+    <div>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required="">
+    </div>
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required="">
+    </div>
+    <div>
+        <label for="paperTitle">Paper Title:</label>
+        <input type="text" id="paperTitle" name="paperTitle" required="">
+    </div>
+    <div>
+        <label for="abstract">Abstract:</label>
+        <textarea id="abstract" name="abstract" rows="5" required=""></textarea>
+    </div>
+    <div>
+        <label for="institution">Main Institution:</label>
+        <select id="institution" name="institution" required="">
+            <option value="Department of Economics, Uppsala University">Department of Economics, Uppsala University</option>
+            <option value="Department of Economics, Stockholm University">Department of Economics, Stockholm University</option>
+            <option value="Department of Economics, Stockholm School of Economics">Department of Economics, Stockholm School of Economics</option>
+            <option value="SOFI, Stockholm University">SOFI, Stockholm University</option>
+            <option value="IFAU">IFAU</option>
+            <option value="IFN">IFN</option>
+            <option value="IIES, Stockholm University">IIES, Stockholm University</option>
+            <option value="other">Other</option>
+        </select>
+        <div id="otherInstitutionField" style="display: none;">
+            <label for="otherInstitution">Please specify:</label>
+            <input type="text" id="otherInstitution" name="otherInstitution">
+        </div>
+    </div>
+    <div>
+        <label for="position">Your Position:</label>
+        <select id="position" name="position" required="">
+            <option value="PhD student">PhD student</option>
+            <option value="Assistant professor / postdoc">Assistant professor / postdoc</option>
+            <option value="Associate professor">Associate professor</option>
+            <option value="Full professor">Full professor</option>
+            <option value="other">Other</option>
+        </select>
+        <div id="otherPositionField" style="display: none;">
+            <label for="otherPosition">Please specify:</label>
+            <input type="text" id="otherPosition" name="otherPosition">
+        </div>
+    </div>
+    <div>
+        <label for="comments">Comments or Feedback:</label>
+        <textarea id="comments" name="comments" rows="3"></textarea>
+    </div>
+    <div>
+        <label for="uploadfile">Upload a File:</label>
+        <input type="file" id="uploadfile" name="file" required="">
+        <input type="hidden" id="data" name="data">
+        <input type="hidden" id="mimetype" name="mimetype">
+        <input type="hidden" id="filename" name="filename">
+    </div>
+    <button type="submit">Submit</button>
 </form>
 
+<div id="response-message" style="color: red; margin-top: 20px;"></div>
+
+<script>
+    // Handle "Other" options in dropdowns
+    document.getElementById('institution').addEventListener('change', function () {
+        document.getElementById('otherInstitutionField').style.display = this.value === 'other' ? 'block' : 'none';
+    });
+
+    document.getElementById('position').addEventListener('change', function () {
+        document.getElementById('otherPositionField').style.display = this.value === 'other' ? 'block' : 'none';
+    });
+
+    // Handle file upload data
+    document.getElementById('uploadfile').addEventListener('change', function () {
+        const file = this.files[0];
+        if (!file) return;
+        const reader = new FileReader();
+        reader.onload = function (e) {
+            const base64Data = e.target.result.split(',')[1];
+            const mimeType = e.target.result.match(/^data:(.*?);/)[1];
+            document.getElementById('data').value = base64Data;
+            document.getElementById('mimetype').value = mimeType;
+            document.getElementById('filename').value = file.name;
+        };
+        reader.readAsDataURL(file);
+    });
+
+    // Handle form submission and display response
+    document.getElementById('submission-form').addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        const form = this;
+        const formData = new FormData(form);
+
+        fetch(form.action, {
+            method: 'POST',
+            body: new URLSearchParams([...formData.entries()])
+        })
+        .then(response => response.text())
+        .then(result => {
+            if (result.includes('Form submitted successfully')) {
+                document.getElementById('response-message').innerText = 
+                    'We have received your submission. You will also receive a confirmation email shortly.';
+            } else {
+                throw new Error(result);
+            }
+        })
+        .catch(error => {
+            document.getElementById('response-message').innerText =
+                'An error occurred. Please try again in a few minutes. Otherwise, please email jan.sauermann@ifau.uu.se';
+        });
+
+        form.reset();
+    });
+</script>
 
 
 </section>
