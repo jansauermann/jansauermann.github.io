@@ -165,30 +165,36 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
 <section id="paper-submission" class="level2">
 <h2 data-anchor-id="paper-submission">Paper submission</h2>
 <p>For the 7th Stockholm Uppsala Education Economics Workshop. Please find more information <a href="educworkshop_2025.html">here</a>. In case of questions, please email <a href="mailto:jan.sauermann@ifau.uu.se">Jan Sauermann</a>.</p>
-<form id="submission-form" method="post" action="https://script.google.com/macros/s/AKfycbwNGTygfZP2-0LXlLmeKoKm0w8e7j_w416Z-841k9kEwiZx48zihW3eCmyXyFFeCGLCDw/exec">
-    <div>
-        <label for="firstName">First Name:</label>
-        <input type="text" id="firstName" name="firstName" required="">
+<form id="submission-form" method="post" action="https://script.google.com/macros/s/AKfycbwNGTygfZP2-0LXlLmeKoKm0w8e7j_w416Z-841k9kEwiZx48zihW3eCmyXyFFeCGLCDw/exec" style="max-width: 800px; margin: auto;">
+    <h2>Your Paper</h2>
+    <div style="margin-bottom: 15px;">
+        <label for="paperTitle" style="display: block; margin-bottom: 5px;">Title: <span style="color: red;">*</span></label>
+        <input type="text" id="paperTitle" name="paperTitle" required="" style="width: 80%; padding: 8px;">
     </div>
-    <div>
-        <label for="lastName">Last Name:</label>
-        <input type="text" id="lastName" name="lastName" required="">
+    <div style="margin-bottom: 15px;">
+        <label for="abstract" style="display: block; margin-bottom: 5px;">Abstract: <span style="color: red;">*</span></label>
+        <textarea id="abstract" name="abstract" rows="5" required="" style="width: 80%; padding: 8px; resize: none;"></textarea>
     </div>
-    <div>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required="">
+    <div style="margin-bottom: 15px;">
+        <label for="uploadfile" style="display: block; margin-bottom: 5px;">If available, upload a PDF:</label>
+        <input type="file" id="uploadfile" name="file">
+        <input type="hidden" id="data" name="data">
+        <input type="hidden" id="mimetype" name="mimetype">
+        <input type="hidden" id="filename" name="filename">
     </div>
-    <div>
-        <label for="paperTitle">Paper Title:</label>
-        <input type="text" id="paperTitle" name="paperTitle" required="">
+
+    <h2>About Yourself</h2>
+    <div style="margin-bottom: 15px;">
+        <label for="firstName" style="display: block; margin-bottom: 5px;">First Name: <span style="color: red;">*</span></label>
+        <input type="text" id="firstName" name="firstName" required="" style="width: 80%; padding: 8px;">
     </div>
-    <div>
-        <label for="abstract">Abstract:</label>
-        <textarea id="abstract" name="abstract" rows="5" required=""></textarea>
+    <div style="margin-bottom: 15px;">
+        <label for="lastName" style="display: block; margin-bottom: 5px;">Last Name: <span style="color: red;">*</span></label>
+        <input type="text" id="lastName" name="lastName" required="" style="width: 80%; padding: 8px;">
     </div>
-    <div>
-        <label for="institution">Main Institution:</label>
-        <select id="institution" name="institution" required="">
+    <div style="margin-bottom: 15px;">
+        <label for="institution" style="display: block; margin-bottom: 5px;">Main Institution: <span style="color: red;">*</span></label>
+        <select id="institution" name="institution" required="" style="width: 80%; padding: 8px;">
             <option value="Department of Economics, Uppsala University">Department of Economics, Uppsala University</option>
             <option value="Department of Economics, Stockholm University">Department of Economics, Stockholm University</option>
             <option value="Department of Economics, Stockholm School of Economics">Department of Economics, Stockholm School of Economics</option>
@@ -198,40 +204,30 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
             <option value="IIES, Stockholm University">IIES, Stockholm University</option>
             <option value="other">Other</option>
         </select>
-        <div id="otherInstitutionField" style="display: none;">
-            <label for="otherInstitution">Please specify:</label>
-            <input type="text" id="otherInstitution" name="otherInstitution">
+        <div id="otherInstitutionField" style="display: none; margin-top: 10px;">
+            <label for="otherInstitution" style="display: block; margin-bottom: 5px;">Please specify:</label>
+            <input type="text" id="otherInstitution" name="otherInstitution" style="width: 80%; padding: 8px;">
         </div>
     </div>
-    <div>
-        <label for="position">Your Position:</label>
-        <select id="position" name="position" required="">
+    <div style="margin-bottom: 15px;">
+        <label for="seniority" style="display: block; margin-bottom: 5px;">Your Position: <span style="color: red;">*</span></label>
+        <select id="seniority" name="seniority" required="" style="width: 80%; padding: 8px;">
             <option value="PhD student">PhD student</option>
             <option value="Assistant professor / postdoc">Assistant professor / postdoc</option>
             <option value="Associate professor">Associate professor</option>
             <option value="Full professor">Full professor</option>
             <option value="other">Other</option>
         </select>
-        <div id="otherPositionField" style="display: none;">
-            <label for="otherPosition">Please specify:</label>
-            <input type="text" id="otherPosition" name="otherPosition">
+        <div id="otherSeniorityField" style="display: none; margin-top: 10px;">
+            <label for="otherSeniority" style="display: block; margin-bottom: 5px;">Please specify:</label>
+            <input type="text" id="otherSeniority" name="otherSeniority" style="width: 80%; padding: 8px;">
         </div>
     </div>
-    <div>
-        <label for="comments">Comments or Feedback:</label>
-        <textarea id="comments" name="comments" rows="3"></textarea>
-    </div>
-    <div>
-        <label for="uploadfile">Upload a File:</label>
-        <input type="file" id="uploadfile" name="file" required="">
-        <input type="hidden" id="data" name="data">
-        <input type="hidden" id="mimetype" name="mimetype">
-        <input type="hidden" id="filename" name="filename">
-    </div>
-    <button type="submit">Submit</button>
+
+    <button type="submit" style="margin-top: 20px; padding: 10px 20px; font-size: 16px;">Submit</button>
 </form>
 
-<div id="response-message" style="color: red; margin-top: 20px;"></div>
+<div id="response-message" style="margin-top: 20px; font-size: 16px;"></div>
 
 <script>
     // Handle "Other" options in dropdowns
@@ -239,8 +235,8 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
         document.getElementById('otherInstitutionField').style.display = this.value === 'other' ? 'block' : 'none';
     });
 
-    document.getElementById('position').addEventListener('change', function () {
-        document.getElementById('otherPositionField').style.display = this.value === 'other' ? 'block' : 'none';
+    document.getElementById('seniority').addEventListener('change', function () {
+        document.getElementById('otherSeniorityField').style.display = this.value === 'other' ? 'block' : 'none';
     });
 
     // Handle file upload data
@@ -271,16 +267,18 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
         })
         .then(response => response.text())
         .then(result => {
+            const messageElement = document.getElementById('response-message');
             if (result.includes('Form submitted successfully')) {
-                document.getElementById('response-message').innerText = 
-                    'We have received your submission. You will also receive a confirmation email shortly.';
+                messageElement.innerText = 'We have received your submission. You will also receive a confirmation email shortly.';
+                messageElement.style.color = 'green';
             } else {
                 throw new Error(result);
             }
         })
         .catch(error => {
-            document.getElementById('response-message').innerText =
-                'An error occurred. Please try again in a few minutes. Otherwise, please email jan.sauermann@ifau.uu.se';
+            const messageElement = document.getElementById('response-message');
+            messageElement.innerText = 'An error occurred. Please try again in a few minutes. Otherwise, please email jan.sauermann@ifau.uu.se';
+            messageElement.style.color = 'red';
         });
 
         form.reset();
