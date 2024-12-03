@@ -157,7 +157,7 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
 
 
 <p>For the 7th Stockholm Uppsala Education Economics Workshop. Please find more information <a href="educworkshop_2025.html">here</a>. In case of questions, please email <a href="mailto:jan.sauermann@ifau.uu.se">Jan Sauermann</a>.</p>
-<form id="submission-form" method="post" action="https://script.google.com/macros/s/AKfycbxbhrdhRZmC5G5k0drwgmUNHnXJbvKPo_mCGEu7iWR7q7cOmI972WjJuEjZgAOOH_A_EA/exec" style="max-width: 800px; margin: auto;">
+<form id="submission-form" method="post" action="YOUR_DEPLOYMENT_URL_HERE" style="max-width: 800px; margin: auto;">
     <h2>Your Paper</h2>
     <div style="margin-bottom: 15px;">
         <label for="paperTitle" style="display: block; margin-bottom: 5px;">Title: <span style="color: red;">*</span></label>
@@ -183,6 +183,10 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
     <div style="margin-bottom: 15px;">
         <label for="lastName" style="display: block; margin-bottom: 5px;">Last Name: <span style="color: red;">*</span></label>
         <input type="text" id="lastName" name="lastName" required="" style="width: 80%; padding: 8px;">
+    </div>
+    <div style="margin-bottom: 15px;">
+        <label for="email" style="display: block; margin-bottom: 5px;">Email: <span style="color: red;">*</span></label>
+        <input type="email" id="email" name="email" required="" style="width: 80%; padding: 8px;">
     </div>
     <div style="margin-bottom: 15px;">
         <label for="institution" style="display: block; margin-bottom: 5px;">Main Institution: <span style="color: red;">*</span></label>
@@ -214,6 +218,11 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
             <label for="otherSeniority" style="display: block; margin-bottom: 5px;">Please specify:</label>
             <input type="text" id="otherSeniority" name="otherSeniority" style="width: 80%; padding: 8px;">
         </div>
+    </div>
+
+    <div style="margin-bottom: 15px;">
+        <label for="comments" style="display: block; margin-bottom: 5px;">Comments or Feedback:</label>
+        <textarea id="comments" name="comments" rows="5" style="width: 80%; padding: 8px; resize: none;"></textarea>
     </div>
 
     <button type="submit" style="margin-top: 20px; padding: 10px 20px; font-size: 16px;">Submit</button>
