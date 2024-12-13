@@ -17,7 +17,7 @@ format:
 ## The workshop series
 The Stockholm Uppsala Education Economics Workshop series is held at rotating institutions in Stockholm and Uppsala. The  aim of the workshop is bringing together researchers with an interest in the economics of education and creating a regional network. 
 
-Since 2019, the Stockholm Uppsala Education Economics Workshop receives financial support from the *Jan Wallanders och Tom Hedelius stiftelse samt Tore Browaldhs stiftelse* (grant number Fv19-0002).
+Since 2019, the Stockholm Uppsala Education Economics Workshop receives financial support from the *Jan Wallanders och Tom Hedelius stiftelse samt Tore Browaldhs stiftelse* (grant number Fv19-0002 and Fh24-0017).
 
 ### Upcoming workshop
 The 7th Stockholm Uppsala Education Economics Workshop will take place at the **Uppsala Center for Labor Studies (UCLS)** at Uppsala University on **Monday, May 5, 2025**. The keynote will be held by **[Susan Dynarski](http://susandynarski.com/) (Harvard University)**
