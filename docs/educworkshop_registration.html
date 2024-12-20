@@ -255,9 +255,15 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
         formData.set('lunch', document.getElementById('lunch').checked ? 'Yes' : 'No');
         formData.set('dinner', document.getElementById('dinner').checked ? 'Yes' : 'No');
 
-        // Append dietary other value if applicable
+        // Handle "Other" fields for institution, position, and dietary preferences
+        if (document.getElementById('institution').value === 'other') {
+            formData.set('institution', document.getElementById('otherInstitution').value || 'Other');
+        }
+        if (document.getElementById('position').value === 'other') {
+            formData.set('position', document.getElementById('otherPosition').value || 'Other');
+        }
         if (document.getElementById('dietaryPreferences').value === 'others') {
-            formData.set('otherDietary', document.getElementById('otherDietary').value || '');
+            formData.set('dietaryPreferences', document.getElementById('otherDietary').value || 'Others');
         }
 
         fetch(form.action, {
