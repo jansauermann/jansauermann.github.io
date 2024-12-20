@@ -158,7 +158,7 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
 
 <p>On this page, you can register for the <a href="educworkshop_2025.html">7th Stockholm Uppsala Education Economics Workshop</a>. In case of questions, please email <a href="mailto:jan.sauermann@ifau.uu.se">Jan Sauermann</a>.</p>
 <p>There is no workshop fee. Both lunch and dinner are free of charge.</p>
-<form id="submission-form" style="max-width: 800px; margin: auto;">
+<form id="submission-form" method="post" action="https://script.google.com/macros/s/AKfycbyXYnxAlFfAydGBX0-PA6wyYGT2GKJIYpNlU4BplN97Exol2LclYLVYqW4pH6NbT6E/exec" style="max-width: 800px; margin: auto;">
     <h2>About Yourself</h2>
     <div style="margin-bottom: 15px;">
         <label for="firstName" style="display: block; margin-bottom: 5px;">First Name: <span style="color: red;">*</span></label>
@@ -218,6 +218,10 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
             <option value="vegetarian">Vegetarian</option>
             <option value="others">Others</option>
         </select>
+        <div id="otherDietaryField" style="display: none; margin-top: 10px;">
+            <label for="otherDietary" style="display: block; margin-bottom: 5px;">Please specify:</label>
+            <input type="text" id="otherDietary" name="otherDietary" style="width: 80%; padding: 8px;">
+        </div>
     </div>
     <div style="margin-bottom: 15px;">
         <label for="comments" style="display: block; margin-bottom: 5px;">Comments or Feedback:</label>
@@ -237,13 +241,26 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
         document.getElementById('otherPositionField').style.display = this.value === 'other' ? 'block' : 'none';
     });
 
+    document.getElementById('dietaryPreferences').addEventListener('change', function () {
+        document.getElementById('otherDietaryField').style.display = this.value === 'others' ? 'block' : 'none';
+    });
+
     document.getElementById('submission-form').addEventListener('submit', function (e) {
         e.preventDefault();
 
         const form = this;
         const formData = new FormData(form);
 
-        fetch('https://script.google.com/macros/s/AKfycbyXYnxAlFfAydGBX0-PA6wyYGT2GKJIYpNlU4BplN97Exol2LclYLVYqW4pH6NbT6E/exec', {
+        // Ensure checkbox values are handled correctly
+        formData.set('lunch', document.getElementById('lunch').checked ? 'Yes' : 'No');
+        formData.set('dinner', document.getElementById('dinner').checked ? 'Yes' : 'No');
+
+        // Append dietary other value if applicable
+        if (document.getElementById('dietaryPreferences').value === 'others') {
+            formData.set('otherDietary', document.getElementById('otherDietary').value || '');
+        }
+
+        fetch(form.action, {
             method: 'POST',
             body: new URLSearchParams([...formData.entries()]),
         })
