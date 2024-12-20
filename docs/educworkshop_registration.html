@@ -157,7 +157,8 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
 
 
 <p>On this page, you can register for the <a href="educworkshop_2025.html">7th Stockholm Uppsala Education Economics Workshop</a>. In case of questions, please email <a href="mailto:jan.sauermann@ifau.uu.se">Jan Sauermann</a>.</p>
-<form id="submission-form" method="post" action="https://script.google.com/macros/s/AKfycbyXYnxAlFfAydGBX0-PA6wyYGT2GKJIYpNlU4BplN97Exol2LclYLVYqW4pH6NbT6E/exec" style="max-width: 800px; margin: auto;">
+<p>There is no workshop fee. Both lunch and dinner are free of charge.</p>
+<form id="submission-form" style="max-width: 800px; margin: auto;">
     <h2>About Yourself</h2>
     <div style="margin-bottom: 15px;">
         <label for="firstName" style="display: block; margin-bottom: 5px;">First Name: <span style="color: red;">*</span></label>
@@ -174,7 +175,7 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
     <div style="margin-bottom: 15px;">
         <label for="institution" style="display: block; margin-bottom: 5px;">Main Institution: <span style="color: red;">*</span></label>
         <select id="institution" name="institution" required="" style="width: 80%; padding: 8px;">
-                        <option value="Department of Economics, Uppsala University">Department of Economics, Uppsala University</option>
+            <option value="Department of Economics, Uppsala University">Department of Economics, Uppsala University</option>
             <option value="Department of Economics, Stockholm University">Department of Economics, Stockholm University</option>
             <option value="Department of Economics, Stockholm School of Economics">Department of Economics, Stockholm School of Economics</option>
             <option value="SOFI, Stockholm University">SOFI, Stockholm University</option>
@@ -224,12 +225,45 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
     </div>
     <button type="submit" style="margin-top: 20px; padding: 10px 20px; font-size: 16px;">Submit</button>
 </form>
+
+<div id="response-message" style="margin-top: 20px; font-size: 16px;"></div>
+
 <script>
     document.getElementById('institution').addEventListener('change', function () {
         document.getElementById('otherInstitutionField').style.display = this.value === 'other' ? 'block' : 'none';
     });
+
     document.getElementById('position').addEventListener('change', function () {
         document.getElementById('otherPositionField').style.display = this.value === 'other' ? 'block' : 'none';
+    });
+
+    document.getElementById('submission-form').addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        const form = this;
+        const formData = new FormData(form);
+
+        fetch('https://script.google.com/macros/s/AKfycbyXYnxAlFfAydGBX0-PA6wyYGT2GKJIYpNlU4BplN97Exol2LclYLVYqW4pH6NbT6E/exec', {
+            method: 'POST',
+            body: new URLSearchParams([...formData.entries()]),
+        })
+            .then(response => response.text())
+            .then(result => {
+                const messageElement = document.getElementById('response-message');
+                if (result.includes('Form submitted successfully')) {
+                    messageElement.innerText = 'We have received your submission. You will also receive a confirmation email shortly.';
+                    messageElement.style.color = 'green';
+                } else {
+                    throw new Error(result);
+                }
+            })
+            .catch(error => {
+                const messageElement = document.getElementById('response-message');
+                messageElement.innerText = 'An error occurred. Please try again in a few minutes. Otherwise, please email stockholmuppsalaeducationws@gmail.com';
+                messageElement.style.color = 'red';
+            });
+
+        form.reset();
     });
 </script>
 
