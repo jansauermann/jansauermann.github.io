@@ -258,10 +258,9 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
 
             const form = this;
 
-            // Create a URLSearchParams object to store the form data
+            // Manually build the submission data
             const formData = new URLSearchParams();
 
-            // Manually append all form inputs
             formData.append('firstName', form.firstName.value);
             formData.append('lastName', form.lastName.value);
             formData.append('email', form.email.value);
@@ -270,7 +269,7 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
             formData.append('dietaryPreferences', form.dietaryPreferences.value === 'others' ? form.otherDietary.value : form.dietaryPreferences.value);
             formData.append('comments', form.comments.value);
 
-            // Handle checkboxes explicitly
+            // Explicitly handle checkboxes
             formData.append('lunch', document.getElementById('lunch').checked ? 'Yes' : 'No');
             formData.append('dinner', document.getElementById('dinner').checked ? 'Yes' : 'No');
 
