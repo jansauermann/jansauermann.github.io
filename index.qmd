@@ -44,11 +44,11 @@ Please [find my CV (pdf) here](https://jansauermann.github.io/cv/fullcv_sauerman
 
 ### News
 
-**December 13**: we received 18,000 EUR from the *Jan Wallanders och Tom Hedelius Stiftelse Tore Browaldhs Stiftelse* for the organization of the [Stockholm Uppsala Education Economics Workshop](educworkshop) for 2025 to 2027
+**December 13**: we received 18,000 EUR from the *Jan Wallanders och Tom Hedelius Stiftelse Tore Browaldhs Stiftelse* for the organization of the [Stockholm Uppsala Education Economics Workshop](educworkshop.qmd) for 2025 to 2027
 
-**November 29**: I'm teaching a master seminar at the University of Würzburg on "Personnel practices and experiments in organizations"  ([link](teaching_2025_wuerzburg))
+**November 29**: I'm teaching a master seminar at the University of Würzburg on "Personnel practices and experiments in organizations"  ([link](teaching_2025_wuerzburg.qmd))
 
-**November 24**: you can now submit your paper to the 7th Stockholm Uppsala Education Economics Workshop held at UCLS on May 5. Susan Dynarski will hold the keynote lecture ([link](educworkshop_2025))
+**November 24**: you can now submit your paper to the 7th Stockholm Uppsala Education Economics Workshop held at UCLS on May 5. Susan Dynarski will hold the keynote lecture ([link](educworkshop_2025.qmd))
 
 **November 14**: My paper with Sebastian Butschek on employment protection and firm hiring behavior is now out in print in the new Journal of Human Resources ([link](https://jhr.uwpress.org/content/59/6/1981))
 
@@ -61,8 +61,13 @@ Please [find my CV (pdf) here](https://jansauermann.github.io/cv/fullcv_sauerman
 
 **March 15**: the [program of the next Stockholm Uppsala Education Economics Workshop is now online](educworkshop_2024.qmd). The keynote presentation will be held by Matthew Wiswall.
 
+<!--
+
 **December 11**: our paper "Earnings Losses and the Role of the Welfare State during the COVID-19 Pandemic: Evidence from Sweden" is now [available as open access at the Review of Income and Wealth](http://doi.org/10.1111/roiw.12670) 
+
 
 **December 7**:  I received EUR 22,000 for organizing Workshops in Empirical Economics in Uppsala from the Jan Wallanders och Tom Hedelius stiftelse Tore Browaldhs stiftelse
 
 **December 4**:  I received EUR 440,000 for my project on unemployment insurance from the Swedish Council for Health Working Life and Welfare (FORTE)
+
+-->
