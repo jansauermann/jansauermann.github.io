@@ -17,7 +17,7 @@ about:
 toc: false      
 format: 
   html: 
-    theme: callout_research.scss
+    theme: lumen
     anchor-sections: false
     other-links:
       - text: CV (pdf)
