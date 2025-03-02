@@ -17,7 +17,6 @@ about:
 toc: false      
 format: 
   html: 
-    theme: lumen
     anchor-sections: false
     other-links:
       - text: CV (pdf)
