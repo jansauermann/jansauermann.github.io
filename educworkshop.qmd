@@ -22,7 +22,7 @@ Since 2019, the Stockholm Uppsala Education Economics Workshop receives financia
 ### Upcoming workshop
 The 7th Stockholm Uppsala Education Economics Workshop will be hosted by the **Uppsala Center for Labor Studies (UCLS)** at Uppsala University on **Monday, May 5, 2025**. The keynote will be held by **[Brian Jacob](http://www.brian-jacob.com)** (University of Michigan)
 
-Please find [more information on the workshop homepage](educworkshop_2025.qmd)
+For paper submission, workshop registration and other information, [please follow this link to the workshop homepage](educworkshop_2025.qmd)
 
 ### Past workshops
 * April 2024: Stockholm School of Economics (Keynote: **Matthew Wiswall, University of Wisconsin-Madison**) [[program](educworkshop_2024.html)]
