@@ -2,7 +2,6 @@
 title: "Research"
 format: 
   html: 
-    toc: true
     other-links:
       - text: CV (pdf)
         icon: filetype-pdf
