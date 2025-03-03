@@ -14,7 +14,10 @@ about:
       text: LinkedIn 
       href: https://www.linkedin.com/in/jansauermann
       target: _blank
-toc: false      
+toc: false
+include-in-header:
+  - text: |
+      <link rel = "shortcut icon" href = "images/icon.png" />      
 format: 
   html: 
     other-links:
