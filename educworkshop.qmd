@@ -2,7 +2,6 @@
 title: "Stockholm Uppsala Education Economics Workshop"
 format: 
   html: 
-    theme: callout_research.scss
     other-links:
       - text: Newsletter sign-up
         icon: arrow-up-right
