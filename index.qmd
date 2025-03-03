@@ -17,7 +17,6 @@ about:
 toc: false      
 format: 
   html: 
-    anchor-sections: false
     other-links:
       - text: CV (pdf)
         icon: filetype-pdf
