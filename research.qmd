@@ -18,9 +18,6 @@ format:
         href: https://orcid.org/0000-0002-0550-0675  
 ---
 
-<!--     theme: callout_research.scss -->
-
-
 ## Discussion Papers and papers in the editorial process
 
 ::: {.callout-abstractbox .callout-warning collapse=true}
