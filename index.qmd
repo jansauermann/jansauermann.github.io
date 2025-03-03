@@ -1,7 +1,7 @@
 ---
 about:
   template: trestles
-  image: profile.jpg
+  image: profile.png
   links:
     - icon: mailbox
       text: Email
