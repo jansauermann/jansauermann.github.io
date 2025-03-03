@@ -69,4 +69,7 @@ Please [find my CV (pdf) here](https://jansauermann.github.io/cv/fullcv_sauerman
 
 **December 4**:  I received EUR 440,000 for my project on unemployment insurance from the Swedish Council for Health Working Life and Welfare (FORTE)
 
+
+    theme: 
+    - callout_research.scss 
 -->
