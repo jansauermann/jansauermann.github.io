@@ -15,9 +15,7 @@ about:
       href: https://www.linkedin.com/in/jansauermann
       target: _blank
 toc: false
-include-in-header:
-  - text: |
-      <link rel = "icon" href = "icon.png" type="image/png"/>      
+   
 format: 
   html: 
     other-links:
