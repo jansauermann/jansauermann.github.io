@@ -15,22 +15,11 @@ about:
       href: https://www.linkedin.com/in/jansauermann
       target: _blank
 toc: false
-
 format: 
   html: 
-    other-links:
-      - text: CV (pdf)
-        icon: filetype-pdf
-        href: https://jansauermann.github.io/cv/fullcv_sauermann.pdf
-      - text: NEP Gender Newsletter
-        icon: arrow-up-right
-        href: https://nep.repec.org/nep-gen.html
-      - text: StataTex Blog
-        icon: arrow-up-right
-        href: https://statatexblog.com
-      - text: Stata courses
-        icon: arrow-up-right
-        href: https://statatexblog.com/stata-courses/           
+    theme: 
+      - styles/callout_research.scss
+    css: styles.css
 ---
   
 I am associate professor (docent) at the [Institute for Evaluation of Labour Market and Education Policy (IFAU)](https://www.ifau.se/en/) in Uppsala and am affiliated with the [Uppsala Center for Labor Studies (UCLS)](https://www.ucls.nek.uu.se) at Uppsala University, [ROA at Maastricht University](https://roa.nl), and [IZA Bonn](https://www.iza.org). 

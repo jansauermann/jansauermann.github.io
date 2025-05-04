@@ -1,0 +1,15 @@
+format:
+  html:
+    other-links:
+      - text: CV (pdf)
+        icon: filetype-pdf
+        href: https://jansauermann.github.io/cv/fullcv_sauermann.pdf
+      - text: NEP Gender Newsletter
+        icon: arrow-up-right
+        href: https://nep.repec.org/nep-gen.html
+      - text: StataTex Blog
+        icon: arrow-up-right
+        href: https://statatexblog.com
+      - text: Stata courses
+        icon: arrow-up-right
+        href: https://statatexblog.com/stata-courses/
