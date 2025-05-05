@@ -8,11 +8,7 @@ format:
         href: educworkshop.html#newsletter-signup
       - text: Upcoming workshop
         icon: arrow-up-right
-        href: educworkshop_2025
-website:
-    favicon: "images/icon.png"
-
-        
+        href: educworkshop_2025        
 ---
 
 ## The workshop series
