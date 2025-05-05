@@ -74,7 +74,7 @@
     "href": "teaching.html#supervision",
     "title": "Teaching",
     "section": "Supervision",
-    "text": "Supervision\nUppsala University (PhD supervision Olle Törnquist; expected graduation 2027)\nUniversity of Würzburg (PhD supervision Patrick Sturm; expected graduation 2025)\nUniversity of Würzburg, 2024 (Master thesis supervision)\nStockholm School of Economics, 2019 (Master thesis supervision)\nMaastricht Universitsy, 2010 (Master thesis supervision)"
+    "text": "Supervision\nUppsala University (PhD supervision Olle Törnquist; expected graduation 2027)\nUniversity of Würzburg (PhD supervision Patrick Sturm; expected graduation 2025)\nUniversity of Würzburg, 2024-2025 (Master thesis supervision)\nStockholm School of Economics, 2019 (Master thesis supervision)\nMaastricht University, 2010 (Master thesis supervision)"
   },
   {
     "objectID": "teaching.html#opponent",
@@ -481,5 +481,33 @@
     "title": "The 7th Stockholm Uppsala Education Economics Workshop",
     "section": "Submission and registration",
     "text": "Submission and registration\nPaper submission: please follow this link to submit your abstract and/or paper. The submission deadline is March 1, 2025. We will notify you by the end of March the latest.\nAttendance registration: if you want to attend the workshop without presenting a paper, please register your attendance here (last day for registration: April 15, 2025)\nYou can download a pdf of the call for papers here"
+  },
+  {
+    "objectID": "theses.html",
+    "href": "theses.html",
+    "title": "Theses",
+    "section": "",
+    "text": "On this page, you can find information and resources for thesis writing."
+  },
+  {
+    "objectID": "theses.html#assurance",
+    "href": "theses.html#assurance",
+    "title": "Theses",
+    "section": "Assurance",
+    "text": "Assurance\nEach thesis needs to include a signed assurance to assure that it is the student’s work. You can use the following text for your thesis:\n\nI assure that I have written the above thesis independently and without outside help and that I have not made use of any aids other than those indicated in the enclosed lists. All text passages that have been taken verbatim or in spirit from third-party publications are identified as such. All sources taken from the World Wide Web or used in a digital form are attached to the work. No other persons were involved in the intellectual achievement of the present work. In particular, I have not enlisted the help of a ghostwriter or ghostwriting agency. Third parties have neither directly nor indirectly received money or monetary benefits from me for work related to the content of the submitted work. I hereby consent to the performance of an electronic plagiarism check. The submitted electronic version of the thesis is complete. I am aware that subsequent additions are excluded. The work has not yet been submitted to any other examination authority and has not been published. I am aware that an untrue statement regarding the assurance of independent performance may have legal consequences.\nPlace, date, signature of the submitting candidate."
+  },
+  {
+    "objectID": "theses.html#formatting-requirements",
+    "href": "theses.html#formatting-requirements",
+    "title": "Theses",
+    "section": "Formatting requirements",
+    "text": "Formatting requirements\n\nTerm papers need to be written in English\nThesis length:\n\nterm papers /seminars: 20 pages\n\nbachelor theses: 25 pages\nmaster theses: 65 pages\nPages refer to main text and all figures (not included: table of contents, assurance, and references)\n\nFont: Times New Roman (or similar); Line spacing: 1,5; Font size: 12pt\nPlease use in-text citations (such as “as shown by Mayer (2008)” or “text here (Mayer, 2008).”) instead of citations in footnotes."
+  },
+  {
+    "objectID": "theses.html#resources",
+    "href": "theses.html#resources",
+    "title": "Theses",
+    "section": "Resources",
+    "text": "Resources\nTBA"
   }
 ]
