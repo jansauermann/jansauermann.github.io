@@ -6,9 +6,9 @@ format:
       - text: Newsletter sign-up
         icon: arrow-up-right
         href: educworkshop.html#newsletter-signup
-      - text: Upcoming workshop
+      - text: 2026 Workshop
         icon: arrow-up-right
-        href: educworkshop_2025        
+        href: educworkshop_2026        
 ---
 
 ## The workshop series
@@ -17,11 +17,13 @@ The Stockholm Uppsala Education Economics Workshop series is held at rotating in
 Since 2019, the Stockholm Uppsala Education Economics Workshop receives financial support from the *Jan Wallanders och Tom Hedelius stiftelse samt Tore Browaldhs stiftelse* (grant number Fv19-0002 and Fh24-0017).
 
 ### Upcoming workshop
-The 7th Stockholm Uppsala Education Economics Workshop will be hosted by the **Uppsala Center for Labor Studies (UCLS)** at Uppsala University on **Monday, May 5, 2025**. The keynote will be held by **[Brian Jacob](http://www.brian-jacob.com)** (University of Michigan)
+The 8th Stockholm Uppsala Education Economics Workshop will be held in spring 2026. We will distribute ore information during the fall of 2025.
 
 For paper submission, workshop registration and other information, [please follow this link to the workshop homepage](educworkshop_2025.qmd)
 
 ### Past workshops
+* May 2025: Uppsala Center for Labor Studies (UCLS) (Keynote: **Brian Jacob, University of Michigan**) [[program](educworkshop_2025.html)]
+
 * April 2024: Stockholm School of Economics (Keynote: **Matthew Wiswall, University of Wisconsin-Madison**) [[program](educworkshop_2024.html)]
 
 * April 2023: IFAU Uppsala (Keynote: **Barbara Biasi, Yale University**) [[program](../educworkshop/Program-apr-23.pdf)]
@@ -35,6 +37,7 @@ For paper submission, workshop registration and other information, [please follo
 * April 2017: SOFI, Stockholm University (Keynote: **Edwin Leuven, University of Oslo**) [[program](../educworkshop/program_educworkshop.pdf)]
 
 ## Organizing comittee
+- Laia Navarro-Sola (IIES) [[email](mailto:laia.navarrosola@iies.su.se)] [[website](https://www.laianavarrosola.com/home)]
 - Jan Sauermann (IFAU and UCLS) [[email](mailto:jan.sauermann@ifau.uu.se)] [[website](index.qmd)]
 - Abhijeet Singh (SSE) [[email](mailto:abhijeet.singh@hhs.se)] [[website](https://sites.google.com/site/abhijeetsingh1/)]
 - Jonas Vlachos (Stockholm University) [[email](mailto:jonas.vlachos@su.se)] [[website](https://sites.google.com/view/jonasvlachos/)]
