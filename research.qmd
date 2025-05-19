@@ -52,15 +52,13 @@ We assess selection bias in estimated returns to workplace training by exploitin
 
 "The effects of a large compensatory government grant in a decentralized school system" (with Olof Rosenqvist)
 
-"Dynamic Effects of Bonus Pay: Evidence from Personnel Data" (with Anders Frederiksen)
-
 ## Publications
 
 ::: {.callout-abstractbox .callout-warning collapse=true}
 ## Clemens, Marco, and Jan Sauermann, "Making the right call: The heterogeneous effects of individual performance pay on productivity", ***Labour Economics***, 94 (June) *[click here for abstract and download]*
 *Abstract:* Performance pay has been shown to have important implications for worker and firm productivity. Although workers' skills may directly matter for the cost of effort to reach performance goals, surprisingly little is know about the heterogeneity in the effects of incentive pay across workers. In this study, we apply a dynamic difference-in-differences estimator to the introduction of a generous bonus pay program to study how salient performance thresholds affect incentivized and non-incentivized performance outcomes for low- and high-skilled workers. While we do find that individual incentive pay did not affect workers' performance on average, we show that this result conceals an underlying heterogeneity in the response to individual performance pay: individual performance pay has a significant effect on the performance of high-skilled workers but not for low-skilled workers. The findings can be rationalized with the idea that the costs of effort differ by workers' skill level. We also explore whether agents alter their overtime hours and find a negative effect, possibly avoiding negative consequences of longer working hours.\
 [[publisher version (open access)](https://www.sciencedirect.com/science/article/pii/S0927537125000211)] [[bibtex](../papers/ClemensSauermann2025.bib)]\
-[previously released as IZA DP17119] 
+[previously released as IZA DP17119 and IFAU WP 2025:6] 
 
 
 :::
@@ -176,6 +174,11 @@ The effects of fixed-term contracts on participation and financing of work-relat
 :::
 
 ## Research reports
+
+::: {.callout-abstractbox .callout-warning collapse=true}
+## Clemens, Marco, and Jan Sauermann (2025), Belöningssystem och prestation-Vilka reagerar på prestationsbaserad lön?, IFAU Rapport 2025:10 *[click here for download]*
+[[link]](https://www.ifau.se/Forskning/Publikationer/Rapporter/2025/beloningssystem-och-prestation-vilka-reagerar-pa-prestationsbaserad-lon/)
+:::
 
 ::: {.callout-abstractbox .callout-warning collapse=true}
 ## Adermon, Adrian, Lisa Laun, Patrik Lind, Martin Olsson, Jan Sauermann, and Anna Sjögren (2022), Coronapandemin, arbetsinkomsterna och välfärdssystemets skyddsgrad: Befolkningens inkomstutveckling under 2020, IFAU Rapport 2022:3 and Underlagsrapport till SOU 2022:10 *[click here for download]*
