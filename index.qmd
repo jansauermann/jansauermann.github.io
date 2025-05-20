@@ -45,6 +45,8 @@ Please [find my CV (pdf) here](https://jansauermann.github.io/files/fullcv_sauer
 
 ### News
 
+**May 20**: I am co-organizing a IFAU/UU mini course on shift share instruments (taught by [Jan Stuhler](https://sites.google.com/site/ingarhaaland/)) on September 8/9, 2025. If you are interested, please send me an [email](mailto:jan.sauermann@ifau.uu.se).
+
 **May 10**: my paper "Making the right call: The heterogeneous effects of individual performance pay on productivity" has been accepted for publication at **Labour Economics**. Download the paper [here](https://www.sciencedirect.com/science/article/pii/S0927537125000211) or read the [Swedish-language report here](research.html#research-reports)
 
 **January 30**: the submission deadline for the the 7th Stockholm Uppsala Education Economics Workshop ends on March 1st. The workshop will be held in Uppsala on May 5. Brian Jacob will hold the keynote lecture ([link](educworkshop_2025.qmd)) 
@@ -58,11 +60,13 @@ Please [find my CV (pdf) here](https://jansauermann.github.io/files/fullcv_sauer
 
 **November 2**: Erica Lindahl, Karl-Oskar Lindgren and I received EUR 383,000 for our project on school segregation and political preferences from the Swedish Research Council (VR)
 
+<!--
+
 **July 2**: Marco Clemens and I have released a new IZA Discussion Paper "Making the Right Call: The Heterogeneous Effects of Individual Performance Pay on Productivity" ([download here](https://ideas.repec.org/p/iza/izadps/dp17119.html))
 
 **June 13**: I am co-organizing a IFAU/UU mini course on survey experiments (taught by [Ingar Haaland](https://sites.google.com/site/ingarhaaland/)) on August 19/20, 2024. For more information, please send me an [email](mailto:jan.sauermann@ifau.uu.se).
 
-<!--
+
 
 **March 15**: the [program of the next Stockholm Uppsala Education Economics Workshop is now online](educworkshop_2024.qmd). The keynote presentation will be held by Matthew Wiswall.
 
