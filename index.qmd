@@ -23,7 +23,7 @@ format:
     other-links:
       - text: CV (pdf)
         icon: filetype-pdf
-        href: https://jansauermann.github.io/cv/fullcv_sauermann.pdf
+        href: https://jansauermann.github.io/files/fullcv_sauermann.pdf
       - text: NEP Gender Newsletter
         icon: arrow-up-right
         href: https://nep.repec.org/nep-gen.html
@@ -41,7 +41,7 @@ My research interests are centred around learning and incentives in the workplac
 
 I edit the [NEP report on the economics of gender](https://econpapers.repec.org/scripts/nep.pf?list=nepger) ([subscribe here](https://nep.repec.org/nep-gen.html)),  organise the [Stockholm Uppsala Economics of Education Workshop Series](educworkshop.qmd), and occasionally write up useful commands on my [StataTeX Blog](https://statatexblog.com).
 
-Please [find my CV (pdf) here](https://jansauermann.github.io/cv/fullcv_sauermann.pdf). 
+Please [find my CV (pdf) here](https://jansauermann.github.io/files/fullcv_sauermann.pdf). 
 
 ### News
 
