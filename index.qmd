@@ -39,7 +39,7 @@ I am associate professor (docent) at the [Institute for Evaluation of Labour Mar
 
 My research interests are centred around learning and incentives in the workplace, origins and consequences of course choice in education, and gender differences in the labour market.
 
-I edit the [NEP report on the economics of gender](https://econpapers.repec.org/scripts/nep.pf?list=nepger) ([subscribe here](https://nep.repec.org/nep-gen.html)),  organise the [Stockholm Uppsala Economics of Education Workshop Series](educworkshop.qmd), and occasionally write up useful commands on my [StataTeX Blog](https://statatexblog.com) for which I'm also teaching [Stata courses](http://courses.statatexblog.com).
+I edit the [NEP report on the economics of gender](https://econpapers.repec.org/scripts/nep.pf?list=nepgen) ([subscribe here](https://nep.repec.org/nep-gen.html)),  organise the [Stockholm Uppsala Economics of Education Workshop Series](educworkshop.qmd), and occasionally write up useful commands on my [StataTeX Blog](https://statatexblog.com) for which I'm also teaching [Stata courses](http://courses.statatexblog.com).
 
 Please [find my CV (pdf) here](https://jansauermann.github.io/files/fullcv_sauermann.pdf). 
 
