@@ -5,7 +5,7 @@ format:
     other-links:
       - text: CV (pdf)
         icon: filetype-pdf
-        href: https://jansauermann.github.io/cv/fullcv_sauermann.pdf
+        href: https://jansauermann.github.io/files/fullcv_sauermann.pdf
       - text: Google Scholar
         icon: arrow-up-right
         href: https://scholar.google.com/citations?user=aaoGnKIAAAAJ&hl=en  
