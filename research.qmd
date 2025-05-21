@@ -57,7 +57,7 @@ We assess selection bias in estimated returns to workplace training by exploitin
 ::: {.callout-abstractbox .callout-warning collapse=true}
 ## Clemens, Marco, and Jan Sauermann (2025), "Making the right call: The heterogeneous effects of individual performance pay on productivity", ***Labour Economics***, 94 (June) *[click here for abstract and download]*
 *Abstract:* Performance pay has been shown to have important implications for worker and firm productivity. Although workers' skills may directly matter for the cost of effort to reach performance goals, surprisingly little is know about the heterogeneity in the effects of incentive pay across workers. In this study, we apply a dynamic difference-in-differences estimator to the introduction of a generous bonus pay program to study how salient performance thresholds affect incentivized and non-incentivized performance outcomes for low- and high-skilled workers. While we do find that individual incentive pay did not affect workers' performance on average, we show that this result conceals an underlying heterogeneity in the response to individual performance pay: individual performance pay has a significant effect on the performance of high-skilled workers but not for low-skilled workers. The findings can be rationalized with the idea that the costs of effort differ by workers' skill level. We also explore whether agents alter their overtime hours and find a negative effect, possibly avoiding negative consequences of longer working hours.\
-[[publisher version (open access)]( )] [[bibtex](bibtex/ClemensSauermann2025.bib)]\
+[[publisher version (open access)](https://www.sciencedirect.com/science/article/pii/S0927537125000211)] [[bibtex](bibtex/ClemensSauermann2025.bib)]\
 [previously released as IZA DP17119 and IFAU WP 2025:6] 
 
 
@@ -65,7 +65,7 @@ We assess selection bias in estimated returns to workplace training by exploitin
 ::: {.callout-abstractbox .callout-warning collapse=true}
 ## Adermon, Adrian, Lisa Laun, Patrik Lind, Martin Olsson, Jan Sauermann, and Anna Sjögren (2024), "Earnings Losses and the Role of the Welfare State during the COVID-19 Pandemic: Evidence from Sweden", ***Review of Income and Wealth***, 70(4), pp. 981-1010 *[click here for abstract and download]*
 Many governments introduced temporary adjustments to counter the economic and health consequences of the COVID-19 pandemic. We study the importance of already-existing government transfers and new pandemic measures to mitigate individual income losses during the onset of the pandemic in Sweden using a difference-in-differences approach and population-wide data on monthly earnings and government transfer payments. We find that labor earnings dropped by 2.7 percent in 2020. Existing transfers and new pandemic measures reduced earnings losses to 1.5 percent. These average effects mask considerable differences in earnings losses, which were, by and large, evened out by existing transfers and new pandemic measures.\
-[[publisher version (open access)](https://onlinelibrary.wiley.com/doi/10.1111/roiw.12670)] [[bibtex](bibtex/Covid19_inequality.bib)]\
+[[publisher version (open access)](https://ideas.repec.org/a/bla/revinw/v70y2024i4p981-1010.html)] [[bibtex](bibtex/Covid19_inequality.bib)]\
 [previously released as IZA DP15662, IFAU WP 2022:20 and IFN WP 1443] 
 :::
 
@@ -73,7 +73,7 @@ Many governments introduced temporary adjustments to counter the economic and he
 ::: {.callout-abstractbox .callout-warning collapse=true}
 ## Butschek, Sebastian, and Jan Sauermann (2024), "The Effect of Employment Protection on Firms' Worker Selection", ***Journal of Human Resources***, 59(6), pp. 1981-2020 *[click here for abstract and download]*
 To estimate the causal effect of employment protection on firms’ worker selection, we study a policy change that reduced dismissal costs for the employers of over a tenth of Sweden’s workforce. Our difference-in-differences analysis of firms’ hiring uses individual ability measures including estimated worker fixed effects, GPA at age 15, and military test scores. We find that the reform reduced minimum hire quality by around 2%. Our results show that firms both decreased their hiring thresholds and hired more workers. We find that firms increasingly hired young, foreign born and long-term non-employed individuals, suggesting potential welfare gains from the reform.\
-[[publisher version (gated)](https://jhr.uwpress.org/content/early/2022/05/02/jhr.0919-10433R1.abstract)] [[preprint](../papers/ButschekSauermann_EPL.pdf)] [[online appendix](../papers/ButschekSauermann_EPL_JHR_onlineappendix)] [[bibtex](bibtex/ButschekSauermann_EPL.bib)]\
+[[publisher version (gated)](https://jhr.uwpress.org/content/early/2022/05/02/jhr.0919-10433R1.abstract)] [[preprint](files/ButschekSauermann_EPL.pdf)] [[online appendix](files/ButschekSauermann_EPL_JHR_onlineappendix)] [[bibtex](bibtex/ButschekSauermann_EPL.bib)]\
 [previously released as IZA DP 12305]
 :::
 
@@ -119,13 +119,13 @@ The Dunning–Kruger effect states that low performers vastly overestimate their
 ::: {.callout-abstractbox .callout-warning collapse=true}
 ## Dohmen, Thomas, and Jan Sauermann (2016), "Referee Bias", ***Journal of Economic Surveys***, 30(4), pp. 679-695 *[click here for abstract and download]*
 This paper surveys the empirical literature on the behavior of referees in professional football and other sports. Referees are typically appointed by a principal to be impartial, especially when unbiased referee judgment is vital for the accomplishment of the principal's objective. Answering whether referees make biased decisions and understanding the causes that lead referees to digress from their principal duty of impartiality is therefore fundamental from a theoretical point of view. At the same time, assessing the prevalence and origin of referee bias is germane to various domains of life. Referee bias is particularly relevant in sports, where partial decision-making can determine competition outcomes, which can have strong repercussions on athletes' careers and supporters' well-being.\
-[[publisher version (gated)](https://ideas.repec.org/a/bla/jecsur/v30y2016i4p679-695.html)] [[ungated version](https://ideas.repec.org/p/iza/izadps/dp8857.html)] [[bibtex](bibtex/DohmenSauermann2016.bib)] 
+[[publisher version (gated)](https://ideas.repec.org/a/bla/jecsur/v30y2016i4p679-695.html)] [[preprint](https://ideas.repec.org/p/iza/izadps/dp8857.html)] [[bibtex](bibtex/DohmenSauermann2016.bib)] 
 :::
 
 ::: {.callout-abstractbox .callout-warning collapse=true}
 ## De Grip, Andries, Jan Sauermann, and Inge Sieben (2016), "The Role of Peers in Estimating Tenure-Performance Profiles: Evidence from Personnel Data", ***Journal of Economic Behavior & Organization***, 126, pp. 39-54 *[click here for abstract and download]*
 This paper investigates how newly hired workers learn on the job and the extent to which this learning is affected by their co-workers’ tenure. We estimate tenure-performance profiles using weekly panel data on individual workers’ performance. The results show a performance increase of 64% in the first year of the employment. We show that, during the first three months, workers placed in teams with more experienced peers have significantly steeper tenure-performance profiles than those employed in teams with less experienced peers. Our results suggest that placing new workers in more experienced teams reduces the time new hires need to become equally productive as an experienced worker by 36%, compared to being placed in less experienced teams.\
-[[publisher version (gated)](https://ideas.repec.org/a/eee/jeborg/v126y2016ipap39-54.html)] [[preprint](https://jansauermann.github.io/papers/DeGripSauermannSieben2016.pdf)] [[bibtex](bibtex/DeGripSauermannSieben2016.bib)] 
+[[publisher version (gated)](https://ideas.repec.org/a/eee/jeborg/v126y2016ipap39-54.html)] [[preprint](files/DeGripSauermannSieben2016.pdf)] [[bibtex](bibtex/DeGripSauermannSieben2016.bib)] 
 :::
 
 ::: {.callout-abstractbox .callout-warning collapse=true}
@@ -246,16 +246,16 @@ The effects of fixed-term contracts on participation and financing of work-relat
 
 ::: {.callout-abstractbox .callout-warning collapse=true}
 ## De Grip, Andries, Didier Fouarge, and Jan Sauermann (2009), De betekenis van internationale mobiliteit en allochtone bétatechnici voor de Nederandse arbeidsmarkt, PlatformPocket 9, 2009. Den Haag: Platform Bétatechniek *[click here for download]*
-[[download]](https://jansauermann.github.io/papers/FouargeGripSauermann2009.pdf)
+[[download]](files/FouargeGripSauermann2009.pdf)
 :::
 
 ::: {.callout-abstractbox .callout-warning collapse=true}
 ## Reinowski, Eva, and Jan Sauermann (2007), Befristete Beschäftigung: kein Hindernis für die Weiterbildung geringqualifizierter Personen, *Wirtschaft im Wandel* 3/2007. Halle: Halle Institute for Economic Research *[click here for download]*
-[[download]](https://jansauermann.github.io/papers/ReinowskiSauermann2007.pdf)
+[[download]](files/ReinowskiSauermann2007.pdf)
 :::
 
 ::: {.callout-abstractbox .callout-warning collapse=true}
 ## Sauermann, Jan (2005),  Registrierte Arbeitslosigkeit oder Erwerbslosigkeit: Gibt es das bessere Messkonzept?, *Wirtschaft im Wandel* 4/2005. Halle: Halle Institute for Economic Research *[click here for download]*
-[[download]](https://jansauermann.github.io/papers/Sauermann2005.pdf)
+[[download]](files/Sauermann2005.pdf)
 :::
 
