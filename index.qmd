@@ -14,7 +14,7 @@ about:
       text: LinkedIn 
       href: https://www.linkedin.com/in/jansauermann
       target: _blank
-toc: false
+toc: false 
 format: 
   html: 
     theme: 
