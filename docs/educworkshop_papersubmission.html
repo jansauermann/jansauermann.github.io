@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Paper submission 7th Stockholm Uppsala Education Economics Workshop – Jan Sauermann</title>
+<title>Paper submission 8th Stockholm Uppsala Education Economics Workshop – Jan Sauermann</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./images/icon.png" rel="icon" type="image/png">
+<link href="./files/icon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -139,7 +139,7 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Paper submission 7th Stockholm Uppsala Education Economics Workshop</h1>
+<h1 class="title">Paper submission 8th Stockholm Uppsala Education Economics Workshop</h1>
 </div>
 
 
@@ -156,13 +156,11 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
 </header>
 
 
-<!--
-For Please find more information [here](educworkshop_2025.html). In case of questions, please email [Jan Sauermann](mailto:jan.sauermann@ifau.uu.se). 
--->
-    <div style="margin-bottom: 15px;">
-        <span style="color: red;">In case you do not get a confirmation email after submitting your paper, please send a short email to <a href="mailto:jan.sauermann@ifau.uu.se)">jan.sauermann@ifau.uu.se</a></span>
-    </div>
-<form id="submission-form" method="post" action="https://script.google.com/macros/s/AKfycbxbhrdhRZmC5G5k0drwgmUNHnXJbvKPo_mCGEu7iWR7q7cOmI972WjJuEjZgAOOH_A_EA/exec" style="max-width: 800px; margin: auto;"> 
+<p>Please find more information <a href="educworkshop_2026.html">here</a>. In case of questions, please email <a href="mailto:jan.sauermann@ifau.uu.se">Jan Sauermann</a>.</p>
+<div style="margin-bottom: 15px;">
+    <span style="color: red;">In case you do not get a confirmation email after submitting your paper, please send a short email to <a href="mailto:jan.sauermann@ifau.uu.se">jan.sauermann@ifau.uu.se</a></span>
+</div>
+<form id="submission-form" method="post" action="https://script.google.com/macros/s/AKfycbyB5ULkM9Mpsg_7xSp9WNHxDiNevdOBH3sp4ZB0XYS3CSLIU5LlocB2znKYpjh_rCE/exec" style="max-width: 800px; margin: auto;"> 
     <h2>Your Paper</h2>
     <div style="margin-bottom: 15px;">
         <label for="paperTitle" style="display: block; margin-bottom: 5px;">Title: <span style="color: red;">*</span></label>
@@ -211,17 +209,17 @@ For Please find more information [here](educworkshop_2025.html). In case of ques
         </div>
     </div>
     <div style="margin-bottom: 15px;">
-        <label for="seniority" style="display: block; margin-bottom: 5px;">Your Position: <span style="color: red;">*</span></label>
-        <select id="seniority" name="seniority" required="" style="width: 80%; padding: 8px;">
+        <label for="position" style="display: block; margin-bottom: 5px;">Your Position: <span style="color: red;">*</span></label>
+        <select id="position" name="position" required="" style="width: 80%; padding: 8px;">
             <option value="PhD student">PhD student</option>
             <option value="Assistant professor / postdoc">Assistant professor / postdoc</option>
             <option value="Associate professor">Associate professor</option>
             <option value="Full professor">Full professor</option>
             <option value="other">Other</option>
         </select>
-        <div id="otherSeniorityField" style="display: none; margin-top: 10px;">
-            <label for="otherSeniority" style="display: block; margin-bottom: 5px;">Please specify:</label>
-            <input type="text" id="otherSeniority" name="otherSeniority" style="width: 80%; padding: 8px;">
+        <div id="otherPositionField" style="display: none; margin-top: 10px;">
+            <label for="otherPosition" style="display: block; margin-bottom: 5px;">Please specify:</label>
+            <input type="text" id="otherPosition" name="otherPosition" style="width: 80%; padding: 8px;">
         </div>
     </div>
 
@@ -230,9 +228,9 @@ For Please find more information [here](educworkshop_2025.html). In case of ques
         <textarea id="comments" name="comments" rows="5" style="width: 80%; padding: 8px; resize: none;"></textarea>
     </div>
 
- <button type="submit" style="display: block; width: 80%; padding: 12px; font-size: 16px; background-color: #158cba; color: white; border: none; border-radius: 5px; cursor: pointer;">
-    Submit
-</button>
+    <button type="submit" style="display: block; width: 80%; padding: 12px; font-size: 16px; background-color: #158cba; color: white; border: none; border-radius: 5px; cursor: pointer;">
+        Submit
+    </button>
 </form>
 
 <div style="display: block; margin-bottom: 5px;">The form can be a bit slow - please wait for the confirmation before closing the window!</div>
@@ -240,16 +238,14 @@ For Please find more information [here](educworkshop_2025.html). In case of ques
 <div id="response-message" style="margin-top: 20px; font-size: 16px;"></div>
 
 <script>
-    // Handle "Other" options in dropdowns
     document.getElementById('institution').addEventListener('change', function () {
         document.getElementById('otherInstitutionField').style.display = this.value === 'other' ? 'block' : 'none';
     });
 
-    document.getElementById('seniority').addEventListener('change', function () {
-        document.getElementById('otherSeniorityField').style.display = this.value === 'other' ? 'block' : 'none';
+    document.getElementById('position').addEventListener('change', function () {
+        document.getElementById('otherPositionField').style.display = this.value === 'other' ? 'block' : 'none';
     });
 
-    // Handle file upload data
     document.getElementById('uploadfile').addEventListener('change', function () {
         const file = this.files[0];
         if (!file) return;
@@ -264,10 +260,8 @@ For Please find more information [here](educworkshop_2025.html). In case of ques
         reader.readAsDataURL(file);
     });
 
-    // Handle form submission and display response
     document.getElementById('submission-form').addEventListener('submit', function (e) {
         e.preventDefault();
-
         const form = this;
         const formData = new FormData(form);
 
