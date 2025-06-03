@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Registration form 7th Stockholm Uppsala Education Economics Workshop – Jan Sauermann</title>
+<title>Registration Stockholm Uppsala Education Economics Workshop – Jan Sauermann</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./images/icon.png" rel="icon" type="image/png">
+<link href="./files/icon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -139,7 +139,7 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Registration form 7th Stockholm Uppsala Education Economics Workshop</h1>
+<h1 class="title">Registration Stockholm Uppsala Education Economics Workshop</h1>
 </div>
 
 
@@ -156,147 +156,157 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
 </header>
 
 
-<p>On this page, you can register your attendance at the <a href="educworkshop_2025.html">7th Stockholm Uppsala Education Economics Workshop</a>. There is no workshop fee and both lunch and dinner are free of charge.</p>
-<p><strong>Registration closes on April 15, 2025.</strong> In case of questions, please send an email to <a href="mailto:jan.sauermann@ifau.uu.se">Jan Sauermann</a>.</p>
+<p>On this page, you can register your attendance at the <a href="educworkshop_2026.html">7th Stockholm Uppsala Education Economics Workshop</a>. There is no workshop fee and both lunch and dinner are free of charge.</p>
+<div id="form-status-message" style="max-width: 800px; margin: auto; font-size: 16px; margin-bottom: 20px;"></div>
+<div id="form-container" style="display: none;">
+  <form id="submission-form" method="post" action="https://script.google.com/macros/s/AKfycbyXYnxAlFfAydGBX0-PA6wyYGT2GKJIYpNlU4BplN97Exol2LclYLVYqW4pH6NbT6E/exec" style="max-width: 800px; margin: auto;">
+    <div style="margin-bottom: 15px;">
+<p><strong>Registration closes on April 10, 2026.</strong> In case of questions, please send an email to <a href="mailto:jan.sauermann@ifau.uu.se">Jan Sauermann</a>.</p>    </div>
 
+    <h2>About Yourself</h2>
+    <div style="margin-bottom: 15px;">
+      <label for="firstName">First Name: <span style="color: red;">*</span></label><br>
+      <input type="text" id="firstName" name="firstName" required="" style="width: 100%; padding: 8px;">
+    </div>
+    <div style="margin-bottom: 15px;">
+      <label for="lastName">Last Name: <span style="color: red;">*</span></label><br>
+      <input type="text" id="lastName" name="lastName" required="" style="width: 100%; padding: 8px;">
+    </div>
+    <div style="margin-bottom: 15px;">
+      <label for="email">Email: <span style="color: red;">*</span></label><br>
+      <input type="email" id="email" name="email" required="" style="width: 100%; padding: 8px;">
+    </div>
+    <div style="margin-bottom: 15px;">
+      <label for="institution">Main Institution: <span style="color: red;">*</span></label><br>
+      <select id="institution" name="institution" required="" style="width: 100%; padding: 8px;">
+        <option value="Department of Economics, Uppsala University">Department of Economics, Uppsala University</option>
+        <option value="Department of Economics, Stockholm University">Department of Economics, Stockholm University</option>
+        <option value="Department of Economics, Stockholm School of Economics">Department of Economics, Stockholm School of Economics</option>
+        <option value="SOFI, Stockholm University">SOFI, Stockholm University</option>
+        <option value="IFAU">IFAU</option>
+        <option value="IFN">IFN</option>
+        <option value="IIES, Stockholm University">IIES, Stockholm University</option>
+        <option value="other">Other</option>
+      </select>
+      <div id="otherInstitutionField" style="display: none; margin-top: 10px;">
+        <label for="otherInstitution">Please specify:</label><br>
+        <input type="text" id="otherInstitution" name="otherInstitution" style="width: 100%; padding: 8px;">
+      </div>
+    </div>
+    <div style="margin-bottom: 15px;">
+      <label for="position">Your Position: <span style="color: red;">*</span></label><br>
+      <select id="position" name="position" required="" style="width: 100%; padding: 8px;">
+        <option value="PhD student">PhD student</option>
+        <option value="Assistant professor / postdoc">Assistant professor / postdoc</option>
+        <option value="Associate professor">Associate professor</option>
+        <option value="Full professor">Full professor</option>
+        <option value="other">Other</option>
+      </select>
+      <div id="otherPositionField" style="display: none; margin-top: 10px;">
+        <label for="otherPosition">Please specify:</label><br>
+        <input type="text" id="otherPosition" name="otherPosition" style="width: 100%; padding: 8px;">
+      </div>
+    </div>
+    <h2>Meals</h2>
+    <div style="margin-bottom: 15px;">
+      <label for="mealPreference">Meal Attendance:</label><br>
+      <select id="mealPreference" name="mealPreference" required="" style="width: 100%; padding: 8px;">
+        <option value="Lunch and Dinner">Lunch and Dinner</option>
+        <option value="Lunch only">Lunch only</option>
+        <option value="Dinner only">Dinner only</option>
+        <option value="No meals">No meals</option>
+      </select>
+    </div>
+    <div style="margin-bottom: 15px;">
+      <label for="dietaryPreferences">Dietary Preferences:</label><br>
+      <select id="dietaryPreferences" name="dietaryPreferences" required="" style="width: 100%; padding: 8px;">
+        <option value="no restrictions">No Restrictions</option>
+        <option value="vegetarian">Vegetarian</option>
+        <option value="others">Others</option>
+      </select>
+      <div id="otherDietaryField" style="display: none; margin-top: 10px;">
+        <label for="otherDietary">Please specify:</label><br>
+        <input type="text" id="otherDietary" name="otherDietary" style="width: 100%; padding: 8px;">
+      </div>
+    </div>
+    <div style="margin-bottom: 15px;">
+      <label for="comments">Comments or Feedback:</label><br>
+      <textarea id="comments" name="comments" rows="5" style="width: 100%; padding: 8px;"></textarea>
+    </div>
+    <button type="submit" style="display: block; width: 100%; padding: 12px; font-size: 16px; background-color: #158cba; color: white; border: none; border-radius: 5px; cursor: pointer;">
+      Submit
+    </button>
+  </form>
+  <div id="response-message" style="margin-top: 20px; font-size: 16px;"></div>
+</div>
 
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const OPEN_DATE = new Date("2025-12-01T00:00:00Z");
+  const CLOSE_DATE = new Date("2026-04-10T23:59:59Z");
+  const now = new Date();
+  const formContainer = document.getElementById("form-container");
+  const statusMsg = document.getElementById("form-status-message");
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Workshop Registration</title>
+const options = { year: "numeric", month: "long", day: "numeric" };
 
+if (now < OPEN_DATE) {
+  statusMsg.innerHTML = `Registration will open on <strong>${OPEN_DATE.toLocaleDateString("en-US", options)}</strong>.`;
+} else if (now > CLOSE_DATE) {
+  statusMsg.innerHTML = `The registration period has closed.`;
+} else {
+  formContainer.style.display = "block";
+}
 
-    <form id="submission-form" method="post" action="https://script.google.com/macros/s/AKfycbyXYnxAlFfAydGBX0-PA6wyYGT2GKJIYpNlU4BplN97Exol2LclYLVYqW4pH6NbT6E/exec" style="max-width: 800px; margin: auto;">
-        <h2>About Yourself</h2>
-        <div style="margin-bottom: 15px;">
-            <label for="firstName" style="display: block; margin-bottom: 5px;">First Name: <span style="color: red;">*</span></label>
-            <input type="text" id="firstName" name="firstName" required="" style="width: 80%; padding: 8px;">
-        </div>
-        <div style="margin-bottom: 15px;">
-            <label for="lastName" style="display: block; margin-bottom: 5px;">Last Name: <span style="color: red;">*</span></label>
-            <input type="text" id="lastName" name="lastName" required="" style="width: 80%; padding: 8px;">
-        </div>
-        <div style="margin-bottom: 15px;">
-            <label for="email" style="display: block; margin-bottom: 5px;">Email: <span style="color: red;">*</span></label>
-            <input type="email" id="email" name="email" required="" style="width: 80%; padding: 8px;">
-        </div>
-        <div style="margin-bottom: 15px;">
-            <label for="institution" style="display: block; margin-bottom: 5px;">Main Institution: <span style="color: red;">*</span></label>
-            <select id="institution" name="institution" required="" style="width: 80%; padding: 8px;">
-                <option value="Department of Economics, Uppsala University">Department of Economics, Uppsala University</option>
-                <option value="Department of Economics, Stockholm University">Department of Economics, Stockholm University</option>
-                <option value="Department of Economics, Stockholm School of Economics">Department of Economics, Stockholm School of Economics</option>
-                <option value="SOFI, Stockholm University">SOFI, Stockholm University</option>
-                <option value="IFAU">IFAU</option>
-                <option value="IFN">IFN</option>
-                <option value="IIES, Stockholm University">IIES, Stockholm University</option>
-                <option value="other">Other</option>
-            </select>
-            <div id="otherInstitutionField" style="display: none; margin-top: 10px;">
-                <label for="otherInstitution" style="display: block; margin-bottom: 5px;">Please specify:</label>
-                <input type="text" id="otherInstitution" name="otherInstitution" style="width: 80%; padding: 8px;">
-            </div>
-        </div>
-        <div style="margin-bottom: 15px;">
-            <label for="position" style="display: block; margin-bottom: 5px;">Your Position: <span style="color: red;">*</span></label>
-            <select id="position" name="position" required="" style="width: 80%; padding: 8px;">
-                <option value="PhD student">PhD student</option>
-                <option value="Assistant professor / postdoc">Assistant professor / postdoc</option>
-                <option value="Associate professor">Associate professor</option>
-                <option value="Full professor">Full professor</option>
-                <option value="other">Other</option>
-            </select>
-            <div id="otherPositionField" style="display: none; margin-top: 10px;">
-                <label for="otherPosition" style="display: block; margin-bottom: 5px;">Please specify:</label>
-                <input type="text" id="otherPosition" name="otherPosition" style="width: 80%; padding: 8px;">
-            </div>
-        </div>
-        <h2>Meals</h2>
-        <div style="margin-bottom: 15px;">
-        <label for="mealPreference" style="display: block; margin-bottom: 5px;">Meal Attendance:</label>
-<select id="mealPreference" name="mealPreference" required="" style="width: 80%; padding: 8px;">
-    <option value="Lunch and Dinner">Lunch and Dinner</option>
-    <option value="Lunch only">Lunch only</option>
-    <option value="Dinner only">Dinner only</option>
-    <option value="No meals">No meals</option>
-</select>
-        </div>
-        <div style="margin-bottom: 15px;">
-            <label for="dietaryPreferences" style="display: block; margin-bottom: 5px;">Dietary Preferences:</label>
-            <select id="dietaryPreferences" name="dietaryPreferences" required="" style="width: 80%; padding: 8px;">
-                <option value="no restrictions">No Restrictions</option>
-                <option value="vegetarian">Vegetarian</option>
-                <option value="others">Others</option>
-            </select>
-            <div id="otherDietaryField" style="display: none; margin-top: 10px;">
-                <label for="otherDietary" style="display: block; margin-bottom: 5px;">Please specify:</label>
-                <input type="text" id="otherDietary" name="otherDietary" style="width: 80%; padding: 8px;">
-            </div>
-        </div>
-        <div style="margin-bottom: 15px;">
-            <label for="comments" style="display: block; margin-bottom: 5px;">Comments or Feedback:</label>
-            <textarea id="comments" name="comments" rows="5" style="width: 80%; padding: 8px; resize: none;"></textarea>
-        </div>
-<button type="submit" style="display: block; width: 80%; padding: 12px; font-size: 16px; background-color: #158cba; color: white; border: none; border-radius: 5px; cursor: pointer;">
-    Submit
-</button>
-    </form>
+  document.getElementById("institution").addEventListener("change", function () {
+    document.getElementById("otherInstitutionField").style.display = this.value === "other" ? "block" : "none";
+  });
 
-    <div id="response-message" style="margin-top: 20px; font-size: 16px;"></div>
+  document.getElementById("position").addEventListener("change", function () {
+    document.getElementById("otherPositionField").style.display = this.value === "other" ? "block" : "none";
+  });
 
-    <script>
-        document.getElementById('institution').addEventListener('change', function () {
-            document.getElementById('otherInstitutionField').style.display = this.value === 'other' ? 'block' : 'none';
-        });
+  document.getElementById("dietaryPreferences").addEventListener("change", function () {
+    document.getElementById("otherDietaryField").style.display = this.value === "others" ? "block" : "none";
+  });
 
-        document.getElementById('position').addEventListener('change', function () {
-            document.getElementById('otherPositionField').style.display = this.value === 'other' ? 'block' : 'none';
-        });
+  document.getElementById("submission-form").addEventListener("submit", function (e) {
+    e.preventDefault();
+    const form = this;
+    const formData = new URLSearchParams();
+    formData.append('firstName', form.firstName.value);
+    formData.append('lastName', form.lastName.value);
+    formData.append('email', form.email.value);
+    formData.append('institution', form.institution.value === 'other' ? form.otherInstitution.value : form.institution.value);
+    formData.append('position', form.position.value === 'other' ? form.otherPosition.value : form.position.value);
+    formData.append('mealPreference', form.mealPreference.value);
+    formData.append('dietaryPreferences', form.dietaryPreferences.value === 'others' ? form.otherDietary.value : form.dietaryPreferences.value);
+    formData.append('comments', form.comments.value);
 
-        document.getElementById('dietaryPreferences').addEventListener('change', function () {
-            document.getElementById('otherDietaryField').style.display = this.value === 'others' ? 'block' : 'none';
-        });
+    fetch(form.action, {
+      method: 'POST',
+      body: formData,
+    })
+    .then(response => response.text())
+    .then(result => {
+      const msg = document.getElementById('response-message');
+      if (result.includes('Form submitted successfully')) {
+        msg.innerText = 'We have received your submission. You will also receive a confirmation email shortly.';
+        msg.style.color = 'green';
+      } else {
+        throw new Error(result);
+      }
+    })
+    .catch(error => {
+      const msg = document.getElementById('response-message');
+      msg.innerText = 'An error occurred. Please try again later or contact stockholmuppsalaeducationws@gmail.com.';
+      msg.style.color = 'red';
+    });
 
-        document.getElementById('submission-form').addEventListener('submit', function (e) {
-            e.preventDefault();
-
-            const form = this;
-
-            const formData = new URLSearchParams();
-            formData.append('firstName', form.firstName.value);
-            formData.append('lastName', form.lastName.value);
-            formData.append('email', form.email.value);
-            formData.append('institution', form.institution.value === 'other' ? form.otherInstitution.value : form.institution.value);
-            formData.append('position', form.position.value === 'other' ? form.otherPosition.value : form.position.value);
-            formData.append('mealPreference', form.mealPreference.value);
-            formData.append('dietaryPreferences', form.dietaryPreferences.value === 'others' ? form.otherDietary.value : form.dietaryPreferences.value);
-            formData.append('comments', form.comments.value);
-
-            fetch(form.action, {
-                method: 'POST',
-                body: formData,
-            })
-                .then(response => response.text())
-                .then(result => {
-                    const messageElement = document.getElementById('response-message');
-                    if (result.includes('Form submitted successfully')) {
-                        messageElement.innerText = 'We have received your submission. You will also receive a confirmation email shortly.';
-                        messageElement.style.color = 'green';
-                    } else {
-                        throw new Error(result);
-                    }
-                })
-                .catch(error => {
-                    const messageElement = document.getElementById('response-message');
-                    messageElement.innerText = 'An error occurred. Please try again in a few minutes. Otherwise, please email stockholmuppsalaeducationws@gmail.com';
-                    messageElement.style.color = 'red';
-                });
-
-            form.reset();
-        });
-    </script>
-
-
+    form.reset();
+  });
+});
+</script>
 
 
 

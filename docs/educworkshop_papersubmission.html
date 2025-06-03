@@ -248,20 +248,21 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
 
 <script>
   window.addEventListener("DOMContentLoaded", () => {
-    const OPEN_DATE = new Date("2025-06-03T00:00:00Z");
-    const CLOSE_DATE = new Date("2025-06-30T23:59:59Z");
-    const now = new Date();
-    const formContainer = document.getElementById("form-container");
-    const statusMsg = document.getElementById("form-status-message");
+  const OPEN_DATE = new Date("2025-12-01T00:00:00Z");
+  const CLOSE_DATE = new Date("2026-03-31T23:59:59Z");
+  const now = new Date();
+  const formContainer = document.getElementById("form-container");
+  const statusMsg = document.getElementById("form-status-message");
+  const options = { year: "numeric", month: "long", day: "numeric" };
 
-    if (now < OPEN_DATE) {
-      statusMsg.innerHTML = `The submission portal will open on <strong>${OPEN_DATE.toDateString()}</strong>.`;
-    } else if (now > CLOSE_DATE) {
-      statusMsg.innerHTML = `The submission deadline has passed.`;
-    } else {
-      formContainer.style.display = "block";
-    }
-  });
+  if (now < OPEN_DATE) {
+    statusMsg.innerHTML = `The submission portal will open on <strong>${OPEN_DATE.toLocaleDateString("en-US", options)}</strong>.`;
+  } else if (now > CLOSE_DATE) {
+    statusMsg.innerHTML = `The submission deadline has passed.`;
+  } else {
+    formContainer.style.display = "block";
+  }
+});
 
   document.getElementById("institution").addEventListener("change", function () {
     document.getElementById("otherInstitutionField").style.display = this.value === "other" ? "block" : "none";
