@@ -19,16 +19,22 @@ format:
 
 ## Discussion Papers and papers in the editorial process
 
+::: {.callout-abstractbox .callout-warning collapse=true}
+## Rosenqvist, Olof, and Jan Sauermann, "Effects of an even more compensatory resource allocation: Evidence from the Equity grant in the Swedish school"
+
+Abstract TBA\
+[most recent version: [please e-mail me](mailto:jan.sauermann@ifau.uu.se)]
+:::
 
 ::: {.callout-abstractbox .callout-warning collapse=true}
-## Annadanam, Harini, Jan Sauermann, and Aylin Shawkat, "Board quotas, women's representation in top management, and firm performance", November 2022 *[click here for abstract and download]*
+## Annadanam, Harini, Jan Sauermann, and Aylin Shawkat, "Board quotas, women's representation in top management, and firm performance" *[click here for abstract and download]*
 
 This paper examines the  effects of a gender quota on supervisory boards implemented in Germany in 2016, which mandated 106 large firms to have at least 30\% of women on their supervisory boards. Applying a difference-in-differences approach to panel data on firms, we find that the introduction of the quota increased the share of firms complying with the quota law. We also find, however, that this positive effect  originated from earlier attempts to introduce quotas for supervisory boards. We  neither find that other characteristics of supervisory board members are affected, nor that the quota created spillover effects on  the untargeted executive boards. For firm performance, we find, if any, positive effects of the quota introduction.\
 [most recent version: [please e-mail me](mailto:jan.sauermann@ifau.uu.se)]
 :::
 
 ::: {.callout-abstractbox .callout-warning collapse=true}
-## Lindquist, Matthew J., Jan Sauermann, and Yves Zenou, "Peer Effects in the Workplace: A Network Approach", March 2022 *[click here for abstract and download]*
+## Lindquist, Matthew J., Jan Sauermann, and Yves Zenou, "Peer Effects in the Workplace: A Network Approach" *[click here for abstract and download]*
 
 We study both endogenous and exogenous peer effects in worker productivity using an explicit network approach. We apply this method to data from an in-house call center of a multinational mobile network operator that include detailed information on individual performance. We find that an increase in average co-worker current productivity increases worker productivity, while an increase in average co-worker permanent productivity decreases worker productivity. We also investigate when peer effects matter and show that the relative importance of these two types of peer effects depends on the volume of incoming calls.\
 [most recent version: [please e-mail me](mailto:jan.sauermann@ifau.uu.se)]]  
@@ -38,21 +44,19 @@ We study both endogenous and exogenous peer effects in worker productivity using
 
 
 ::: {.callout-abstractbox .callout-warning collapse=true}
-## Sauermann, Jan, and Anders Stenberg, "Assessing Selection Bias in Non-experimental Estimates of the Returns to Workplace Training", November 2022 *[click here for abstract and download]*
+## Sauermann, Jan, and Anders Stenberg, "Assessing Selection Bias in Non-experimental Estimates of the Returns to Workplace Training" *[click here for abstract and download]*
 
 We assess selection bias in estimated returns to workplace training by exploiting a field experiment in which workers were randomly assigned to a one-week training program. Using the causal estimate of the effect of the training program on worker productivity as a benchmark, we compare it to non-experimental estimates that is estimated using a sample who were chosen not to participate in the field experiment. Because the latter group is (potentially) endogenously selected, we expect the non-experimental estimates to be biased due to unobservable characteristics. The results show that non-experimental estimates are biased, yielding estimated returns of up to twice as high as the causal returns. We show that when controlling for  pre-treatment performance, individual fixed effects, as well as applying entropy matching, only a very small bias remains.\
 [most recent version: [please e-mail me](mailto:jan.sauermann@ifau.uu.se)] [previously released as IZA DP 13789] 
 :::
 
-
 ## Selected work in progress
+
 "Heterogeneous impacts of COVID-19 on incomes" (with Adrian Adermon, Lisa Laun, Costanza Naguib, Martin Olsson, and Anna Sjögren)
 
 “Hiring discrimination along the life-cycle.” (with Sebastian Butschek and Louis-Pierre Lepage)
 
-"The effects of a large compensatory government grant in a decentralized school system" (with Olof Rosenqvist)
-
-## Publications
+## Peer-reviewed publications
 
 ::: {.callout-abstractbox .callout-warning collapse=true}
 ## Clemens, Marco, and Jan Sauermann (2025), "Making the right call: The heterogeneous effects of individual performance pay on productivity", ***Labour Economics***, 94 (June) *[click here for abstract and download]*
@@ -73,7 +77,7 @@ Many governments introduced temporary adjustments to counter the economic and he
 ::: {.callout-abstractbox .callout-warning collapse=true}
 ## Butschek, Sebastian, and Jan Sauermann (2024), "The Effect of Employment Protection on Firms' Worker Selection", ***Journal of Human Resources***, 59(6), pp. 1981-2020 *[click here for abstract and download]*
 To estimate the causal effect of employment protection on firms’ worker selection, we study a policy change that reduced dismissal costs for the employers of over a tenth of Sweden’s workforce. Our difference-in-differences analysis of firms’ hiring uses individual ability measures including estimated worker fixed effects, GPA at age 15, and military test scores. We find that the reform reduced minimum hire quality by around 2%. Our results show that firms both decreased their hiring thresholds and hired more workers. We find that firms increasingly hired young, foreign born and long-term non-employed individuals, suggesting potential welfare gains from the reform.\
-[[publisher version (gated)](https://jhr.uwpress.org/content/early/2022/05/02/jhr.0919-10433R1.abstract)] [[preprint](files/ButschekSauermann_EPL.pdf)] [[online appendix](files/ButschekSauermann_EPL_JHR_onlineappendix)] [[bibtex](bibtex/ButschekSauermann_EPL.bib)]\
+[[publisher version (gated)](https://jhr.uwpress.org/content/early/2022/05/02/jhr.0919-10433R1.abstract)] [[preprint](files/ButschekSauermann_EPL.pdf)] [[online appendix](files/ButschekSauermann_EPL_onlineappendix.pdf)] [[bibtex](bibtex/ButschekSauermann_EPL.bib)]\
 [previously released as IZA DP 12305]
 :::
 
@@ -100,14 +104,14 @@ Measuring workers’ productivity is important for public policy and private-sec
 ## Mengel, Friederike, Jan Sauermann, and Ulf Zölitz (2019), "Gender Bias in Teaching Evaluations", ***Journal of the European Economic Association***, 17(2), pp. 535-566 *[click here for abstract and download]*
 This paper provides new evidence on gender bias in teaching evaluations. We exploit a quasi-experimental dataset of 19,952 student evaluations of university faculty in a context where students are randomly allocated to female or male instructors. Despite the fact that neither students’ grades nor self-study hours are affected by the instructor’s gender, we find that women receive systematically lower teaching evaluations than their male colleagues. This bias is driven by male students’ evaluations, is larger for mathematical courses, and particularly pronounced for junior women. The gender bias in teaching evaluations we document may have direct as well as indirect effects on the career progression of women by affecting junior women’s confidence and through the reallocation of instructor resources away from research and toward teaching.\
 [[publisher version (open access)](https://academic.oup.com/jeea/article-abstract/17/2/535/4850534)] [[online appendix](files/MengelSauermannZoelitz_GenderBias_OnlineApp.pdf)] [[bibtex](bibtex/MengelSauermannZoelitz_GenderBias.bib)] 
-[non-technical summaries & press: [IZA Newsroom](http://newsroom.iza.org/en/2017/09/18/gender-bias-in-teaching-evaluations-by-economics-students/), [The Economist](https://www.economist.com/news/science-and-technology/21729426-how-long-does-prejudice-last-research-suggests-students-are-biased-against?frsc=dg%7Ce), [SZ](http://www.sueddeutsche.de/wirtschaft/arbeitswelt-zu-bloed-fuer-mathe-1.3676681), [BR](http://www.br.de/puls/themen/welt/studie-weibliche-dozenten-werden-schlechter-bewertet-100.html), [Universitetsläraren](https://universitetslararen.se/2017/12/20/kursutvarderingar-visade-konsmassig-snedvridning/), [OUP Blog](https://blog.oup.com/2018/03w/gender-bias-teaching-evaluations/), [Ökonomenstimme](http://www.oekonomenstimme.org/artikel/2019/09/lehrevaluationen-benachteiligen-wissenschaftlerinnen)]
+[non-technical summaries & press: [IZA Newsroom](https://newsroom.iza.org/en/archive/research/gender-bias-in-teaching-evaluations-by-economics-students/), [The Economist](https://www.economist.com/news/science-and-technology/21729426-how-long-does-prejudice-last-research-suggests-students-are-biased-against?frsc=dg%7Ce), [SZ](http://www.sueddeutsche.de/wirtschaft/arbeitswelt-zu-bloed-fuer-mathe-1.3676681), BR, [Universitetsläraren](https://universitetslararen.se/2017/12/20/kursutvarderingar-visade-konsmassig-snedvridning/), [OUP Blog](https://blog.oup.com/2018/03w/gender-bias-teaching-evaluations/), [Ökonomenstimme](files/oekonomenstimme.pdf)], [GEO](https://www.geo.de/wissen/meinung-dozentinnen-werden-schlechter-bewertet-als-ihre-maennlichen-kollegen-zu-30173896.html)
 :::
 
 ::: {.callout-abstractbox .callout-warning collapse=true}
 ## Collewet, Marion, and Jan Sauermann (2017), "Working Hours and Productivity", ***Labour Economics***, 47, pp. 96-106 *[click here for abstract and download]*
 This paper studies the link between working hours and productivity using daily information on working hours and performance of a sample of call centre agents. We exploit variation in the number of hours worked by the same employee across days and weeks due to central scheduling, enabling us to estimate the effect of working hours on productivity. We find that as the number of hours worked increases, the average handling time for a call increases, meaning that agents become less productive. This result suggests that fatigue can play an important role, even in jobs with mostly part-time workers.\
 [[publisher version (gated)](https://ideas.repec.org/a/eee/labeco/v47y2017icp96-106.html)] [[preprint](https://ideas.repec.org/p/iza/izadps/dp10722.html)] [[bibtex](https://ideas.repec.org/p/iza/izadps/dp10722.html)]
-[non-technical summary & press: [IZA Newsroom](http://newsroom.iza.org/en/2017/05/05/do-longer-working-hours-decrease-performance/), [Moment](https://www.moment.at/story/kuerzer-arbeiten-weltweit)]
+[non-technical summary & press: [IZA Newsroom](https://newsroom.iza.org/en/archive/research/do-longer-working-hours-decrease-performance/), [Moment](https://www.moment.at/story/kuerzer-arbeiten-weltweit), [Times of India](https://timesofindia.indiatimes.com/blogs/tasting-economics/back-to-modern-times-the-new-obsession-with-longer-work-days/), [Business Daily Africa](https://www.businessdailyafrica.com/bd/lifestyle/workplace/fewer-work-hours-yield-greater-business-payoff-5059108#google_vignette)] 
 :::
 
 ::: {.callout-abstractbox .callout-warning collapse=true}
@@ -192,7 +196,7 @@ The effects of fixed-term contracts on participation and financing of work-relat
 
 ::: {.callout-abstractbox .callout-warning collapse=true}
 ## Mengel, Friederike, Jan Sauermann, and Ulf Zölitz (2018), Is there a gender bias in teaching evaluations?, OUPblog *[click here for download]*
-[[link]](files/https://blog.oup.com/2018/03/gender-bias-teaching-evaluations/)
+[[link]](https://blog.oup.com/2018/03/gender-bias-teaching-evaluations/)
 :::
 
 ::: {.callout-abstractbox .callout-warning collapse=true}
