@@ -20,9 +20,8 @@ format:
 ## Discussion Papers and papers in the editorial process
 
 ::: {.callout-abstractbox .callout-warning collapse=true}
-## Rosenqvist, Olof, and Jan Sauermann, "Effects of an even more compensatory resource allocation: Evidence from the Equity grant in the Swedish school"
+## Rosenqvist, Olof, and Jan Sauermann, "The effects of increasing compensatory resource allocation on student achievement: Evidence from the Equity grant in the Swedish compulsory school"
 
-Abstract TBA\
 [most recent version: [please e-mail me](mailto:jan.sauermann@ifau.uu.se)]
 :::
 
