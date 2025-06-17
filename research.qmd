@@ -62,6 +62,21 @@ We assess selection bias in estimated returns to workplace training by exploitin
 
 ## Peer-reviewed publications
 
+Clemens, Marco, and Jan Sauermann (2025), "Making the right call: The heterogeneous effects of individual performance pay on productivity", ***Labour Economics***, 94 (June)
+
+<span style="font-size: 0.9em;">
+[Most recent version – please email me](mailto:jan.sauermann@ifau.uu.se) · 
+<a href="#" onclick="this.nextElementSibling.style.display='block'; this.style.display='none'; return false;">Click here to show abstract</a>
+</span>
+
+<div style="display:none; margin-top:0.5em;">
+::: {.callout-abstractbox .callout-warning}
+## Abstract
+
+*Abstract:* Performance pay has been shown to have important implications for worker and firm productivity. Although workers' skills may directly matter for the cost of effort to reach performance goals, surprisingly little is know about the heterogeneity in the effects of incentive pay across workers. In this study, we apply a dynamic difference-in-differences estimator to the introduction of a generous bonus pay program to study how salient performance thresholds affect incentivized and non-incentivized performance outcomes for low- and high-skilled workers. While we do find that individual incentive pay did not affect workers' performance on average, we show that this result conceals an underlying heterogeneity in the response to individual performance pay: individual performance pay has a significant effect on the performance of high-skilled workers but not for low-skilled workers. The findings can be rationalized with the idea that the costs of effort differ by workers' skill level. We also explore whether agents alter their overtime hours and find a negative effect, possibly avoiding negative consequences of longer working hours.
+:::
+</div>
+
 ::: {.callout-abstractbox .callout-warning collapse=true}
 ## Clemens, Marco, and Jan Sauermann (2025), "Making the right call: The heterogeneous effects of individual performance pay on productivity", ***Labour Economics***, 94 (June) *[click here for abstract and download]*
 *Abstract:* Performance pay has been shown to have important implications for worker and firm productivity. Although workers' skills may directly matter for the cost of effort to reach performance goals, surprisingly little is know about the heterogeneity in the effects of incentive pay across workers. In this study, we apply a dynamic difference-in-differences estimator to the introduction of a generous bonus pay program to study how salient performance thresholds affect incentivized and non-incentivized performance outcomes for low- and high-skilled workers. While we do find that individual incentive pay did not affect workers' performance on average, we show that this result conceals an underlying heterogeneity in the response to individual performance pay: individual performance pay has a significant effect on the performance of high-skilled workers but not for low-skilled workers. The findings can be rationalized with the idea that the costs of effort differ by workers' skill level. We also explore whether agents alter their overtime hours and find a negative effect, possibly avoiding negative consequences of longer working hours.\
