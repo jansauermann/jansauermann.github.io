@@ -182,6 +182,7 @@ Sauermann, Jan (2023), *Worker Reciprocity and the Returns to Training: Evidence
     </div>
   </details>
 </div>
+```
 
 Sauermann, Jan (2023), *Performance Measures and Workers' Productivity*, ***IZA World of Labor***, 260 (April)\
 ```{=html}
@@ -206,6 +207,7 @@ Sauermann, Jan (2023), *Performance Measures and Workers' Productivity*, ***IZA 
     </div>
   </details>
 </div>
+```
 
 <div class="details-group" style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
@@ -235,6 +237,7 @@ Sauermann, Jan (2023), *Performance Measures and Workers' Productivity*, ***IZA 
     </div>
   </details>
 </div>
+```
 
 Collewet, Marion, and Jan Sauermann (2017), *Working Hours and Productivity*, ***Labour Economics***, 47, pp. 96–106\
 ```{=html}
