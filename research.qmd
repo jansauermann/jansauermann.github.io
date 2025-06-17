@@ -209,6 +209,9 @@ Sauermann, Jan (2023), *Performance Measures and Workers' Productivity*, ***IZA 
 </div>
 ```
 
+
+Mengel, Friederike, Jan Sauermann, and Ulf Zölitz (2019), "Gender Bias in Teaching Evaluations", ***Journal of the European Economic Association***, 17(2), pp. 535-566\
+```{=html}
 <div class="details-group" style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
     <a href="#" onclick="toggleDetails('abstract-7'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;">[Show abstract]</a>
