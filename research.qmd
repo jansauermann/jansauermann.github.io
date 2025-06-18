@@ -19,7 +19,6 @@ format:
 
 ## Discussion Papers and papers in the editorial process
 
-
 Rosenqvist, Olof, and Jan Sauermann, *The effects of increasing compensatory resource allocation on student achievement: Evidence from the Equity grant in the Swedish compulsory school*  
 ```{=html}
 <div class="details-group" style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
@@ -146,7 +145,7 @@ We assess selection bias in estimated returns to workplace training by exploitin
 
 ## Selected work in progress
 
-""Reallocation effects of unemployment insurance." (with Sebastian Butschek and and Olle Törnquist)
+"Reallocation effects of unemployment insurance." (with Sebastian Butschek and and Olle Törnquist)
 
 “Hiring discrimination along the life-cycle.” (with Sebastian Butschek and Louis-Pierre Lepage)
 
@@ -775,23 +774,42 @@ Lindquist, Matthew J., Jan Sauermann, and Yves Zenou (2015), Why worker producti
 
 
 Sauermann, Jan (2013), Human Capital, Incentives, and Performance Outcomes, *Economisch Statistische Berichten (ESB)* 98(4657). 
-
-Sauermann, Jan (2013), Human Capital, Incentives, and Performance Outcomes, PhD Thesis, Research Centre for Education and the Labour Market (ROA) Dissertation Series 13, Maastricht.
-
-
-Cörvers, Frank, Arnaud Dupuy, and Jan Sauermann (2012), Kwalificatievereisten stijgen niet overal, *Economisch Statistische Berichten (ESB)* 97(4636). 
-
-Kriechel, Ben, and Jan Sauermann (2012), Modeling replacement demand, in: *Skills supply and demand in Europe -- Methodological framework*, European Centre for the Development of Vocational Training (Cedefop), Research Paper 25, pp. 65-78.
 ```{=html}
 <div style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
-    <a href="files/Sauermann2005.pdf" style="text-decoration: none; color: inherit;">[link]</a>
+    <a href="https://esb.nu/wp-content/uploads/2022/11/222-222_ESB4657_sauerman.pdf" style="text-decoration: none; color: inherit;">[link]</a>
+  </div>
+</div>
+```
+
+Sauermann, Jan (2013), Human Capital, Incentives, and Performance Outcomes, PhD Thesis, Research Centre for Education and the Labour Market (ROA) Dissertation Series 13, Maastricht.
+
+Cörvers, Frank, Arnaud Dupuy, and Jan Sauermann (2012), Kwalificatievereisten stijgen niet overal, *Economisch Statistische Berichten (ESB)* 97(4636). 
+```{=html}
+<div style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
+  <div style="margin: 0.1em 0; font-size: 0.85em;">
+    <a href="https://esb.nu/wp-content/uploads/2022/11/editie_pdfs_336-337_ESB4636_stat_tcm445-627677.pdf" style="text-decoration: none; color: inherit;">[link]</a>
   </div>
 </div>
 ```
 
 
+
+
+Kriechel, Ben, and Jan Sauermann (2012), Modeling replacement demand, in: *Skills supply and demand in Europe -- Methodological framework*, European Centre for the Development of Vocational Training (Cedefop), Research Paper 25, pp. 65-78.
+
+
+
 De Grip, Andries, and Jan Sauermann (2011), Het Effect van Ervaring op Productiviteit, *Economisch Statistische Berichten (ESB)* 96(4621). 
+```{=html}
+<div style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
+  <div style="margin: 0.1em 0; font-size: 0.85em;">
+    <a href="https://esb.nu/wp-content/uploads/2022/11/editie_pdfs_644stat_tcm445-611544.pdf" style="text-decoration: none; color: inherit;">[link]</a>
+  </div>
+</div>
+```
+
+
 
 Dupuy, Arnaud, and Jan Sauermann (2011), Estimating Substitution Demand.
 
