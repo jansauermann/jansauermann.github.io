@@ -39,7 +39,7 @@ I am associate professor (docent) at the [Institute for Evaluation of Labour Mar
 
 My research interests are centred around learning and incentives in the workplace, origins and consequences of course choice in education, and gender differences in the labour market.
 
-I edit the [NEP report on the economics of gender](https://econpapers.repec.org/scripts/nep.pf?list=nepgen) ([subscribe here](https://nep.repec.org/nep-gen.html)),  organise the [Stockholm Uppsala Economics of Education Workshop Series](educworkshop.qmd), and occasionally write up useful commands on my [StataTeX Blog](https://statatexblog.com) for which I'm also teaching [Stata courses](http://courses.statatexblog.com).
+I edit the [NEP report on the economics of gender](https://econpapers.repec.org/scripts/nep.pf?list=nepgen) ([subscribe here](https://nep.repec.org/nep-gen.html)),  organise the [Stockholm Uppsala Economics of Education Workshop Series and other workshops](workshops.qmd), and occasionally write up useful commands on my [StataTeX Blog](https://statatexblog.com) for which I'm also teaching [Stata courses](http://courses.statatexblog.com).
 
 Please [find my CV (pdf) here](https://jansauermann.github.io/files/fullcv_sauermann.pdf). 
 
@@ -53,7 +53,7 @@ Please [find my CV (pdf) here](https://jansauermann.github.io/files/fullcv_sauer
 
 **January 30**: the submission deadline for the the 7th Stockholm Uppsala Education Economics Workshop ends on March 1st. The workshop will be held in Uppsala on May 5. Brian Jacob will hold the keynote lecture ([link](educworkshop_2025.qmd)) 
 
-**December 13**: we received 18,000 EUR from the *Jan Wallanders och Tom Hedelius Stiftelse Tore Browaldhs Stiftelse* for the organization of the [Stockholm Uppsala Education Economics Workshop](educworkshop.qmd) for 2025 to 2027
+**December 13**: we received 18,000 EUR from the *Jan Wallanders och Tom Hedelius Stiftelse Tore Browaldhs Stiftelse* for the organization of the [Stockholm Uppsala Education Economics Workshop](workshops.qmd) for 2025 to 2027
 
 **November 29**: I'm teaching a master seminar at the University of Würzburg on "Personnel practices and experiments in organizations"  ([link](teaching_2025_wuerzburg.qmd))
 
