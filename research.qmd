@@ -748,13 +748,6 @@ Sauermann, Jan (2006), *Who Invests in Training if Contracts are Temporary? Empi
 ```
 
 Sauermann, Jan (2005),  Registrierte Arbeitslosigkeit oder Erwerbslosigkeit: Gibt es das bessere Messkonzept?, *Wirtschaft im Wandel* 4/2005. Halle: Halle Institute for Economic Research 
-```{=html}
-<div style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
-  <div style="margin: 0.1em 0; font-size: 0.85em;">
-    <a href="files/Sauermann2005.pdf" style="text-decoration: none; color: inherit;">[link]</a>
-  </div>
-</div>
-```
 
 <script>
 function toggleDetails(idToOpen) {
