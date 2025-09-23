@@ -45,6 +45,8 @@ Please [find my CV (pdf) here](https://jansauermann.github.io/files/fullcv_sauer
 
 ### News
 
+**September 23**: my paper "The effects of increasing compensatory resource allocation on student achievement" is now published as an IFAU Working Paper [here](https://www.ifau.se) or read the [Swedish-language report here](research.html#research-reports)
+
 **July 14**: I will be serving as a guest reviewer for the **2026 Colloquium on Personnel Economics** to be held on March 19/20 at Erasmus University Rotterdam. Please consider submitting your paper by [following this link](https://personneleconomics.eu/cope2026/)
 
 **May 20**: I am co-organizing an IFAU/UU mini course on shift share instruments (taught by [Jan Stuhler](https://janstuhler.com)) on September 8/9, 2025. If you are interested, please send me an [email](mailto:jan.sauermann@ifau.uu.se)
@@ -58,7 +60,6 @@ Please [find my CV (pdf) here](https://jansauermann.github.io/files/fullcv_sauer
 **November 29**: I'm teaching a master seminar at the University of Würzburg on "Personnel practices and experiments in organizations"  ([link](teaching_2025_wuerzburg.qmd))
 
 **November 14**: My paper with Sebastian Butschek on employment protection and firm hiring behavior is now out in print in the new Journal of Human Resources ([link](https://jhr.uwpress.org/content/59/6/1981))
-
 
 **November 2**: Erica Lindahl, Karl-Oskar Lindgren and I received EUR 383,000 for our project on school segregation and political preferences from the Swedish Research Council (VR)
 
