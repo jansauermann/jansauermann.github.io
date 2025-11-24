@@ -9,6 +9,8 @@ format:
       - text: 2026 Workshop
         icon: arrow-up-right
         href: educworkshop_2026        
+      - text: Call for papers 2026 (pdf)
+        icon: filetype-pdf
 ---
 
 This page has moved to [this page](workshops.html)
