@@ -403,7 +403,7 @@ Mengel, Friederike, Jan Sauermann, and Ulf Zölitz (2019), "Gender Bias in Teach
       <a href="https://academic.oup.com/jeea/article-abstract/17/2/535/4850534">[publisher version (open access)]</a>
       <a href="files/MengelSauermannZoelitz_GenderBias_OnlineApp.pdf">[online appendix]</a>
       [non-technical summaries & press: 
-      <a href="https://newsroom.iza.org/en/archive/research/gender-bias-in-teaching-evaluations-by-economics-students/">IZA Newsroom</a>, 
+      IZA Newsroom, 
       <a href="https://www.economist.com/news/science-and-technology/21729426-how-long-does-prejudice-last-research-suggests-students-are-biased-against?frsc=dg%7Ce">The Economist</a>, 
       <a href="http://www.sueddeutsche.de/wirtschaft/arbeitswelt-zu-bloed-fuer-mathe-1.3676681">SZ</a>, BR, 
       <a href="https://universitetslararen.se/2017/12/20/kursutvarderingar-visade-konsmassig-snedvridning/">Universitetsläraren</a>, 
@@ -451,7 +451,7 @@ Collewet, Marion, and Jan Sauermann (2017), *Working Hours and Productivity*, **
     <div style="padding: 0.1em 0; font-size: 0.85em;">
       <a href="https://ideas.repec.org/a/eee/labeco/v47y2017icp96-106.html">[publisher version (gated)]</a>
       <a href="https://ideas.repec.org/p/iza/izadps/dp10722.html">[preprint]</a>
-      [non-technical summary & press: <a href="https://newsroom.iza.org/en/archive/research/do-longer-working-hours-decrease-performance/">IZA Newsroom</a>, <a href="https://www.moment.at/story/kuerzer-arbeiten-weltweit">Moment</a>, <a href="https://timesofindia.indiatimes.com/blogs/tasting-economics/back-to-modern-times-the-new-obsession-with-longer-work-days/">Times of India</a>, <a href="https://www.businessdailyafrica.com/bd/lifestyle/workplace/fewer-work-hours-yield-greater-business-payoff-5059108#google_vignette">Business Daily Africa</a>]
+      [non-technical summary & press: IZA Newsroom, <a href="https://www.moment.at/story/kuerzer-arbeiten-weltweit">Moment</a>, <a href="https://timesofindia.indiatimes.com/blogs/tasting-economics/back-to-modern-times-the-new-obsession-with-longer-work-days/">Times of India</a>, <a href="https://www.businessdailyafrica.com/bd/lifestyle/workplace/fewer-work-hours-yield-greater-business-payoff-5059108#google_vignette">Business Daily Africa</a>]
     </div>
   </details>
 
@@ -824,6 +824,16 @@ Reinowski, Eva and Jan Sauermann (2008), *Does Temporary Employment Affect the W
 
 
 ## Research reports and other publications
+
+
+Butschek, Sebastian, and Jan Sauermann (2025), Anställningsskydd och företagens rekrytering: Konsekvenser av förändringen i turordningsreglerna, IFAU Rapport 2025:26
+```{=html}
+<div style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
+  <div style="margin: 0.1em 0; font-size: 0.85em;">
+    <a href="https://www.ifau.se/Forskning/Publikationer/Rapporter/2025/anstallningsskydd-och-foretagens-rekrytering/" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+  </div>
+</div>
+```
 
 Rosenqvist, Olof, and Jan Sauermann (2025), Effekter av kompensatorisk resursfördelning i grundskolan: Erfarenheter från Kunskapsbidraget, IFAU Rapport 2025:17
 ```{=html}
