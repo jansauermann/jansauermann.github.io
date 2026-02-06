@@ -24,7 +24,7 @@ Rosenqvist, Olof, and Jan Sauermann, *The effects of increasing compensatory res
 <div class="details-group" style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
     <a href="#" onclick="toggleDetails('abstract-equity'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show abstract</a>
-    <a href="#" onclick="toggleDetails('moreinfo-equity'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="#" onclick="toggleDetails('moreinfo-equity'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
   </div>
   <details id="abstract-equity" style="margin: 0.2em 0;">
     <summary hidden></summary>
@@ -46,7 +46,7 @@ Annadanam, Harini, Jan Sauermann, and Aylin Shawkat, *Board quotas, women's repr
 <div class="details-group" style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
     <a href="#" onclick="toggleDetails('abstract-boards'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show abstract</a>
-    <a href="#" onclick="toggleDetails('moreinfo-boards'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="#" onclick="toggleDetails('moreinfo-boards'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
   </div>
   <details id="abstract-boards" style="margin: 0.2em 0;">
     <summary hidden></summary>
@@ -68,7 +68,7 @@ Lindquist, Matthew J., Jan Sauermann, and Yves Zenou, *Peer Effects in the Workp
 <div class="details-group" style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
     <a href="#" onclick="toggleDetails('abstract-peer'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show abstract</a>
-    <a href="#" onclick="toggleDetails('moreinfo-peer'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="#" onclick="toggleDetails('moreinfo-peer'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
   </div>
   <details id="abstract-peer" style="margin: 0.2em 0;">
     <summary hidden></summary>
@@ -92,7 +92,7 @@ Sauermann, Jan, and Anders Stenberg, *Assessing Selection Bias in Non-experiment
 <div class="details-group" style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
     <a href="#" onclick="toggleDetails('abstract-selection'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show abstract</a>
-    <a href="#" onclick="toggleDetails('moreinfo-selection'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="#" onclick="toggleDetails('moreinfo-selection'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
   </div>
   <details id="abstract-selection" style="margin: 0.2em 0;">
     <summary hidden></summary>
@@ -162,7 +162,7 @@ Clemens, Marco, and Jan Sauermann (2025), *Making the right call: The heterogene
 <div class="details-group" style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
     <a href="#" onclick="toggleDetails('abstract-ClemensSauermann2025'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show abstract</a>
-    <a href="#" onclick="toggleDetails('moreinfo-ClemensSauermann2025'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="#" onclick="toggleDetails('moreinfo-ClemensSauermann2025'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
     <a href="#" onclick="toggleDetails('bibtex-ClemensSauermann2025'); return false;" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Show BibTeX</a>
   </div>
 
@@ -178,6 +178,7 @@ Clemens, Marco, and Jan Sauermann (2025), *Making the right call: The heterogene
     <div style="padding: 0.1em 0; font-size: 0.85em;">
       <a href="https://www.sciencedirect.com/science/article/pii/S0927537125000211">[publisher version (open access)]</a> 
       [previously released as IZA DP17119 and IFAU WP 2025:6]
+      
     </div>
   </details>
 
@@ -209,7 +210,7 @@ Adermon, Adrian, Lisa Laun, Patrik Lind, Martin Olsson, Jan Sauermann, and Anna 
 <div class="details-group" style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
     <a href="#" onclick="toggleDetails('abstract-Adermonetal2024'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show abstract</a>
-    <a href="#" onclick="toggleDetails('moreinfo-Adermonetal2024'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="#" onclick="toggleDetails('moreinfo-Adermonetal2024'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
     <a href="#" onclick="toggleDetails('bibtex-Adermonetal2024'); return false;" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Show BibTeX</a>
   </div>
   <details id="abstract-Adermonetal2024" style="margin: 0.2em 0;">
@@ -224,6 +225,8 @@ Adermon, Adrian, Lisa Laun, Patrik Lind, Martin Olsson, Jan Sauermann, and Anna 
     <div style="padding: 0.1em 0; font-size: 0.85em;">
       <a href="https://ideas.repec.org/a/bla/revinw/v70y2024i4p981-1010.html">[publisher version (open access)]</a> 
       [previously released as IZA DP15662, IFAU WP 2022:20 and IFN WP 1443]
+      <br><scopus-citations file="citations/AdermonLaunLindOlssonSauermannSjogren2024_raw.txt"></scopus-citations>
+
     </div>
   </details>
 
@@ -254,7 +257,7 @@ Butschek, Sebastian, and Jan Sauermann (2024), *The Effect of Employment Protect
 <div class="details-group" style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
     <a href="#" onclick="toggleDetails('abstract-ButschekSauermann2022'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show abstract</a>
-    <a href="#" onclick="toggleDetails('moreinfo-ButschekSauermann2022'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="#" onclick="toggleDetails('moreinfo-ButschekSauermann2022'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
     <a href="#" onclick="toggleDetails('bibtex-ButschekSauermann2022'); return false;" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Show BibTeX</a>
   </div>
   <details id="abstract-ButschekSauermann2022" style="margin: 0.2em 0;">
@@ -270,6 +273,8 @@ Butschek, Sebastian, and Jan Sauermann (2024), *The Effect of Employment Protect
       <a href="files/ButschekSauermann_EPL.pdf">[preprint]</a>
       <a href="files/ButschekSauermann_EPL_onlineappendix.pdf">[online appendix]</a>
       [previously released as IZA DP 12305]
+      <br><scopus-citations file="citations/ButschekSauermann2024_raw.txt"></scopus-citations>
+
     </div>
   </details>
 
@@ -297,7 +302,7 @@ Engbom, Niklas, Christian Moser, and Jan Sauermann (2023), *Firm Pay Dynamics*, 
 <div class="details-group" style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
     <a href="#" onclick="toggleDetails('abstract-EngbomMoserSauermann2023'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show abstract</a>
-    <a href="#" onclick="toggleDetails('moreinfo-EngbomMoserSauermann2023'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="#" onclick="toggleDetails('moreinfo-EngbomMoserSauermann2023'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
     <a href="#" onclick="toggleDetails('bibtex-EngbomMoserSauermann2023'); return false;" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Show BibTeX</a>
   </div>
   <details id="abstract-EngbomMoserSauermann2023" style="margin: 0.2em 0;">
@@ -311,6 +316,8 @@ Engbom, Niklas, Christian Moser, and Jan Sauermann (2023), *Firm Pay Dynamics*, 
     <div style="padding: 0.1em 0; font-size: 0.85em;">
       <a href="https://www.sciencedirect.com/science/article/pii/S0304407622000653?via%3Dihub">[publisher version (open access)]</a>
       [previously released as CEPR DP 16922, IZA DP 15014, NBER WP 29697]
+      <br><scopus-citations file="citations/EngbomMoserSauermann2023_raw.txt"></scopus-citations>
+
     </div>
   </details>
 
@@ -344,7 +351,7 @@ Sauermann, Jan (2023), *Worker Reciprocity and the Returns to Training: Evidence
 <div class="details-group" style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
     <a href="#" onclick="toggleDetails('abstract-Sauermann2023'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show abstract</a>
-    <a href="#" onclick="toggleDetails('moreinfo-Sauermann2023'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="#" onclick="toggleDetails('moreinfo-Sauermann2023'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
     <a href="#" onclick="toggleDetails('bibtex-Sauermann2023'); return false;" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Show BibTeX</a>
   </div>
   <details id="abstract-Sauermann2023" style="margin: 0.2em 0;">
@@ -357,6 +364,8 @@ Sauermann, Jan (2023), *Worker Reciprocity and the Returns to Training: Evidence
     <summary hidden></summary>
     <div style="padding: 0.1em 0; font-size: 0.85em;">
       <a href="https://onlinelibrary.wiley.com/doi/10.1111/jems.12419">[publisher version (open access)]</a>
+      <br><scopus-citations file="citations/Sauermann2023_raw.txt"></scopus-citations>
+
     </div>
   </details>
 
@@ -388,7 +397,7 @@ Mengel, Friederike, Jan Sauermann, and Ulf Zölitz (2019), "Gender Bias in Teach
 <div class="details-group" style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
     <a href="#" onclick="toggleDetails('abstract-MengelSauermannZoelitz2018'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show abstract</a>
-    <a href="#" onclick="toggleDetails('moreinfo-MengelSauermannZoelitz2018'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="#" onclick="toggleDetails('moreinfo-MengelSauermannZoelitz2018'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
     <a href="#" onclick="toggleDetails('bibtex-MengelSauermannZoelitz2018'); return false;" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Show BibTeX</a>
   </div>
   <details id="abstract-MengelSauermannZoelitz2018" style="margin: 0.2em 0;">
@@ -410,6 +419,8 @@ Mengel, Friederike, Jan Sauermann, and Ulf Zölitz (2019), "Gender Bias in Teach
       <a href="https://blog.oup.com/2018/03w/gender-bias-teaching-evaluations/">OUP Blog</a>, 
       <a href="files/oekonomenstimme.pdf">Ökonomenstimme</a>, 
       <a href="https://www.geo.de/wissen/meinung-dozentinnen-werden-schlechter-bewertet-als-ihre-maennlichen-kollegen-zu-30173896.html">GEO</a>]
+      <br><scopus-citations file="citations/MengelSauermannZolitz2019_raw.txt"></scopus-citations>
+
     </div>
   </details>
 
@@ -437,7 +448,7 @@ Collewet, Marion, and Jan Sauermann (2017), *Working Hours and Productivity*, **
 <div class="details-group" style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
     <a href="#" onclick="toggleDetails('abstract-CollewetSauermann2017'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show abstract</a>
-    <a href="#" onclick="toggleDetails('moreinfo-CollewetSauermann2017'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="#" onclick="toggleDetails('moreinfo-CollewetSauermann2017'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
     <a href="#" onclick="toggleDetails('bibtex-CollewetSauermann2017'); return false;" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Show BibTeX</a>
   </div>
   <details id="abstract-CollewetSauermann2017" style="margin: 0.2em 0;">
@@ -452,6 +463,8 @@ Collewet, Marion, and Jan Sauermann (2017), *Working Hours and Productivity*, **
       <a href="https://ideas.repec.org/a/eee/labeco/v47y2017icp96-106.html">[publisher version (gated)]</a>
       <a href="https://ideas.repec.org/p/iza/izadps/dp10722.html">[preprint]</a>
       [non-technical summary & press: IZA Newsroom, <a href="https://www.economist.com/business/2025/12/04/how-many-hours-should-employees-work">The Economist</a>, <a href="https://www.moment.at/story/kuerzer-arbeiten-weltweit">Moment</a>, <a href="https://timesofindia.indiatimes.com/blogs/tasting-economics/back-to-modern-times-the-new-obsession-with-longer-work-days/">Times of India</a>, <a href="https://www.businessdailyafrica.com/bd/lifestyle/workplace/fewer-work-hours-yield-greater-business-payoff-5059108#google_vignette">Business Daily Africa</a>]
+      <br><scopus-citations file="citations/CollewetSauermann2017_raw.txt"></scopus-citations>
+
     </div>
   </details>
 
@@ -478,7 +491,7 @@ De Grip, Andries, Jan Feld, and Jan Sauermann (2017), *Estimating the Relationsh
 <div class="details-group" style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
     <a href="#" onclick="toggleDetails('abstract-FeldSauermannDeGrip2017'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show abstract</a>
-    <a href="#" onclick="toggleDetails('moreinfo-FeldSauermannDeGrip2017'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="#" onclick="toggleDetails('moreinfo-FeldSauermannDeGrip2017'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
     <a href="#" onclick="toggleDetails('bibtex-FeldSauermannDeGrip2017'); return false;" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Show BibTeX</a>
   </div>
   <details id="abstract-FeldSauermannDeGrip2017" style="margin: 0.2em 0;">
@@ -492,6 +505,8 @@ De Grip, Andries, Jan Feld, and Jan Sauermann (2017), *Estimating the Relationsh
     <div style="padding: 0.1em 0; font-size: 0.85em;">
       <a href="https://ideas.repec.org/a/eee/soceco/v68y2017icp18-24.html">[publisher version (gated)]</a>
       <a href="https://ideas.repec.org/p/iza/izadps/dp10611.html">[preprint]</a>
+      <br><scopus-citations file="citations/FeldDeGripSauermann2017_raw.txt"></scopus-citations>
+
     </div>
   </details>
 
@@ -522,7 +537,7 @@ Dohmen, Thomas, and Jan Sauermann (2016), *Referee Bias*, ***Journal of Economic
 <div class="details-group" style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
     <a href="#" onclick="toggleDetails('abstract-DohmenSauermann2016'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show abstract</a>
-    <a href="#" onclick="toggleDetails('moreinfo-DohmenSauermann2016'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="#" onclick="toggleDetails('moreinfo-DohmenSauermann2016'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
     <a href="#" onclick="toggleDetails('bibtex-DohmenSauermann2016'); return false;" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Show BibTeX</a>
   </div>
   <details id="abstract-DohmenSauermann2016" style="margin: 0.2em 0;">
@@ -536,6 +551,8 @@ Dohmen, Thomas, and Jan Sauermann (2016), *Referee Bias*, ***Journal of Economic
     <div style="padding: 0.1em 0; font-size: 0.85em;">
       <a href="https://ideas.repec.org/a/bla/jecsur/v30y2016i4p679-695.html">[publisher version (gated)]</a>
       <a href="https://ideas.repec.org/p/iza/izadps/dp8857.html">[preprint]</a>
+      <br><scopus-citations file="citations/DohmenSauermann2016_raw.txt"></scopus-citations>
+
     </div>
   </details>
 
@@ -565,7 +582,7 @@ De Grip, Andries, Jan Sauermann, and Inge Sieben (2016), *The Role of Peers in E
 <div class="details-group" style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
     <a href="#" onclick="toggleDetails('abstract-DeGripSauermannSieben2016'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show abstract</a>
-    <a href="#" onclick="toggleDetails('moreinfo-DeGripSauermannSieben2016'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="#" onclick="toggleDetails('moreinfo-DeGripSauermannSieben2016'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
     <a href="#" onclick="toggleDetails('bibtex-DeGripSauermannSieben2016'); return false;" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Show BibTeX</a>
   </div>
   <details id="abstract-DeGripSauermannSieben2016" style="margin: 0.2em 0;">
@@ -579,6 +596,8 @@ De Grip, Andries, Jan Sauermann, and Inge Sieben (2016), *The Role of Peers in E
     <div style="padding: 0.1em 0; font-size: 0.85em;">
       <a href="https://ideas.repec.org/a/eee/jeborg/v126y2016ipap39-54.html">[publisher version (gated)]</a>
       <a href="files/DeGripSauermannSieben2016.pdf">[preprint]</a>
+                          <br><scopus-citations file="citations/DeGripSauermannSieben2016_raw.txt"></scopus-citations>
+
     </div>
   </details>
 
@@ -608,7 +627,7 @@ De Grip, Andries, and Jan Sauermann (2013), *The Effect of Training on Productiv
 <div class="details-group" style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
     <a href="#" onclick="toggleDetails('abstract-DeGripSauermann2013'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show abstract</a>
-    <a href="#" onclick="toggleDetails('moreinfo-DeGripSauermann2013'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="#" onclick="toggleDetails('moreinfo-DeGripSauermann2013'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
     <a href="#" onclick="toggleDetails('bibtex-DeGripSauermann2013'); return false;" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Show BibTeX</a>
   </div>
   <details id="abstract-DeGripSauermann2013" style="margin: 0.2em 0;">
@@ -621,6 +640,8 @@ De Grip, Andries, and Jan Sauermann (2013), *The Effect of Training on Productiv
     <summary hidden></summary>
     <div style="padding: 0.1em 0; font-size: 0.85em;">
       <a href="https://www.sciencedirect.com/science/article/pii/S1747938X12000437">[publisher version (gated)]</a>
+                    <br><scopus-citations file="citations/DeGripSauermann2013_raw.txt"></scopus-citations>
+    
     </div>
   </details>
 
@@ -650,7 +671,7 @@ De Grip, Andries, and Jan Sauermann (2012), *The Effects of Training on Own and 
 <div class="details-group" style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
     <a href="#" onclick="toggleDetails('abstract-DeGripSauermann2012'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show abstract</a>
-    <a href="#" onclick="toggleDetails('moreinfo-DeGripSauermann2012'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="#" onclick="toggleDetails('moreinfo-DeGripSauermann2012'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
     <a href="#" onclick="toggleDetails('bibtex-DeGripSauermann2012'); return false;" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Show BibTeX</a>
   </div>
   <details id="abstract-DeGripSauermann2012" style="margin: 0.2em 0;">
@@ -665,7 +686,7 @@ De Grip, Andries, and Jan Sauermann (2012), *The Effects of Training on Own and 
       <a href="https://ideas.repec.org/a/ecj/econjl/v122y2012i560p376-399.html">[publisher version (gated)]</a>
       <a href="https://ideas.repec.org/p/iza/izadps/dp5976.html">[preprint]</a>
       <br><em>Awarded the NRW Young Scientist Award 2012</em>
-      <br>SCOPUS Citations: <span class="cit" data-cit-file="/citations/DeGripSauermann2012_raw.txt"></span>
+      <br><scopus-citations file="citations/DeGripSauermann2012_raw.txt"></scopus-citations>
     </div>
   </details>
 
@@ -695,7 +716,7 @@ Borghans, Lex, Margo Romans, and Jan Sauermann (2010), *What Makes a Good Confer
 <div class="details-group" style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
     <a href="#" onclick="toggleDetails('abstract-BorghansRomansSauermann2010'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show abstract</a>
-    <a href="#" onclick="toggleDetails('moreinfo-BorghansRomansSauermann2010'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="#" onclick="toggleDetails('moreinfo-BorghansRomansSauermann2010'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
     <a href="#" onclick="toggleDetails('bibtex-BorghansRomansSauermann2010'); return false;" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Show BibTeX</a>
   </div>
   <details id="abstract-BorghansRomansSauermann2010" style="margin: 0.2em 0;">
@@ -709,6 +730,8 @@ Borghans, Lex, Margo Romans, and Jan Sauermann (2010), *What Makes a Good Confer
     <div style="padding: 0.1em 0; font-size: 0.85em;">
       <a href="https://ideas.repec.org/a/eee/labeco/v17y2010i5p868-874.html">[publisher version (gated)]</a>
       <a href="https://ideas.repec.org/p/iza/izadps/dp4870.html">[preprint]</a>
+                  <br><scopus-citations file="citations/BorghansRomansSauermann2010_raw.txt"></scopus-citations>
+
     </div>
   </details>
 
@@ -738,7 +761,7 @@ De Grip, Andries, Didier Fouarge, and Jan Sauermann (2010), *What Affects Intern
 <div class="details-group" style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
     <a href="#" onclick="toggleDetails('abstract-FouargeDeGripSauermann2010'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show abstract</a>
-    <a href="#" onclick="toggleDetails('moreinfo-FouargeDeGripSauermann2010'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="#" onclick="toggleDetails('moreinfo-FouargeDeGripSauermann2010'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
     <a href="#" onclick="toggleDetails('bibtex-FouargeDeGripSauermann2010'); return false;" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Show BibTeX</a>
   </div>
   <details id="abstract-FouargeDeGripSauermann2010" style="margin: 0.2em 0;">
@@ -752,6 +775,7 @@ De Grip, Andries, Didier Fouarge, and Jan Sauermann (2010), *What Affects Intern
     <div style="padding: 0.1em 0; font-size: 0.85em;">
       <a href="https://ideas.repec.org/a/taf/ecinnt/v19y2010i5p407-421.html">[publisher version (gated)]</a>
       <a href="https://ideas.repec.org/p/iza/izadps/dp4268.html">[preprint]</a>
+            <br><scopus-citations file="citations/DeGripFouargeSauermann2010_raw.txt"></scopus-citations>
     </div>
   </details>
 
@@ -781,7 +805,7 @@ Reinowski, Eva and Jan Sauermann (2008), *Does Temporary Employment Affect the W
 <div class="details-group" style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
     <a href="#" onclick="toggleDetails('abstract-ReinowskiSauermann2008'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show abstract</a>
-    <a href="#" onclick="toggleDetails('moreinfo-ReinowskiSauermann2008'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="#" onclick="toggleDetails('moreinfo-ReinowskiSauermann2008'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
     <a href="#" onclick="toggleDetails('bibtex-ReinowskiSauermann2008'); return false;" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Show BibTeX</a>
   </div>
   <details id="abstract-ReinowskiSauermann2008" style="margin: 0.2em 0;">
@@ -831,7 +855,7 @@ Butschek, Sebastian, and Jan Sauermann (2025), Anställningsskydd och företagen
 ```{=html}
 <div style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
-    <a href="https://www.ifau.se/Forskning/Publikationer/Rapporter/2025/anstallningsskydd-och-foretagens-rekrytering/" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="https://www.ifau.se/Forskning/Publikationer/Rapporter/2025/anstallningsskydd-och-foretagens-rekrytering/" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
   </div>
 </div>
 ```
@@ -840,7 +864,7 @@ Rosenqvist, Olof, and Jan Sauermann (2025), Effekter av kompensatorisk resursfö
 ```{=html}
 <div style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
-    <a href="https://www.ifau.se/Forskning/Publikationer/Rapporter/2025/effekter-av-kompensatorisk-resursfordelning-i-grundskolan/" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="https://www.ifau.se/Forskning/Publikationer/Rapporter/2025/effekter-av-kompensatorisk-resursfordelning-i-grundskolan/" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
   </div>
 </div>
 ```
@@ -849,7 +873,7 @@ Clemens, Marco, and Jan Sauermann (2025), Belöningssystem och prestation-Vilka 
 ```{=html}
 <div style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
-    <a href="https://www.ifau.se/Forskning/Publikationer/Rapporter/2025/beloningssystem-och-prestation-vilka-reagerar-pa-prestationsbaserad-lon/" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="https://www.ifau.se/Forskning/Publikationer/Rapporter/2025/beloningssystem-och-prestation-vilka-reagerar-pa-prestationsbaserad-lon/" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
   </div>
 </div>
 ```
@@ -860,7 +884,7 @@ Sauermann, Jan (2023), *Performance Measures and Workers' Productivity*, ***IZA 
 <div class="details-group" style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
     <a href="#" onclick="toggleDetails('abstract-6'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show abstract</a>
-    <a href="#" onclick="toggleDetails('moreinfo-6'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="#" onclick="toggleDetails('moreinfo-6'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
   </div>
   <details id="abstract-6" style="margin: 0.2em 0;">
     <summary hidden></summary>
@@ -884,7 +908,7 @@ Adermon, Adrian, Lisa Laun, Patrik Lind, Martin Olsson, Jan Sauermann, and Anna 
 ```{=html}
 <div style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
-    <a href="https://www.ifau.se/Press/Pressmeddelanden/Valfardsystemet-har-begransat-pandemins-paverkan-pa-svenskarnas-inkomster/" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="https://www.ifau.se/Press/Pressmeddelanden/Valfardsystemet-har-begransat-pandemins-paverkan-pa-svenskarnas-inkomster/" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
   </div>
 </div>
 ```
@@ -894,7 +918,7 @@ Mengel, Friederike, Jan Sauermann, and Ulf Zölitz (2019), Lehrevaluationen bena
 ```{=html}
 <div style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
-    <a href="files/oekonomenstimme.pdf" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="files/oekonomenstimme.pdf" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
   </div>
 </div>
 ```
@@ -904,7 +928,7 @@ Mengel, Friederike, Jan Sauermann, and Ulf Zölitz (2018), Is there a gender bia
 ```{=html}
 <div style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
-    <a href="https://blog.oup.com/2018/03/gender-bias-teaching-evaluations/" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="https://blog.oup.com/2018/03/gender-bias-teaching-evaluations/" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
   </div>
 </div>
 ```
@@ -914,7 +938,7 @@ Sauermann, Jan, and Anders Stenberg (2017), *Short- and Long-term Effects of Voc
 <div class="details-group" style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
     <a href="#" onclick="toggleDetails('abstract-vocgen'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show abstract</a>
-    <a href="#" onclick="toggleDetails('moreinfo-vocgen'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="#" onclick="toggleDetails('moreinfo-vocgen'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
   </div>
   <details id="abstract-vocgen" style="margin: 0.2em 0;">
     <summary hidden></summary>
@@ -938,7 +962,7 @@ Sauermann, Jan (2017), Training and Performance in Call Centers, CCP Research Br
 ```{=html}
 <div style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
-    <a href="files/CCP_Sauermann.pdf" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="files/CCP_Sauermann.pdf" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
   </div>
 </div>
 ```
@@ -948,7 +972,7 @@ Lindquist, Matthew J., Jan Sauermann, and Yves Zenou (2015), Why worker producti
 ```{=html}
 <div style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
-    <a href="http://voxeu.org/article/peer-effects-and-contagious-productivity" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="http://voxeu.org/article/peer-effects-and-contagious-productivity" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
   </div>
 </div>
 ```
@@ -958,7 +982,7 @@ Sauermann, Jan (2013), Human Capital, Incentives, and Performance Outcomes, *Eco
 ```{=html}
 <div style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
-    <a href="https://esb.nu/wp-content/uploads/2022/11/222-222_ESB4657_sauerman.pdf" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="https://esb.nu/wp-content/uploads/2022/11/222-222_ESB4657_sauerman.pdf" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
   </div>
 </div>
 ```
@@ -967,7 +991,7 @@ Sauermann, Jan (2013), Human Capital, Incentives, and Performance Outcomes, PhD 
 ```{=html}
 <div style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
-    <a href="https://cris.maastrichtuniversity.nl/ws/portalfiles/portal/1372455/guid-71027203-9a41-445c-8df2-d902d164c963-ASSET1.0.pdf" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="https://cris.maastrichtuniversity.nl/ws/portalfiles/portal/1372455/guid-71027203-9a41-445c-8df2-d902d164c963-ASSET1.0.pdf" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
   </div>
 </div>
 ```
@@ -977,7 +1001,7 @@ Cörvers, Frank, Arnaud Dupuy, and Jan Sauermann (2012), Kwalificatievereisten s
 ```{=html}
 <div style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
-    <a href="https://esb.nu/wp-content/uploads/2022/11/editie_pdfs_336-337_ESB4636_stat_tcm445-627677.pdf" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="https://esb.nu/wp-content/uploads/2022/11/editie_pdfs_336-337_ESB4636_stat_tcm445-627677.pdf" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
   </div>
 </div>
 ```
@@ -987,7 +1011,7 @@ Kriechel, Ben, and Jan Sauermann (2012), Modeling replacement demand, in: *Skill
 ```{=html}
 <div style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
-    <a href="https://www.cedefop.europa.eu/files/5525_en.pdf" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="https://www.cedefop.europa.eu/files/5525_en.pdf" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
   </div>
 </div>
 ```
@@ -997,7 +1021,7 @@ De Grip, Andries, and Jan Sauermann (2011), Het Effect van Ervaring op Productiv
 ```{=html}
 <div style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
-    <a href="https://esb.nu/wp-content/uploads/2022/11/editie_pdfs_644stat_tcm445-611544.pdf" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="https://esb.nu/wp-content/uploads/2022/11/editie_pdfs_644stat_tcm445-611544.pdf" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
   </div>
 </div>
 ```
@@ -1016,7 +1040,7 @@ De Grip, Andries, Didier Fouarge, and Jan Sauermann (2009), De betekenis van int
 ```{=html}
 <div style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
-    <a href="files/FouargeGripSauermann2009.pdf" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="files/FouargeGripSauermann2009.pdf" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
   </div>
 </div>
 ```
@@ -1025,7 +1049,7 @@ Reinowski, Eva, and Jan Sauermann (2007), Befristete Beschäftigung: kein Hinder
 ```{=html}
 <div style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
-    <a href="files/ReinowskiSauermann2007.pdf" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="files/ReinowskiSauermann2007.pdf" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
   </div>
 </div>
 ```
@@ -1035,7 +1059,7 @@ Sauermann, Jan (2006), *Who Invests in Training if Contracts are Temporary? Empi
 <div class="details-group" style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
   <div style="margin: 0.1em 0; font-size: 0.85em;">
     <a href="#" onclick="toggleDetails('abstract-temptrain'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show abstract</a>
-    <a href="#" onclick="toggleDetails('moreinfo-temptrain'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Download</a>
+    <a href="#" onclick="toggleDetails('moreinfo-temptrain'); return false;" style="margin-right: 1em; text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
   </div>
   <details id="abstract-temptrain" style="margin: 0.2em 0;">
     <summary hidden></summary>
@@ -1065,4 +1089,47 @@ function toggleDetails(idToOpen) {
     }
   });
 }
+</script>
+
+
+
+
+<script>
+class ScopusCitations extends HTMLElement {
+  async connectedCallback() {
+    const file = this.getAttribute("file");
+    const label = this.getAttribute("label") || "SCOPUS-citations";
+    const prefix = this.getAttribute("prefix") ?? (label + ": ");
+    const missing = this.getAttribute("missing") || ""; // what to show if fetch fails
+
+    if (!file) {
+      this.textContent = missing;
+      return;
+    }
+
+    // Render a placeholder immediately
+    this.textContent = prefix + "…";
+
+    try {
+      // Resolve relative paths correctly (works with/without baseurl, subfolders, etc.)
+      const url = new URL(file, window.location.href).toString();
+
+      const r = await fetch(url, { cache: "no-store" });
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+
+      const t = (await r.text()).trim();
+      const m = t.match(/\d+/);          // raw file should be just digits, but be defensive
+      if (!m) throw new Error("No number found");
+
+      this.textContent = prefix + m[0];
+    } catch (e) {
+      // Fail quietly
+      this.textContent = missing;
+      // Uncomment for debugging:
+      // console.warn("Scopus citation fetch failed:", file, e);
+    }
+  }
+}
+
+customElements.define("scopus-citations", ScopusCitations);
 </script>
