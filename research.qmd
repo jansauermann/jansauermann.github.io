@@ -850,6 +850,15 @@ Reinowski, Eva and Jan Sauermann (2008), *Does Temporary Employment Affect the W
 
 ## Research reports and other publications
 
+Sauermann, Jan (2026), Arbetstagares personlighetsdrag och arbetsgivarfinansierad utbildning, IFAU Rapport 2026:3
+```{=html}
+<div style="font-size: 0.9em; color: inherit; margin-top: -1em; margin-bottom: 0.8em;">
+  <div style="margin: 0.1em 0; font-size: 0.85em;">
+    <a href="https://www.ifau.se/Forskning/Publikationer/Rapporter/2026/arbetstagares-personlighetsdrag-och-arbetsgivarfinansierad-utbildning/" style="text-decoration: none; color: inherit;"><span class="tri">▸</span> Show more information</a>
+  </div>
+</div>
+```
+
 
 Butschek, Sebastian, and Jan Sauermann (2025), Anställningsskydd och företagens rekrytering: Konsekvenser av förändringen i turordningsreglerna, IFAU Rapport 2025:26
 ```{=html}

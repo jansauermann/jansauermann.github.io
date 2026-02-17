@@ -77,6 +77,35 @@ gtag('js', new Date());
 gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -156,7 +185,7 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
 </div>
   </div>
   <div class="about-contents"><main class="content" id="quarto-document-content">
-<p>I am associate professor (docent) at the <a href="https://www.ifau.se/en/">Institute for Evaluation of Labour Market and Education Policy (IFAU)</a> in Uppsala and am affiliated with the <a href="https://www.uu.se/en/department/economics/research/research-centres/uppsala-center-for-labor-studies">Uppsala Center for Labor Studies (UCLS)</a> at Uppsala University, <a href="https://roa.nl">ROA at Maastricht University</a>, <a href="https://www.iza.org">IZA Bonn</a>, and <a href="https://www.rfberlin.com">ROCKWOOL Foundation Berlin</a>.</p>
+<p>I am associate professor (docent) at the <a href="https://www.ifau.se/en/">Institute for Evaluation of Labour Market and Education Policy (IFAU)</a> in Uppsala and am affiliated with the <a href="https://www.uu.se/en/department/economics/research/research-centres/uppsala-center-for-labor-studies">Uppsala Center for Labor Studies (UCLS)</a> at Uppsala University, <a href="https://roa.nl">ROA at Maastricht University</a>, <a href="https://www.iza.org">IZA<span class="math inline">\(@\)</span>LISER</a>, and <a href="https://www.rfberlin.com">ROCKWOOL Foundation Berlin</a>.</p>
 <p>My research interests are centred around learning and incentives in the workplace, origins and consequences of course choice in education, and gender differences in the labour market.</p>
 <p>I edit the <a href="https://econpapers.repec.org/scripts/nep.pf?list=nepgen">NEP report on the economics of gender</a> (<a href="https://nep.repec.org/nep-gen.html">subscribe here</a>), organise the <a href="./workshops.html">Stockholm Uppsala Economics of Education Workshop Series and other workshops</a>, and occasionally write up useful commands on my <a href="https://statatexblog.com">StataTeX Blog</a> for which I’m also teaching <a href="http://courses.statatexblog.com">Stata courses</a>.</p>
 <p>Please <a href="https://jansauermann.github.io/files/fullcv_sauermann.pdf">find my CV (pdf) here</a>.</p>
