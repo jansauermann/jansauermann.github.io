@@ -145,13 +145,13 @@ We assess selection bias in estimated returns to workplace training by exploitin
 
 ## Selected work in progress
 
-"Reallocation effects of unemployment insurance." (with Sebastian Butschek and and Olle Törnquist)
+"Reallocation effects of unemployment insurance" (with Sebastian Butschek and and Olle Törnquist)
 
 “Blame It on My Youth: Employer Learning and Age Discrimination” (with Sebastian Butschek and Louis-Pierre Lepage)
 
-<!-- "School segregation and political preferences among the students." (with Erica Lindahl) -->
+"Political school segregation" (with Mona Dapfer, Erica Lindahl, Karl-Oskar Lindgren) 
 
-"Heterogeneous impacts of COVID-19 on incomes" (with Adrian Adermon, Lisa Laun, Martin Olsson, and Anna Sjögren)
+<!--"Heterogeneous impacts of COVID-19 on incomes" (with Adrian Adermon, Lisa Laun, Martin Olsson, and Anna Sjögren)-->
 
 
 ## Peer-reviewed publications
