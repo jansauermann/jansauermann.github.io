@@ -272,29 +272,68 @@ document.addEventListener("DOMContentLoaded", function () {
   const statusMsg = document.getElementById("form-status-message");
   const form = document.getElementById("submission-form");
 
-  fetch(SCRIPT_URL)
-    .then(response => response.json())
-    .then(status => {
-      const options = { year: "numeric", month: "long", day: "numeric" };
-      const openDate = new Date(status.openDate);
-      const closeDate = new Date(status.closeDate);
+  const CACHE_KEY = "registrationStatus";
+const CACHE_MAX_AGE_MS = 60 * 60 * 1000; // 1 hour
 
-      if (status.isOpen) {
-        formContainer.style.display = "block";
-        statusMsg.innerHTML = "";
-      } else {
-        const now = new Date();
+function applyRegistrationStatus(status) {
+  const options = { year: "numeric", month: "long", day: "numeric" };
+  const openDate = new Date(status.openDate);
+  const closeDate = new Date(status.closeDate);
 
-        if (now < openDate) {
-          statusMsg.innerHTML = `Registration will open on <strong>${openDate.toLocaleDateString("en-US", options)}</strong>.`;
-        } else {
-          statusMsg.innerHTML = `The registration period closed on <strong>${closeDate.toLocaleDateString("en-US", options)}</strong>.`;
-        }
-      }
-    })
-    .catch(error => {
-      statusMsg.innerHTML = 'Registration status could not be loaded. Please try again later or contact <a href="mailto:jan.sauermann@ifau.uu.se">Jan Sauermann</a>.';    
-      });
+  if (status.isOpen) {
+    formContainer.style.display = "block";
+    statusMsg.innerHTML = "";
+  } else {
+    const now = new Date();
+
+    if (now < openDate) {
+      statusMsg.innerHTML = `Registration will open on <strong>${openDate.toLocaleDateString("en-US", options)}</strong>.`;
+    } else {
+      statusMsg.innerHTML = `The registration period closed on <strong>${closeDate.toLocaleDateString("en-US", options)}</strong>.`;
+    }
+  }
+}
+
+function getCachedStatus() {
+  try {
+    const cached = JSON.parse(localStorage.getItem(CACHE_KEY));
+    if (!cached) return null;
+
+    const age = Date.now() - cached.savedAt;
+    if (age > CACHE_MAX_AGE_MS) return null;
+
+    return cached.status;
+  } catch {
+    return null;
+  }
+}
+
+function saveCachedStatus(status) {
+  localStorage.setItem(CACHE_KEY, JSON.stringify({
+    savedAt: Date.now(),
+    status: status
+  }));
+}
+
+const cachedStatus = getCachedStatus();
+
+if (cachedStatus) {
+  applyRegistrationStatus(cachedStatus);
+} else {
+  statusMsg.innerHTML = "Loading registration form...";
+}
+
+fetch(SCRIPT_URL)
+  .then(response => response.json())
+  .then(status => {
+    saveCachedStatus(status);
+    applyRegistrationStatus(status);
+  })
+  .catch(error => {
+    if (!cachedStatus) {
+      statusMsg.innerHTML = 'Registration status could not be loaded. Please try again later or contact <a href="mailto:jan.sauermann@ifau.uu.se">Jan Sauermann</a>.';
+    }
+  });
 
   document.getElementById("institution").addEventListener("change", function () {
     document.getElementById("otherInstitutionField").style.display = this.value === "other" ? "block" : "none";
@@ -756,19 +795,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
   </script>
 </div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
-    <div class="nav-footer-left">
-<p>© 2025, <a href="mailto:jan.sauermann@ifau.uu.se">Jan Sauermann</a></p>
-</div>   
-    <div class="nav-footer-center">
-      &nbsp;
-    </div>
-    <div class="nav-footer-right">
-<p><a href="https://www.ifau.se/en/">IFAU</a>, Kyrkogårdsgatan 6, SE-753 12 Uppsala</p>
-</div>
-  </div>
-</footer>
 
 
 
