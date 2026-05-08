@@ -249,7 +249,7 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
 
 <script>
   window.addEventListener("DOMContentLoaded", () => {
-  const OPEN_DATE = new Date("2026-12-01T00:00:00Z");
+  const OPEN_DATE = new Date("2026-13-01T00:00:00Z");
   const CLOSE_DATE = new Date("2027-03-01T23:59:59Z");
   const now = new Date();
   const formContainer = document.getElementById("form-container");
@@ -288,32 +288,68 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
   });
 
   document.getElementById("submission-form").addEventListener("submit", function (e) {
-    e.preventDefault();
-    const form = this;
-    const formData = new FormData(form);
+  e.preventDefault();
 
-    fetch(form.action, {
-      method: "POST",
-      body: new URLSearchParams([...formData.entries()])
-    })
+  const form = this;
+  const formData = new FormData(form);
+  const msg = document.getElementById("response-message");
+
+  fetch(form.action, {
+    method: "POST",
+    body: new URLSearchParams([...formData.entries()])
+  })
     .then(response => response.text())
     .then(result => {
-      const msg = document.getElementById("response-message");
+      form.style.display = "none";
+
       if (result.includes("Form submitted successfully")) {
-        msg.innerText = "We have received your submission. You will also receive a confirmation email shortly.";
-        msg.style.color = "green";
+        msg.innerHTML = `
+          <p style="color: green;">
+            We have received your submission. You will also receive a confirmation email shortly.
+          </p>
+
+          <p>
+            For information on the workshop, please visit the
+            <a href="https://jansauermann.github.io/educworkshop_2027.html">
+              workshop homepage
+            </a>.
+          </p>
+
+          <p>
+            If you have any questions, please send an email to
+            <a href="mailto:jan.sauermann@ifau.uu.se">
+              jan.sauermann@ifau.uu.se
+            </a>.
+          </p>
+        `;
       } else {
         throw new Error(result);
       }
     })
     .catch(error => {
-      const msg = document.getElementById("response-message");
-      msg.innerText = "An error occurred. Please try again later or contact jan.sauermann@ifau.uu.se.";
-      msg.style.color = "red";
-    });
+      form.style.display = "none";
 
-    form.reset();
-  });
+      msg.innerHTML = `
+        <p style="color: red;">
+          An error occurred. Please try again later.
+        </p>
+
+        <p>
+          For information on the workshop, please visit the
+          <a href="https://jansauermann.github.io/educworkshop_2027.html">
+            workshop homepage
+          </a>.
+        </p>
+
+        <p>
+          If you have any questions, please send an email to
+          <a href="mailto:jan.sauermann@ifau.uu.se">
+            jan.sauermann@ifau.uu.se
+          </a>.
+        </p>
+      `;
+    });
+}); 
 </script>
 
 
@@ -717,6 +753,14 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
   });
   </script>
 </div> <!-- /content -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const el = document.getElementById("current-year");
+  if (el) {
+    el.textContent = new Date().getFullYear();
+  }
+});
+</script>
 
 
 
