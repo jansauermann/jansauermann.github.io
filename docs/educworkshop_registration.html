@@ -166,7 +166,6 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
   <form id="submission-form" method="post" action="https://script.google.com/macros/s/AKfycbyXYnxAlFfAydGBX0-PA6wyYGT2GKJIYpNlU4BplN97Exol2LclYLVYqW4pH6NbT6E/exec" style="max-width: 800px; margin: auto;">
 
     <input type="hidden" name="formToken" value="k9F3xQv7LzP2mR8sW4YtU6bN1cH5JdE0AqX">
-
     <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off">
 
     <div style="margin-bottom: 15px;">
@@ -261,7 +260,7 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
     </button>
   </form>
 
-  <div id="response-message" style="margin-top: 20px; font-size: 16px;"></div>
+  <div id="response-message" style="max-width: 800px; margin: 20px auto 0 auto; font-size: 16px;"></div>
 </div>
 
 <script>
@@ -271,69 +270,88 @@ document.addEventListener("DOMContentLoaded", function () {
   const formContainer = document.getElementById("form-container");
   const statusMsg = document.getElementById("form-status-message");
   const form = document.getElementById("submission-form");
+  const msg = document.getElementById("response-message");
 
   const CACHE_KEY = "registrationStatus";
-const CACHE_MAX_AGE_MS = 60 * 60 * 1000; // 1 hour
+  const CACHE_MAX_AGE_MS = 60 * 60 * 1000;
 
-function applyRegistrationStatus(status) {
-  const options = { year: "numeric", month: "long", day: "numeric" };
-  const openDate = new Date(status.openDate);
-  const closeDate = new Date(status.closeDate);
+  function workshopInfoHtml() {
+    return `
+      <p>
+        For information on the workshop, please visit the
+        <a href="https://jansauermann.github.io/educworkshop_2027.html">
+          workshop homepage
+        </a>.
+      </p>
 
-  if (status.isOpen) {
-    formContainer.style.display = "block";
-    statusMsg.innerHTML = "";
-  } else {
-    const now = new Date();
+      <p>
+        If you have any questions, please send an email to
+        <a href="mailto:jan.sauermann@ifau.uu.se">
+          jan.sauermann@ifau.uu.se
+        </a>.
+      </p>
+    `;
+  }
 
-    if (now < openDate) {
-      statusMsg.innerHTML = `Registration will open on <strong>${openDate.toLocaleDateString("en-US", options)}</strong>.`;
+  function applyRegistrationStatus(status) {
+    const options = { year: "numeric", month: "long", day: "numeric" };
+    const openDate = new Date(status.openDate);
+    const closeDate = new Date(status.closeDate);
+
+    if (status.isOpen) {
+      formContainer.style.display = "block";
+      statusMsg.innerHTML = "";
     } else {
-      statusMsg.innerHTML = `The registration period closed on <strong>${closeDate.toLocaleDateString("en-US", options)}</strong>.`;
+      const now = new Date();
+
+      if (now < openDate) {
+        statusMsg.innerHTML = `Registration will open on <strong>${openDate.toLocaleDateString("en-US", options)}</strong>.`;
+      } else {
+        statusMsg.innerHTML = `The registration period closed on <strong>${closeDate.toLocaleDateString("en-US", options)}</strong>.`;
+      }
     }
   }
-}
 
-function getCachedStatus() {
-  try {
-    const cached = JSON.parse(localStorage.getItem(CACHE_KEY));
-    if (!cached) return null;
+  function getCachedStatus() {
+    try {
+      const cached = JSON.parse(localStorage.getItem(CACHE_KEY));
+      if (!cached) return null;
 
-    const age = Date.now() - cached.savedAt;
-    if (age > CACHE_MAX_AGE_MS) return null;
+      const age = Date.now() - cached.savedAt;
+      if (age > CACHE_MAX_AGE_MS) return null;
 
-    return cached.status;
-  } catch {
-    return null;
-  }
-}
-
-function saveCachedStatus(status) {
-  localStorage.setItem(CACHE_KEY, JSON.stringify({
-    savedAt: Date.now(),
-    status: status
-  }));
-}
-
-const cachedStatus = getCachedStatus();
-
-if (cachedStatus) {
-  applyRegistrationStatus(cachedStatus);
-} else {
-  statusMsg.innerHTML = "Loading registration form...";
-}
-
-fetch(SCRIPT_URL)
-  .then(response => response.json())
-  .then(status => {
-    saveCachedStatus(status);
-    applyRegistrationStatus(status);
-  })
-  .catch(error => {
-    if (!cachedStatus) {
-      statusMsg.innerHTML = 'Registration status could not be loaded. Please try again later or contact <a href="mailto:jan.sauermann@ifau.uu.se">Jan Sauermann</a>.';
+      return cached.status;
+    } catch {
+      return null;
     }
-  });
+  }
+
+  function saveCachedStatus(status) {
+    localStorage.setItem(CACHE_KEY, JSON.stringify({
+      savedAt: Date.now(),
+      status: status
+    }));
+  }
+
+  const cachedStatus = getCachedStatus();
+
+  if (cachedStatus) {
+    applyRegistrationStatus(cachedStatus);
+  } else {
+    statusMsg.innerHTML = "Loading registration form...";
+  }
+
+  fetch(SCRIPT_URL)
+    .then(response => response.json())
+    .then(status => {
+      saveCachedStatus(status);
+      applyRegistrationStatus(status);
+    })
+    .catch(error => {
+      if (!cachedStatus) {
+        statusMsg.innerHTML = 'Registration status could not be loaded. Please try again later or contact <a href="mailto:jan.sauermann@ifau.uu.se">Jan Sauermann</a>.';
+      }
+    });
 
   document.getElementById("institution").addEventListener("change", function () {
     document.getElementById("otherInstitutionField").style.display = this.value === "other" ? "block" : "none";
@@ -367,39 +385,45 @@ fetch(SCRIPT_URL)
       method: "POST",
       body: formData
     })
-    .then(response => response.text())
-    .then(result => {
-      const msg = document.getElementById("response-message");
+      .then(response => response.text())
+      .then(result => {
+        form.style.display = "none";
 
-      if (result.includes("Form submitted successfully")) {
-  form.style.display = "none";
+        if (result.includes("Form submitted successfully")) {
+          msg.innerHTML = `
+            <p style="color: green;">
+              We have received your submission. You will also receive a confirmation email shortly.
+            </p>
+            ${workshopInfoHtml()}
+          `;
+        } else if (result.includes("already registered")) {
+          msg.innerHTML = `
+            <p style="color: red;">
+              This email address is already registered.
+            </p>
+            ${workshopInfoHtml()}
+          `;
+        } else if (result.includes("Registration is closed")) {
+          msg.innerHTML = `
+            <p style="color: red;">
+              The registration period has closed.
+            </p>
+            ${workshopInfoHtml()}
+          `;
+        } else {
+          throw new Error(result);
+        }
+      })
+      .catch(error => {
+        form.style.display = "none";
 
-  msg.innerHTML = `
-    <p style="color: green;">
-      We have received your submission. You will also receive a confirmation email shortly.
-    </p>
-    <p>
-      For information on the workshop, please visit the
-      <a href="https://jansauermann.github.io/educworkshop_2027.html">
-        workshop homepage
-      </a>.
-    </p>
-  `;
-} else if (result.includes("already registered")) {
-        msg.innerText = "This email address is already registered.";
-        msg.style.color = "red";
-      } else if (result.includes("Registration is closed")) {
-        msg.innerText = "The registration period has closed.";
-        msg.style.color = "red";
-      } else {
-        throw new Error(result);
-      }
-    })
-    .catch(error => {
-      const msg = document.getElementById("response-message");
-      msg.innerText = "An error occurred. Please try again later or contact stockholmuppsalaeducationws@gmail.com.";
-      msg.style.color = "red";
-    });
+        msg.innerHTML = `
+          <p style="color: red;">
+            An error occurred. Please try again later.
+          </p>
+          ${workshopInfoHtml()}
+        `;
+      });
   });
 });
 </script>
