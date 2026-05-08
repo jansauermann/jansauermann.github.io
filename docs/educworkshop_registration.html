@@ -157,7 +157,7 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
 </header>
 
 
-<p>On this page, you can register your attendance at the <a href="educworkshop_2026.html">8th Stockholm Uppsala Education Economics Workshop</a>. There is no workshop fee and both lunch and dinner are free of charge.</p>
+<p>On this page, you can register your attendance at the <a href="educworkshop_2027.html">9th Stockholm Uppsala Education Economics Workshop</a>. There is no workshop fee and both lunch and dinner are free of charge.</p>
 <div id="form-status-message" style="max-width: 800px; margin: auto; font-size: 16px; margin-bottom: 20px;">
   Checking registration status...
 </div>
@@ -372,10 +372,20 @@ fetch(SCRIPT_URL)
       const msg = document.getElementById("response-message");
 
       if (result.includes("Form submitted successfully")) {
-        msg.innerText = "We have received your submission. You will also receive a confirmation email shortly.";
-        msg.style.color = "green";
-        form.reset();
-      } else if (result.includes("already registered")) {
+  form.style.display = "none";
+
+  msg.innerHTML = `
+    <p style="color: green;">
+      We have received your submission. You will also receive a confirmation email shortly.
+    </p>
+    <p>
+      For information on the workshop, please visit the
+      <a href="https://jansauermann.github.io/educworkshop_2027.html">
+        workshop homepage
+      </a>.
+    </p>
+  `;
+} else if (result.includes("already registered")) {
         msg.innerText = "This email address is already registered.";
         msg.style.color = "red";
       } else if (result.includes("Registration is closed")) {
