@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>The 9th Stockholm Uppsala Education Economics Workshop – Jan Sauermann</title>
+<title>Admin Import – Jan Sauermann</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -132,34 +132,15 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#general-information" id="toc-general-information" class="nav-link active" data-scroll-target="#general-information">General information</a>
-  <ul class="collapse">
-  <li><a href="#workshop-location" id="toc-workshop-location" class="nav-link" data-scroll-target="#workshop-location">Workshop location</a></li>
-  <li><a href="#workshop-lunch-and-dinner" id="toc-workshop-lunch-and-dinner" class="nav-link" data-scroll-target="#workshop-lunch-and-dinner">Workshop lunch and dinner</a></li>
-  <li><a href="#submission-and-registration" id="toc-submission-and-registration" class="nav-link" data-scroll-target="#submission-and-registration">Submission and registration</a></li>
-  <li><a href="#contact-and-further-information" id="toc-contact-and-further-information" class="nav-link" data-scroll-target="#contact-and-further-information">Contact and further information</a></li>
-  </ul></li>
-  <li><a href="#workshop-program" id="toc-workshop-program" class="nav-link" data-scroll-target="#workshop-program">Workshop program</a></li>
-  <li><a href="#other-information" id="toc-other-information" class="nav-link" data-scroll-target="#other-information">Other information</a>
-  <ul class="collapse">
-  <li><a href="#newsletter-sign-up" id="toc-newsletter-sign-up" class="nav-link" data-scroll-target="#newsletter-sign-up">Newsletter sign-up</a></li>
-  <li><a href="#previous-workshops" id="toc-previous-workshops" class="nav-link" data-scroll-target="#previous-workshops">Previous workshops</a></li>
-  <li><a href="#organizing-comittee" id="toc-organizing-comittee" class="nav-link" data-scroll-target="#organizing-comittee">Organizing comittee</a></li>
-  </ul></li>
-  </ul>
-<div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="workshops.html#newsletter-signup"><i class="bi bi-arrow-up-right"></i>Newsletter sign-up</a></li></ul></div></nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">The 9th Stockholm Uppsala Education Economics Workshop</h1>
+<h1 class="title">Admin Import</h1>
 </div>
 
 
@@ -176,110 +157,47 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
 </header>
 
 
-<section id="general-information" class="level2">
-<h2 data-anchor-id="general-information">General information</h2>
-<p>The Stockholm-Uppsala Education Economics Workshop aims at bringing together researchers from Stockholm and Uppsala with an interest in the Economics of Education. We gratefully acknowledge financial support from the <em>Jan Wallanders och Tom Hedelius stiftelse samt Tore Browaldhs stiftelse</em>.</p>
-<p>We will provide more information during the fall.</p>
-<section id="workshop-location" class="level3">
-<h3 data-anchor-id="workshop-location">Workshop location</h3>
-<p>TBA</p>
-</section>
-<section id="workshop-lunch-and-dinner" class="level3">
-<h3 data-anchor-id="workshop-lunch-and-dinner">Workshop lunch and dinner</h3>
-<p>TBA</p>
-</section>
-<section id="submission-and-registration" class="level3">
-<h3 data-anchor-id="submission-and-registration">Submission and registration</h3>
-<p>TBA</p>
-</section>
-<section id="contact-and-further-information" class="level3">
-<h3 data-anchor-id="contact-and-further-information">Contact and further information</h3>
-<p>If you have any questions regarding the workshop, please send an email to <a href="mailto:jan.sauermann@ifau.uu.se">Jan Sauermann</a>.</p>
-</section>
-</section>
-<section id="workshop-program" class="level2">
-<h2 data-anchor-id="workshop-program">Workshop program</h2>
-</section>
-<section id="other-information" class="level2">
-<h2 data-anchor-id="other-information">Other information</h2>
-<section id="newsletter-sign-up" class="level3">
-<h3 data-anchor-id="newsletter-sign-up">Newsletter sign-up</h3>
-<p>If you would like to receive updates about the workshop, please sign up for our newsletter here:</p>
-<form id="workshopSignupForm">
+<textarea id="bulkEmails" rows="15" style="width:100%;" placeholder="Paste emails here.
+
+Accepted formats:
+
+email@example.com
+
+or
+
+First,Last,email@example.com"></textarea>
 <p>
-<label> First name<br> <input type="text" name="first_name"> </label>
-</p>
-<p>
-<label> Last name<br> <input type="text" name="last_name"> </label>
-</p>
-<p>
-<label> Email<br> <input type="email" name="email" required=""> </label>
-</p>
-<!-- Honeypot bot trap -->
-<p style="display:none;">
-<label> Website<br> <input type="text" name="website" tabindex="-1" autocomplete="off"> </label>
-</p>
-<p><input type="hidden" name="started_at" id="started_at"></p>
-<button type="submit">
-Subscribe
+<button id="importButton">
+Import
 </button>
-</form>
-<div id="signupMessage">
-
-</div>
+</p>
+<pre id="importResult"></pre>
 <script>
-document.getElementById("started_at").value = Date.now();
+document.getElementById("importButton").addEventListener("click", async function() {
+  const result = document.getElementById("importResult");
+  result.innerText = "Importing...";
 
-document.getElementById("workshopSignupForm").addEventListener("submit", async function(e) {
-  e.preventDefault();
-
-  const message = document.getElementById("signupMessage");
-  message.innerText = "Submitting...";
-
-  const form = e.target;
-  const formData = new FormData(form);
-
-  formData.append("action", "subscribe");
-  formData.append("source", window.location.pathname);
+  const body = new URLSearchParams();
+  body.append("action", "bulk_import");
+  body.append("secret", "ZLqnYGeZGWWzQE-T");
+  body.append("emails", document.getElementById("bulkEmails").value);
 
   try {
-    const response = await fetch("YOUR_APPS_SCRIPT_WEB_APP_URL", {
+    const response = await fetch("https://script.google.com/macros/s/AKfycbwzqsT0IXOl91n3VUh3F2cehaWeWWc7tT_QPpCUtEtKUIYtNkmM2bg8xlNyENuNCtuk/exec", {
       method: "POST",
-      body: new URLSearchParams(formData)
+      body: body
     });
 
     const data = await response.json();
-
-    if (data.ok) {
-      message.innerText = "Thank you. You have been subscribed.";
-      form.reset();
-    } else {
-      message.innerText = data.error || "Something went wrong.";
-    }
+    result.innerText = JSON.stringify(data, null, 2);
 
   } catch (err) {
-    message.innerText = "Submission failed. Please try again later.";
+    result.innerText = "Import failed.";
   }
 });
 </script>
-</section>
-<section id="previous-workshops" class="level3">
-<h3 data-anchor-id="previous-workshops">Previous workshops</h3>
-<p>For information on previous workshops, please visit <a href="./workshops.html">this page</a>.</p>
-</section>
-<section id="organizing-comittee" class="level3">
-<h3 data-anchor-id="organizing-comittee">Organizing comittee</h3>
-<ul>
-<li>Laia Navarro-Sola (IIES) [<a href="mailto:laia.navarrosola@iies.su.se">email</a>] [<a href="https://www.laianavarrosola.com/home">website</a>]</li>
-<li>Jan Sauermann (IFAU and UCLS) [<a href="mailto:jan.sauermann@ifau.uu.se">email</a>] [<a href="./index.html">website</a>]</li>
-<li>Abhijeet Singh (SSE) [<a href="mailto:abhijeet.singh@hhs.se">email</a>] [<a href="https://sites.google.com/site/abhijeetsingh1/">website</a>]</li>
-<li>Jonas Vlachos (Stockholm University) [<a href="mailto:jonas.vlachos@su.se">email</a>] [<a href="https://sites.google.com/view/jonasvlachos/">website</a>]</li>
-<li>Björn Öckert (IFAU and Uppsala University) [<a href="mailto:bjorn.ockert@ifau.uu.se">email</a>] [<a href="https://www.ifau.se/Om-IFAU/Medarbetare/Forskare-Utredare/Bjorn-Ockert/">website</a>]</li>
-</ul>
 
 
-</section>
-</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
