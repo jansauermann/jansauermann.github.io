@@ -616,6 +616,14 @@ window.Quarto = {
   });
   </script>
 </div> <!-- /content -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const el = document.getElementById("current-year");
+  if (el) {
+    el.textContent = new Date().getFullYear();
+  }
+});
+</script>
 
 
 
