@@ -151,6 +151,8 @@ We assess selection bias in estimated returns to workplace training by exploitin
 
 "Political school segregation" (with Mona Dapfer, Erica Lindahl, Karl-Oskar Lindgren) 
 
+"Education providers’ take-up of government grants: Evidence from a grant allocation discontinuity" (with Olof Rosenqvist)
+
 <!--"Heterogeneous impacts of COVID-19 on incomes" (with Adrian Adermon, Lisa Laun, Martin Olsson, and Anna Sjögren)-->
 
 
