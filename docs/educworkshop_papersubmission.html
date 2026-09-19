@@ -157,205 +157,103 @@ gtag('config', 'G-TQPGCPC7H1', { 'anonymize_ip': true});
 </header>
 
 
-<p>Please find more information <a href="educworkshop_2027.html">here</a>. In case of questions, please email <a href="mailto:jan.sauermann@ifau.uu.se">Jan Sauermann</a>.</p>
-<div id="form-status-message" style="margin-top: 20px; font-size: 16px;"></div>
+Please find more information <a href="educworkshop_2027.html">here</a>. In case of questions, please email <a href="mailto:jan.sauermann@ifau.uu.se">Jan Sauermann</a>.
+<div id="form-status-message" role="status" aria-live="polite" style="margin-top: 20px; font-size: 16px;">
 
+</div>
 <div id="form-container" style="display: none; max-width: 600px;">
-  <div style="margin-bottom: 15px;">
-    <span style="color: red;">In case you do not get a confirmation email after submitting your paper, please send a short email to <a href="mailto:jan.sauermann@ifau.uu.se">jan.sauermann@ifau.uu.se</a>.</span>
-  </div>
+<div style="margin-bottom: 15px;">
+<pre><code>&lt;span style="color: red;"&gt;In case you do not get a confirmation email after submitting your paper, please send a short email to &lt;a href="mailto:jan.sauermann@ifau.uu.se"&gt;jan.sauermann@ifau.uu.se&lt;/a&gt;.&lt;/span&gt;</code></pre>
+</div>
+<form id="submission-form" method="post" action="https://script.google.com/macros/s/AKfycbyB5ULkM9Mpsg_7xSp9WNHxDiNevdOBH3sp4ZB0XYS3CSLIU5LlocB2znKYpjh_rCE/exec" style="padding: 20px;">
+<!-- Your Paper section -->
+<h2>
+Your Paper
+</h2>
+<div style="margin-bottom: 15px;">
+<pre><code>  &lt;label for="paperTitle"&gt;Title: &lt;span style="color: red;"&gt;*&lt;/span&gt;&lt;/label&gt;&lt;br&gt;
+  &lt;input type="text" id="paperTitle" name="paperTitle" required style="width: 100%; padding: 8px;"&gt;
+&lt;/div&gt;
+&lt;div style="margin-bottom: 15px;"&gt;
+  &lt;label for="abstract"&gt;Abstract: &lt;span style="color: red;"&gt;*&lt;/span&gt;&lt;/label&gt;&lt;br&gt;
+  &lt;textarea id="abstract" name="abstract" rows="5" required style="width: 100%; padding: 8px;"&gt;&lt;/textarea&gt;
+&lt;/div&gt;
+&lt;div style="margin-bottom: 15px;"&gt;
+  &lt;label for="uploadfile"&gt;If available, upload a PDF:&lt;/label&gt;&lt;br&gt;
+  &lt;input type="file" id="uploadfile" accept="application/pdf,.pdf" style="margin-top: 5px;"&gt;
+&lt;/div&gt;
+&lt;!-- About Yourself section --&gt;
+&lt;h2&gt;About Yourself&lt;/h2&gt;
+&lt;div style="margin-bottom: 15px;"&gt;
+  &lt;label for="firstName"&gt;First Name: &lt;span style="color: red;"&gt;*&lt;/span&gt;&lt;/label&gt;&lt;br&gt;
+  &lt;input type="text" id="firstName" name="firstName" required style="width: 100%; padding: 8px;"&gt;
+&lt;/div&gt;
+&lt;div style="margin-bottom: 15px;"&gt;
+  &lt;label for="lastName"&gt;Last Name: &lt;span style="color: red;"&gt;*&lt;/span&gt;&lt;/label&gt;&lt;br&gt;
+  &lt;input type="text" id="lastName" name="lastName" required style="width: 100%; padding: 8px;"&gt;
+&lt;/div&gt;
+&lt;div style="margin-bottom: 15px;"&gt;
+  &lt;label for="email"&gt;Email: &lt;span style="color: red;"&gt;*&lt;/span&gt;&lt;/label&gt;&lt;br&gt;
+  &lt;input type="email" id="email" name="email" required style="width: 100%; padding: 8px;"&gt;
+&lt;/div&gt;
+&lt;div style="margin-bottom: 15px;"&gt;
+  &lt;label for="institution"&gt;Main Institution: &lt;span style="color: red;"&gt;*&lt;/span&gt;&lt;/label&gt;&lt;br&gt;
+  &lt;select id="institution" name="institution" required style="width: 100%; padding: 8px;"&gt;
+    &lt;option value="Department of Economics, Uppsala University"&gt;Department of Economics, Uppsala University&lt;/option&gt;
+    &lt;option value="Department of Economics, Stockholm University"&gt;Department of Economics, Stockholm University&lt;/option&gt;
+    &lt;option value="Department of Economics, Stockholm School of Economics"&gt;Department of Economics, Stockholm School of Economics&lt;/option&gt;
+    &lt;option value="SOFI, Stockholm University"&gt;SOFI, Stockholm University&lt;/option&gt;
+    &lt;option value="IFAU"&gt;IFAU&lt;/option&gt;
+    &lt;option value="IFN"&gt;IFN&lt;/option&gt;
+    &lt;option value="IIES, Stockholm University"&gt;IIES, Stockholm University&lt;/option&gt;
+    &lt;option value="other"&gt;Other&lt;/option&gt;
+  &lt;/select&gt;
+  &lt;div id="otherInstitutionField" style="display: none; margin-top: 10px;"&gt;
+    &lt;label for="otherInstitution"&gt;Please specify:&lt;/label&gt;&lt;br&gt;
+    &lt;input type="text" id="otherInstitution" name="otherInstitution" style="width: 100%; padding: 8px;"&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="margin-bottom: 15px;"&gt;
+  &lt;label for="position"&gt;Your Position: &lt;span style="color: red;"&gt;*&lt;/span&gt;&lt;/label&gt;&lt;br&gt;
+  &lt;select id="position" name="position" required style="width: 100%; padding: 8px;"&gt;
+    &lt;option value="PhD student"&gt;PhD student&lt;/option&gt;
+    &lt;option value="Assistant professor / postdoc"&gt;Assistant professor / postdoc&lt;/option&gt;
+    &lt;option value="Associate professor"&gt;Associate professor&lt;/option&gt;
+    &lt;option value="Full professor"&gt;Full professor&lt;/option&gt;
+    &lt;option value="other"&gt;Other&lt;/option&gt;
+  &lt;/select&gt;
+  &lt;div id="otherPositionField" style="display: none; margin-top: 10px;"&gt;
+    &lt;label for="otherPosition"&gt;Please specify:&lt;/label&gt;&lt;br&gt;
+    &lt;input type="text" id="otherPosition" name="otherPosition" style="width: 100%; padding: 8px;"&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Comments --&gt;
+&lt;div style="margin-bottom: 15px;"&gt;
+  &lt;label for="comments"&gt;Comments or Feedback:&lt;/label&gt;&lt;br&gt;
+  &lt;textarea id="comments" name="comments" rows="5" style="width: 100%; padding: 8px;"&gt;&lt;/textarea&gt;
+&lt;/div&gt;
+&lt;!-- Submit --&gt;
+&lt;button type="submit" style="width: 100%; padding: 12px; font-size: 16px; background-color: #158cba; color: white; border: none; border-radius: 5px; cursor: pointer;"&gt;
+  Submit
+&lt;/button&gt;
+&lt;div style="margin-top: 10px; font-style: italic;"&gt;The form can be a bit slow – please wait for the confirmation before closing the window.&lt;/div&gt;</code></pre>
 
-  <form id="submission-form" method="post" action="https://script.google.com/macros/s/AKfycbyB5ULkM9Mpsg_7xSp9WNHxDiNevdOBH3sp4ZB0XYS3CSLIU5LlocB2znKYpjh_rCE/exec" style="padding: 20px;">
-    <!-- Your Paper section -->
-    <h2>Your Paper</h2>
-    <div style="margin-bottom: 15px;">
-      <label for="paperTitle">Title: <span style="color: red;">*</span></label><br>
-      <input type="text" id="paperTitle" name="paperTitle" required="" style="width: 100%; padding: 8px;">
-    </div>
-    <div style="margin-bottom: 15px;">
-      <label for="abstract">Abstract: <span style="color: red;">*</span></label><br>
-      <textarea id="abstract" name="abstract" rows="5" required="" style="width: 100%; padding: 8px;"></textarea>
-    </div>
-    <div style="margin-bottom: 15px;">
-      <label for="uploadfile">If available, upload a PDF:</label><br>
-      <input type="file" id="uploadfile" name="file" style="margin-top: 5px;">
-      <input type="hidden" id="data" name="data">
-      <input type="hidden" id="mimetype" name="mimetype">
-      <input type="hidden" id="filename" name="filename">
-    </div>
+<div id="response-message" role="status" aria-live="polite" style="margin-top: 20px; font-size: 16px;">
 
-    <!-- About Yourself section -->
-    <h2>About Yourself</h2>
-    <div style="margin-bottom: 15px;">
-      <label for="firstName">First Name: <span style="color: red;">*</span></label><br>
-      <input type="text" id="firstName" name="firstName" required="" style="width: 100%; padding: 8px;">
-    </div>
-    <div style="margin-bottom: 15px;">
-      <label for="lastName">Last Name: <span style="color: red;">*</span></label><br>
-      <input type="text" id="lastName" name="lastName" required="" style="width: 100%; padding: 8px;">
-    </div>
-    <div style="margin-bottom: 15px;">
-      <label for="email">Email: <span style="color: red;">*</span></label><br>
-      <input type="email" id="email" name="email" required="" style="width: 100%; padding: 8px;">
-    </div>
-    <div style="margin-bottom: 15px;">
-      <label for="institution">Main Institution: <span style="color: red;">*</span></label><br>
-      <select id="institution" name="institution" required="" style="width: 100%; padding: 8px;">
-        <option value="Department of Economics, Uppsala University">Department of Economics, Uppsala University</option>
-        <option value="Department of Economics, Stockholm University">Department of Economics, Stockholm University</option>
-        <option value="Department of Economics, Stockholm School of Economics">Department of Economics, Stockholm School of Economics</option>
-        <option value="SOFI, Stockholm University">SOFI, Stockholm University</option>
-        <option value="IFAU">IFAU</option>
-        <option value="IFN">IFN</option>
-        <option value="IIES, Stockholm University">IIES, Stockholm University</option>
-        <option value="other">Other</option>
-      </select>
-      <div id="otherInstitutionField" style="display: none; margin-top: 10px;">
-        <label for="otherInstitution">Please specify:</label><br>
-        <input type="text" id="otherInstitution" name="otherInstitution" style="width: 100%; padding: 8px;">
-      </div>
-    </div>
-    <div style="margin-bottom: 15px;">
-      <label for="position">Your Position: <span style="color: red;">*</span></label><br>
-      <select id="position" name="position" required="" style="width: 100%; padding: 8px;">
-        <option value="PhD student">PhD student</option>
-        <option value="Assistant professor / postdoc">Assistant professor / postdoc</option>
-        <option value="Associate professor">Associate professor</option>
-        <option value="Full professor">Full professor</option>
-        <option value="other">Other</option>
-      </select>
-      <div id="otherPositionField" style="display: none; margin-top: 10px;">
-        <label for="otherPosition">Please specify:</label><br>
-        <input type="text" id="otherPosition" name="otherPosition" style="width: 100%; padding: 8px;">
-      </div>
-    </div>
-
-    <!-- Comments -->
-    <div style="margin-bottom: 15px;">
-      <label for="comments">Comments or Feedback:</label><br>
-      <textarea id="comments" name="comments" rows="5" style="width: 100%; padding: 8px;"></textarea>
-    </div>
-
-    <!-- Submit -->
-    <button type="submit" style="width: 100%; padding: 12px; font-size: 16px; background-color: #158cba; color: white; border: none; border-radius: 5px; cursor: pointer;">
-      Submit
-    </button>
-
-    <div style="margin-top: 10px; font-style: italic;">The form can be a bit slow – please wait for the confirmation before closing the window.</div>
-  </form>
-
-  <div id="response-message" style="margin-top: 20px; font-size: 16px;"></div>
+</div>
+</div></form>
+<script>
+<p>window.addEventListener(“DOMContentLoaded”, () =&gt; { const form = document.getElementById(“submission-form”);</p>
+<div id="quarto-navigation-envelope" class="hidden">
+<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyLXRpdGxl">Jan Sauermann</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXItdGl0bGU=">Jan Sauermann</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6SG9tZQ==">Home</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L2luZGV4Lmh0bWw=">/index.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6UmVzZWFyY2g=">Research</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3Jlc2VhcmNoLmh0bWw=">/research.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6VGVhY2hpbmc=">Teaching</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3RlYWNoaW5nLmh0bWw=">/teaching.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6V29ya3Nob3Bz">Workshops</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3dvcmtzaG9wcy5odG1s">/workshops.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6U2VtaW5hcnMgaW4gU3RvY2tob2xtL1VwcHNhbGE=">Seminars in Stockholm/Uppsala</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3NlbWluYXJzLmh0bWw=">/seminars.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW5hdmJhci10b29sczptYWlsdG86amFuLnNhdWVybWFubkBpZmF1LnV1LnNl">mailto:jan.sauermann@ifau.uu.se</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW5hdmJhci10b29sczpodHRwczovL2Jza3kuYXBwL3Byb2ZpbGUvamFuc2F1ZXJtYW5uLmJza3kuc29jaWFs">https://bsky.app/profile/jansauermann.bsky.social</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW5hdmJhci10b29sczpodHRwczovL3d3dy5saW5rZWRpbi5jb20vaW4vamFuc2F1ZXJtYW5u">https://www.linkedin.com/in/jansauermann</span></p>
+</div>
+<div id="quarto-meta-markdown" class="hidden">
+<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGF0aXRsZQ==">Paper submission Stockholm Uppsala Education Economics Workshop – Jan Sauermann</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkdGl0bGU=">Paper submission Stockholm Uppsala Education Economics Workshop – Jan Sauermann</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZHRpdGxl">Paper submission Stockholm Uppsala Education Economics Workshop – Jan Sauermann</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGFzaXRlbmFtZQ==">Jan Sauermann</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkZGVzYw=="></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZGRkZXNj"></span></p>
+</div>
 </div>
 
-<script>
-  window.addEventListener("DOMContentLoaded", () => {
-  const OPEN_DATE = new Date("2026-12-01T00:00:00Z");
-  const CLOSE_DATE = new Date("2027-03-01T23:59:59Z");
-  const now = new Date();
-  const formContainer = document.getElementById("form-container");
-  const statusMsg = document.getElementById("form-status-message");
-  const options = { year: "numeric", month: "long", day: "numeric" };
-
-  if (now < OPEN_DATE) {
-    statusMsg.innerHTML = `The submission portal will open on <strong>${OPEN_DATE.toLocaleDateString("en-US", options)}</strong>.`;
-  } else if (now > CLOSE_DATE) {
-    statusMsg.innerHTML = `The submission deadline has passed.`;
-  } else {
-    formContainer.style.display = "block";
-  }
-});
-
-  document.getElementById("institution").addEventListener("change", function () {
-    document.getElementById("otherInstitutionField").style.display = this.value === "other" ? "block" : "none";
-  });
-
-  document.getElementById("position").addEventListener("change", function () {
-    document.getElementById("otherPositionField").style.display = this.value === "other" ? "block" : "none";
-  });
-
-  document.getElementById("uploadfile").addEventListener("change", function () {
-    const file = this.files[0];
-    if (!file) return;
-    const reader = new FileReader();
-    reader.onload = function (e) {
-      const base64Data = e.target.result.split(",")[1];
-      const mimeType = e.target.result.match(/^data:(.*?);/)[1];
-      document.getElementById("data").value = base64Data;
-      document.getElementById("mimetype").value = mimeType;
-      document.getElementById("filename").value = file.name;
-    };
-    reader.readAsDataURL(file);
-  });
-
-  document.getElementById("submission-form").addEventListener("submit", function (e) {
-  e.preventDefault();
-
-  const form = this;
-  const formData = new FormData(form);
-  const msg = document.getElementById("response-message");
-
-  fetch(form.action, {
-    method: "POST",
-    body: new URLSearchParams([...formData.entries()])
-  })
-    .then(response => response.text())
-    .then(result => {
-      form.style.display = "none";
-
-      if (result.includes("Form submitted successfully")) {
-        msg.innerHTML = `
-          <p style="color: green;">
-            We have received your submission. You will also receive a confirmation email shortly.
-          </p>
-
-          <p>
-            For information on the workshop, please visit the
-            <a href="https://jansauermann.github.io/educworkshop_2027.html">
-              workshop homepage
-            </a>.
-          </p>
-
-          <p>
-            If you have any questions, please 
-            <a href="mailto:stockholmuppsalaeducationws@gmail.com">
-              send us an email
-            </a>.
-          </p>
-        `;
-      } else {
-        throw new Error(result);
-      }
-    })
-    .catch(error => {
-      form.style.display = "none";
-
-      msg.innerHTML = `
-        <p style="color: red;">
-          An error occurred. Please try again later.
-        </p>
-
-        <p>
-          For information on the workshop, please visit the
-          <a href="https://jansauermann.github.io/educworkshop_2027.html">
-            workshop homepage
-          </a>.
-        </p>
-
-        <p>
-          If you have any questions, please 
-          <a href="mailto:stockholmuppsalaeducationws@gmail.com">
-            send us an email
-          </a>.
-        </p>
-      `;
-    });
-}); 
-</script>
-
-
-
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+</main> <!-- /main -->
+<script id = "quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
@@ -765,4 +663,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-</body></html>
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main></div></body></html>
