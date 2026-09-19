@@ -250,10 +250,9 @@ function initializeSubmissionForm() {
   // Dates are supplied by Apps Script, never configured in this page.
   const dateOptions = {
     year: "numeric", month: "long", day: "numeric",
-    hour: "2-digit", minute: "2-digit", second: "2-digit",
-    timeZone: "UTC", timeZoneName: "short"
+    timeZone: "UTC"
   };
-  const formatDate = value => new Date(value).toLocaleString("en-GB", dateOptions);
+  const formatDate = value => new Date(value).toLocaleDateString("en-GB", dateOptions);
 
   // Cache only dates; calculate availability again on each visit.
   const CACHE_KEY = "workshop-status-v2:" + form.action;
