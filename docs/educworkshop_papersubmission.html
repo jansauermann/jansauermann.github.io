@@ -252,7 +252,7 @@ function initializeSubmissionForm() {
     year: "numeric", month: "long", day: "numeric",
     timeZone: "UTC"
   };
-  const formatDate = value => new Date(value).toLocaleDateString("en-GB", dateOptions);
+  const formatDate = value => new Date(value).toLocaleDateString("en-US", dateOptions);
 
   // Cache only dates; calculate availability again on each visit.
   const CACHE_KEY = "workshop-status-v2:" + form.action;
@@ -337,23 +337,14 @@ function initializeSubmissionForm() {
     }
 
     if (status.isOpen) {
-      addParagraph(
-        "Paper submissions for the " + workshopName + " are now open. The submission deadline is ",
-        status.closeDate, "."
-      );
+      // The form itself is shown; no deadline message is displayed.
     } else if (status.state === "not-open") {
-      addParagraph(
-        "Paper submissions for the " + workshopName + " will open on ",
-        status.openDate, "."
-      );
-      addParagraph("The submission deadline is ", status.closeDate, ".");
+      addParagraph("Paper submission will open on ", status.openDate, ".");
     } else {
-      addParagraph(
-        "The paper submission period for the " + workshopName + " closed on ",
-        status.closeDate, "."
-      );
+      addParagraph("The paper submission period closed on ", status.closeDate, ".");
     }
   }
+
 
   const cachedStatus = getCachedStatus();
   if (cachedStatus) {
