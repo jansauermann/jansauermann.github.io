@@ -45,8 +45,14 @@ Please [find my CV (pdf) here](https://jansauermann.github.io/files/fullcv_sauer
 
 ### News
 
+
+<!--
+
 **November XX, 2026**
 **: my paper "Education providers’ take-up of government grants: Evidence from a grant allocation discontinuity" (with Olof Rosenqvist) is now published as an IFAU Working Paper [here](https://www.ifau.se/XXX) or read the [Swedish-language report here](research.html#research-reports-and-other-publications)
+
+-->
+
 
 **October 26, 2026**: together with Björn Öckert and Simon Ek, I received EUR 440,000 for my project on job search assistance providers from the Swedish Council for Health Working Life and Welfare (FORTE). 
 
