@@ -45,8 +45,8 @@ Please [find my CV (pdf) here](https://jansauermann.github.io/files/fullcv_sauer
 
 ### News
 
-
-
+<!-- **December 1, 2026**: you can now submit your paper to the [9th Stockholm Uppsala Education Economics Workshop](educworkshop_2027.qmd) which takes place on May 11, 2027. The keynote presentation will be held by **Susan Dynarski (Harvard)**.
+-->
 
 **November 6, 2026**: my paper "Education providers’ take-up of government grants: Evidence from a grant allocation discontinuity" (with Olof Rosenqvist) is now published as an IFAU Working Paper [here](https://www.ifau.se/Forskning/Publikationer/Working-papers/2026/education-providers-take-up-of-government-grants/). The policy report can be downloaded  [here](research.html#research-reports-and-other-publications)
 
