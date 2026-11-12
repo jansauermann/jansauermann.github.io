@@ -104,7 +104,6 @@ format:
   journal = {Labour Economics},
   volume = {94},
   month = {June},
-  issn = {0927-5371},
   abstract = {Performance pay has been shown to have important implications for worker and firm productivity. Although workers’ skills may directly matter for the cost of effort to reach performance goals, surprisingly little is know about the heterogeneity in the effects of incentive pay across workers. In this study, we apply a dynamic difference-in-differences estimator to the introduction of a generous bonus pay program to study how salient performance thresholds affect incentivized and non-incentivized performance outcomes for low- and high-skilled workers. While we do find that individual incentive pay did not affect workers’ performance on average, we show that this result conceals an underlying heterogeneity in the response to individual performance pay: individual performance pay has a significant effect on the performance of high-skilled workers but not for low-skilled workers. The findings can be rationalized with the idea that the costs of effort differ by workers’ skill level. We also explore whether agents alter their overtime hours and find a negative effect, possibly avoiding negative consequences of longer working hours.},
   pages = {102694},
   doi = {10.1016/j.labeco.2025.102694},
@@ -153,12 +152,13 @@ format:
   abstract = {To estimate the causal effect of employment protection on firms’ worker selection, we study a policy change that reduced dismissal costs for the employers of more than a tenth of Sweden’s workforce. Our difference‐in‐differences analysis of firms’ hiring uses individual ability measures, including estimated worker fixed effects, GPA at age 15, and military test scores. We find that the reform reduced minimum hire quality by around 2 percent. Our results show that firms both decreased their hiring thresholds and hired more workers. We find that firms increasingly hired young, foreign‐born, and long‐term nonemployed individuals, suggesting potential welfare gains from the reform.},
   number = {6},
   pages = {1981--2020},
+  doi = {10.3368/jhr.0919-10433R1},
   url = {https://jhr.uwpress.org/content/early/2022/05/02/jhr.0919-10433R1.abstract}
 }</code></pre></div></details>
 </div>
 
 <div class="publication" id="pub-EngbomMoserSauermann2023">
-<p>Engbom, Niklas, Christian Moser, and Jan Sauermann (2023), <em>Firm Pay Dynamics</em>, <strong><em>Journal of Econometrics</em></strong>, 233(3), pp. 396–423</p>
+<p>Engbom, Niklas, Christian Moser, and Jan Sauermann (2023), <em>Firm Pay Dynamics</em>, <strong><em>Journal of Econometrics</em></strong>, 233(2), pp. 396–423</p>
 <div class="pub-actions"><button class="pub-toggle" type="button" aria-expanded="false" aria-controls="moreinfo-EngbomMoserSauermann2023"><span class="tri" aria-hidden="true">▸</span> More information and download</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="abstract-EngbomMoserSauermann2023"><span class="tri" aria-hidden="true">▸</span> Abstract</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="bibtex-EngbomMoserSauermann2023"><span class="tri" aria-hidden="true">▸</span> BibTeX</button></div>
@@ -171,10 +171,9 @@ format:
   year = {2023},
   journal = {Journal of Econometrics},
   volume = {233},
-  issn = {0304-4076},
   keywords = {Earnings inequality, Worker and firm heterogeneity, Firm dynamics, Linked employer--employee data, AKM},
   abstract = {We study the nature of firm pay dynamics. To this end, we propose a statistical model that extends the seminal framework by Abowd et al. (1999) to allow for idiosyncratically time-varying firm pay policies. We estimate the model using linked employer–employee data for Sweden from 1985 to 2016. By drawing on detailed firm financials data, we show that firms that become more productive and accumulate capital raise pay, whereas firms lower pay as they add workers. A secular increase in firm-year pay dispersion in Sweden since 1985 is accounted for by greater persistence of firm pay among incumbent firms as well as greater dispersion in firm pay among entrant firms, as opposed to more volatile firm pay.},
-  number = {3},
+  number = {2},
   pages = {396--423},
   doi = {10.1016/j.jeconom.2022.01.012},
   url = {https://www.sciencedirect.com/science/article/pii/S0304407622000653?via%3Dihub}
@@ -230,16 +229,19 @@ format:
 <div class="publication" id="pub-CollewetSauermann2017">
 <p>Collewet, Marion, and Jan Sauermann (2017), <em>Working Hours and Productivity</em>, <strong><em>Labour Economics</em></strong>, 47, pp. 96–106</p>
 <div class="pub-actions"><button class="pub-toggle" type="button" aria-expanded="false" aria-controls="moreinfo-CollewetSauermann2017"><span class="tri" aria-hidden="true">▸</span> More information and download</button>
+<button class="pub-toggle" type="button" aria-expanded="false" aria-controls="abstract-CollewetSauermann2017"><span class="tri" aria-hidden="true">▸</span> Abstract</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="bibtex-CollewetSauermann2017"><span class="tri" aria-hidden="true">▸</span> BibTeX</button></div>
 <details id="moreinfo-CollewetSauermann2017"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://ideas.repec.org/a/eee/labeco/v47y2017icp96-106.html">[publisher version (gated)]</a> <a href="https://ideas.repec.org/p/iza/izadps/dp10722.html">[preprint]</a></p>
 <p>[non-technical summary &amp; press: <a href="https://www.economist.com/business/2025/12/04/how-many-hours-should-employees-work">The Economist</a>, <a href="https://www.moment.at/story/kuerzer-arbeiten-weltweit">Moment</a>, <a href="https://timesofindia.indiatimes.com/blogs/tasting-economics/back-to-modern-times-the-new-obsession-with-longer-work-days/">Times of India</a>, <a href="https://www.businessdailyafrica.com/bd/lifestyle/workplace/fewer-work-hours-yield-greater-business-payoff-5059108#google_vignette">Business Daily Africa</a>]</p>
 <p><scopus-citations file="citations/CollewetSauermann2017_raw.txt"></scopus-citations></p></div></details>
+<details id="abstract-CollewetSauermann2017"><summary hidden>Abstract</summary><div class="pub-detail"><p>This paper studies the link between working hours and productivity using daily information on working hours and performance of a sample of call centre agents. We exploit variation in the number of hours worked by the same employee across days and weeks due to central scheduling, enabling us to estimate the effect of working hours on productivity. We find that as the number of hours worked increases, the average handling time for a call increases, meaning that agents become less productive. This result suggests that fatigue can play an important role, even in jobs with mostly part-time workers.</p></div></details>
 <details id="bibtex-CollewetSauermann2017"><summary hidden>BibTeX</summary><div class="pub-detail"><pre><code class="language-bibtex">@article{CollewetSauermann2017,
   author = {Collewet, Marion and Sauermann, Jan},
   title = {{Working Hours and Productivity}},
   year = {2017},
   journal = {Labour Economics},
   volume = {47},
+  abstract = {This paper studies the link between working hours and productivity using daily information on working hours and performance of a sample of call centre agents. We exploit variation in the number of hours worked by the same employee across days and weeks due to central scheduling, enabling us to estimate the effect of working hours on productivity. We find that as the number of hours worked increases, the average handling time for a call increases, meaning that agents become less productive. This result suggests that fatigue can play an important role, even in jobs with mostly part-time workers.},
   pages = {96--106},
   doi = {10.1016/j.labeco.2017.03.006},
   url = {https://ideas.repec.org/a/eee/labeco/v47y2017icp96-106.html}
@@ -249,9 +251,11 @@ format:
 <div class="publication" id="pub-DeGripFeldSauermann2017">
 <p>De Grip, Andries, Jan Feld, and Jan Sauermann (2017), <em>Estimating the Relationship between Skill and Overconfidence</em>, <strong><em>Journal of Behavioral and Experimental Economics</em></strong>, 68(C), pp. 18–24</p>
 <div class="pub-actions"><button class="pub-toggle" type="button" aria-expanded="false" aria-controls="moreinfo-DeGripFeldSauermann2017"><span class="tri" aria-hidden="true">▸</span> More information and download</button>
+<button class="pub-toggle" type="button" aria-expanded="false" aria-controls="abstract-DeGripFeldSauermann2017"><span class="tri" aria-hidden="true">▸</span> Abstract</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="bibtex-DeGripFeldSauermann2017"><span class="tri" aria-hidden="true">▸</span> BibTeX</button></div>
 <details id="moreinfo-DeGripFeldSauermann2017"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://ideas.repec.org/a/eee/soceco/v68y2017icp18-24.html">[publisher version (gated)]</a> <a href="https://ideas.repec.org/p/iza/izadps/dp10611.html">[preprint]</a></p>
 <p><scopus-citations file="citations/FeldDeGripSauermann2017_raw.txt"></scopus-citations></p></div></details>
+<details id="abstract-DeGripFeldSauermann2017"><summary hidden>Abstract</summary><div class="pub-detail"><p>The Dunning–Kruger effect states that low performers vastly overestimate their performance while high performers more accurately assess their performance. Researchers usually interpret this empirical pattern as evidence that the low skilled are vastly overconfident while the high skilled are more accurate in assessing their skill. However, measurement error alone can lead to a negative relationship between performance and overestimation, even if skill and overconfidence are unrelated. To clarify the role of measurement error, we restate the Dunning–Kruger effect in terms of skill and overconfidence. We show that we can correct for bias caused by measurement error with an instrumental variable approach that uses a second performance as instrument. We then estimate the Dunning–Kruger effect in the context of the exam grade predictions of economics students, using their grade point average as an instrument for their exam grade. Our results show that the unskilled are more overconfident than the skilled. However, as we predict in our methodological discussion, this relationship is significantly weaker than ordinary least squares estimates suggest.</p></div></details>
 <details id="bibtex-DeGripFeldSauermann2017"><summary hidden>BibTeX</summary><div class="pub-detail"><pre><code class="language-bibtex">@article{DeGripFeldSauermann2017,
   author = {De Grip, Andries and Feld, Jan and Sauermann, Jan},
   title = {{Estimating the Relationship between Skill and Overconfidence}},
@@ -259,9 +263,10 @@ format:
   journal = {Journal of Behavioral and Experimental Economics},
   volume = {68},
   keywords = {Dunning–Kruger effect; Overconfidence; Judgment error; Measurement error; Instrumental variable},
+  abstract = {The Dunning–Kruger effect states that low performers vastly overestimate their performance while high performers more accurately assess their performance. Researchers usually interpret this empirical pattern as evidence that the low skilled are vastly overconfident while the high skilled are more accurate in assessing their skill. However, measurement error alone can lead to a negative relationship between performance and overestimation, even if skill and overconfidence are unrelated. To clarify the role of measurement error, we restate the Dunning–Kruger effect in terms of skill and overconfidence. We show that we can correct for bias caused by measurement error with an instrumental variable approach that uses a second performance as instrument. We then estimate the Dunning–Kruger effect in the context of the exam grade predictions of economics students, using their grade point average as an instrument for their exam grade. Our results show that the unskilled are more overconfident than the skilled. However, as we predict in our methodological discussion, this relationship is significantly weaker than ordinary least squares estimates suggest.},
   number = {C},
   pages = {18--24},
-  doi = {10.1016/j.socec.2017.04.0},
+  doi = {10.1016/j.socec.2017.03.002},
   url = {https://ideas.repec.org/a/eee/soceco/v68y2017icp18-24.html}
 }</code></pre></div></details>
 </div>
@@ -269,9 +274,11 @@ format:
 <div class="publication" id="pub-DohmenSauermann2016">
 <p>Dohmen, Thomas, and Jan Sauermann (2016), <em>Referee Bias</em>, <strong><em>Journal of Economic Surveys</em></strong>, 30(4), pp. 679–695</p>
 <div class="pub-actions"><button class="pub-toggle" type="button" aria-expanded="false" aria-controls="moreinfo-DohmenSauermann2016"><span class="tri" aria-hidden="true">▸</span> More information and download</button>
+<button class="pub-toggle" type="button" aria-expanded="false" aria-controls="abstract-DohmenSauermann2016"><span class="tri" aria-hidden="true">▸</span> Abstract</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="bibtex-DohmenSauermann2016"><span class="tri" aria-hidden="true">▸</span> BibTeX</button></div>
 <details id="moreinfo-DohmenSauermann2016"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://ideas.repec.org/a/bla/jecsur/v30y2016i4p679-695.html">[publisher version (gated)]</a> <a href="https://ideas.repec.org/p/iza/izadps/dp8857.html">[preprint]</a></p>
 <p><scopus-citations file="citations/DohmenSauermann2016_raw.txt"></scopus-citations></p></div></details>
+<details id="abstract-DohmenSauermann2016"><summary hidden>Abstract</summary><div class="pub-detail"><p>This paper surveys the empirical literature on the behavior of referees in professional football and other sports. Referees are typically appointed by a principal to be impartial, especially when unbiased referee judgment is vital for the accomplishment of the principal&#x27;s objective. Answering whether referees make biased decisions and understanding the causes that lead referees to digress from their principal duty of impartiality is therefore fundamental from a theoretical point of view. At the same time, assessing the prevalence and origin of referee bias is germane to various domains of life. Referee bias is particularly relevant in sports, where partial decision-making can determine competition outcomes, which can have strong repercussions on athletes&#x27; careers and supporters&#x27; well-being.</p></div></details>
 <details id="bibtex-DohmenSauermann2016"><summary hidden>BibTeX</summary><div class="pub-detail"><pre><code class="language-bibtex">@article{DohmenSauermann2016,
   author = {Dohmen, Thomas and Sauermann, Jan},
   title = {{Referee Bias}},
@@ -279,6 +286,7 @@ format:
   journal = {Journal of Economic Surveys},
   volume = {30},
   month = {September},
+  abstract = {This paper surveys the empirical literature on the behavior of referees in professional football and other sports. Referees are typically appointed by a principal to be impartial, especially when unbiased referee judgment is vital for the accomplishment of the principal&#x27;s objective. Answering whether referees make biased decisions and understanding the causes that lead referees to digress from their principal duty of impartiality is therefore fundamental from a theoretical point of view. At the same time, assessing the prevalence and origin of referee bias is germane to various domains of life. Referee bias is particularly relevant in sports, where partial decision-making can determine competition outcomes, which can have strong repercussions on athletes&#x27; careers and supporters&#x27; well-being.},
   number = {4},
   pages = {679--695},
   url = {https://ideas.repec.org/a/bla/jecsur/v30y2016i4p679-695.html}
@@ -288,9 +296,11 @@ format:
 <div class="publication" id="pub-DeGripSauermannSieben2016">
 <p>De Grip, Andries, Jan Sauermann, and Inge Sieben (2016), <em>The Role of Peers in Estimating Tenure-Performance Profiles: Evidence from Personnel Data</em>, <strong><em>Journal of Economic Behavior &amp; Organization</em></strong>, 126(PA), pp. 39–54</p>
 <div class="pub-actions"><button class="pub-toggle" type="button" aria-expanded="false" aria-controls="moreinfo-DeGripSauermannSieben2016"><span class="tri" aria-hidden="true">▸</span> More information and download</button>
+<button class="pub-toggle" type="button" aria-expanded="false" aria-controls="abstract-DeGripSauermannSieben2016"><span class="tri" aria-hidden="true">▸</span> Abstract</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="bibtex-DeGripSauermannSieben2016"><span class="tri" aria-hidden="true">▸</span> BibTeX</button></div>
 <details id="moreinfo-DeGripSauermannSieben2016"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://ideas.repec.org/a/eee/jeborg/v126y2016ipap39-54.html">[publisher version (gated)]</a> <a href="files/DeGripSauermannSieben2016.pdf">[preprint]</a></p>
 <p><scopus-citations file="citations/DeGripSauermannSieben2016_raw.txt"></scopus-citations></p></div></details>
+<details id="abstract-DeGripSauermannSieben2016"><summary hidden>Abstract</summary><div class="pub-detail"><p>This paper investigates how newly hired workers learn on the job and the extent to which this learning is affected by their co-workers’ tenure. We estimate tenure-performance profiles using weekly panel data on individual workers’ performance. The results show a performance increase of 64% in the first year of the employment. We show that, during the first three months, workers placed in teams with more experienced peers have significantly steeper tenure-performance profiles than those employed in teams with less experienced peers. Our results suggest that placing new workers in more experienced teams reduces the time new hires need to become equally productive as an experienced worker by 36%, compared to being placed in less experienced teams.</p></div></details>
 <details id="bibtex-DeGripSauermannSieben2016"><summary hidden>BibTeX</summary><div class="pub-detail"><pre><code class="language-bibtex">@article{DeGripSauermannSieben2016,
   author = {De Grip, Andries and Sauermann, Jan and Sieben, Inge},
   title = {{The Role of Peers in Estimating Tenure-Performance Profiles: Evidence from Personnel Data}},
@@ -298,9 +308,10 @@ format:
   journal = {Journal of Economic Behavior \&amp; Organization},
   volume = {126},
   keywords = {Tenure-performance profiles; Peer effects; On-the-job learning; Call centers},
+  abstract = {This paper investigates how newly hired workers learn on the job and the extent to which this learning is affected by their co-workers’ tenure. We estimate tenure-performance profiles using weekly panel data on individual workers’ performance. The results show a performance increase of 64\% in the first year of the employment. We show that, during the first three months, workers placed in teams with more experienced peers have significantly steeper tenure-performance profiles than those employed in teams with less experienced peers. Our results suggest that placing new workers in more experienced teams reduces the time new hires need to become equally productive as an experienced worker by 36\%, compared to being placed in less experienced teams.},
   number = {PA},
   pages = {39--54},
-  doi = {10.1016/j.jebo.2016.03.00},
+  doi = {10.1016/j.jebo.2016.03.002},
   url = {https://ideas.repec.org/a/eee/jeborg/v126y2016ipap39-54.html}
 }</code></pre></div></details>
 </div>
@@ -308,17 +319,19 @@ format:
 <div class="publication" id="pub-DeGripSauermann2013">
 <p>De Grip, Andries, and Jan Sauermann (2013), <em>The Effect of Training on Productivity: The Transfer of On-the-job Training from the Perspective of Economics</em>, <strong><em>Educational Research Review</em></strong>, 8, pp. 28–36</p>
 <div class="pub-actions"><button class="pub-toggle" type="button" aria-expanded="false" aria-controls="moreinfo-DeGripSauermann2013"><span class="tri" aria-hidden="true">▸</span> More information and download</button>
+<button class="pub-toggle" type="button" aria-expanded="false" aria-controls="abstract-DeGripSauermann2013"><span class="tri" aria-hidden="true">▸</span> Abstract</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="bibtex-DeGripSauermann2013"><span class="tri" aria-hidden="true">▸</span> BibTeX</button></div>
 <details id="moreinfo-DeGripSauermann2013"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://www.sciencedirect.com/science/article/pii/S1747938X12000437">[publisher version (gated)]</a></p>
 <p><scopus-citations file="citations/DeGripSauermann2013_raw.txt"></scopus-citations></p></div></details>
+<details id="abstract-DeGripSauermann2013"><summary hidden>Abstract</summary><div class="pub-detail"><p>Although the transfer of on-the-job training to the workplace belongs to the realm of educational research, it is also highly related to labour economics. In the economic literature, the transfer of training is based on the theoretical framework of human capital theory and has been extensively analysed empirically in econometric studies that take account of unobserved heterogeneity of workers and the selectivity in training participation. The aim of this paper is to give an overview of the underlying theoretical paradigm in economics, and the challenges faced in empirical research. The economic literature finds that participation in training is beneficial for both the participating workers and their employers, although there is also evidence that selectivity of workers matters. Despite this progress in the economic literature, the underlying processes through which training leads to a higher productivity remain unclear. We argue that this ‘black box’ offers opportunities for multi-disciplinary research projects on the transfer of training that relate the perspectives of educational and economic research.</p></div></details>
 <details id="bibtex-DeGripSauermann2013"><summary hidden>BibTeX</summary><div class="pub-detail"><pre><code class="language-bibtex">@article{DeGripSauermann2013,
   author = {De Grip, Andries and Sauermann, Jan},
   title = {{The Effect of Training on Productivity: The Transfer of On-the-job Training from the Perspective of Economics}},
   year = {2013},
   journal = {Educational Research Review},
   volume = {8},
-  issn = {1747-938X},
   keywords = {Returns to training, Skills, Informal learning, Transfer of skills, Employee performance, Human capital},
+  abstract = {Although the transfer of on-the-job training to the workplace belongs to the realm of educational research, it is also highly related to labour economics. In the economic literature, the transfer of training is based on the theoretical framework of human capital theory and has been extensively analysed empirically in econometric studies that take account of unobserved heterogeneity of workers and the selectivity in training participation. The aim of this paper is to give an overview of the underlying theoretical paradigm in economics, and the challenges faced in empirical research. The economic literature finds that participation in training is beneficial for both the participating workers and their employers, although there is also evidence that selectivity of workers matters. Despite this progress in the economic literature, the underlying processes through which training leads to a higher productivity remain unclear. We argue that this ‘black box’ offers opportunities for multi-disciplinary research projects on the transfer of training that relate the perspectives of educational and economic research.},
   pages = {28--36},
   doi = {10.1016/j.edurev.2012.05.005},
   url = {http://www.sciencedirect.com/science/article/pii/S1747938X12000437}
@@ -328,9 +341,11 @@ format:
 <div class="publication" id="pub-DeGripSauermann2012">
 <p>De Grip, Andries, and Jan Sauermann (2012), <em>The Effects of Training on Own and Co-Worker Productivity: Evidence from a Field Experiment</em>, <strong><em>Economic Journal</em></strong>, 122(560), pp. 376–399</p>
 <div class="pub-actions"><button class="pub-toggle" type="button" aria-expanded="false" aria-controls="moreinfo-DeGripSauermann2012"><span class="tri" aria-hidden="true">▸</span> More information and download</button>
+<button class="pub-toggle" type="button" aria-expanded="false" aria-controls="abstract-DeGripSauermann2012"><span class="tri" aria-hidden="true">▸</span> Abstract</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="bibtex-DeGripSauermann2012"><span class="tri" aria-hidden="true">▸</span> BibTeX</button></div>
 <details id="moreinfo-DeGripSauermann2012"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://ideas.repec.org/a/ecj/econjl/v122y2012i560p376-399.html">[publisher version (gated)]</a> <a href="https://ideas.repec.org/p/iza/izadps/dp5976.html">[preprint]</a> <span class="pub-note">[Awarded the NRW Young Scientist Award 2012]</span></p>
 <p><scopus-citations file="citations/DeGripSauermann2012_raw.txt"></scopus-citations></p></div></details>
+<details id="abstract-DeGripSauermann2012"><summary hidden>Abstract</summary><div class="pub-detail"><p>This paper analyses the effects of work-related training on worker productivity. To identify the causal effects from training, we combine a field experiment that randomly assigns workers to treatment and control groups with panel data on individual worker performance before and after training. We find that participation in the training programme leads to a 10 percent increase in performance. Moreover, we provide experimental evidence for externalities from treated workers on their untreated teammates: An increase of 10 percentage points in the share of treated peers leads to a performance increase of 0.51 percent. We provide evidence that the estimated effects are causal and not the result of employee selection into and out of training. Furthermore, we find that the performance increase is not due to lower quality provided by the worker.</p></div></details>
 <details id="bibtex-DeGripSauermann2012"><summary hidden>BibTeX</summary><div class="pub-detail"><pre><code class="language-bibtex">@article{DeGripSauermann2012,
   author = {De Grip, Andries and Sauermann, Jan},
   title = {{The Effects of Training on Own and Co-Worker Productivity: Evidence from a Field Experiment}},
@@ -339,8 +354,10 @@ format:
   volume = {122},
   month = {May},
   keywords = {Conference participation Economics profession Vignette-method Random coefficients model},
+  abstract = {This paper analyses the effects of work-related training on worker productivity. To identify the causal effects from training, we combine a field experiment that randomly assigns workers to treatment and control groups with panel data on individual worker performance before and after training. We find that participation in the training programme leads to a 10 percent increase in performance. Moreover, we provide experimental evidence for externalities from treated workers on their untreated teammates: An increase of 10 percentage points in the share of treated peers leads to a performance increase of 0.51 percent. We provide evidence that the estimated effects are causal and not the result of employee selection into and out of training. Furthermore, we find that the performance increase is not due to lower quality provided by the worker.},
   number = {560},
   pages = {376--399},
+  doi = {10.1111/j.1468-0297.2012.02500.x},
   url = {https://ideas.repec.org/a/ecj/econjl/v122y2012i560p376-399.html}
 }</code></pre></div></details>
 </div>
@@ -348,9 +365,11 @@ format:
 <div class="publication" id="pub-BorghansRomansSauermann2010">
 <p>Borghans, Lex, Margo Romans, and Jan Sauermann (2010), <em>What Makes a Good Conference? Analysing the Preferences of Labour Economists</em>, <strong><em>Labour Economics</em></strong>, 17(5), pp. 868–874</p>
 <div class="pub-actions"><button class="pub-toggle" type="button" aria-expanded="false" aria-controls="moreinfo-BorghansRomansSauermann2010"><span class="tri" aria-hidden="true">▸</span> More information and download</button>
+<button class="pub-toggle" type="button" aria-expanded="false" aria-controls="abstract-BorghansRomansSauermann2010"><span class="tri" aria-hidden="true">▸</span> Abstract</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="bibtex-BorghansRomansSauermann2010"><span class="tri" aria-hidden="true">▸</span> BibTeX</button></div>
 <details id="moreinfo-BorghansRomansSauermann2010"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://ideas.repec.org/a/eee/labeco/v17y2010i5p868-874.html">[publisher version (gated)]</a> <a href="https://ideas.repec.org/p/iza/izadps/dp4870.html">[preprint]</a></p>
 <p><scopus-citations file="citations/BorghansRomansSauermann2010_raw.txt"></scopus-citations></p></div></details>
+<details id="abstract-BorghansRomansSauermann2010"><summary hidden>Abstract</summary><div class="pub-detail"><p>Conferences are an important element in the work of researchers, requiring substantial investments in fees, travel expenses and the time spent by the participants. The aim of this paper is to identify the preferences of participants with respect to conference characteristics. Based on a sample of European labour economists, preferences are measured using the vignette approach where participants are asked to choose between hypothetical European Association of Labour Economists (EALE) conferences. We find that the keynote speakers are the most important element in the preference for a conference, followed by the location of the conference. There is substantial heterogeneity in the taste of labour economists especially with respect to location, though the link between preference parameters and measured characteristics like gender, age and seniority is limited. Factor analysis suggests that the variety in preferences can be best described by a latent variable that reflects the weights people put on content versus fun.</p></div></details>
 <details id="bibtex-BorghansRomansSauermann2010"><summary hidden>BibTeX</summary><div class="pub-detail"><pre><code class="language-bibtex">@article{BorghansRomansSauermann2010,
   author = {Borghans, Lex and Romans, Margo and Sauermann, Jan},
   title = {{What Makes a Good Conference? Analysing the Preferences of Labour Economists}},
@@ -358,8 +377,10 @@ format:
   journal = {Labour Economics},
   volume = {17},
   month = {October},
+  abstract = {Conferences are an important element in the work of researchers, requiring substantial investments in fees, travel expenses and the time spent by the participants. The aim of this paper is to identify the preferences of participants with respect to conference characteristics. Based on a sample of European labour economists, preferences are measured using the vignette approach where participants are asked to choose between hypothetical European Association of Labour Economists (EALE) conferences. We find that the keynote speakers are the most important element in the preference for a conference, followed by the location of the conference. There is substantial heterogeneity in the taste of labour economists especially with respect to location, though the link between preference parameters and measured characteristics like gender, age and seniority is limited. Factor analysis suggests that the variety in preferences can be best described by a latent variable that reflects the weights people put on content versus fun.},
   number = {5},
   pages = {868--874},
+  doi = {10.1016/j.labeco.2010.04.009},
   url = {https://ideas.repec.org/a/eee/labeco/v17y2010i5p868-874.html}
 }</code></pre></div></details>
 </div>
