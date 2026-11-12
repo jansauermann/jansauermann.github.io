@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "publications": 48,
-  "links": 82,
+  "links": 78,
   "sha256": {
     "Pubs.csv": "7c90d3308f3b0661ebafbc99fbd118c26c516e3480de196e74fccf3be9eb99e1",
-    "Pubs_CustomLinks.csv": "9a824a8c43750d837568981050f623002ee229f423ca97167f68fab42a63333a"
+    "Pubs_CustomLinks.csv": "1cce3237f6923f641a2648017270571124ac7d9d2ac3e1147281bfe596cd8d9c"
   }
 }
