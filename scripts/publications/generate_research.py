@@ -167,7 +167,7 @@ def show_bibtex(pub):
         return True
     if pub['category']!='other':
         return False
-    if pub.get('entry_type') in {'phdthesis','unpublished'}:
+    if pub.get('entry_type') in {'techreport','phdthesis','unpublished'}:
         return True
     # Some unpublished research papers are stored as technical reports, e.g. IWH DP.
     return bool(re.search(r'\b(?:working paper|discussion paper|DP)\b',pub.get('series',''),re.I))
@@ -298,7 +298,7 @@ def generate(pubs,links,template):
             public_links=[link for link in link_map[key] if link.get('url')
                           and link.get('group','').casefold()!='bibliographic references']
             is_report=category=='other' and p.get('entry_type')=='techreport'
-            if category=='other' and (is_report or len(public_links)<=1):
+            if category=='other' and not (is_report or show_bibtex(p) or p.get('abstract','').strip()) and len(public_links)<=1:
                 primary=primary_publication_link(link_map[key])
                 main=citation(p)
                 remaining=[];removed_primary=False
@@ -327,7 +327,7 @@ def generate(pubs,links,template):
                 continue
             info=additional_info(p,link_map[key])
             if info:panels.append(('moreinfo','More information and download',info))
-            if p.get('abstract'):panels.append(('abstract','Abstract','<p>'+E(p['abstract']).replace('\n','<br>')+'</p>'))
+            if p.get('abstract','').strip():panels.append(('abstract','Abstract','<p>'+E(p['abstract']).replace('\n','<br>')+'</p>'))
             if show_bibtex(p):
                 bib=bibtex(p,link_map[key]);all_bib.append(bib)
                 panels.append(('bibtex','BibTeX','<pre><code class="language-bibtex">'+E(bib)+'</code></pre>'))
