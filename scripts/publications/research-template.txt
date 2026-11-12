@@ -1,0 +1,65 @@
+---
+title: "Research — preview"
+format: 
+  html: 
+    embed-resources: true
+    other-links:
+      - text: CV (pdf)
+        icon: filetype-pdf
+        href: https://jansauermann.github.io/files/fullcv_sauermann.pdf
+      - text: Google Scholar
+        icon: arrow-up-right
+        href: https://scholar.google.com/citations?user=aaoGnKIAAAAJ&hl=en  
+      - text: IDEAS/RePEc
+        icon: arrow-up-right
+        href: https://ideas.repec.org/f/psa356.html
+      - text: ORCID
+        icon: arrow-up-right
+        href: https://orcid.org/0000-0002-0550-0675  
+---
+
+<!-- Generated preview. Edit the tables, not publication entries here. -->
+
+{{PUBLICATIONS}}
+
+```{=html}
+<script>
+class ScopusCitations extends HTMLElement {
+  async connectedCallback() {
+    const file = this.getAttribute("file");
+    const label = this.getAttribute("label") || "SCOPUS-citations";
+    const prefix = this.getAttribute("prefix") ?? (label + ": ");
+    const missing = this.getAttribute("missing") || ""; // what to show if fetch fails
+
+    if (!file) {
+      this.textContent = missing;
+      return;
+    }
+
+    // Render a placeholder immediately
+    this.textContent = prefix + "…";
+
+    try {
+      // Resolve relative paths correctly (works with/without baseurl, subfolders, etc.)
+      const url = new URL(file, window.location.href).toString();
+
+      const r = await fetch(url, { cache: "no-store" });
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+
+      const t = (await r.text()).trim();
+      const m = t.match(/\d+/);          // raw file should be just digits, but be defensive
+      if (!m) throw new Error("No number found");
+
+      this.textContent = prefix + m[0];
+    } catch (e) {
+      // Fail quietly
+      this.textContent = missing;
+      // Uncomment for debugging:
+      // console.warn("Scopus citation fetch failed:", file, e);
+    }
+  }
+}
+
+customElements.define("scopus-citations", ScopusCitations);
+</script>
+```
