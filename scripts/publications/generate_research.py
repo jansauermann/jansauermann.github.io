@@ -163,7 +163,7 @@ def group_rank(group):
 
 
 def show_bibtex(pub):
-    if pub['category'] in {'working_paper','journal_article'}:
+    if pub['category']=='journal_article':
         return True
     if pub['category']!='other':
         return False
@@ -309,11 +309,12 @@ def generate(pubs,links,template):
                     remaining.append(link)
                 if is_report:
                     direct=('<p>'+' '.join('<a class="pub-direct-link" href="'+E(safe_url(link['url']),quote=True)
-                                          +'"><span aria-hidden="true">▸</span> Show more information</a>'
+                                          +'"><span aria-hidden="true">▸</span> More information and download</a>'
                                           for link in public_links)+'</p>') if public_links else ''
                     remaining=[link for link in link_map[key] if not link.get('url')]
                 else:
-                    primary_label=next((link['label'] for link in public_links if link['url']==primary),'Show more information')
+                    primary_label=next((link['label'] for link in public_links if link['url']==primary),'More information and download')
+                    if primary_label.strip('[] ').casefold()=='show more information':primary_label='More information and download'
                     direct=('<p><a class="pub-direct-link" href="'+E(safe_url(primary),quote=True)
                             +'"><span aria-hidden="true">▸</span> '+E(primary_label.strip('[] '))+'</a></p>') if primary else ''
                 direct+=additional_info(p,remaining)
@@ -324,12 +325,12 @@ def generate(pubs,links,template):
                               + ('\n<div class="pub-direct-links">'+direct+'</div>' if direct else '')
                               +'\n</div>')
                 continue
-            if p.get('abstract'):panels.append(('abstract','Show abstract','<p>'+E(p['abstract']).replace('\n','<br>')+'</p>'))
             info=additional_info(p,link_map[key])
-            if info:panels.append(('moreinfo','Show more information',info))
+            if info:panels.append(('moreinfo','More information and download',info))
+            if p.get('abstract'):panels.append(('abstract','Abstract','<p>'+E(p['abstract']).replace('\n','<br>')+'</p>'))
             if show_bibtex(p):
                 bib=bibtex(p,link_map[key]);all_bib.append(bib)
-                panels.append(('bibtex','Show BibTeX','<pre><code class="language-bibtex">'+E(bib)+'</code></pre>'))
+                panels.append(('bibtex','BibTeX','<pre><code class="language-bibtex">'+E(bib)+'</code></pre>'))
             controls='\n'.join('<button class="pub-toggle" type="button" aria-expanded="false" aria-controls="'+kind+'-'+key+'"><span class="tri" aria-hidden="true">▸</span> '+label+'</button>' for kind,label,content in panels)
             bodies='\n'.join('<details id="'+kind+'-'+key+'"><summary hidden>'+label+'</summary><div class="pub-detail">'+content+'</div></details>' for kind,label,content in panels)
             blocks.append('<div class="publication" id="pub-'+key+'">\n<p>'+citation(p)+'</p>\n<div class="pub-actions">'+controls+'</div>\n'+bodies+'\n</div>')

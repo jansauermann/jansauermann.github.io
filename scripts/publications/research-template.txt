@@ -30,14 +30,22 @@ class ScopusCitations extends HTMLElement {
     const label = this.getAttribute("label") || "SCOPUS-citations";
     const prefix = this.getAttribute("prefix") ?? (label + ": ");
     const missing = this.getAttribute("missing") || ""; // what to show if fetch fails
+    const setText = text => {
+      this.textContent = text;
+      this.hidden = !text;
+      const parent = this.parentElement;
+      if (parent && parent.tagName === "P" && parent.childElementCount === 1) {
+        parent.hidden = !text;
+      }
+    };
 
     if (!file) {
-      this.textContent = missing;
+      setText(missing);
       return;
     }
 
     // Render a placeholder immediately
-    this.textContent = prefix + "…";
+    setText(prefix + "…");
 
     try {
       // Resolve relative paths correctly (works with/without baseurl, subfolders, etc.)
@@ -50,10 +58,11 @@ class ScopusCitations extends HTMLElement {
       const m = t.match(/\d+/);          // raw file should be just digits, but be defensive
       if (!m) throw new Error("No number found");
 
-      this.textContent = prefix + m[0];
+      const count = Number(m[0]);
+      setText(count === 0 ? "" : prefix + m[0]);
     } catch (e) {
       // Fail quietly
-      this.textContent = missing;
+      setText(missing);
       // Uncomment for debugging:
       // console.warn("Scopus citation fetch failed:", file, e);
     }
