@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "publication_revision": "b87fca11d2903bdaabc0b06366d68b7175c72428",
+  "citations_tree": "6b9582ef399ad190c452496fac34dbe3fb88262b",
+  "counts": {
+    "journal_article": 15,
+    "working_paper": 5,
+    "other": 25
+  },
+  "statistics": {
+    "scopus_total": 891,
+    "scholar_h_index": 17
+  },
+  "sha256": {
+    "publications.tex": "9c7fd59fa3e1a5ab4b28c6dfcc9757d003eb4b9c8f292e29b216cf3b892869e3",
+    "working-papers.tex": "77a3311266d9ee5522406d03298141c7cf8d385d1c2ef3ae7af409c425fac60b",
+    "other-publications.tex": "1a0f5e2ea81f9a39e66036860d252d9284a414df7ef4dd2a3d9ffbf74986e780",
+    "citation-statistics.tex": "f5449a5dc151a41a7f7497c32dc8459dd136f11f07d487a5788edef56eb56e56"
+  }
+}
