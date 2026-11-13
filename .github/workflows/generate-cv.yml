@@ -1,0 +1,60 @@
+name: Generate CV publication lists
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'citations/**'
+      - 'scripts/cv/**'
+      - 'scripts/publications/generate_research.py'
+      - '.github/workflows/generate-cv.yml'
+  # Sheet exports live on a separate branch; no additional Google token permission needed.
+  # The timer also catches citation updates committed by another workflow's GITHUB_TOKEN.
+  schedule:
+    - cron: '3-58/5 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate-cv-lists
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+          persist-credentials: false
+          sparse-checkout: |
+            scripts/cv
+            scripts/publications
+            citations
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - uses: actions/checkout@v6
+        with:
+          ref: publication-data
+          path: .cv-input
+          persist-credentials: false
+          sparse-checkout: data
+      - name: Validate generator
+        run: python3 -m unittest discover -s scripts/cv -p 'test_*.py'
+      - name: Generate three lists and citation totals
+        shell: bash
+        run: |
+          python3 scripts/cv/generate_cv.py \
+            --data-dir .cv-input/data \
+            --citations-dir citations \
+            --publication-revision "$(git -C .cv-input rev-parse HEAD)" \
+            --citations-tree "$(git rev-parse HEAD:citations)" \
+            --output .cv-output
+      - name: Publish complete snapshot on cv-data
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/cv/publish_cv.py --directory .cv-output
