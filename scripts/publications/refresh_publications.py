@@ -63,7 +63,9 @@ def update(site,fixture=None):
     for name,fields in [('Pubs.csv',PUB_FIELDS),('Pubs_CustomLinks.csv',LINK_FIELDS)]:
         if hashlib.sha256(files[name]).hexdigest()!=manifest['sha256'].get(name):raise ValueError('Export integrity check failed: '+name)
         headers=next(csv.reader(io.StringIO(files[name].decode('utf-8-sig'),newline='')),[])
-        if headers!=fields:raise ValueError('Unexpected CSV columns: '+name)
+        # Accept both the existing export and its main_url extension during migration.
+        expected=[fields, fields+['main_url']] if name=='Pubs.csv' else [fields]
+        if headers not in expected:raise ValueError('Unexpected CSV columns: '+name)
     with tempfile.TemporaryDirectory(prefix='publication-export-') as temp:
         temp=Path(temp)
         for name in names:(temp/name).write_bytes(files[name])

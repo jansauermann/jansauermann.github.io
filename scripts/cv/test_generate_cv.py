@@ -52,15 +52,26 @@ class GenerationTests(unittest.TestCase):
         self.assertIn(r'\setcounter{journalcounterD}{4}', output)
 
     def test_relative_links_become_public_and_press_is_not_used_for_wp_title(self):
-        pub = dict(self.pub, category='working_paper', scopus_file='')
+        pub = dict(self.pub, category='working_paper', scopus_file='', main_url='files/My_paper.pdf')
         links = [{'publication_id': 'paper', 'group': 'More information', 'label': 'download',
-                  'url': 'files/My_paper.pdf'}]
+                  'url': 'https://example.com/different-website-link'}]
         output = self.render([pub], links)['working-papers.tex'].decode()
         self.assertIn(r'https://jansauermann.github.io/files/My\_paper.pdf', output)
         self.assertNotIn('(2025)', output)
-        links[0]['url'] = 'mailto:jan@example.com'
-        links.append(dict(links[0], label='Press', url='https://example.com/press'))
+        self.assertNotIn('different-website-link', output)
+        pub['main_url'] = ''
         self.assertNotIn(r'\href', self.render([pub], links)['working-papers.tex'].decode())
+
+    def test_journal_uses_main_url_instead_of_publisher_custom_link(self):
+        pub = dict(self.pub, main_url='https://example.com/chosen-cv-link', scopus_file='')
+        links = [{'publication_id': 'paper', 'group': 'More information',
+                  'label': 'publisher version (open access)', 'url': 'https://example.com/website-only'}]
+        output = self.render([pub], links)['publications.tex'].decode()
+        self.assertIn('https://example.com/chosen-cv-link', output)
+        self.assertNotIn('website-only', output)
+        pub['main_url'] = 'javascript:alert(1)'
+        with self.assertRaises(ValueError):
+            self.render([pub], links)
 
     def test_bad_or_missing_counts_fail_instead_of_publishing_false_zero(self):
         for content in ('Error fetching count: 404', '<html>500</html>', '-1'):
