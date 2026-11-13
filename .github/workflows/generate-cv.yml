@@ -1,0 +1,65 @@
+name: Generate CV publication lists
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main, publication-data]
+    paths:
+      - 'data/Pubs.csv'
+      - 'data/Pubs_CustomLinks.csv'
+      - 'data/RefereeLists.json'
+      - 'data/manifest.json'
+      - 'citations/**'
+      - 'scripts/cv/**'
+      - 'scripts/publications/generate_research.py'
+      - '.github/workflows/generate-cv.yml'
+  # Install this workflow on BOTH main and publication-data.
+  # Apps Script export commits then trigger generation, including referee-list changes.
+  # Keep the timer as a backup for other automated citation updates.
+  schedule:
+    - cron: '3-58/5 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate-cv-lists
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+          persist-credentials: false
+          sparse-checkout: |
+            scripts/cv
+            scripts/publications
+            citations
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - uses: actions/checkout@v6
+        with:
+          ref: publication-data
+          path: .cv-input
+          persist-credentials: false
+          sparse-checkout: data
+      - name: Validate generator
+        run: python3 -m unittest discover -s scripts/cv -p 'test_*.py'
+      - name: Generate publication and referee lists with citation totals
+        shell: bash
+        run: |
+          python3 scripts/cv/generate_cv.py \
+            --data-dir .cv-input/data \
+            --citations-dir citations \
+            --publication-revision "$(git -C .cv-input rev-parse HEAD)" \
+            --citations-tree "$(git rev-parse HEAD:citations)" \
+            --output .cv-output
+      - name: Publish complete snapshot on cv-data
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/cv/publish_cv.py --directory .cv-output
