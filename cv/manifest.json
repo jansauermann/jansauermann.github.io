@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "publication_revision": "05a1945ef891cb86b497e7097b3b0dd716e01d78",
-  "citations_tree": "dffb7193e8a4cc985ef358c09965189c430a8aea",
+  "citations_tree": "9e41bc6301d11d0356d3c20e2197d4e85c066218",
   "counts": {
     "journal_article": 15,
     "working_paper": 5,
@@ -10,14 +10,14 @@
     "refereeing_funding": 5
   },
   "statistics": {
-    "scopus_total": 891,
+    "scopus_total": 893,
     "scholar_h_index": 17
   },
   "sha256": {
     "publications.tex": "09b48fac2a2abb7778bb875a22ab254db1745b249085ee1b2b81fa713cc63527",
     "working-papers.tex": "77a3311266d9ee5522406d03298141c7cf8d385d1c2ef3ae7af409c425fac60b",
     "other-publications.tex": "6e59ac0d5c58fb93c5e04c66ccc2268ab71e8d3b065da32591317aeac6c12175",
-    "citation-statistics.tex": "f5449a5dc151a41a7f7497c32dc8459dd136f11f07d487a5788edef56eb56e56",
+    "citation-statistics.tex": "8fdbae8e63ba8db116bda073c4f3343f11fdd7fc75b6f6f163eb870dbb236093",
     "refereeing-journals.tex": "07da711462aeed52baa9e36872fe6ed03da541bd94977230f7d950618830cb6d",
     "refereeing-funding.tex": "33a0dc9a863c08819d9fb040345ee71f8d4979fbdd403058809290d0b5ebe1c7"
   }
