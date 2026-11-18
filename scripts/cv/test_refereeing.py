@@ -11,12 +11,13 @@ class RefereeingTests(unittest.TestCase):
     def test_two_alphabetical_unique_lists_escape_tex_and_have_no_headers(self):
         outputs, counts = cv.refereeing_tex({'journals': [
             'Zeitschrift', ' Alpha   Economics ', 'alpha economics', 'Économie & Policy'],
-            'funding': ['Z Fund', 'A & B Foundation', 'A & B Foundation']})
+            'funding': ['Z Fund', 'A & B Foundation', 'A & B Foundation'], 'conference': ['Committee B', 'Committee A']})
         self.assertEqual(outputs['refereeing-journals.tex'].decode(),
                          'Alpha Economics; Économie \\& Policy; Zeitschrift%\n')
         self.assertEqual(outputs['refereeing-funding.tex'].decode(),
                          'A \\& B Foundation; Z Fund%\n')
-        self.assertEqual(counts, {'refereeing_journals': 3, 'refereeing_funding': 2})
+        self.assertEqual(counts, {'refereeing_journals': 3, 'refereeing_funding': 2, 'refereeing_conference': 2})
+        self.assertEqual(outputs['refereeing-conferences.tex'], b'Committee A; Committee B%\n')
         self.assertNotIn(b'\\other', outputs['refereeing-journals.tex'])
 
     def test_only_aggregate_schema_accepted_with_checksum(self):
@@ -27,7 +28,7 @@ class RefereeingTests(unittest.TestCase):
                 (folder / 'RefereeLists.json').write_bytes(content)
                 (folder / 'manifest.json').write_text(json.dumps({'sha256': {
                     'RefereeLists.json': hashlib.sha256(content).hexdigest()}}))
-            valid = {'schema_version': 1, 'journals': ['Journal A'], 'funding': []}
+            valid = {'schema_version': 1, 'journals': ['Journal A'], 'funding': [], 'conference': []}
             save(valid)
             self.assertEqual(cv.refereeing_snapshot(folder), valid)
             save(dict(valid, Notes=['PRIVATE']))
@@ -42,7 +43,7 @@ class RefereeingTests(unittest.TestCase):
                 cv.refereeing_snapshot(folder)
 
     def test_empty_lists_produce_no_names_or_placeholders(self):
-        outputs, counts = cv.refereeing_tex({'journals': [], 'funding': []})
+        outputs, counts = cv.refereeing_tex({'journals': [], 'funding': [], 'conference': []})
         self.assertEqual(set(outputs.values()), {b'%\n'})
         self.assertEqual(sum(counts.values()), 0)
 

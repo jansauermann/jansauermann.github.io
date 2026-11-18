@@ -51,16 +51,20 @@ class GenerationTests(unittest.TestCase):
         self.assertNotIn(r'\sectionheader', output)
         self.assertIn(r'\setcounter{journalcounterD}{4}', output)
 
-    def test_relative_links_become_public_and_press_is_not_used_for_wp_title(self):
-        pub = dict(self.pub, category='working_paper', scopus_file='', main_url='files/My_paper.pdf')
+    def test_report_main_url_is_used_but_wp_titles_are_unlinked(self):
+        pub = dict(self.pub, category='other', entry_type='techreport', scopus_file='', main_url='files/My_paper.pdf')
         links = [{'publication_id': 'paper', 'group': 'More information', 'label': 'download',
                   'url': 'https://example.com/different-website-link'}]
-        output = self.render([pub], links)['working-papers.tex'].decode()
+        output = self.render([pub], links)['other-publications.tex'].decode()
         self.assertIn(r'https://jansauermann.github.io/files/My\_paper.pdf', output)
-        self.assertNotIn('(2025)', output)
         self.assertNotIn('different-website-link', output)
+        pub['category'] = 'working_paper'
+        output = self.render([pub], links)['working-papers.tex'].decode()
+        self.assertNotIn(r'\href', output)
+        self.assertNotIn('(2025)', output)
+        pub['category'] = 'other'
         pub['main_url'] = ''
-        self.assertNotIn(r'\href', self.render([pub], links)['working-papers.tex'].decode())
+        self.assertNotIn(r'\href', self.render([pub], links)['other-publications.tex'].decode())
 
     def test_journal_uses_main_url_instead_of_publisher_custom_link(self):
         pub = dict(self.pub, main_url='https://example.com/chosen-cv-link', scopus_file='')

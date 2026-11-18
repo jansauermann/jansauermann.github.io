@@ -9,6 +9,7 @@ import re
 import sys
 from urllib.error import HTTPError
 from urllib.request import Request, urlopen
+from generate_cv import FILES
 
 
 def api(method, path, body=None, allow_missing=False):
@@ -37,8 +38,7 @@ def blob_sha(content):
 
 
 def publish(directory):
-    names = {'publications.tex', 'working-papers.tex', 'other-publications.tex',
-             'citation-statistics.tex', 'refereeing-journals.tex', 'refereeing-funding.tex', 'manifest.json'}
+    names = set(FILES) | {'manifest.json'}
     files = {f'cv/{name}': (directory / name).read_bytes() for name in sorted(names)}
     manifest = json.loads(files['cv/manifest.json'])
     if set(manifest['sha256']) != names - {'manifest.json'}:

@@ -14,6 +14,7 @@ from urllib.parse import quote, urljoin
 # Reuse the website's CSV validation, author formatting and metadata rules.
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'publications'))
 import generate_research as publications
+import cv_sections
 
 LISTS = {
     'journal_article': ('publications.tex', 'journalblock', 'journalcounter'),
@@ -22,7 +23,8 @@ LISTS = {
 }
 PUBLIC_CATEGORIES = set(LISTS) | {'work_in_progress'}
 FILES = tuple(item[0] for item in LISTS.values()) + (
-    'citation-statistics.tex', 'refereeing-journals.tex', 'refereeing-funding.tex')
+    'citation-statistics.tex', 'refereeing-journals.tex', 'refereeing-funding.tex',
+    'refereeing-conferences.tex', 'media-press.tex', *cv_sections.PRESENTATION_FILES)
 WEBSITE = 'https://jansauermann.github.io/'
 
 
@@ -38,13 +40,13 @@ def title_link(pub):
     # CV links are explicit; CustomLinks remains the independent website source.
     title = r'\textbf{' + tex(pub['title']) + '}'
     url = pub.get('main_url', '').strip()
-    if not url or url.lower().startswith('mailto:'):
+    if pub['category'] == 'working_paper' or not url:
         return title
     if url.endswith('?via%3Dihub'):
         url = url.split('?', 1)[0]
     publications.safe_url(url)
     url = urljoin(WEBSITE, url)
-    if not url.startswith(('https://', 'http://')):
+    if not url.startswith(('https://', 'http://', 'mailto:')):
         raise ValueError('Unsupported CV link: ' + url)
     url = quote(url, safe=':/?&=#%+-._~@!$,;()*[]')
     return r'\href{' + publications.latex(url) + '}{' + title + '}'
@@ -150,9 +152,9 @@ def refereeing_snapshot(data_dir):
     if hashlib.sha256(content).hexdigest() != expected:
         raise ValueError('Refereeing export checksum mismatch')
     data = json.loads(content)
-    if set(data) != {'schema_version', 'journals', 'funding'} or data['schema_version'] != 1:
-        raise ValueError('Refereeing export must contain ONLY journal and funding name lists')
-    for kind in ('journals', 'funding'):
+    if set(data) != {'schema_version', 'journals', 'funding', 'conference'} or data['schema_version'] != 1:
+        raise ValueError('Refereeing export must contain ONLY journal, funding and conference name lists')
+    for kind in ('journals', 'funding', 'conference'):
         if not isinstance(data[kind], list) or any(not isinstance(value, str) or not value.strip()
                                                   for value in data[kind]):
             raise ValueError('Invalid refereeing name list: ' + kind)
@@ -162,7 +164,7 @@ def refereeing_snapshot(data_dir):
 def refereeing_tex(data):
     outputs = {}
     counts = {}
-    for kind in ('journals', 'funding'):
+    for kind in ('journals', 'funding', 'conference'):
         seen = set()
         names = []
         for value in data[kind]:
@@ -177,7 +179,7 @@ def refereeing_tex(data):
             return plain, name.casefold()
         names.sort(key=alphabetical)
         # No headings or wrappers: the main CV controls those.
-        outputs['refereeing-' + kind + '.tex'] = ('; '.join(tex(name) for name in names) + '%\n').encode('utf-8')
+        outputs['refereeing-' + ('conferences' if kind=='conference' else kind) + '.tex'] = ('; '.join(tex(name) for name in names) + '%\n').encode('utf-8')
         counts['refereeing_' + kind] = len(names)
     return outputs, counts
 
@@ -257,7 +259,13 @@ def main():
     referee_outputs, referee_counts = refereeing_tex(refereeing_snapshot(args.data_dir))
     outputs.update(referee_outputs)
     counts.update(referee_counts)
-    manifest = {'schema_version': 1,
+    activity_outputs, activity_counts = cv_sections.presentations_tex(cv_sections.presentations_snapshot(args.data_dir), tex)
+    outputs.update(activity_outputs)
+    counts.update(activity_counts)
+    media_outputs, media_counts = cv_sections.press_tex(links, tex)
+    outputs.update(media_outputs)
+    counts.update(media_counts)
+    manifest = {'schema_version': 2,
                 'publication_revision': args.publication_revision,
                 'citations_tree': args.citations_tree,
                 'counts': counts, 'statistics': totals,

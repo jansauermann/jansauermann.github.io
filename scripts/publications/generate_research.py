@@ -155,11 +155,28 @@ def bibtex(pub, links):
 
 
 def group_rank(group):
-    folded=group.casefold()
+    folded=group.strip().casefold()
     if folded=='more information':return (0,'')
     if folded.startswith('non-technical'):return (1,folded)
+    if folded=='press':return (2,'')
     if folded=='bibliographic references':return (9,'')
     return (5,folded)
+
+
+def information_link_rank(link):
+    """Stable within each kind: publisher, appendix, WP versions, remaining links/notes."""
+    label=link.get('label','').strip('[] ').casefold()
+    if label.startswith(('publisher version','published version','most recent version')):
+        return 0
+    if label in {'link','download'} and link.get('url'):
+        return 0
+    if 'appendix' in label or 'appendices' in label:
+        return 1
+    if ('preprint' in label or 'working paper' in label or 'discussion paper' in label
+            or re.search(r'\b(?:wp|dp)\b',label)
+            or label.startswith(('previously released','previously circulated'))):
+        return 2
+    return 3
 
 
 def show_bibtex(pub):
@@ -176,7 +193,7 @@ def show_bibtex(pub):
 def additional_info(pub, links):
     groups={}
     for link in links:
-        group=link.get('group','') or 'More information'
+        group=(link.get('group','') or 'More information').strip()
         if group.casefold()=='bibliographic references':
             continue
         groups.setdefault(group,[]).append(link)
@@ -196,7 +213,7 @@ def additional_info(pub, links):
 
         if group.casefold()=='more information':
             pending=[]
-            for link in groups[group]:
+            for link in sorted(groups[group],key=information_link_rank):
                 label=label_text(link)
                 if link.get('url'):
                     pending.append('<a href="'+link_url(link)+'">['+label+']</a>')
@@ -259,6 +276,7 @@ STYLE_AND_TOGGLE='''```{=html}
 .pub-direct-links p { margin: .15em 0; }
 .pub-direct-link { color: inherit; text-decoration: none; }
 .pub-direct-link:hover { text-decoration: underline; }
+.pub-actions > .pub-direct-link { font-size: .78em; }
 </style>
 <script>
 document.addEventListener('click', event => {
@@ -297,43 +315,27 @@ def generate(pubs,links,template):
             key=p['id'];panels=[]
             public_links=[link for link in link_map[key] if link.get('url')
                           and link.get('group','').casefold()!='bibliographic references']
-            is_report=category=='other' and p.get('entry_type')=='techreport'
-            if category=='other' and not (is_report or show_bibtex(p) or p.get('abstract','').strip()) and len(public_links)<=1:
-                primary=primary_publication_link(link_map[key])
-                main=citation(p)
-                remaining=[];removed_primary=False
-                for link in link_map[key]:
-                    if primary and not removed_primary and link.get('url')==primary:
-                        removed_primary=True
-                        continue
-                    remaining.append(link)
-                if is_report:
-                    direct=('<p>'+' '.join('<a class="pub-direct-link" href="'+E(safe_url(link['url']),quote=True)
-                                          +'"><span aria-hidden="true">▸</span> More information and download</a>'
-                                          for link in public_links)+'</p>') if public_links else ''
-                    remaining=[link for link in link_map[key] if not link.get('url')]
-                else:
-                    primary_label=next((link['label'] for link in public_links if link['url']==primary),'More information and download')
-                    if primary_label.strip('[] ').casefold()=='show more information':primary_label='More information and download'
-                    direct=('<p><a class="pub-direct-link" href="'+E(safe_url(primary),quote=True)
-                            +'"><span aria-hidden="true">▸</span> '+E(primary_label.strip('[] '))+'</a></p>') if primary else ''
-                direct+=additional_info(p,remaining)
-                if show_bibtex(p):
-                    all_bib.append(bibtex(p,link_map[key]))
-                    direct+='<p><a href="bibtex/generated/'+key+'.bib" download>[BibTeX]</a></p>'
-                blocks.append('<div class="publication" id="pub-'+key+'">\n<p>'+main+'</p>'
-                              + ('\n<div class="pub-direct-links">'+direct+'</div>' if direct else '')
-                              +'\n</div>')
-                continue
-            info=additional_info(p,link_map[key])
-            if info:panels.append(('moreinfo','More information and download',info))
+            direct='';direct_notes=''
+            # A report with one URL gets a direct More information link, with independent
+            # abstract/BibTeX toggles when available. Titles remain plain on the website.
+            if category=='other' and len(public_links)==1:
+                primary=public_links[0]['url']
+                if primary.endswith('?via%3Dihub'):primary=primary.split('?',1)[0]
+                direct=('<a class="pub-direct-link" href="'+E(safe_url(primary),quote=True)
+                        +'"><span aria-hidden="true">▸</span> More information and download</a>')
+                remaining=[link for link in link_map[key] if not link.get('url')]
+                direct_notes=additional_info(p,remaining)
+            else:
+                info=additional_info(p,link_map[key])
+                if info:panels.append(('moreinfo','More information and download',info))
             if p.get('abstract','').strip():panels.append(('abstract','Abstract','<p>'+E(p['abstract']).replace('\n','<br>')+'</p>'))
             if show_bibtex(p):
                 bib=bibtex(p,link_map[key]);all_bib.append(bib)
                 panels.append(('bibtex','BibTeX','<pre><code class="language-bibtex">'+E(bib)+'</code></pre>'))
             controls='\n'.join('<button class="pub-toggle" type="button" aria-expanded="false" aria-controls="'+kind+'-'+key+'"><span class="tri" aria-hidden="true">▸</span> '+label+'</button>' for kind,label,content in panels)
+            if direct:controls=direct+('\n'+controls if controls else '')
             bodies='\n'.join('<details id="'+kind+'-'+key+'"><summary hidden>'+label+'</summary><div class="pub-detail">'+content+'</div></details>' for kind,label,content in panels)
-            blocks.append('<div class="publication" id="pub-'+key+'">\n<p>'+citation(p)+'</p>\n<div class="pub-actions">'+controls+'</div>\n'+bodies+'\n</div>')
+            blocks.append('<div class="publication" id="pub-'+key+'">\n<p>'+citation(p)+'</p>\n<div class="pub-actions">'+controls+'</div>\n'+bodies+('\n<div class="pub-direct-links">'+direct_notes+'</div>' if direct_notes else '')+'\n</div>')
         sections.append('## '+heading+'\n\n```{=html}\n'+'\n\n'.join(blocks)+'\n```\n')
     qmd=template.replace('{{PUBLICATIONS}}','\n'.join(sections)+'\n'+STYLE_AND_TOGGLE)
     stats={'shown':len(visible),'excluded_by_category':len(pubs)-len(visible),
