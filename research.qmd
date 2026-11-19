@@ -68,12 +68,6 @@ format:
 ## Selected work in progress
 
 ```{=html}
-<div class="publication" id="pub-UnemploymentInsurance">
-<p>Reallocation effects of unemployment insurance (with Sebastian Butschek and Olle Törnquist)</p>
-<div class="pub-actions"></div>
-
-</div>
-
 <div class="publication" id="pub-EmployerLearningAgeDiscrimination">
 <p>Blame It on My Youth: Employer Learning and Age Discrimination (with Sebastian Butschek and Louis-Pierre Lepage)</p>
 <div class="pub-actions"></div>
@@ -82,6 +76,12 @@ format:
 
 <div class="publication" id="pub-PoliticalSchoolSegregation">
 <p>Political school segregation (with Mona Dapfer, Erica Lindahl, and Karl-Oskar Lindgren)</p>
+<div class="pub-actions"></div>
+
+</div>
+
+<div class="publication" id="pub-UnemploymentInsurance">
+<p>Reallocation effects of unemployment insurance (with Sebastian Butschek and Olle Törnquist)</p>
 <div class="pub-actions"></div>
 
 </div>
@@ -227,7 +227,7 @@ format:
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="abstract-CollewetSauermann2017"><span class="tri" aria-hidden="true">▸</span> Abstract</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="bibtex-CollewetSauermann2017"><span class="tri" aria-hidden="true">▸</span> BibTeX</button></div>
 <details id="moreinfo-CollewetSauermann2017"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://ideas.repec.org/a/eee/labeco/v47y2017icp96-106.html">[publisher version (gated)]</a> <a href="https://ideas.repec.org/p/iza/izadps/dp10722.html">[preprint]</a> <scopus-citations file="citations/CollewetSauermann2017_raw.txt"></scopus-citations></p>
-<p>[Press: <a href="https://www.economist.com/business/2025/12/04/how-many-hours-should-employees-work">The Economist</a>, <a href="https://www.moment.at/story/kuerzer-arbeiten-weltweit">Moment</a>, <a href="https://timesofindia.indiatimes.com/blogs/tasting-economics/back-to-modern-times-the-new-obsession-with-longer-work-days/">Times of India</a>, <a href="https://www.businessdailyafrica.com/bd/lifestyle/workplace/fewer-work-hours-yield-greater-business-payoff-5059108#google_vignette">Business Daily Africa</a>, <a href="https://www.economist.com/business/2025/12/04/how-many-hours-should-employees-work">The Economist</a>, <a href="https://www.moment.at/story/wie-weltweit-kuerzer-gearbeitet-wird/">Moment</a>, <a href="https://timesofindia.indiatimes.com/blogs/tasting-economics/back-to-modern-times-the-new-obsession-with-longer-work-days/">Times Of India</a>, <a href="https://www.businessdailyafrica.com/bd/lifestyle/workplace/fewer-work-hours-yield-greater-business-payoff-5059108#google_vignette">Business Daily</a>]</p></div></details>
+<p>[Press: <a href="https://www.economist.com/business/2025/12/04/how-many-hours-should-employees-work">The Economist</a>, <a href="https://www.moment.at/story/wie-weltweit-kuerzer-gearbeitet-wird/">Moment</a>, <a href="https://timesofindia.indiatimes.com/blogs/tasting-economics/back-to-modern-times-the-new-obsession-with-longer-work-days/">Times Of India</a>, <a href="https://www.businessdailyafrica.com/bd/lifestyle/workplace/fewer-work-hours-yield-greater-business-payoff-5059108#google_vignette">Business Daily</a>]</p></div></details>
 <details id="abstract-CollewetSauermann2017"><summary hidden>Abstract</summary><div class="pub-detail"><p>This paper studies the link between working hours and productivity using daily information on working hours and performance of a sample of call centre agents. We exploit variation in the number of hours worked by the same employee across days and weeks due to central scheduling, enabling us to estimate the effect of working hours on productivity. We find that as the number of hours worked increases, the average handling time for a call increases, meaning that agents become less productive. This result suggests that fatigue can play an important role, even in jobs with mostly part-time workers.</p></div></details>
 <details id="bibtex-CollewetSauermann2017"><summary hidden>BibTeX</summary><div class="pub-detail"><pre><code class="language-bibtex">@article{CollewetSauermann2017,
   author = {Collewet, Marion and Sauermann, Jan},
@@ -264,27 +264,6 @@ format:
 }</code></pre></div></details>
 </div>
 
-<div class="publication" id="pub-DohmenSauermann2016">
-<p>Dohmen, Thomas, and Jan Sauermann (2016), <em>Referee Bias</em>, <strong><em>Journal of Economic Surveys</em></strong>, 30(4), pp. 679–695</p>
-<div class="pub-actions"><button class="pub-toggle" type="button" aria-expanded="false" aria-controls="moreinfo-DohmenSauermann2016"><span class="tri" aria-hidden="true">▸</span> More information and download</button>
-<button class="pub-toggle" type="button" aria-expanded="false" aria-controls="abstract-DohmenSauermann2016"><span class="tri" aria-hidden="true">▸</span> Abstract</button>
-<button class="pub-toggle" type="button" aria-expanded="false" aria-controls="bibtex-DohmenSauermann2016"><span class="tri" aria-hidden="true">▸</span> BibTeX</button></div>
-<details id="moreinfo-DohmenSauermann2016"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://ideas.repec.org/a/bla/jecsur/v30y2016i4p679-695.html">[publisher version (gated)]</a> <a href="https://ideas.repec.org/p/iza/izadps/dp8857.html">[preprint]</a> <scopus-citations file="citations/DohmenSauermann2016_raw.txt"></scopus-citations></p></div></details>
-<details id="abstract-DohmenSauermann2016"><summary hidden>Abstract</summary><div class="pub-detail"><p>This paper surveys the empirical literature on the behavior of referees in professional football and other sports. Referees are typically appointed by a principal to be impartial, especially when unbiased referee judgment is vital for the accomplishment of the principal&#x27;s objective. Answering whether referees make biased decisions and understanding the causes that lead referees to digress from their principal duty of impartiality is therefore fundamental from a theoretical point of view. At the same time, assessing the prevalence and origin of referee bias is germane to various domains of life. Referee bias is particularly relevant in sports, where partial decision-making can determine competition outcomes, which can have strong repercussions on athletes&#x27; careers and supporters&#x27; well-being.</p></div></details>
-<details id="bibtex-DohmenSauermann2016"><summary hidden>BibTeX</summary><div class="pub-detail"><pre><code class="language-bibtex">@article{DohmenSauermann2016,
-  author = {Dohmen, Thomas and Sauermann, Jan},
-  title = {{Referee Bias}},
-  year = {2016},
-  journal = {Journal of Economic Surveys},
-  volume = {30},
-  month = {September},
-  abstract = {This paper surveys the empirical literature on the behavior of referees in professional football and other sports. Referees are typically appointed by a principal to be impartial, especially when unbiased referee judgment is vital for the accomplishment of the principal&#x27;s objective. Answering whether referees make biased decisions and understanding the causes that lead referees to digress from their principal duty of impartiality is therefore fundamental from a theoretical point of view. At the same time, assessing the prevalence and origin of referee bias is germane to various domains of life. Referee bias is particularly relevant in sports, where partial decision-making can determine competition outcomes, which can have strong repercussions on athletes&#x27; careers and supporters&#x27; well-being.},
-  number = {4},
-  pages = {679--695},
-  url = {https://ideas.repec.org/a/bla/jecsur/v30y2016i4p679-695.html}
-}</code></pre></div></details>
-</div>
-
 <div class="publication" id="pub-DeGripSauermannSieben2016">
 <p>De Grip, Andries, Jan Sauermann, and Inge Sieben (2016), <em>The Role of Peers in Estimating Tenure-Performance Profiles: Evidence from Personnel Data</em>, <strong><em>Journal of Economic Behavior &amp; Organization</em></strong>, 126(PA), pp. 39–54</p>
 <div class="pub-actions"><button class="pub-toggle" type="button" aria-expanded="false" aria-controls="moreinfo-DeGripSauermannSieben2016"><span class="tri" aria-hidden="true">▸</span> More information and download</button>
@@ -304,6 +283,27 @@ format:
   pages = {39--54},
   doi = {10.1016/j.jebo.2016.03.002},
   url = {https://ideas.repec.org/a/eee/jeborg/v126y2016ipap39-54.html}
+}</code></pre></div></details>
+</div>
+
+<div class="publication" id="pub-DohmenSauermann2016">
+<p>Dohmen, Thomas, and Jan Sauermann (2016), <em>Referee Bias</em>, <strong><em>Journal of Economic Surveys</em></strong>, 30(4), pp. 679–695</p>
+<div class="pub-actions"><button class="pub-toggle" type="button" aria-expanded="false" aria-controls="moreinfo-DohmenSauermann2016"><span class="tri" aria-hidden="true">▸</span> More information and download</button>
+<button class="pub-toggle" type="button" aria-expanded="false" aria-controls="abstract-DohmenSauermann2016"><span class="tri" aria-hidden="true">▸</span> Abstract</button>
+<button class="pub-toggle" type="button" aria-expanded="false" aria-controls="bibtex-DohmenSauermann2016"><span class="tri" aria-hidden="true">▸</span> BibTeX</button></div>
+<details id="moreinfo-DohmenSauermann2016"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://ideas.repec.org/a/bla/jecsur/v30y2016i4p679-695.html">[publisher version (gated)]</a> <a href="https://ideas.repec.org/p/iza/izadps/dp8857.html">[preprint]</a> <scopus-citations file="citations/DohmenSauermann2016_raw.txt"></scopus-citations></p></div></details>
+<details id="abstract-DohmenSauermann2016"><summary hidden>Abstract</summary><div class="pub-detail"><p>This paper surveys the empirical literature on the behavior of referees in professional football and other sports. Referees are typically appointed by a principal to be impartial, especially when unbiased referee judgment is vital for the accomplishment of the principal&#x27;s objective. Answering whether referees make biased decisions and understanding the causes that lead referees to digress from their principal duty of impartiality is therefore fundamental from a theoretical point of view. At the same time, assessing the prevalence and origin of referee bias is germane to various domains of life. Referee bias is particularly relevant in sports, where partial decision-making can determine competition outcomes, which can have strong repercussions on athletes&#x27; careers and supporters&#x27; well-being.</p></div></details>
+<details id="bibtex-DohmenSauermann2016"><summary hidden>BibTeX</summary><div class="pub-detail"><pre><code class="language-bibtex">@article{DohmenSauermann2016,
+  author = {Dohmen, Thomas and Sauermann, Jan},
+  title = {{Referee Bias}},
+  year = {2016},
+  journal = {Journal of Economic Surveys},
+  volume = {30},
+  month = {September},
+  abstract = {This paper surveys the empirical literature on the behavior of referees in professional football and other sports. Referees are typically appointed by a principal to be impartial, especially when unbiased referee judgment is vital for the accomplishment of the principal&#x27;s objective. Answering whether referees make biased decisions and understanding the causes that lead referees to digress from their principal duty of impartiality is therefore fundamental from a theoretical point of view. At the same time, assessing the prevalence and origin of referee bias is germane to various domains of life. Referee bias is particularly relevant in sports, where partial decision-making can determine competition outcomes, which can have strong repercussions on athletes&#x27; careers and supporters&#x27; well-being.},
+  number = {4},
+  pages = {679--695},
+  url = {https://ideas.repec.org/a/bla/jecsur/v30y2016i4p679-695.html}
 }</code></pre></div></details>
 </div>
 
@@ -437,16 +437,16 @@ format:
 
 </div>
 
-<div class="publication" id="pub-RosenqvistSauermann2025_IFAU">
-<p>Rosenqvist, Olof, and Jan Sauermann (2025), <em>Effekter av kompensatorisk resursfördelning i grundskolan: Erfarenheter från Kunskapsbidraget</em>, IFAU Rapport 2025:17</p>
-<div class="pub-actions"><button class="pub-toggle" type="button" aria-expanded="false" aria-controls="moreinfo-RosenqvistSauermann2025_IFAU"><span class="tri" aria-hidden="true">▸</span> More information and download</button></div>
-<details id="moreinfo-RosenqvistSauermann2025_IFAU"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://www.ifau.se/Forskning/Publikationer/Rapporter/2025/beloningssystem-och-prestation-vilka-reagerar-pa-prestationsbaserad-lon/">[link]</a> <a href="https://www.ifau.se/Forskning/Publikationer/Rapporter/2025/effekter-av-kompensatorisk-resursfordelning-i-grundskolan/">[link]</a></p></div></details>
-</div>
-
 <div class="publication" id="pub-ClemensSauermann2025_IFAU">
 <p>Clemens, Marco, and Jan Sauermann (2025), <em>Belöningssystem och prestation-Vilka reagerar på prestationsbaserad lön?</em>, IFAU Rapport 2025:10</p>
 <div class="pub-actions"><a class="pub-direct-link" href="https://www.ifau.se/Forskning/Publikationer/Rapporter/2025/beloningssystem-och-prestation-vilka-reagerar-pa-prestationsbaserad-lon/"><span aria-hidden="true">▸</span> Download</a></div>
 
+</div>
+
+<div class="publication" id="pub-RosenqvistSauermann2025_IFAU">
+<p>Rosenqvist, Olof, and Jan Sauermann (2025), <em>Effekter av kompensatorisk resursfördelning i grundskolan: Erfarenheter från Kunskapsbidraget</em>, IFAU Rapport 2025:17</p>
+<div class="pub-actions"><button class="pub-toggle" type="button" aria-expanded="false" aria-controls="moreinfo-RosenqvistSauermann2025_IFAU"><span class="tri" aria-hidden="true">▸</span> More information and download</button></div>
+<details id="moreinfo-RosenqvistSauermann2025_IFAU"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://www.ifau.se/Forskning/Publikationer/Rapporter/2025/beloningssystem-och-prestation-vilka-reagerar-pa-prestationsbaserad-lon/">[link]</a> <a href="https://www.ifau.se/Forskning/Publikationer/Rapporter/2025/effekter-av-kompensatorisk-resursfordelning-i-grundskolan/">[link]</a></p></div></details>
 </div>
 
 <div class="publication" id="pub-Sauermann2023_WoL">
@@ -486,6 +486,12 @@ format:
 
 </div>
 
+<div class="publication" id="pub-Sauermann2017_CCP">
+<p>Sauermann, Jan (2017), <em>Training and Performance in Call Centers</em>, CCP Research Brief 2, Center for Corporate Performance (CCP), May</p>
+<div class="pub-actions"><a class="pub-direct-link" href="files/CCP_Sauermann.pdf"><span aria-hidden="true">▸</span> Download</a></div>
+
+</div>
+
 <div class="publication" id="pub-SauermannStenberg2017">
 <p>Sauermann, Jan, and Anders Stenberg (2017), <em>Short- and Long-term Effects of Vocational versus General Schooling: A Regression Discontinuity Approach</em>, Unpublished working paper</p>
 <div class="pub-actions"><a class="pub-direct-link" href="files/SauermannStenberg_VocationalGeneral.pdf"><span aria-hidden="true">▸</span> Download</a>
@@ -499,12 +505,6 @@ format:
   abstract = {In this paper, we estimate the relative earnings returns for Swedish upper secondary schooling programs with vocational and general contents for individuals born 1955-75. Using data on individuals&#x27; application choices, we address endogeneity of program choice by exploiting admission cutoffs. These cutoffs, which are based on pupils&#x27; grade point averages (GPA), allow us to estimate the returns to educational contents in a regression discontinuity (RD) framework. In addition, we control for students&#x27; choice order to proxy for students&#x27; comparative advantages. We apply this RD design to estimate the effects of schooling contents on annual earnings from 1978-2014. For men, we find that vocational schooling has an earnings advantage over general schooling up and until the age of 27, with estimates thereafter close to zero. For women, we observe a similar earnings advantage for vocational schooling up and until the age of 23. For the longer term, there are no coherent earnings differences for men. For women with vocational schooling, there is a renewed earnings advantage from age 43 and onwards. We find suggestive evidence that this can be explained by further education completed in adulthood.},
   note = {Unpublished working paper}
 }</code></pre></div></details>
-</div>
-
-<div class="publication" id="pub-Sauermann2017_CCP">
-<p>Sauermann, Jan (2017), <em>Training and Performance in Call Centers</em>, CCP Research Brief 2, Center for Corporate Performance (CCP), May</p>
-<div class="pub-actions"><a class="pub-direct-link" href="files/CCP_Sauermann.pdf"><span aria-hidden="true">▸</span> Download</a></div>
-
 </div>
 
 <div class="publication" id="pub-LindquistSauermannZenou2015_VoxEU">
@@ -553,14 +553,14 @@ format:
 
 </div>
 
-<div class="publication" id="pub-DupuySauermann2011_Substitution">
-<p>Dupuy, Arnaud, and Jan Sauermann (2011), <em>Estimating Substitution Demand</em></p>
+<div class="publication" id="pub-DupuySauermann2011_SkillSupply">
+<p>Dupuy, Arnaud, and Jan Sauermann (2011), <em>Forecasting Skill Supply and Demand in Europe: Skill Upgrading in Europe</em>, Technical Report, Research Centre for Education and the Labour Market (ROA), Maastricht</p>
 <div class="pub-actions"></div>
 
 </div>
 
-<div class="publication" id="pub-DupuySauermann2011_SkillSupply">
-<p>Dupuy, Arnaud, and Jan Sauermann (2011), <em>Forecasting Skill Supply and Demand in Europe: Skill Upgrading in Europe</em>, Technical Report, Research Centre for Education and the Labour Market (ROA), Maastricht</p>
+<div class="publication" id="pub-DupuySauermann2011_Substitution">
+<p>Dupuy, Arnaud, and Jan Sauermann (2011), <em>Estimating Substitution Demand</em></p>
 <div class="pub-actions"></div>
 
 </div>
@@ -571,15 +571,15 @@ format:
 
 </div>
 
-<div class="publication" id="pub-DupuySauermann2009_SkillUpgrading">
-<p>Dupuy, Arnaud, and Jan Sauermann (2009), <em>Measuring Skill-upgrading in the Dutch Labor Market</em>, Research Centre for Education and the Labour Market (ROA), Maastricht</p>
-<div class="pub-actions"></div>
-
-</div>
-
 <div class="publication" id="pub-DeGripFouargeSauermann2009_PlatformPocket">
 <p>De Grip, Andries, Didier Fouarge, and Jan Sauermann (2009), <em>De betekenis van internationale mobiliteit en allochtone bétatechnici voor de Nederandse arbeidsmarkt</em>, PlatformPocket 9, Platform Bétatechniek, Den Haag</p>
 <div class="pub-actions"><a class="pub-direct-link" href="files/FouargeGripSauermann2009.pdf"><span aria-hidden="true">▸</span> Download</a></div>
+
+</div>
+
+<div class="publication" id="pub-DupuySauermann2009_SkillUpgrading">
+<p>Dupuy, Arnaud, and Jan Sauermann (2009), <em>Measuring Skill-upgrading in the Dutch Labor Market</em>, Research Centre for Education and the Labour Market (ROA), Maastricht</p>
+<div class="pub-actions"></div>
 
 </div>
 
