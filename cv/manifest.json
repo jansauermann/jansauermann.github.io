@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
-  "publication_revision": "8f09558ceb832799baeda98cad74e825d29874fe",
+  "publication_revision": "46640f9ce1117bf9d8bf369b0c7e0b369dcb0aed",
   "citations_tree": "357770f27ad0cc0d37869ce07f52dc7478c18501",
   "counts": {
     "journal_article": 15,
     "working_paper": 5,
     "other": 25,
-    "refereeing_journals": 51,
+    "refereeing_journals": 50,
     "refereeing_funding": 5,
     "refereeing_conference": 4,
     "presentation_places_conference": 25,
@@ -24,7 +24,7 @@
     "working-papers.tex": "215b6cf8588cecb37857c00397794e6dba7b97885896703143cfac9a1639f7b0",
     "other-publications.tex": "af4b3312879609446bd7e95d055c9b6acb97d034a7cc1f64a6acd1e2ebe5fca9",
     "citation-statistics.tex": "8fdbae8e63ba8db116bda073c4f3343f11fdd7fc75b6f6f163eb870dbb236093",
-    "refereeing-journals.tex": "978078634898f1efc54d9138e8e687b2aa26e85604afc1891d81ef1789e49923",
+    "refereeing-journals.tex": "e81b4f957d781f13e8a490685bc5ff08d1a554a55d99c8a2241c4dbdc3216062",
     "refereeing-funding.tex": "33a0dc9a863c08819d9fb040345ee71f8d4979fbdd403058809290d0b5ebe1c7",
     "refereeing-conferences.tex": "94d6e6ddc0c7ab027219cc302c065998ae862c25d21d3931eb37a82ee08dc17d",
     "presentations-conference.tex": "87338a2dbf8fe22946d87de50e0dd98a052e39c03518df85ec103bc488bb532e",
