@@ -197,38 +197,49 @@ def additional_info(pub, links):
         if group.casefold()=='bibliographic references':
             continue
         groups.setdefault(group,[]).append(link)
-    blocks=[]
+    related=[];press=[]
+    def label_text(link):
+        label=link['label'].strip()
+        while label.startswith('[') and label.endswith(']'):
+            label=label[1:-1].strip()
+        return E(label)
+
+    def anchor(link,label):
+        url=link.get('url','')
+        if url.endswith('?via%3Dihub'):url=url.split('?',1)[0]
+        return ('<a href="'+E(safe_url(url),quote=True)+'">'+label+'</a>'
+                if url else '<span class="pub-note">'+label+'</span>')
+
     for group in sorted(groups,key=group_rank):
-        def label_text(link):
-            label=link['label'].strip()
-            while label.startswith('[') and label.endswith(']'):
-                label=label[1:-1].strip()
-            return E(label)
-
-        def link_url(link):
-            url=link['url']
-            # This malformed tracking query has a clean equivalent in the source metadata.
-            if url.endswith('?via%3Dihub'):url=url.split('?',1)[0]
-            return E(safe_url(url),quote=True)
-
         if group.casefold()=='more information':
-            pending=[]
             for link in sorted(groups[group],key=information_link_rank):
                 label=label_text(link)
-                if link.get('url'):
-                    pending.append('<a href="'+link_url(link)+'">['+label+']</a>')
-                else:
-                    pending.append('<span class="pub-note">['+label+']</span>')
-            if pending:blocks.append('<p>'+' '.join(pending)+'</p>')
-        else:
-            content=[]
+                if link.get('url') and label.casefold() in {'non-technical report','non-technical summary'}:
+                    label='non-technical summary'
+                related.append(anchor(link,'['+label+']'))
+        elif group.casefold().startswith('non-technical'):
             for link in groups[group]:
-                label=label_text(link)
-                content.append('<a href="'+link_url(link)+'">'+label+'</a>' if link.get('url') else '<span class="pub-note">'+label+'</span>')
-            blocks.append('<p>['+E(group)+': '+', '.join(content)+']</p>')
+                # Keep text-only notes, but give each summary URL the same compact label.
+                label='non-technical summary' if link.get('url') else label_text(link)
+                related.append(anchor(link,'['+label+']'))
+        else:
+            content=[anchor(link,label_text(link)) for link in groups[group]]
+            block='['+E(group)+': '+', '.join(content)+']'
+            (press if group.casefold()=='press' else related).append(block)
     if pub.get('scopus_file'):
-        blocks.append('<p><scopus-citations file="'+E(pub['scopus_file'],quote=True)+'"></scopus-citations></p>')
-    return '\n'.join(blocks)
+        related.append('<scopus-citations file="'+E(pub['scopus_file'],quote=True)+'"></scopus-citations>')
+    # Normal wrapping is allowed; Press deliberately starts a separate paragraph.
+    return '\n'.join('<p>'+' '.join(parts)+'</p>' for parts in (related,press) if parts)
+
+
+def website_links(pub, links):
+    """Other publications use main_url alongside their custom links, once per URL."""
+    result=list(links)
+    main=pub.get('main_url','').strip()
+    if pub['category']=='other' and main and not any(link.get('url','').strip()==main for link in result):
+        result.insert(0,{'publication_id':pub['id'],'group':'More information',
+                         'label':'Download','url':main})
+    return result
 
 
 def primary_publication_link(links):
@@ -313,24 +324,25 @@ def generate(pubs,links,template):
         blocks=[]
         for p in sorted(group,key=lambda p:-int(p.get('year') or 0)):
             key=p['id'];panels=[]
-            public_links=[link for link in link_map[key] if link.get('url')
+            item_links=website_links(p,link_map[key])
+            public_links=[link for link in item_links if link.get('url')
                           and link.get('group','').casefold()!='bibliographic references']
             direct='';direct_notes=''
-            # A report with one URL gets a direct More information link, with independent
+            # A report with one URL gets a direct Download link, with independent
             # abstract/BibTeX toggles when available. Titles remain plain on the website.
             if category=='other' and len(public_links)==1:
                 primary=public_links[0]['url']
                 if primary.endswith('?via%3Dihub'):primary=primary.split('?',1)[0]
                 direct=('<a class="pub-direct-link" href="'+E(safe_url(primary),quote=True)
-                        +'"><span aria-hidden="true">▸</span> More information and download</a>')
-                remaining=[link for link in link_map[key] if not link.get('url')]
+                        +'"><span aria-hidden="true">▸</span> Download</a>')
+                remaining=[link for link in item_links if not link.get('url')]
                 direct_notes=additional_info(p,remaining)
             else:
-                info=additional_info(p,link_map[key])
+                info=additional_info(p,item_links)
                 if info:panels.append(('moreinfo','More information and download',info))
             if p.get('abstract','').strip():panels.append(('abstract','Abstract','<p>'+E(p['abstract']).replace('\n','<br>')+'</p>'))
             if show_bibtex(p):
-                bib=bibtex(p,link_map[key]);all_bib.append(bib)
+                bib=bibtex(p,item_links);all_bib.append(bib)
                 panels.append(('bibtex','BibTeX','<pre><code class="language-bibtex">'+E(bib)+'</code></pre>'))
             controls='\n'.join('<button class="pub-toggle" type="button" aria-expanded="false" aria-controls="'+kind+'-'+key+'"><span class="tri" aria-hidden="true">▸</span> '+label+'</button>' for kind,label,content in panels)
             if direct:controls=direct+('\n'+controls if controls else '')
@@ -363,7 +375,7 @@ def main():
         if p['category']=='other' and show_bibtex(p):
             bib_dir.mkdir(parents=True,exist_ok=True)
             pub_links=[link for link in links if link['publication_id']==p['id']]
-            (bib_dir/(p['id']+'.bib')).write_text(bibtex(p,pub_links)+'\n',encoding='utf-8')
+            (bib_dir/(p['id']+'.bib')).write_text(bibtex(p,website_links(p,pub_links))+'\n',encoding='utf-8')
     args.output.parent.mkdir(parents=True,exist_ok=True)
     args.output.write_text(qmd,encoding='utf-8')
     if args.bib_output:args.bib_output.write_text(bib,encoding='utf-8')
