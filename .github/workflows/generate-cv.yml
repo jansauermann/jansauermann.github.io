@@ -12,8 +12,7 @@ on:
       - 'data/manifest.json'
       - 'citations/**'
       - 'scripts/cv/**'
-      - 'scripts/publications/generate_research.py'
-      - 'scripts/publications/test_research.py'
+      - 'scripts/publications/**'
       - '.github/workflows/generate-cv.yml'
   # Keep this workflow on main AND publication-data for export-commit triggers.
   # The schedule is a backup for other automated citation updates.
