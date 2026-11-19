@@ -1,0 +1,472 @@
+{
+  "schema_version": 1,
+  "conference": [
+    {
+      "place": "Advances with Field Experiments, Wharton School",
+      "years": [
+        2010
+      ]
+    },
+    {
+      "place": "American Economic Association",
+      "years": [
+        2016
+      ]
+    },
+    {
+      "place": "Barcelona GSE Summer Forum",
+      "years": [
+        2015
+      ]
+    },
+    {
+      "place": "COPE Colloquium on Personnel Economics",
+      "years": [
+        2015,
+        2025
+      ]
+    },
+    {
+      "place": "Economics of Leadership, MIT Sloan",
+      "years": [
+        2012
+      ]
+    },
+    {
+      "place": "Education in Adulthood and the Labour Market, IAB Nuremberg",
+      "years": [
+        2009
+      ]
+    },
+    {
+      "place": "European Association of Labour Economists",
+      "years": [
+        2006,
+        2008,
+        2009,
+        2011,
+        2012,
+        2019,
+        2021
+      ]
+    },
+    {
+      "place": "European Economic Association",
+      "years": [
+        2009,
+        2010
+      ]
+    },
+    {
+      "place": "European Society for Population Economics",
+      "years": [
+        2012,
+        2016,
+        2021
+      ]
+    },
+    {
+      "place": "Industry Studies",
+      "years": [
+        2008
+      ]
+    },
+    {
+      "place": "International GSOEP Young Scholars Symposium",
+      "years": [
+        2006
+      ]
+    },
+    {
+      "place": "International Workshop on Applied Economics of Education",
+      "years": [
+        2010
+      ]
+    },
+    {
+      "place": "IZA Summer School",
+      "years": [
+        2011
+      ]
+    },
+    {
+      "place": "Joint AASLE / EALE / SOLE Conference",
+      "years": [
+        2020
+      ]
+    },
+    {
+      "place": "Joint EALE / SOLE Conference",
+      "years": [
+        2015
+      ]
+    },
+    {
+      "place": "Network Social Innovation, Maastricht",
+      "years": [
+        2010,
+        2012
+      ]
+    },
+    {
+      "place": "RES PhD Meeting",
+      "years": [
+        2012
+      ]
+    },
+    {
+      "place": "Royal Economic Society",
+      "years": [
+        2011
+      ]
+    },
+    {
+      "place": "SOLE",
+      "years": [
+        2009,
+        2011
+      ]
+    },
+    {
+      "place": "Stockholm Behavioral Economics Network",
+      "years": [
+        2015
+      ]
+    },
+    {
+      "place": "Vacancies, Hiring and Matching Workshop, IAB Nuremberg",
+      "years": [
+        2019
+      ]
+    },
+    {
+      "place": "Verein für Socialpolitik",
+      "years": [
+        2006,
+        2014,
+        2021
+      ]
+    },
+    {
+      "place": "Work Pensions and Labour Economics Conference",
+      "years": [
+        2006
+      ]
+    },
+    {
+      "place": "Workshop Labour Markets for Scientists and Engineers, Maastricht",
+      "years": [
+        2008
+      ]
+    },
+    {
+      "place": "Workshop on Education Economics and Policy",
+      "years": [
+        2025
+      ]
+    }
+  ],
+  "seminars": [
+    {
+      "place": "Aarhus University",
+      "years": [
+        2015
+      ]
+    },
+    {
+      "place": "BeNA, Berlin",
+      "years": [
+        2013
+      ]
+    },
+    {
+      "place": "Berlin Applied Micro Seminar",
+      "years": [
+        2019
+      ]
+    },
+    {
+      "place": "Cedefop-Eurofound-IZA",
+      "years": [
+        2020
+      ]
+    },
+    {
+      "place": "CESIS Research Seminar, KTH Stockholm",
+      "years": [
+        2017
+      ]
+    },
+    {
+      "place": "Copenhagen Business School",
+      "years": [
+        2017
+      ]
+    },
+    {
+      "place": "Copenhagen University",
+      "years": [
+        2016
+      ]
+    },
+    {
+      "place": "CVER Conference, London School of Economics",
+      "years": [
+        2016
+      ]
+    },
+    {
+      "place": "Erasmus University Rotterdam",
+      "years": [
+        2020
+      ]
+    },
+    {
+      "place": "HECER, Helsinki",
+      "years": [
+        2014
+      ]
+    },
+    {
+      "place": "IAAEU Trier",
+      "years": [
+        2022
+      ]
+    },
+    {
+      "place": "IAB",
+      "years": [
+        2015
+      ]
+    },
+    {
+      "place": "IAB Vacancies, Hiring and Matching Workshop",
+      "years": [
+        2019
+      ]
+    },
+    {
+      "place": "IFAU",
+      "years": [
+        2013,
+        2015,
+        2020
+      ]
+    },
+    {
+      "place": "IFN",
+      "years": [
+        2016,
+        2020
+      ]
+    },
+    {
+      "place": "IZA",
+      "years": [
+        2012
+      ]
+    },
+    {
+      "place": "Jönköping University",
+      "years": [
+        2023
+      ]
+    },
+    {
+      "place": "KTH Stockholm",
+      "years": [
+        2017
+      ]
+    },
+    {
+      "place": "Linnaeus University",
+      "years": [
+        2022
+      ]
+    },
+    {
+      "place": "Maastricht University",
+      "years": [
+        2007,
+        2009,
+        2012,
+        2022
+      ]
+    },
+    {
+      "place": "NTNU, Trondheim",
+      "years": [
+        2024
+      ]
+    },
+    {
+      "place": "Queen's University, Kingston",
+      "years": [
+        2012
+      ]
+    },
+    {
+      "place": "Rockwool Foundation",
+      "years": [
+        2016
+      ]
+    },
+    {
+      "place": "Royal Economic Society",
+      "years": [
+        2022
+      ]
+    },
+    {
+      "place": "RWI Essen",
+      "years": [
+        2010
+      ]
+    },
+    {
+      "place": "RWTH Aachen",
+      "years": [
+        2018
+      ]
+    },
+    {
+      "place": "SOFI, Stockholm University",
+      "years": [
+        2012,
+        2014,
+        2015,
+        2016
+      ]
+    },
+    {
+      "place": "University of Aberdeen",
+      "years": [
+        2012
+      ]
+    },
+    {
+      "place": "University of Cologne",
+      "years": [
+        2018
+      ]
+    },
+    {
+      "place": "University of Gothenburg",
+      "years": [
+        2018
+      ]
+    },
+    {
+      "place": "University of Paderborn",
+      "years": [
+        2012
+      ]
+    },
+    {
+      "place": "University of Potsdam",
+      "years": [
+        2021
+      ]
+    },
+    {
+      "place": "University of Sussex",
+      "years": [
+        2012
+      ]
+    },
+    {
+      "place": "Uppsala University",
+      "years": [
+        2025
+      ]
+    }
+  ],
+  "policy": [
+    {
+      "place": "Arbetsförmedlingen",
+      "years": [
+        2024
+      ]
+    },
+    {
+      "place": "CCP Meeting, Copenhagen",
+      "years": [
+        2017
+      ]
+    },
+    {
+      "place": "Cedefop, Malta",
+      "years": [
+        2009
+      ]
+    },
+    {
+      "place": "Conference on Social and Economic Data",
+      "years": [
+        2006
+      ]
+    },
+    {
+      "place": "IAB/MASGF-Workshop",
+      "years": [
+        2006
+      ]
+    },
+    {
+      "place": "IFAU Advisory Group",
+      "years": [
+        2026
+      ]
+    },
+    {
+      "place": "IFAU Policy Conference",
+      "years": [
+        2026
+      ]
+    },
+    {
+      "place": "INSCOPE",
+      "years": [
+        2009
+      ]
+    },
+    {
+      "place": "Inspektionen för socialförsäkringen",
+      "years": [
+        2022
+      ]
+    },
+    {
+      "place": "Skolverket",
+      "years": [
+        2025
+      ]
+    },
+    {
+      "place": "Swedish Research Council",
+      "years": [
+        2025
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "place": "IFAU UCLS Education and Human Capital Conference",
+      "years": [
+        2023
+      ]
+    },
+    {
+      "place": "Verein für Socialpolitik",
+      "years": [
+        2006
+      ]
+    },
+    {
+      "place": "Workshop on Education Economics and Policy",
+      "years": [
+        2025
+      ]
+    }
+  ]
+}

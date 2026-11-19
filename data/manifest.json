@@ -5,6 +5,7 @@
   "sha256": {
     "Pubs.csv": "887b66c0880d3462ab55d13fd8463bf230ccfdc620e9e7c3d340003ac5a0ed72",
     "Pubs_CustomLinks.csv": "005a7dc368a2f39b1d3133f76f2e47b8c7bc03b8352127e953e56aa11b2996e9",
-    "RefereeLists.json": "671cb56889eb017e814eb3a7010df152fd0ee1ffd42d837f56ee127e8b4ad4b2"
+    "RefereeLists.json": "0bb3103bba34e97cf67582e3e0d6b70295b0a857814c429f5ca4be677e2f4db4",
+    "Presentations.json": "e9639a51907a981b692effbbbb9cb915306c0026bacf4b4f6d16d5c359dccbed"
   }
 }
