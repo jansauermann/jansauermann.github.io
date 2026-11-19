@@ -244,8 +244,10 @@ def website_links(pub, links):
     if pub['category'] not in {'journal_article','other'} or not main:
         return result
     matches=[link for link in result if link.get('url','').strip()==main
-             and link.get('group','').strip().casefold() in {'','more information'}]
-    primary=dict(matches[0]) if matches else {
+             and link.get('group','').strip().casefold() not in {'press','bibliographic references'}]
+    existing=next((link for link in matches
+                   if link.get('group','').strip().casefold() in {'','more information'}),None)
+    primary=dict(existing) if existing else {
         'publication_id':pub['id'],'group':'More information',
         'label':'Published version' if pub['category']=='journal_article' else 'Download','url':main}
     primary['_main_url']=True

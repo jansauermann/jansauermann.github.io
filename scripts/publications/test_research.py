@@ -85,6 +85,14 @@ class PublicationDisplayTests(unittest.TestCase):
         wp=dict(pub,category='working_paper')
         self.assertEqual(research.website_links(wp,[]),[])
 
+    def test_report_summary_at_main_url_does_not_duplicate_download(self):
+        pub=dict(self.pub, category='other', entry_type='misc', main_url='https://example.com/report')
+        links=[self.link('non-technical report', 'Non-technical summary', pub['main_url'])]
+        qmd,_,_=research.generate([pub],links,'{{PUBLICATIONS}}')
+        self.assertEqual(qmd.count('href="https://example.com/report"'),1)
+        self.assertIn('Download</a>',qmd)
+        self.assertNotIn('id="moreinfo-paper"',qmd)
+
     def test_no_wp_or_wip_bibtex_and_nonresearch_report_has_none(self):
         for category, entry_type in [('working_paper', 'unpublished'), ('work_in_progress', 'unpublished'),
                                      ('other', 'misc')]:
