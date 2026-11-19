@@ -46,25 +46,82 @@ Please [find my CV (pdf) here](https://jansauermann.github.io/files/fullcv_sauer
 ### News
 
 <!-- NEWS:START -->
-<!-- **December 1, 2026**: you can now submit your paper to the [9th Stockholm Uppsala Education Economics Workshop](educworkshop_2027.qmd) which takes place on May 11, 2027. The keynote presentation will be held by **Susan Dynarski (Harvard)**.
--->
 
-**November 6, 2026**: my paper "Education providers’ take-up of government grants: Evidence from a grant allocation discontinuity" (with Olof Rosenqvist) is now published as a working paper at [IFAU](https://www.ifau.se/Forskning/Publikationer/Working-papers/2026/education-providers-take-up-of-government-grants/) and [RF Berlin](https://www.rfberlin.com/network-paper/education-providers-take-up-of-government-grants-evidence-from-a-grant-allocation-discontinuity/). The policy report can be downloaded  [here](research.html#research-reports-and-other-publications)
+::: {.news-item data-news-id="report_takeup" data-news-pub="2026-11-06" data-news-close="2028-01-06" hidden="hidden"}
 
-**October 26, 2026**: together with Björn Öckert and Simon Ek, I received EUR 440,000 for my project on job search assistance providers from the Swedish Council for Health Working Life and Welfare (FORTE). 
+**November 6, 2026**: My paper “Education providers’ take-up of government grants: Evidence from a grant allocation discontinuity” (with Olof Rosenqvist) is now published as a working paper at [IFAU](https://www.ifau.se/Forskning/Publikationer/Working-papers/2026/education-providers-take-up-of-government-grants/) and [RF Berlin](https://www.rfberlin.com/network-paper/education-providers-take-up-of-government-grants-evidence-from-a-grant-allocation-discontinuity/). The policy report can be downloaded [here](https://jansauermann.github.io/research.html#research-reports-and-other-publications).
 
-**September 29, 2026**: I co-organize the [9th Stockholm Uppsala Education Economics Workshop](educworkshop_2027.qmd) which takes place at Uppsala University on May 11, 2027. The keynote presentation will be held by **Susan Dynarski (Harvard)**. Starting December 1, 2026, you can submit your paper to the workshop. 
+:::
 
+::: {.news-item data-news-id="forteleverantor" data-news-pub="2026-10-26" data-news-close="2027-12-26" hidden="hidden"}
 
-**May 5, 2026**: I will be serving as a guest reviewer for the **2027 Colloquium on Personnel Economics** to be held on March 18/19 at Waseda University in Tokyo. Please consider submitting your paper by [following this link](https://personneleconomics.eu/cope2027/) 
+**October 26, 2026**: Together with Björn Öckert and Simon Ek, I received EUR 440,000 for my project on job search assistance providers from the Swedish Council for Health Working Life and Welfare (FORTE).
 
+:::
 
-**December 1, 2025**: you can now submit your paper to the [8th Stockholm Uppsala Education Economics Workshop](educworkshop_2026.qmd) which takes place on May 6, 2026. The keynote presentation will be held by **Kirabo Jackson (Northwestern)**.
+::: {.news-item data-news-id="educws_announce" data-news-pub="2026-09-29" data-news-close="2026-12-01" hidden="hidden"}
 
+**September 29, 2026**: I co-organize the [9th Stockholm Uppsala Education Economics Workshop](https://jansauermann.github.io/educworkshop_2027.html), which takes place at Uppsala University on May 11, 2027. The keynote presentation will be held by **Susan Dynarski (Harvard)**. Starting December 1, 2026, you can submit your paper to the workshop.
 
-**November 7, 2025**: I have been invited to join [ROCKWOOL Foundation Berlin (RF Berlin)](https://www.rfberlin.com/author/jansauermann/) as a Research Fellow
+:::
 
-**September 23, 2025**: my paper "The effects of increasing compensatory resource allocation on student achievement" is now published as an IFAU Working Paper [here](https://www.ifau.se) or read the [Swedish-language report here](research.html#research-reports-and-other-publications)
+::: {.news-item data-news-id="cope_cfp_tokyo" data-news-pub="2026-05-05" data-news-close="2027-07-05" hidden="hidden"}
+
+**May 5, 2026**: I will be serving as a guest reviewer for the **2027 Colloquium on Personnel Economics**, to be held on March 18/19 at Waseda University in Tokyo. Please consider submitting your paper by [following this link](https://personneleconomics.eu/cope2027/).
+
+:::
+
+::: {.news-item data-news-id="educws_jackson" data-news-pub="2025-12-01" data-news-close="2027-02-01" hidden="hidden"}
+
+**December 1, 2025**: You can now submit your paper to the [8th Stockholm Uppsala Education Economics Workshop](https://jansauermann.github.io/educworkshop_2026.html), which takes place on May 6, 2026. The keynote presentation will be held by **Kirabo Jackson (Northwestern)**.
+
+:::
+
+::: {.news-item data-news-id="rfberlin_announce" data-news-pub="2025-11-07" data-news-close="2027-01-07" hidden="hidden"}
+
+**November 7, 2025**: I have been invited to join [ROCKWOOL Foundation Berlin (RF Berlin)](https://www.rfberlin.com/author/jansauermann/) as a Research Fellow.
+
+:::
+
+::: {.news-item data-news-id="report_lv" data-news-pub="2025-09-23" data-news-close="2026-11-17" hidden="hidden"}
+
+**September 23, 2025**: My paper “The effects of increasing compensatory resource allocation on student achievement” is now published as an IFAU Working Paper [here](https://www.ifau.se/), or read the [Swedish-language report here](https://jansauermann.github.io/research.html#research-reports-and-other-publications).
+
+:::
+
+```{=html}
+<style>.news-item[hidden] { display: none !important; }</style>
+<script>
+/* Dates are calendar dates in Stockholm, regardless of the visitor's timezone. */
+(() => {
+  const formatter = new Intl.DateTimeFormat('en', {
+    timeZone: 'Europe/Stockholm', year: 'numeric', month: '2-digit', day: '2-digit'
+  });
+  function update() {
+    const parts = formatter.formatToParts(new Date());
+    const value = name => parts.find(part => part.type === name).value;
+    const today = `${value('year')}-${value('month')}-${value('day')}`;
+    document.querySelectorAll('.news-item[data-news-pub][data-news-close]').forEach(item => {
+      item.hidden = !(item.dataset.newsPub <= today && today <= item.dataset.newsClose);
+    });
+  }
+  function start() {
+    update();
+    // Also update a page left open across midnight or resumed after being suspended.
+    window.setInterval(update, 60000);
+    window.addEventListener('pageshow', update);
+    window.addEventListener('focus', update);
+    document.addEventListener('visibilitychange', update);
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', start, {once: true});
+  } else {
+    start();
+  }
+})();
+
+</script>
+```
 
 <!-- NEWS:END -->
 
