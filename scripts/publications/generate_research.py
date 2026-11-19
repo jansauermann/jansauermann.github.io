@@ -165,6 +165,7 @@ def group_rank(group):
 
 def information_link_rank(link):
     """Stable within each kind: publisher, appendix, WP versions, remaining links/notes."""
+    if link.get('_main_url'):return -1
     label=link.get('label','').strip('[] ').casefold()
     if label.startswith(('publisher version','published version','most recent version')):
         return 0
@@ -226,20 +227,28 @@ def additional_info(pub, links):
             content=[anchor(link,label_text(link)) for link in groups[group]]
             block='['+E(group)+': '+', '.join(content)+']'
             (press if group.casefold()=='press' else related).append(block)
+    # Publication links, Press and citations each have their own paragraph.
+    blocks=['<p>'+' '.join(parts)+'</p>' for parts in (related,press) if parts]
     if pub.get('scopus_file'):
-        related.append('<scopus-citations file="'+E(pub['scopus_file'],quote=True)+'"></scopus-citations>')
-    # Normal wrapping is allowed; Press deliberately starts a separate paragraph.
-    return '\n'.join('<p>'+' '.join(parts)+'</p>' for parts in (related,press) if parts)
+        blocks.append('<p><scopus-citations file="'+E(pub['scopus_file'],quote=True)+'"></scopus-citations></p>')
+    return '\n'.join(blocks)
 
 
 def website_links(pub, links):
-    """Other publications use main_url alongside their custom links, once per URL."""
+    """Published papers/reports put main_url first, retaining other custom links."""
     result=list(links)
     main=pub.get('main_url','').strip()
-    if pub['category']=='other' and main and not any(link.get('url','').strip()==main for link in result):
-        result.insert(0,{'publication_id':pub['id'],'group':'More information',
-                         'label':'Download','url':main})
-    return result
+    if pub['category'] not in {'journal_article','other'} or not main:
+        return result
+    matches=[link for link in result if link.get('url','').strip()==main
+             and link.get('group','').strip().casefold() in {'','more information'}]
+    primary=dict(matches[0]) if matches else {
+        'publication_id':pub['id'],'group':'More information',
+        'label':'Published version' if pub['category']=='journal_article' else 'Download','url':main}
+    primary['_main_url']=True
+    primary['group']='More information'
+    result=[link for link in result if link not in matches]
+    return [primary]+result
 
 
 def primary_publication_link(links):

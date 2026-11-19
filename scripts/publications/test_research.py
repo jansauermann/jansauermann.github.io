@@ -55,13 +55,34 @@ class PublicationDisplayTests(unittest.TestCase):
             self.assertIn('href="https://example.com/appendix"', qmd)
             self.assertEqual(len(research.website_links(pub, combined)), 2)
 
-    def test_main_url_only_report_has_download_and_journal_uses_customlinks(self):
+    def test_main_url_only_report_has_download_and_journal_has_published_version(self):
         pub = dict(self.pub, category='other', entry_type='misc', main_url='https://example.com/main')
         qmd, _, _ = research.generate([pub], [], '{{PUBLICATIONS}}')
         self.assertIn('href="https://example.com/main"', qmd)
         self.assertIn('Download</a>', qmd)
         self.assertNotIn('id="moreinfo-paper"', qmd)
-        self.assertEqual(research.website_links(dict(pub, category='journal_article'), []), [])
+        journal_links=research.website_links(dict(pub, category='journal_article'), [])
+        self.assertEqual(journal_links[0]['url'], pub['main_url'])
+        self.assertEqual(journal_links[0]['label'], 'Published version')
+
+    def test_main_url_first_then_press_then_unbracketed_citations(self):
+        pub=dict(self.pub, main_url='https://example.com/published', scopus_file='citations/test.txt')
+        links=[self.link('preprint'), self.link('online appendix'), self.link('Outlet', 'Press'),
+               self.link('publisher version', url=pub['main_url'])]
+        combined=research.website_links(pub, links)
+        self.assertEqual(len(combined),len(links))
+        html=research.additional_info(pub,combined)
+        paragraphs=html.split('\n')
+        self.assertEqual(len(paragraphs),3)
+        self.assertLess(paragraphs[0].index(pub['main_url']),paragraphs[0].index('online appendix'))
+        self.assertIn('Press:',paragraphs[1])
+        self.assertIn('<scopus-citations',paragraphs[2])
+        self.assertNotIn('[',paragraphs[2])
+        self.assertNotIn(']',paragraphs[2])
+        self.assertNotIn('<scopus-citations',paragraphs[0])
+        # WP title/link rules remain independent from published papers.
+        wp=dict(pub,category='working_paper')
+        self.assertEqual(research.website_links(wp,[]),[])
 
     def test_no_wp_or_wip_bibtex_and_nonresearch_report_has_none(self):
         for category, entry_type in [('working_paper', 'unpublished'), ('work_in_progress', 'unpublished'),
