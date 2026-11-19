@@ -208,8 +208,11 @@ def additional_info(pub, links):
     def anchor(link,label):
         url=link.get('url','')
         if url.endswith('?via%3Dihub'):url=url.split('?',1)[0]
-        return ('<a href="'+E(safe_url(url),quote=True)+'">'+label+'</a>'
-                if url else '<span class="pub-note">'+label+'</span>')
+        if not url:return '<span class="pub-note">'+label+'</span>'
+        bracketed=label.startswith('[') and label.endswith(']')
+        text=label[1:-1] if bracketed else label
+        linked='<a href="'+E(safe_url(url),quote=True)+'">'+text+'</a>'
+        return '['+linked+']' if bracketed else linked
 
     for group in sorted(groups,key=group_rank):
         if group.casefold()=='more information':

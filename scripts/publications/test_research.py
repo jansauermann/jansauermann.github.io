@@ -20,7 +20,8 @@ class PublicationDisplayTests(unittest.TestCase):
                   'previously released as IZA DP 123', 'non-technical summary', 'Press:']
         self.assertEqual(sorted(labels, key=html.index), labels)
         self.assertEqual(html.count('<p>'), 2)
-        self.assertIn('>[non-technical summary]</a>', html)
+        self.assertIn('>non-technical summary</a>]', html)
+        self.assertNotRegex(html, r'<a[^>]*>\[|\]</a>')
         self.assertNotIn('Non-technical summary:', html)
         self.assertIn('<span class="pub-note">[previously released as IZA DP 123]</span>', html)
 
