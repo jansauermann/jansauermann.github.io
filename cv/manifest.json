@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "publication_revision": "18c51263d4c2158c44b2794ab698d80629bab729",
+  "publication_revision": "ac80e038d2c8337fd64c6d388c11829095bc4ce5",
   "citations_tree": "357770f27ad0cc0d37869ce07f52dc7478c18501",
   "counts": {
     "journal_article": 15,
@@ -13,7 +13,7 @@
     "presentation_places_seminars": 34,
     "presentation_places_policy": 11,
     "presentation_places_comments": 3,
-    "press_outlets": 15
+    "press_outlets": 16
   },
   "statistics": {
     "scopus_total": 893,
@@ -31,6 +31,6 @@
     "presentations-seminars.tex": "b53e64f0352d474ded05c5f74287c2b87a7691f623434136fb0fa3afa25bfd01",
     "presentations-policy.tex": "36bb75b44f03fcde4e25af9bca743411bb4f24130b07e2c5c356b2a1a359ecc3",
     "presentations-comments.tex": "3879a91c6ed1c490d369d844dc6bae18164f0a0a82a86c83f7dec038864960c5",
-    "media-press.tex": "35c600a70e29163314b72e7b6f52e61f8bc0419042a24476973ac7f6f8ce8d1d"
+    "media-press.tex": "9f6aeac7c86a80c162daec952a9cbdbd761bdd1fee99b0e4431d171dc3cb3066"
   }
 }
