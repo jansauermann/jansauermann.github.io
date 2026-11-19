@@ -27,7 +27,8 @@ format:
 <p>Education providers’ take-up of government grants: Evidence from a grant allocation discontinuity (with Olof Rosenqvist)</p>
 <div class="pub-actions"><button class="pub-toggle" type="button" aria-expanded="false" aria-controls="moreinfo-takeup"><span class="tri" aria-hidden="true">▸</span> More information and download</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="abstract-takeup"><span class="tri" aria-hidden="true">▸</span> Abstract</button></div>
-<details id="moreinfo-takeup"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://ideas.repec.org/p/hhs/ifauwp/2026_023.html">[IFAU WP 2026:23]</a> <a href="https://www.rfberlin.com/network-paper/education-providers-take-up-of-government-grants-evidence-from-a-grant-allocation-discontinuity/">[RF Berlin DP 300/26]</a> <a href="https://www.iza.org/publications/dp/19086/education-providers-take-up-of-government-grants-evidence-from-a-grant-allocation-discontinuity">[IZA Discussion Paper No. 19086]</a></p></div></details>
+<details id="moreinfo-takeup"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://ideas.repec.org/p/hhs/ifauwp/2026_023.html">[IFAU WP 2026:23]</a> <a href="https://www.rfberlin.com/network-paper/education-providers-take-up-of-government-grants-evidence-from-a-grant-allocation-discontinuity/">[RF Berlin DP 300/26]</a> <a href="https://www.iza.org/publications/dp/19086/education-providers-take-up-of-government-grants-evidence-from-a-grant-allocation-discontinuity">[IZA Discussion Paper No. 19086]</a> <a href="https://www.ifau.se/Forskning/Publikationer/Rapporter/2026/ansoker-fler-skolhuvudman-om-statsbidrag-nar-bidragssumman-ar-hogre/">[non-technical summary]</a></p>
+<p>[Press: <a href="https://www.dagenssamhalle.se/samhalle-och-valfard/skola/sma-statsbidrag-nobbades-av-sma-friskolor-kan-krava-stor-insats/">Dagens Samhälle</a>]</p></div></details>
 <details id="abstract-takeup"><summary hidden>Abstract</summary><div class="pub-detail"><p>In decentralized school systems where core funding comes from local governments, education providers can sometimes be entitled to central government grants on top of the core funding (e.g. Title I in the US). In Sweden, government grants that public and private education providers can claim have grown over time; from around 3 % of compulsory school costs in 2010 to 7 % in 2023. The grants, which typically are tied to specific purposes, are a way for the government to exercise control over various school policies in a decentralized system. However, for the grants to have an impact, the providers must claim their entitlements which requires submitting a detailed plan for fund usage and not all providers do this, especially not smaller private providers. We study how the size of the grant entitlement affects providers’ take-up decisions. This is a margin that readily can be adjusted by e.g. merging smaller grants to a single larger. We exploit variation from a large grant in Sweden that allocated substantially more money to providers with a socioeconomic student composition below a certain threshold value. Using a regression discontinuity design, we find that take-up among private providers increased from 70 % to 88 % as the grant amount increased from about 4 % to 13 % of the total cost per student. Importantly, the effect on take-up appears to be sticky as it remains in a later year when the compensatory part was removed from the grant and all providers were entitled to the same amount per student.</p></div></details>
 </div>
 
@@ -35,7 +36,7 @@ format:
 <p>The effects of increasing compensatory resource allocation on student achievement: Evidence from the Equity grant in the Swedish compulsory school (with Olof Rosenqvist)</p>
 <div class="pub-actions"><button class="pub-toggle" type="button" aria-expanded="false" aria-controls="moreinfo-equity"><span class="tri" aria-hidden="true">▸</span> More information and download</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="abstract-equity"><span class="tri" aria-hidden="true">▸</span> Abstract</button></div>
-<details id="moreinfo-equity"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://ideas.repec.org/p/hhs/ifauwp/2025_015.html">[IFAU WP 2025:15]</a></p></div></details>
+<details id="moreinfo-equity"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://ideas.repec.org/p/hhs/ifauwp/2025_015.html">[IFAU WP 2025:15]</a> <a href="https://www.ifau.se/Forskning/Publikationer/Rapporter/2025/beloningssystem-och-prestation-vilka-reagerar-pa-prestationsbaserad-lon/">[non-technical summary]</a></p></div></details>
 <details id="abstract-equity"><summary hidden>Abstract</summary><div class="pub-detail"><p>Substantial and persistent differences in learning outcomes between schools largely caused by school segregation is a recurrent issue in many countries and is seen as a threat against equality of opportunity. Compensatory resource allocation policies are sometimes used to mitigate this problem, but the evidence on the effects of such policies is limited. In this paper, we evaluate a large compensatory grant in Sweden, the Equity grant, which was launched by the government in 2017/2018 with the aim of improving the prospects of success for students with a disadvantaged background. The grant, which has since increased to more than SEK 7 billion per year, is allocated based on a socioeconomic index. We examine the relationship between education provider index and teacher-to-student ratio in the years before and after the introduction of the grant and find that teacher-to-student ratios are significantly more compensatory as the grant is introduced and then gradually expanded. Overall, however, we do not see that the increased teacher resources among providers serving disadvantaged students led to smaller test score differences between providers serving advantaged and disadvantaged students respectively. However, in grade 9, where the effect on class size is most pronounced, there are indications of improved student performance, which also translate into increased high-school enrollment.</p></div></details>
 </div>
 
@@ -51,7 +52,7 @@ format:
 <p>Peer Effects in the Workplace: A Network Approach (with Matthew J. Lindquist and Yves Zenou)</p>
 <div class="pub-actions"><button class="pub-toggle" type="button" aria-expanded="false" aria-controls="moreinfo-peer"><span class="tri" aria-hidden="true">▸</span> More information and download</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="abstract-peer"><span class="tri" aria-hidden="true">▸</span> Abstract</button></div>
-<details id="moreinfo-peer"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="mailto:jan.sauermann@ifau.uu.se">[Most recent version – please email me]</a> <a href="https://cepr.org/voxeu/columns/why-worker-productivity-contagious">[Voxeu.org]</a> <span class="pub-note">[Previously circulated as IZA DP No. 15131 and CEPR DP 10928]</span></p></div></details>
+<details id="moreinfo-peer"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="mailto:jan.sauermann@ifau.uu.se">[Most recent version – please email me]</a> <span class="pub-note">[Previously circulated as IZA DP No. 15131 and CEPR DP 10928]</span> <a href="http://voxeu.org/article/peer-effects-and-contagious-productivity">[Voxeu.org]</a></p></div></details>
 <details id="abstract-peer"><summary hidden>Abstract</summary><div class="pub-detail"><p>We study both endogenous and exogenous peer effects in worker productivity using an explicit network approach. We apply this method to data from an in-house call center of a multinational mobile network operator that include detailed information on individual performance. We find that an increase in average co-worker current productivity increases worker productivity, while an increase in average co-worker permanent productivity decreases worker productivity. We also investigate when peer effects matter and show that the relative importance of these two types of peer effects depends on the volume of incoming calls.</p></div></details>
 </div>
 
@@ -94,8 +95,7 @@ format:
 <div class="pub-actions"><button class="pub-toggle" type="button" aria-expanded="false" aria-controls="moreinfo-ClemensSauermann2025"><span class="tri" aria-hidden="true">▸</span> More information and download</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="abstract-ClemensSauermann2025"><span class="tri" aria-hidden="true">▸</span> Abstract</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="bibtex-ClemensSauermann2025"><span class="tri" aria-hidden="true">▸</span> BibTeX</button></div>
-<details id="moreinfo-ClemensSauermann2025"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://ideas.repec.org/a/eee/labeco/v94y2025ics0927537125000211.html">[publisher version (open access)]</a> <span class="pub-note">[previously released as IZA DP17119 and IFAU WP 2025:6]</span></p>
-<p><scopus-citations file="citations/ClemensSauermann2025_raw.txt"></scopus-citations></p></div></details>
+<details id="moreinfo-ClemensSauermann2025"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://ideas.repec.org/a/eee/labeco/v94y2025ics0927537125000211.html">[publisher version (open access)]</a> <span class="pub-note">[previously released as IZA DP17119 and IFAU WP 2025:6]</span> <a href="https://www.ifau.se/Forskning/Publikationer/Rapporter/2025/beloningssystem-och-prestation-vilka-reagerar-pa-prestationsbaserad-lon/">[non-technical summary]</a> <scopus-citations file="citations/ClemensSauermann2025_raw.txt"></scopus-citations></p></div></details>
 <details id="abstract-ClemensSauermann2025"><summary hidden>Abstract</summary><div class="pub-detail"><p>Performance pay has been shown to have important implications for worker and firm productivity. Although workers’ skills may directly matter for the cost of effort to reach performance goals, surprisingly little is know about the heterogeneity in the effects of incentive pay across workers. In this study, we apply a dynamic difference-in-differences estimator to the introduction of a generous bonus pay program to study how salient performance thresholds affect incentivized and non-incentivized performance outcomes for low- and high-skilled workers. While we do find that individual incentive pay did not affect workers’ performance on average, we show that this result conceals an underlying heterogeneity in the response to individual performance pay: individual performance pay has a significant effect on the performance of high-skilled workers but not for low-skilled workers. The findings can be rationalized with the idea that the costs of effort differ by workers’ skill level. We also explore whether agents alter their overtime hours and find a negative effect, possibly avoiding negative consequences of longer working hours.</p></div></details>
 <details id="bibtex-ClemensSauermann2025"><summary hidden>BibTeX</summary><div class="pub-detail"><pre><code class="language-bibtex">@article{ClemensSauermann2025,
   author = {Clemens, Marco and Sauermann, Jan},
@@ -116,8 +116,7 @@ format:
 <div class="pub-actions"><button class="pub-toggle" type="button" aria-expanded="false" aria-controls="moreinfo-Adermonetal2024"><span class="tri" aria-hidden="true">▸</span> More information and download</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="abstract-Adermonetal2024"><span class="tri" aria-hidden="true">▸</span> Abstract</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="bibtex-Adermonetal2024"><span class="tri" aria-hidden="true">▸</span> BibTeX</button></div>
-<details id="moreinfo-Adermonetal2024"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://ideas.repec.org/a/bla/revinw/v70y2024i4p981-1010.html">[publisher version (open access)]</a> <span class="pub-note">[previously released as IZA DP15662, IFAU WP 2022:20 and IFN WP 1443]</span> <span class="pub-note">[financed by Vetenskapsrådet]</span></p>
-<p><scopus-citations file="citations/AdermonLaunLindOlssonSauermannSjogren2024_raw.txt"></scopus-citations></p></div></details>
+<details id="moreinfo-Adermonetal2024"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://ideas.repec.org/a/bla/revinw/v70y2024i4p981-1010.html">[publisher version (open access)]</a> <span class="pub-note">[previously released as IZA DP15662, IFAU WP 2022:20 and IFN WP 1443]</span> <span class="pub-note">[financed by Vetenskapsrådet]</span> <a href="https://www.ifau.se/Press/Pressmeddelanden/Valfardsystemet-har-begransat-pandemins-paverkan-pa-svenskarnas-inkomster/">[non-technical summary]</a> <scopus-citations file="citations/AdermonLaunLindOlssonSauermannSjogren2024_raw.txt"></scopus-citations></p></div></details>
 <details id="abstract-Adermonetal2024"><summary hidden>Abstract</summary><div class="pub-detail"><p>Many governments introduced temporary adjustments to counter the economic and health consequences of the COVID‐19 pandemic. We study the importance of already‐existing government transfers and new pandemic measures to mitigate individual income losses during the onset of the pandemic in Sweden using a difference‐in‐differences approach and population‐wide data on monthly earnings and government transfer payments. We find that labor earnings dropped by 2.7 percent in 2020. Existing transfers and new pandemic measures reduced earnings losses to 1.5 percent. These average effects mask considerable differences in earnings losses, which were, by and large, evened out by existing transfers and new pandemic measures.</p></div></details>
 <details id="bibtex-Adermonetal2024"><summary hidden>BibTeX</summary><div class="pub-detail"><pre><code class="language-bibtex">@article{Adermonetal2024,
   author = {Adermon, Adrian and Laun, Lisa and Lind, Patrik and Olsson, Martin and Sauermann, Jan and Sjögren, Anna},
@@ -139,8 +138,8 @@ format:
 <div class="pub-actions"><button class="pub-toggle" type="button" aria-expanded="false" aria-controls="moreinfo-ButschekSauermann2024"><span class="tri" aria-hidden="true">▸</span> More information and download</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="abstract-ButschekSauermann2024"><span class="tri" aria-hidden="true">▸</span> Abstract</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="bibtex-ButschekSauermann2024"><span class="tri" aria-hidden="true">▸</span> BibTeX</button></div>
-<details id="moreinfo-ButschekSauermann2024"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://jhr.uwpress.org/content/early/2022/05/02/jhr.0919-10433R1.abstract">[publisher version (gated)]</a> <a href="files/ButschekSauermann_EPL.pdf">[preprint]</a> <a href="files/ButschekSauermann_EPL_onlineappendix.pdf">[online appendix]</a> <span class="pub-note">[previously released as IZA DP 12305]</span> <span class="pub-note">[financed by Jan Wallanders och Tom Hedelius stiftelse samt Tore Browaldhs stiftelse]</span></p>
-<p><scopus-citations file="citations/ButschekSauermann2024_raw.txt"></scopus-citations></p></div></details>
+<details id="moreinfo-ButschekSauermann2024"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://jhr.uwpress.org/content/early/2022/05/02/jhr.0919-10433R1.abstract">[publisher version (gated)]</a> <a href="files/ButschekSauermann_EPL_onlineappendix.pdf">[online appendix]</a> <a href="files/ButschekSauermann_EPL.pdf">[preprint]</a> <span class="pub-note">[previously released as IZA DP 12305]</span> <span class="pub-note">[financed by Jan Wallanders och Tom Hedelius stiftelse samt Tore Browaldhs stiftelse]</span> <a href="https://www.ifau.se/Forskning/Publikationer/Rapporter/2025/anstallningsskydd-och-foretagens-rekrytering/">[non-technical summary]</a> <scopus-citations file="citations/ButschekSauermann2024_raw.txt"></scopus-citations></p>
+<p>[Press: <a href="https://www.dagensarena.se/innehall/fem-fackliga-nyheter-fran-veckan-som-gatt-20/">Dagens Arena</a>, <a href="https://arbetet.se/2025/11/27/friare-regler-vid-uppsagningar-gav-utsatta-grupper-battre-jobbchanser/">Arbetet</a>, <a href="https://www.tn.se/arbetsmarknad/45637/rapport-fler-fick-jobb-nar-reglerna-blev-mer-flexibla/">Tidningen Näringslivet</a>, <a href="https://www.svd.se/a/Gx17oB/ratt-atgarder-kan-skapa-riktiga-jobb-skriver-karl-ernlund-foretagarna">Svenska Dagbladet</a>]</p></div></details>
 <details id="abstract-ButschekSauermann2024"><summary hidden>Abstract</summary><div class="pub-detail"><p>To estimate the causal effect of employment protection on firms’ worker selection, we study a policy change that reduced dismissal costs for the employers of more than a tenth of Sweden’s workforce. Our difference‐in‐differences analysis of firms’ hiring uses individual ability measures, including estimated worker fixed effects, GPA at age 15, and military test scores. We find that the reform reduced minimum hire quality by around 2 percent. Our results show that firms both decreased their hiring thresholds and hired more workers. We find that firms increasingly hired young, foreign‐born, and long‐term nonemployed individuals, suggesting potential welfare gains from the reform.</p></div></details>
 <details id="bibtex-ButschekSauermann2024"><summary hidden>BibTeX</summary><div class="pub-detail"><pre><code class="language-bibtex">@article{ButschekSauermann2024,
   author = {Butschek, Sebastian and Sauermann, Jan},
@@ -162,8 +161,7 @@ format:
 <div class="pub-actions"><button class="pub-toggle" type="button" aria-expanded="false" aria-controls="moreinfo-EngbomMoserSauermann2023"><span class="tri" aria-hidden="true">▸</span> More information and download</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="abstract-EngbomMoserSauermann2023"><span class="tri" aria-hidden="true">▸</span> Abstract</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="bibtex-EngbomMoserSauermann2023"><span class="tri" aria-hidden="true">▸</span> BibTeX</button></div>
-<details id="moreinfo-EngbomMoserSauermann2023"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://www.sciencedirect.com/science/article/pii/S0304407622000653">[publisher version (open access)]</a> <span class="pub-note">[previously released as CEPR DP 16922, IZA DP 15014, NBER WP 29697]</span></p>
-<p><scopus-citations file="citations/EngbomMoserSauermann2023_raw.txt"></scopus-citations></p></div></details>
+<details id="moreinfo-EngbomMoserSauermann2023"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://www.sciencedirect.com/science/article/pii/S0304407622000653">[publisher version (open access)]</a> <span class="pub-note">[previously released as CEPR DP 16922, IZA DP 15014, NBER WP 29697]</span> <scopus-citations file="citations/EngbomMoserSauermann2023_raw.txt"></scopus-citations></p></div></details>
 <details id="abstract-EngbomMoserSauermann2023"><summary hidden>Abstract</summary><div class="pub-detail"><p>We study the nature of firm pay dynamics. To this end, we propose a statistical model that extends the seminal framework by Abowd et al. (1999) to allow for idiosyncratically time-varying firm pay policies. We estimate the model using linked employer–employee data for Sweden from 1985 to 2016. By drawing on detailed firm financials data, we show that firms that become more productive and accumulate capital raise pay, whereas firms lower pay as they add workers. A secular increase in firm-year pay dispersion in Sweden since 1985 is accounted for by greater persistence of firm pay among incumbent firms as well as greater dispersion in firm pay among entrant firms, as opposed to more volatile firm pay.</p></div></details>
 <details id="bibtex-EngbomMoserSauermann2023"><summary hidden>BibTeX</summary><div class="pub-detail"><pre><code class="language-bibtex">@article{EngbomMoserSauermann2023,
   author = {Engbom, Niklas and Moser, Christian and Sauermann, Jan},
@@ -185,8 +183,7 @@ format:
 <div class="pub-actions"><button class="pub-toggle" type="button" aria-expanded="false" aria-controls="moreinfo-Sauermann2023"><span class="tri" aria-hidden="true">▸</span> More information and download</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="abstract-Sauermann2023"><span class="tri" aria-hidden="true">▸</span> Abstract</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="bibtex-Sauermann2023"><span class="tri" aria-hidden="true">▸</span> BibTeX</button></div>
-<details id="moreinfo-Sauermann2023"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://onlinelibrary.wiley.com/doi/10.1111/jems.12419">[publisher version (open access)]</a></p>
-<p><scopus-citations file="citations/Sauermann2023_raw.txt"></scopus-citations></p></div></details>
+<details id="moreinfo-Sauermann2023"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://onlinelibrary.wiley.com/doi/10.1111/jems.12419">[publisher version (open access)]</a> <a href="https://www.ifau.se/Forskning/Publikationer/Rapporter/2026/arbetstagares-personlighetsdrag-och-arbetsgivarfinansierad-utbildning/">[non-technical summary]</a> <scopus-citations file="citations/Sauermann2023_raw.txt"></scopus-citations></p></div></details>
 <details id="abstract-Sauermann2023"><summary hidden>Abstract</summary><div class="pub-detail"><p>Do reciprocal workers have higher returns to employer-sponsored training? Using a field experiment with random assignment to training combined with survey information on workers&#x27; reciprocal inclinations, the results show that reciprocal workers reciprocate employers&#x27; training investments by higher posttraining performance. This result, which is robust to controlling for observed personality traits and worker fixed effects, suggests that individuals reciprocate the firm&#x27;s human capital investment with higher effort, in line with theoretical models on gift exchange in the workplace. This finding provides an alternative rationale to explain firm training investments even with the risk of poaching.</p></div></details>
 <details id="bibtex-Sauermann2023"><summary hidden>BibTeX</summary><div class="pub-detail"><pre><code class="language-bibtex">@article{Sauermann2023,
   author = {Sauermann, Jan},
@@ -198,8 +195,7 @@ format:
   number = {3},
   pages = {543--557},
   doi = {10.1111/jems.12419},
-  url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/jems.12419},
-  eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/jems.12419}
+  url = {https://onlinelibrary.wiley.com/doi/10.1111/jems.12419}
 }</code></pre></div></details>
 </div>
 
@@ -208,9 +204,8 @@ format:
 <div class="pub-actions"><button class="pub-toggle" type="button" aria-expanded="false" aria-controls="moreinfo-MengelSauermannZoelitz2019"><span class="tri" aria-hidden="true">▸</span> More information and download</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="abstract-MengelSauermannZoelitz2019"><span class="tri" aria-hidden="true">▸</span> Abstract</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="bibtex-MengelSauermannZoelitz2019"><span class="tri" aria-hidden="true">▸</span> BibTeX</button></div>
-<details id="moreinfo-MengelSauermannZoelitz2019"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://academic.oup.com/jeea/article-abstract/17/2/535/4850534">[publisher version (open access)]</a> <a href="files/MengelSauermannZoelitz_GenderBias_OnlineApp.pdf">[online appendix]</a></p>
-<p>[non-technical summary &amp; press: <a href="https://www.economist.com/news/science-and-technology/21729426-how-long-does-prejudice-last-research-suggests-students-are-biased-against?frsc=dg%7Ce">The Economist</a>, <a href="http://www.sueddeutsche.de/wirtschaft/arbeitswelt-zu-bloed-fuer-mathe-1.3676681">SZ</a>, <a href="https://universitetslararen.se/2017/12/20/kursutvarderingar-visade-konsmassig-snedvridning/">Universitetsläraren</a>, <a href="https://blog.oup.com/2018/03/gender-bias-teaching-evaluations/">OUP Blog</a>, <a href="files/oekonomenstimme.pdf">Ökonomenstimme</a>, <a href="https://www.geo.de/wissen/meinung-dozentinnen-werden-schlechter-bewertet-als-ihre-maennlichen-kollegen-zu-30173896.html">GEO</a>]</p>
-<p><scopus-citations file="citations/MengelSauermannZolitz2019_raw.txt"></scopus-citations></p></div></details>
+<details id="moreinfo-MengelSauermannZoelitz2019"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://academic.oup.com/jeea/article-abstract/17/2/535/4850534">[publisher version (open access)]</a> <a href="files/MengelSauermannZoelitz_GenderBias_OnlineApp.pdf">[online appendix]</a> <a href="https://blog.oup.com/2018/03/gender-bias-teaching-evaluations/">[non-technical summary]</a> <a href="files/oekonomenstimme.pdf">[non-technical summary]</a> <scopus-citations file="citations/MengelSauermannZolitz2019_raw.txt"></scopus-citations></p>
+<p>[Press: <a href="https://www.economist.com/news/science-and-technology/21729426-how-long-does-prejudice-last-research-suggests-students-are-biased-against?frsc=dg%7Ce">The Economist</a>, <a href="http://www.sueddeutsche.de/wirtschaft/arbeitswelt-zu-bloed-fuer-mathe-1.3676681">SZ</a>, <a href="https://universitetslararen.se/2017/12/20/kursutvarderingar-visade-konsmassig-snedvridning/">Universitetsläraren</a>, <a href="https://www.geo.de/wissen/meinung-dozentinnen-werden-schlechter-bewertet-als-ihre-maennlichen-kollegen-zu-30173896.html">GEO</a>, <a href="https://www.economist.com/science-and-technology/2017/09/21/research-suggests-students-are-biased-against-female-lecturers">The Economist</a>, <a href="https://www.sueddeutsche.de/wirtschaft/arbeitswelt-zu-bloed-fuer-mathe-1.3676681">Süddeutsche Zeitung</a>, <a href="https://www.geo.de/wissen/meinung-dozentinnen-werden-schlechter-bewertet-als-ihre-maennlichen-kollegen-zu-30173896.html">GEO</a>, <a href="https://universitetslararen.se/2017/12/20/kursutvarderingar-visade-konsmassig-snedvridning/">Universitetsläraren</a>]</p></div></details>
 <details id="abstract-MengelSauermannZoelitz2019"><summary hidden>Abstract</summary><div class="pub-detail"><p>This paper provides new evidence on gender bias in teaching evaluations. We exploit a quasi-experimental dataset of 19,952 student evaluations of university faculty in a context where students are randomly allocated to female or male instructors. Despite the fact that neither students’ grades nor self-study hours are affected by the instructor’s gender, we find that women receive systematically lower teaching evaluations than their male colleagues. This bias is driven by male students’ evaluations, is larger for mathematical courses, and particularly pronounced for junior women. The gender bias in teaching evaluations we document may have direct as well as indirect effects on the career progression of women by affecting junior women’s confidence and through the reallocation of instructor resources away from research and toward teaching.</p></div></details>
 <details id="bibtex-MengelSauermannZoelitz2019"><summary hidden>BibTeX</summary><div class="pub-detail"><pre><code class="language-bibtex">@article{MengelSauermannZoelitz2019,
   author = {Mengel, Friederike and Sauermann, Jan and Zölitz, Ulf},
@@ -231,9 +226,8 @@ format:
 <div class="pub-actions"><button class="pub-toggle" type="button" aria-expanded="false" aria-controls="moreinfo-CollewetSauermann2017"><span class="tri" aria-hidden="true">▸</span> More information and download</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="abstract-CollewetSauermann2017"><span class="tri" aria-hidden="true">▸</span> Abstract</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="bibtex-CollewetSauermann2017"><span class="tri" aria-hidden="true">▸</span> BibTeX</button></div>
-<details id="moreinfo-CollewetSauermann2017"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://ideas.repec.org/a/eee/labeco/v47y2017icp96-106.html">[publisher version (gated)]</a> <a href="https://ideas.repec.org/p/iza/izadps/dp10722.html">[preprint]</a></p>
-<p>[non-technical summary &amp; press: <a href="https://www.economist.com/business/2025/12/04/how-many-hours-should-employees-work">The Economist</a>, <a href="https://www.moment.at/story/kuerzer-arbeiten-weltweit">Moment</a>, <a href="https://timesofindia.indiatimes.com/blogs/tasting-economics/back-to-modern-times-the-new-obsession-with-longer-work-days/">Times of India</a>, <a href="https://www.businessdailyafrica.com/bd/lifestyle/workplace/fewer-work-hours-yield-greater-business-payoff-5059108#google_vignette">Business Daily Africa</a>]</p>
-<p><scopus-citations file="citations/CollewetSauermann2017_raw.txt"></scopus-citations></p></div></details>
+<details id="moreinfo-CollewetSauermann2017"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://ideas.repec.org/a/eee/labeco/v47y2017icp96-106.html">[publisher version (gated)]</a> <a href="https://ideas.repec.org/p/iza/izadps/dp10722.html">[preprint]</a> <scopus-citations file="citations/CollewetSauermann2017_raw.txt"></scopus-citations></p>
+<p>[Press: <a href="https://www.economist.com/business/2025/12/04/how-many-hours-should-employees-work">The Economist</a>, <a href="https://www.moment.at/story/kuerzer-arbeiten-weltweit">Moment</a>, <a href="https://timesofindia.indiatimes.com/blogs/tasting-economics/back-to-modern-times-the-new-obsession-with-longer-work-days/">Times of India</a>, <a href="https://www.businessdailyafrica.com/bd/lifestyle/workplace/fewer-work-hours-yield-greater-business-payoff-5059108#google_vignette">Business Daily Africa</a>, <a href="https://www.economist.com/business/2025/12/04/how-many-hours-should-employees-work">The Economist</a>, <a href="https://www.moment.at/story/wie-weltweit-kuerzer-gearbeitet-wird/">Moment</a>, <a href="https://timesofindia.indiatimes.com/blogs/tasting-economics/back-to-modern-times-the-new-obsession-with-longer-work-days/">Times Of India</a>, <a href="https://www.businessdailyafrica.com/bd/lifestyle/workplace/fewer-work-hours-yield-greater-business-payoff-5059108#google_vignette">Business Daily</a>]</p></div></details>
 <details id="abstract-CollewetSauermann2017"><summary hidden>Abstract</summary><div class="pub-detail"><p>This paper studies the link between working hours and productivity using daily information on working hours and performance of a sample of call centre agents. We exploit variation in the number of hours worked by the same employee across days and weeks due to central scheduling, enabling us to estimate the effect of working hours on productivity. We find that as the number of hours worked increases, the average handling time for a call increases, meaning that agents become less productive. This result suggests that fatigue can play an important role, even in jobs with mostly part-time workers.</p></div></details>
 <details id="bibtex-CollewetSauermann2017"><summary hidden>BibTeX</summary><div class="pub-detail"><pre><code class="language-bibtex">@article{CollewetSauermann2017,
   author = {Collewet, Marion and Sauermann, Jan},
@@ -253,8 +247,7 @@ format:
 <div class="pub-actions"><button class="pub-toggle" type="button" aria-expanded="false" aria-controls="moreinfo-DeGripFeldSauermann2017"><span class="tri" aria-hidden="true">▸</span> More information and download</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="abstract-DeGripFeldSauermann2017"><span class="tri" aria-hidden="true">▸</span> Abstract</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="bibtex-DeGripFeldSauermann2017"><span class="tri" aria-hidden="true">▸</span> BibTeX</button></div>
-<details id="moreinfo-DeGripFeldSauermann2017"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://ideas.repec.org/a/eee/soceco/v68y2017icp18-24.html">[publisher version (gated)]</a> <a href="https://ideas.repec.org/p/iza/izadps/dp10611.html">[preprint]</a></p>
-<p><scopus-citations file="citations/FeldDeGripSauermann2017_raw.txt"></scopus-citations></p></div></details>
+<details id="moreinfo-DeGripFeldSauermann2017"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://ideas.repec.org/a/eee/soceco/v68y2017icp18-24.html">[publisher version (gated)]</a> <a href="https://ideas.repec.org/p/iza/izadps/dp10611.html">[preprint]</a> <scopus-citations file="citations/FeldDeGripSauermann2017_raw.txt"></scopus-citations></p></div></details>
 <details id="abstract-DeGripFeldSauermann2017"><summary hidden>Abstract</summary><div class="pub-detail"><p>The Dunning–Kruger effect states that low performers vastly overestimate their performance while high performers more accurately assess their performance. Researchers usually interpret this empirical pattern as evidence that the low skilled are vastly overconfident while the high skilled are more accurate in assessing their skill. However, measurement error alone can lead to a negative relationship between performance and overestimation, even if skill and overconfidence are unrelated. To clarify the role of measurement error, we restate the Dunning–Kruger effect in terms of skill and overconfidence. We show that we can correct for bias caused by measurement error with an instrumental variable approach that uses a second performance as instrument. We then estimate the Dunning–Kruger effect in the context of the exam grade predictions of economics students, using their grade point average as an instrument for their exam grade. Our results show that the unskilled are more overconfident than the skilled. However, as we predict in our methodological discussion, this relationship is significantly weaker than ordinary least squares estimates suggest.</p></div></details>
 <details id="bibtex-DeGripFeldSauermann2017"><summary hidden>BibTeX</summary><div class="pub-detail"><pre><code class="language-bibtex">@article{DeGripFeldSauermann2017,
   author = {De Grip, Andries and Feld, Jan and Sauermann, Jan},
@@ -276,8 +269,7 @@ format:
 <div class="pub-actions"><button class="pub-toggle" type="button" aria-expanded="false" aria-controls="moreinfo-DohmenSauermann2016"><span class="tri" aria-hidden="true">▸</span> More information and download</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="abstract-DohmenSauermann2016"><span class="tri" aria-hidden="true">▸</span> Abstract</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="bibtex-DohmenSauermann2016"><span class="tri" aria-hidden="true">▸</span> BibTeX</button></div>
-<details id="moreinfo-DohmenSauermann2016"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://ideas.repec.org/a/bla/jecsur/v30y2016i4p679-695.html">[publisher version (gated)]</a> <a href="https://ideas.repec.org/p/iza/izadps/dp8857.html">[preprint]</a></p>
-<p><scopus-citations file="citations/DohmenSauermann2016_raw.txt"></scopus-citations></p></div></details>
+<details id="moreinfo-DohmenSauermann2016"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://ideas.repec.org/a/bla/jecsur/v30y2016i4p679-695.html">[publisher version (gated)]</a> <a href="https://ideas.repec.org/p/iza/izadps/dp8857.html">[preprint]</a> <scopus-citations file="citations/DohmenSauermann2016_raw.txt"></scopus-citations></p></div></details>
 <details id="abstract-DohmenSauermann2016"><summary hidden>Abstract</summary><div class="pub-detail"><p>This paper surveys the empirical literature on the behavior of referees in professional football and other sports. Referees are typically appointed by a principal to be impartial, especially when unbiased referee judgment is vital for the accomplishment of the principal&#x27;s objective. Answering whether referees make biased decisions and understanding the causes that lead referees to digress from their principal duty of impartiality is therefore fundamental from a theoretical point of view. At the same time, assessing the prevalence and origin of referee bias is germane to various domains of life. Referee bias is particularly relevant in sports, where partial decision-making can determine competition outcomes, which can have strong repercussions on athletes&#x27; careers and supporters&#x27; well-being.</p></div></details>
 <details id="bibtex-DohmenSauermann2016"><summary hidden>BibTeX</summary><div class="pub-detail"><pre><code class="language-bibtex">@article{DohmenSauermann2016,
   author = {Dohmen, Thomas and Sauermann, Jan},
@@ -298,8 +290,7 @@ format:
 <div class="pub-actions"><button class="pub-toggle" type="button" aria-expanded="false" aria-controls="moreinfo-DeGripSauermannSieben2016"><span class="tri" aria-hidden="true">▸</span> More information and download</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="abstract-DeGripSauermannSieben2016"><span class="tri" aria-hidden="true">▸</span> Abstract</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="bibtex-DeGripSauermannSieben2016"><span class="tri" aria-hidden="true">▸</span> BibTeX</button></div>
-<details id="moreinfo-DeGripSauermannSieben2016"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://ideas.repec.org/a/eee/jeborg/v126y2016ipap39-54.html">[publisher version (gated)]</a> <a href="files/DeGripSauermannSieben2016.pdf">[preprint]</a></p>
-<p><scopus-citations file="citations/DeGripSauermannSieben2016_raw.txt"></scopus-citations></p></div></details>
+<details id="moreinfo-DeGripSauermannSieben2016"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://ideas.repec.org/a/eee/jeborg/v126y2016ipap39-54.html">[publisher version (gated)]</a> <a href="files/DeGripSauermannSieben2016.pdf">[preprint]</a> <scopus-citations file="citations/DeGripSauermannSieben2016_raw.txt"></scopus-citations></p></div></details>
 <details id="abstract-DeGripSauermannSieben2016"><summary hidden>Abstract</summary><div class="pub-detail"><p>This paper investigates how newly hired workers learn on the job and the extent to which this learning is affected by their co-workers’ tenure. We estimate tenure-performance profiles using weekly panel data on individual workers’ performance. The results show a performance increase of 64% in the first year of the employment. We show that, during the first three months, workers placed in teams with more experienced peers have significantly steeper tenure-performance profiles than those employed in teams with less experienced peers. Our results suggest that placing new workers in more experienced teams reduces the time new hires need to become equally productive as an experienced worker by 36%, compared to being placed in less experienced teams.</p></div></details>
 <details id="bibtex-DeGripSauermannSieben2016"><summary hidden>BibTeX</summary><div class="pub-detail"><pre><code class="language-bibtex">@article{DeGripSauermannSieben2016,
   author = {De Grip, Andries and Sauermann, Jan and Sieben, Inge},
@@ -321,8 +312,7 @@ format:
 <div class="pub-actions"><button class="pub-toggle" type="button" aria-expanded="false" aria-controls="moreinfo-DeGripSauermann2013"><span class="tri" aria-hidden="true">▸</span> More information and download</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="abstract-DeGripSauermann2013"><span class="tri" aria-hidden="true">▸</span> Abstract</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="bibtex-DeGripSauermann2013"><span class="tri" aria-hidden="true">▸</span> BibTeX</button></div>
-<details id="moreinfo-DeGripSauermann2013"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://www.sciencedirect.com/science/article/pii/S1747938X12000437">[publisher version (gated)]</a></p>
-<p><scopus-citations file="citations/DeGripSauermann2013_raw.txt"></scopus-citations></p></div></details>
+<details id="moreinfo-DeGripSauermann2013"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://www.sciencedirect.com/science/article/pii/S1747938X12000437">[publisher version (gated)]</a> <scopus-citations file="citations/DeGripSauermann2013_raw.txt"></scopus-citations></p></div></details>
 <details id="abstract-DeGripSauermann2013"><summary hidden>Abstract</summary><div class="pub-detail"><p>Although the transfer of on-the-job training to the workplace belongs to the realm of educational research, it is also highly related to labour economics. In the economic literature, the transfer of training is based on the theoretical framework of human capital theory and has been extensively analysed empirically in econometric studies that take account of unobserved heterogeneity of workers and the selectivity in training participation. The aim of this paper is to give an overview of the underlying theoretical paradigm in economics, and the challenges faced in empirical research. The economic literature finds that participation in training is beneficial for both the participating workers and their employers, although there is also evidence that selectivity of workers matters. Despite this progress in the economic literature, the underlying processes through which training leads to a higher productivity remain unclear. We argue that this ‘black box’ offers opportunities for multi-disciplinary research projects on the transfer of training that relate the perspectives of educational and economic research.</p></div></details>
 <details id="bibtex-DeGripSauermann2013"><summary hidden>BibTeX</summary><div class="pub-detail"><pre><code class="language-bibtex">@article{DeGripSauermann2013,
   author = {De Grip, Andries and Sauermann, Jan},
@@ -334,7 +324,7 @@ format:
   abstract = {Although the transfer of on-the-job training to the workplace belongs to the realm of educational research, it is also highly related to labour economics. In the economic literature, the transfer of training is based on the theoretical framework of human capital theory and has been extensively analysed empirically in econometric studies that take account of unobserved heterogeneity of workers and the selectivity in training participation. The aim of this paper is to give an overview of the underlying theoretical paradigm in economics, and the challenges faced in empirical research. The economic literature finds that participation in training is beneficial for both the participating workers and their employers, although there is also evidence that selectivity of workers matters. Despite this progress in the economic literature, the underlying processes through which training leads to a higher productivity remain unclear. We argue that this ‘black box’ offers opportunities for multi-disciplinary research projects on the transfer of training that relate the perspectives of educational and economic research.},
   pages = {28--36},
   doi = {10.1016/j.edurev.2012.05.005},
-  url = {http://www.sciencedirect.com/science/article/pii/S1747938X12000437}
+  url = {https://www.sciencedirect.com/science/article/pii/S1747938X12000437}
 }</code></pre></div></details>
 </div>
 
@@ -343,8 +333,7 @@ format:
 <div class="pub-actions"><button class="pub-toggle" type="button" aria-expanded="false" aria-controls="moreinfo-DeGripSauermann2012"><span class="tri" aria-hidden="true">▸</span> More information and download</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="abstract-DeGripSauermann2012"><span class="tri" aria-hidden="true">▸</span> Abstract</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="bibtex-DeGripSauermann2012"><span class="tri" aria-hidden="true">▸</span> BibTeX</button></div>
-<details id="moreinfo-DeGripSauermann2012"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://ideas.repec.org/a/ecj/econjl/v122y2012i560p376-399.html">[publisher version (gated)]</a> <a href="https://ideas.repec.org/p/iza/izadps/dp5976.html">[preprint]</a> <span class="pub-note">[Awarded the NRW Young Scientist Award 2012]</span></p>
-<p><scopus-citations file="citations/DeGripSauermann2012_raw.txt"></scopus-citations></p></div></details>
+<details id="moreinfo-DeGripSauermann2012"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://ideas.repec.org/a/ecj/econjl/v122y2012i560p376-399.html">[publisher version (gated)]</a> <a href="https://ideas.repec.org/p/iza/izadps/dp5976.html">[preprint]</a> <span class="pub-note">[Awarded the NRW Young Scientist Award 2012]</span> <scopus-citations file="citations/DeGripSauermann2012_raw.txt"></scopus-citations></p></div></details>
 <details id="abstract-DeGripSauermann2012"><summary hidden>Abstract</summary><div class="pub-detail"><p>This paper analyses the effects of work-related training on worker productivity. To identify the causal effects from training, we combine a field experiment that randomly assigns workers to treatment and control groups with panel data on individual worker performance before and after training. We find that participation in the training programme leads to a 10 percent increase in performance. Moreover, we provide experimental evidence for externalities from treated workers on their untreated teammates: An increase of 10 percentage points in the share of treated peers leads to a performance increase of 0.51 percent. We provide evidence that the estimated effects are causal and not the result of employee selection into and out of training. Furthermore, we find that the performance increase is not due to lower quality provided by the worker.</p></div></details>
 <details id="bibtex-DeGripSauermann2012"><summary hidden>BibTeX</summary><div class="pub-detail"><pre><code class="language-bibtex">@article{DeGripSauermann2012,
   author = {De Grip, Andries and Sauermann, Jan},
@@ -367,8 +356,7 @@ format:
 <div class="pub-actions"><button class="pub-toggle" type="button" aria-expanded="false" aria-controls="moreinfo-BorghansRomansSauermann2010"><span class="tri" aria-hidden="true">▸</span> More information and download</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="abstract-BorghansRomansSauermann2010"><span class="tri" aria-hidden="true">▸</span> Abstract</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="bibtex-BorghansRomansSauermann2010"><span class="tri" aria-hidden="true">▸</span> BibTeX</button></div>
-<details id="moreinfo-BorghansRomansSauermann2010"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://ideas.repec.org/a/eee/labeco/v17y2010i5p868-874.html">[publisher version (gated)]</a> <a href="https://ideas.repec.org/p/iza/izadps/dp4870.html">[preprint]</a></p>
-<p><scopus-citations file="citations/BorghansRomansSauermann2010_raw.txt"></scopus-citations></p></div></details>
+<details id="moreinfo-BorghansRomansSauermann2010"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://ideas.repec.org/a/eee/labeco/v17y2010i5p868-874.html">[publisher version (gated)]</a> <a href="https://ideas.repec.org/p/iza/izadps/dp4870.html">[preprint]</a> <scopus-citations file="citations/BorghansRomansSauermann2010_raw.txt"></scopus-citations></p></div></details>
 <details id="abstract-BorghansRomansSauermann2010"><summary hidden>Abstract</summary><div class="pub-detail"><p>Conferences are an important element in the work of researchers, requiring substantial investments in fees, travel expenses and the time spent by the participants. The aim of this paper is to identify the preferences of participants with respect to conference characteristics. Based on a sample of European labour economists, preferences are measured using the vignette approach where participants are asked to choose between hypothetical European Association of Labour Economists (EALE) conferences. We find that the keynote speakers are the most important element in the preference for a conference, followed by the location of the conference. There is substantial heterogeneity in the taste of labour economists especially with respect to location, though the link between preference parameters and measured characteristics like gender, age and seniority is limited. Factor analysis suggests that the variety in preferences can be best described by a latent variable that reflects the weights people put on content versus fun.</p></div></details>
 <details id="bibtex-BorghansRomansSauermann2010"><summary hidden>BibTeX</summary><div class="pub-detail"><pre><code class="language-bibtex">@article{BorghansRomansSauermann2010,
   author = {Borghans, Lex and Romans, Margo and Sauermann, Jan},
@@ -390,8 +378,7 @@ format:
 <div class="pub-actions"><button class="pub-toggle" type="button" aria-expanded="false" aria-controls="moreinfo-DeGripFouargeSauermann2010"><span class="tri" aria-hidden="true">▸</span> More information and download</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="abstract-DeGripFouargeSauermann2010"><span class="tri" aria-hidden="true">▸</span> Abstract</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="bibtex-DeGripFouargeSauermann2010"><span class="tri" aria-hidden="true">▸</span> BibTeX</button></div>
-<details id="moreinfo-DeGripFouargeSauermann2010"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://ideas.repec.org/a/taf/ecinnt/v19y2010i5p407-421.html">[publisher version (gated)]</a> <a href="https://ideas.repec.org/p/iza/izadps/dp4268.html">[preprint]</a></p>
-<p><scopus-citations file="citations/DeGripFouargeSauermann2010_raw.txt"></scopus-citations></p></div></details>
+<details id="moreinfo-DeGripFouargeSauermann2010"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://ideas.repec.org/a/taf/ecinnt/v19y2010i5p407-421.html">[publisher version (gated)]</a> <a href="https://ideas.repec.org/p/iza/izadps/dp4268.html">[preprint]</a> <scopus-citations file="citations/DeGripFouargeSauermann2010_raw.txt"></scopus-citations></p></div></details>
 <details id="abstract-DeGripFouargeSauermann2010"><summary hidden>Abstract</summary><div class="pub-detail"><p>Using a data set of science and engineering graduates from 12 European countries, we analyse the determinants of labour migration after graduation. We find that not only wage gains are driving the migration decision, but also differences in labour market opportunities, past migration experience and international student exchange are strong predictors of future migration. Contrary to our expectations, job characteristics such as the utilisation of skills in the job and involvement in innovation hardly affect the migration decision. When analysing country choice, countries such as the USA, Canada and Australia appear to attract migrants due to their larger R&amp;D intensity. Moreover, graduates with higher grades are more likely to migrate to these countries.</p></div></details>
 <details id="bibtex-DeGripFouargeSauermann2010"><summary hidden>BibTeX</summary><div class="pub-detail"><pre><code class="language-bibtex">@article{DeGripFouargeSauermann2010,
   author = {De Grip, Andries and Fouarge, Didier and Sauermann, Jan},
@@ -432,90 +419,110 @@ format:
 ## Research reports and other publications
 
 ```{=html}
-<div class="publication" id="pub-RosenqvistSauermann2026">
+<div class="publication" id="pub-RosenqvistSauermann2026_IFAU">
 <p>Rosenqvist, Olof, and Jan Sauermann (2026), <em>Ansöker fler skolhuvudmän om statsbidrag när bidragssumman är högre? Erfarenheter från Lågstadiesatsningen</em>, IFAU Rapport 2026:23</p>
-<div class="pub-direct-links"><p><a class="pub-direct-link" href="https://www.ifau.se/Forskning/Publikationer/Rapporter/2026/ansoker-fler-skolhuvudman-om-statsbidrag-nar-bidragssumman-ar-hogre/"><span aria-hidden="true">▸</span> link</a></p></div>
+<div class="pub-actions"><a class="pub-direct-link" href="https://www.ifau.se/Forskning/Publikationer/Rapporter/2026/ansoker-fler-skolhuvudman-om-statsbidrag-nar-bidragssumman-ar-hogre/"><span aria-hidden="true">▸</span> Download</a></div>
+
 </div>
 
-<div class="publication" id="pub-Sauermann2026">
+<div class="publication" id="pub-Sauermann2026_IFAU">
 <p>Sauermann, Jan (2026), <em>Arbetstagares personlighetsdrag och arbetsgivarfinansierad utbildning</em>, IFAU Rapport 2026:03</p>
-<div class="pub-direct-links"><p><a class="pub-direct-link" href="https://www.ifau.se/Forskning/Publikationer/Rapporter/2026/arbetstagares-personlighetsdrag-och-arbetsgivarfinansierad-utbildning/"><span aria-hidden="true">▸</span> link</a></p></div>
+<div class="pub-actions"><a class="pub-direct-link" href="https://www.ifau.se/Forskning/Publikationer/Rapporter/2026/arbetstagares-personlighetsdrag-och-arbetsgivarfinansierad-utbildning/"><span aria-hidden="true">▸</span> Download</a></div>
+
 </div>
 
-<div class="publication" id="pub-ButschekSauermann2025">
+<div class="publication" id="pub-ButschekSauermann2025_IFAU">
 <p>Butschek, Sebastian, and Jan Sauermann (2025), <em>Anställningsskydd och företagens rekrytering: Konsekvenser av förändringen i turordningsreglerna</em>, IFAU Rapport 2025:26</p>
-<div class="pub-direct-links"><p><a class="pub-direct-link" href="https://www.ifau.se/Forskning/Publikationer/Rapporter/2025/anstallningsskydd-och-foretagens-rekrytering/"><span aria-hidden="true">▸</span> link</a></p></div>
+<div class="pub-actions"><a class="pub-direct-link" href="https://www.ifau.se/Forskning/Publikationer/Rapporter/2025/anstallningsskydd-och-foretagens-rekrytering/"><span aria-hidden="true">▸</span> Download</a></div>
+
 </div>
 
-<div class="publication" id="pub-RosenqvistSauermann2025">
+<div class="publication" id="pub-RosenqvistSauermann2025_IFAU">
 <p>Rosenqvist, Olof, and Jan Sauermann (2025), <em>Effekter av kompensatorisk resursfördelning i grundskolan: Erfarenheter från Kunskapsbidraget</em>, IFAU Rapport 2025:17</p>
-<div class="pub-direct-links"><p><a class="pub-direct-link" href="https://www.ifau.se/Forskning/Publikationer/Rapporter/2025/effekter-av-kompensatorisk-resursfordelning-i-grundskolan/"><span aria-hidden="true">▸</span> link</a></p></div>
+<div class="pub-actions"><button class="pub-toggle" type="button" aria-expanded="false" aria-controls="moreinfo-RosenqvistSauermann2025_IFAU"><span class="tri" aria-hidden="true">▸</span> More information and download</button></div>
+<details id="moreinfo-RosenqvistSauermann2025_IFAU"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://www.ifau.se/Forskning/Publikationer/Rapporter/2025/beloningssystem-och-prestation-vilka-reagerar-pa-prestationsbaserad-lon/">[link]</a> <a href="https://www.ifau.se/Forskning/Publikationer/Rapporter/2025/effekter-av-kompensatorisk-resursfordelning-i-grundskolan/">[link]</a></p></div></details>
 </div>
 
 <div class="publication" id="pub-ClemensSauermann2025_IFAU">
 <p>Clemens, Marco, and Jan Sauermann (2025), <em>Belöningssystem och prestation-Vilka reagerar på prestationsbaserad lön?</em>, IFAU Rapport 2025:10</p>
-<div class="pub-direct-links"><p><a class="pub-direct-link" href="https://www.ifau.se/Forskning/Publikationer/Rapporter/2025/beloningssystem-och-prestation-vilka-reagerar-pa-prestationsbaserad-lon/"><span aria-hidden="true">▸</span> link</a></p></div>
+<div class="pub-actions"><a class="pub-direct-link" href="https://www.ifau.se/Forskning/Publikationer/Rapporter/2025/beloningssystem-och-prestation-vilka-reagerar-pa-prestationsbaserad-lon/"><span aria-hidden="true">▸</span> Download</a></div>
+
 </div>
 
 <div class="publication" id="pub-Sauermann2023_WoL">
 <p>Sauermann, Jan (2023), <em>Performance Measures and Workers&#x27; Productivity</em>, <em>IZA World of Labor</em>, 260 (April)</p>
 <div class="pub-actions"><button class="pub-toggle" type="button" aria-expanded="false" aria-controls="moreinfo-Sauermann2023_WoL"><span class="tri" aria-hidden="true">▸</span> More information and download</button>
-<button class="pub-toggle" type="button" aria-expanded="false" aria-controls="abstract-Sauermann2023_WoL"><span class="tri" aria-hidden="true">▸</span> Abstract</button></div>
+<button class="pub-toggle" type="button" aria-expanded="false" aria-controls="abstract-Sauermann2023_WoL"><span class="tri" aria-hidden="true">▸</span> Abstract</button>
+<button class="pub-toggle" type="button" aria-expanded="false" aria-controls="bibtex-Sauermann2023_WoL"><span class="tri" aria-hidden="true">▸</span> BibTeX</button></div>
 <details id="moreinfo-Sauermann2023_WoL"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://wol.iza.org/articles/performance-measures-and-worker-productivity">[publisher version (open access)]</a> <a href="https://wol.iza.org/articles/performance-measures-and-worker-productivity/lang/es">[Spanish version]</a> <a href="https://wol.iza.org/articles/performance-measures-and-worker-productivity/lang/de">[German version]</a></p></div></details>
 <details id="abstract-Sauermann2023_WoL"><summary hidden>Abstract</summary><div class="pub-detail"><p>Measuring workers’ productivity is important for public policy and private-sector decision-making. Due to the lack of a general measure that captures workers’ productivity, firms often use one- or multi-dimensional performance measures, which can be used, for example, to analyze how different incentive systems affect workers’ behavior. The public sector itself also uses measures to monitor and evaluate personnel, such as teachers. Policymakers and managers need to understand the advantages and disadvantages of the available metrics to select the right performance measures for their purpose.</p></div></details>
+<details id="bibtex-Sauermann2023_WoL"><summary hidden>BibTeX</summary><div class="pub-detail"><pre><code class="language-bibtex">@techreport{Sauermann2023_WoL,
+  author = {Sauermann, Jan},
+  title = {{Performance Measures and Workers&#x27; Productivity}},
+  year = {2023},
+  journal = {IZA World of Labor},
+  volume = {260},
+  month = {April},
+  abstract = {Measuring workers’ productivity is important for public policy and private-sector decision-making. Due to the lack of a general measure that captures workers’ productivity, firms often use one- or multi-dimensional performance measures, which can be used, for example, to analyze how different incentive systems affect workers’ behavior. The public sector itself also uses measures to monitor and evaluate personnel, such as teachers. Policymakers and managers need to understand the advantages and disadvantages of the available metrics to select the right performance measures for their purpose.},
+  url = {https://wol.iza.org/articles/performance-measures-and-worker-productivity}
+}</code></pre></div></details>
 </div>
 
 <div class="publication" id="pub-Adermonetal2022_IFAU">
 <p>Adermon, Adrian, Lisa Laun, Patrik Lind, Martin Olsson, Jan Sauermann, and Anna Sjögren (2022), <em>Coronapandemin, arbetsinkomsterna och välfärdssystemets skyddsgrad: Befolkningens inkomstutveckling under 2020</em>, IFAU Rapport 2022:03, Underlagsrapport till SOU 2022:10</p>
-<div class="pub-direct-links"><p><a class="pub-direct-link" href="https://www.ifau.se/Press/Pressmeddelanden/Valfardsystemet-har-begransat-pandemins-paverkan-pa-svenskarnas-inkomster/"><span aria-hidden="true">▸</span> link</a></p></div>
+<div class="pub-actions"><a class="pub-direct-link" href="https://www.ifau.se/Press/Pressmeddelanden/Valfardsystemet-har-begransat-pandemins-paverkan-pa-svenskarnas-inkomster/"><span aria-hidden="true">▸</span> Download</a></div>
+
 </div>
 
 <div class="publication" id="pub-MengelSauermannZoelitz2019_Oekonomenstimme">
 <p>Mengel, Friederike, Jan Sauermann, and Ulf Zölitz (2019), <em>Lehrevaluationen benachteiligen Wissenschaftlerinnen</em>, <em>Ökonomenstimme</em></p>
-<div class="pub-direct-links"><p><a class="pub-direct-link" href="files/oekonomenstimme.pdf"><span aria-hidden="true">▸</span> download</a></p></div>
+<div class="pub-actions"><a class="pub-direct-link" href="files/oekonomenstimme.pdf"><span aria-hidden="true">▸</span> Download</a></div>
+
 </div>
 
 <div class="publication" id="pub-MengelSauermannZoelitz2018_OUPBlog">
 <p>Mengel, Friederike, Jan Sauermann, and Ulf Zölitz (2018), <em>Is there a gender bias in teaching evaluations?</em>, <em>OUPblog</em></p>
-<div class="pub-direct-links"><p><a class="pub-direct-link" href="https://blog.oup.com/2018/03/gender-bias-teaching-evaluations/"><span aria-hidden="true">▸</span> link</a></p></div>
+<div class="pub-actions"><a class="pub-direct-link" href="https://blog.oup.com/2018/03/gender-bias-teaching-evaluations/"><span aria-hidden="true">▸</span> Download</a></div>
+
 </div>
 
 <div class="publication" id="pub-SauermannStenberg2017">
-<p>Sauermann, Jan, and Anders Stenberg (2017), <em>Short- and Long-term Effects of Vocational versus General Schooling: A Regression Discontinuity Approach</em>, unpublished working paper</p>
-<div class="pub-actions"><button class="pub-toggle" type="button" aria-expanded="false" aria-controls="moreinfo-SauermannStenberg2017"><span class="tri" aria-hidden="true">▸</span> More information and download</button>
+<p>Sauermann, Jan, and Anders Stenberg (2017), <em>Short- and Long-term Effects of Vocational versus General Schooling: A Regression Discontinuity Approach</em>, Unpublished working paper</p>
+<div class="pub-actions"><a class="pub-direct-link" href="files/SauermannStenberg_VocationalGeneral.pdf"><span aria-hidden="true">▸</span> Download</a>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="abstract-SauermannStenberg2017"><span class="tri" aria-hidden="true">▸</span> Abstract</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="bibtex-SauermannStenberg2017"><span class="tri" aria-hidden="true">▸</span> BibTeX</button></div>
-<details id="moreinfo-SauermannStenberg2017"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="files/SauermannStenberg_VocationalGeneral.pdf">[download]</a></p></div></details>
 <details id="abstract-SauermannStenberg2017"><summary hidden>Abstract</summary><div class="pub-detail"><p>In this paper, we estimate the relative earnings returns for Swedish upper secondary schooling programs with vocational and general contents for individuals born 1955-75. Using data on individuals&#x27; application choices, we address endogeneity of program choice by exploiting admission cutoffs. These cutoffs, which are based on pupils&#x27; grade point averages (GPA), allow us to estimate the returns to educational contents in a regression discontinuity (RD) framework. In addition, we control for students&#x27; choice order to proxy for students&#x27; comparative advantages. We apply this RD design to estimate the effects of schooling contents on annual earnings from 1978-2014. For men, we find that vocational schooling has an earnings advantage over general schooling up and until the age of 27, with estimates thereafter close to zero. For women, we observe a similar earnings advantage for vocational schooling up and until the age of 23. For the longer term, there are no coherent earnings differences for men. For women with vocational schooling, there is a renewed earnings advantage from age 43 and onwards. We find suggestive evidence that this can be explained by further education completed in adulthood.</p></div></details>
 <details id="bibtex-SauermannStenberg2017"><summary hidden>BibTeX</summary><div class="pub-detail"><pre><code class="language-bibtex">@techreport{SauermannStenberg2017,
   author = {Sauermann, Jan and Stenberg, Anders},
   title = {{Short- and Long-term Effects of Vocational versus General Schooling: A Regression Discontinuity Approach}},
   year = {2017},
   abstract = {In this paper, we estimate the relative earnings returns for Swedish upper secondary schooling programs with vocational and general contents for individuals born 1955-75. Using data on individuals&#x27; application choices, we address endogeneity of program choice by exploiting admission cutoffs. These cutoffs, which are based on pupils&#x27; grade point averages (GPA), allow us to estimate the returns to educational contents in a regression discontinuity (RD) framework. In addition, we control for students&#x27; choice order to proxy for students&#x27; comparative advantages. We apply this RD design to estimate the effects of schooling contents on annual earnings from 1978-2014. For men, we find that vocational schooling has an earnings advantage over general schooling up and until the age of 27, with estimates thereafter close to zero. For women, we observe a similar earnings advantage for vocational schooling up and until the age of 23. For the longer term, there are no coherent earnings differences for men. For women with vocational schooling, there is a renewed earnings advantage from age 43 and onwards. We find suggestive evidence that this can be explained by further education completed in adulthood.},
-  note = {unpublished working paper}
+  note = {Unpublished working paper}
 }</code></pre></div></details>
 </div>
 
 <div class="publication" id="pub-Sauermann2017_CCP">
 <p>Sauermann, Jan (2017), <em>Training and Performance in Call Centers</em>, CCP Research Brief 2, Center for Corporate Performance (CCP), May</p>
-<div class="pub-direct-links"><p><a class="pub-direct-link" href="files/CCP_Sauermann.pdf"><span aria-hidden="true">▸</span> download</a></p></div>
+<div class="pub-actions"><a class="pub-direct-link" href="files/CCP_Sauermann.pdf"><span aria-hidden="true">▸</span> Download</a></div>
+
 </div>
 
 <div class="publication" id="pub-LindquistSauermannZenou2015_VoxEU">
 <p>Lindquist, Matthew J., Jan Sauermann, and Yves Zenou (2015), <em>Why worker productivity is contagious</em>, <em>VoxEU Column</em></p>
-<div class="pub-direct-links"><p><a class="pub-direct-link" href="http://voxeu.org/article/peer-effects-and-contagious-productivity"><span aria-hidden="true">▸</span> link</a></p></div>
+<div class="pub-actions"><a class="pub-direct-link" href="http://voxeu.org/article/peer-effects-and-contagious-productivity"><span aria-hidden="true">▸</span> Download</a></div>
+
 </div>
 
 <div class="publication" id="pub-Sauermann2013_ESB">
 <p>Sauermann, Jan (2013), <em>Human Capital, Incentives, and Performance Outcomes</em>, <em>Economisch Statistische Berichten (ESB)</em>, 98(4657)</p>
-<div class="pub-direct-links"><p><a class="pub-direct-link" href="https://esb.nu/wp-content/uploads/2022/11/222-222_ESB4657_sauerman.pdf"><span aria-hidden="true">▸</span> download</a></p></div>
+<div class="pub-actions"><a class="pub-direct-link" href="https://esb.nu/wp-content/uploads/2022/11/222-222_ESB4657_sauerman.pdf"><span aria-hidden="true">▸</span> Download</a></div>
+
 </div>
 
 <div class="publication" id="pub-Sauermann2013_Thesis">
 <p>Sauermann, Jan (2013), <em>Human Capital, Incentives, and Performance Outcomes</em>, Dissertation Series 13, Research Centre for Education and the Labour Market (ROA), Maastricht</p>
-<div class="pub-actions"><button class="pub-toggle" type="button" aria-expanded="false" aria-controls="moreinfo-Sauermann2013_Thesis"><span class="tri" aria-hidden="true">▸</span> More information and download</button>
+<div class="pub-actions"><a class="pub-direct-link" href="https://cris.maastrichtuniversity.nl/ws/portalfiles/portal/1372455/guid-71027203-9a41-445c-8df2-d902d164c963-ASSET1.0.pdf"><span aria-hidden="true">▸</span> Download</a>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="bibtex-Sauermann2013_Thesis"><span class="tri" aria-hidden="true">▸</span> BibTeX</button></div>
-<details id="moreinfo-Sauermann2013_Thesis"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://cris.maastrichtuniversity.nl/ws/portalfiles/portal/1372455/guid-71027203-9a41-445c-8df2-d902d164c963-ASSET1.0.pdf">[download]</a></p></div></details>
 <details id="bibtex-Sauermann2013_Thesis"><summary hidden>BibTeX</summary><div class="pub-detail"><pre><code class="language-bibtex">@techreport{Sauermann2013_Thesis,
   author = {Sauermann, Jan},
   title = {{Human Capital, Incentives, and Performance Outcomes}},
@@ -530,52 +537,63 @@ format:
 
 <div class="publication" id="pub-CorversDupuySauermann2012_ESB">
 <p>Cörvers, Frank, Arnaud Dupuy, and Jan Sauermann (2012), <em>Kwalificatievereisten stijgen niet overal</em>, <em>Economisch Statistische Berichten (ESB)</em>, 97(4636)</p>
-<div class="pub-direct-links"><p><a class="pub-direct-link" href="https://esb.nu/wp-content/uploads/2022/11/editie_pdfs_336-337_ESB4636_stat_tcm445-627677.pdf"><span aria-hidden="true">▸</span> download</a></p></div>
+<div class="pub-actions"><a class="pub-direct-link" href="https://esb.nu/wp-content/uploads/2022/11/editie_pdfs_336-337_ESB4636_stat_tcm445-627677.pdf"><span aria-hidden="true">▸</span> Download</a></div>
+
 </div>
 
 <div class="publication" id="pub-KriechelSauermann2012_Cedefop">
 <p>Kriechel, Ben, and Jan Sauermann (2012), <em>Modeling replacement demand</em>, in: <em>Skills supply and demand in Europe -- Methodological framework</em>, Research Paper 25, European Centre for the Development of Vocational Training (Cedefop), pp. 65-78</p>
-<div class="pub-actions"><button class="pub-toggle" type="button" aria-expanded="false" aria-controls="moreinfo-KriechelSauermann2012_Cedefop"><span class="tri" aria-hidden="true">▸</span> More information and download</button></div>
-<details id="moreinfo-KriechelSauermann2012_Cedefop"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://www.cedefop.europa.eu/files/5525_en.pdf">[download]</a> <a href="files/KriechelSauermann2012.pdf">[download]</a></p></div></details>
+<div class="pub-actions"><a class="pub-direct-link" href="files/KriechelSauermann2012.pdf"><span aria-hidden="true">▸</span> Download</a></div>
+
 </div>
 
 <div class="publication" id="pub-DeGripSauermann2011_ESB">
 <p>De Grip, Andries, and Jan Sauermann (2011), <em>Het Effect van Ervaring op Productiviteit</em>, <em>Economisch Statistische Berichten (ESB)</em>, 96(4621)</p>
-<div class="pub-direct-links"><p><a class="pub-direct-link" href="https://esb.nu/wp-content/uploads/2022/11/editie_pdfs_644stat_tcm445-611544.pdf"><span aria-hidden="true">▸</span> download</a></p></div>
+<div class="pub-actions"><a class="pub-direct-link" href="https://esb.nu/wp-content/uploads/2022/11/editie_pdfs_644stat_tcm445-611544.pdf"><span aria-hidden="true">▸</span> Download</a></div>
+
 </div>
 
 <div class="publication" id="pub-DupuySauermann2011_Substitution">
 <p>Dupuy, Arnaud, and Jan Sauermann (2011), <em>Estimating Substitution Demand</em></p>
+<div class="pub-actions"></div>
+
 </div>
 
 <div class="publication" id="pub-DupuySauermann2011_SkillSupply">
 <p>Dupuy, Arnaud, and Jan Sauermann (2011), <em>Forecasting Skill Supply and Demand in Europe: Skill Upgrading in Europe</em>, Technical Report, Research Centre for Education and the Labour Market (ROA), Maastricht</p>
+<div class="pub-actions"></div>
+
 </div>
 
 <div class="publication" id="pub-KriechelSauermann2010_Replacement">
 <p>Kriechel, Ben, and Jan Sauermann (2010), <em>Forecasting Skill Supply and Demand in Europe to 2020: Replacement Demand -- Methods and Results</em>, Technical Report 5, Institute for Employment Research, Warwick</p>
+<div class="pub-actions"></div>
+
 </div>
 
 <div class="publication" id="pub-DupuySauermann2009_SkillUpgrading">
 <p>Dupuy, Arnaud, and Jan Sauermann (2009), <em>Measuring Skill-upgrading in the Dutch Labor Market</em>, Research Centre for Education and the Labour Market (ROA), Maastricht</p>
+<div class="pub-actions"></div>
+
 </div>
 
 <div class="publication" id="pub-DeGripFouargeSauermann2009_PlatformPocket">
 <p>De Grip, Andries, Didier Fouarge, and Jan Sauermann (2009), <em>De betekenis van internationale mobiliteit en allochtone bétatechnici voor de Nederandse arbeidsmarkt</em>, PlatformPocket 9, Platform Bétatechniek, Den Haag</p>
-<div class="pub-direct-links"><p><a class="pub-direct-link" href="files/FouargeGripSauermann2009.pdf"><span aria-hidden="true">▸</span> download</a></p></div>
+<div class="pub-actions"><a class="pub-direct-link" href="files/FouargeGripSauermann2009.pdf"><span aria-hidden="true">▸</span> Download</a></div>
+
 </div>
 
 <div class="publication" id="pub-ReinowskiSauermann2007">
 <p>Reinowski, Eva, and Jan Sauermann (2007), <em>Befristete Beschäftigung: kein Hindernis für die Weiterbildung geringqualifizierter Personen</em>, <em>Wirtschaft im Wandel</em>, 3/2007, Halle</p>
-<div class="pub-direct-links"><p><a class="pub-direct-link" href="files/ReinowskiSauermann2007.pdf"><span aria-hidden="true">▸</span> download</a></p></div>
+<div class="pub-actions"><a class="pub-direct-link" href="files/ReinowskiSauermann2007.pdf"><span aria-hidden="true">▸</span> Download</a></div>
+
 </div>
 
 <div class="publication" id="pub-Sauermann2006">
 <p>Sauermann, Jan (2006), <em>Who Invests in Training if Contracts are Temporary? Empirical Evidence for Germany Using Selection Correction</em>, IWH DP 14/06</p>
-<div class="pub-actions"><button class="pub-toggle" type="button" aria-expanded="false" aria-controls="moreinfo-Sauermann2006"><span class="tri" aria-hidden="true">▸</span> More information and download</button>
+<div class="pub-actions"><a class="pub-direct-link" href="https://ideas.repec.org/p/zbw/iwhdps/iwh-14-06.html"><span aria-hidden="true">▸</span> Download</a>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="abstract-Sauermann2006"><span class="tri" aria-hidden="true">▸</span> Abstract</button>
 <button class="pub-toggle" type="button" aria-expanded="false" aria-controls="bibtex-Sauermann2006"><span class="tri" aria-hidden="true">▸</span> BibTeX</button></div>
-<details id="moreinfo-Sauermann2006"><summary hidden>More information and download</summary><div class="pub-detail"><p><a href="https://ideas.repec.org/p/zbw/iwhdps/iwh-14-06.html">[download]</a></p></div></details>
 <details id="abstract-Sauermann2006"><summary hidden>Abstract</summary><div class="pub-detail"><p>The effects of fixed-term contracts on participation and financing of work-related training are analysed with data from the German Socio-Economic Panel (GSOEP). In contrast to previous literature, we especially distinguish between employer- and employee-sponsored training to allow for diverging investment patterns of worker and firm. In order to control for the selection bias arising from different characteristics of individuals with fixed-term and permanent contracts, a bivariate probit model is applied. The main findings are (i), that temporary workers are faced by lower investments, and (ii), that there are no differences with respect to employer- and employee-sponsored training.</p></div></details>
 <details id="bibtex-Sauermann2006"><summary hidden>BibTeX</summary><div class="pub-detail"><pre><code class="language-bibtex">@techreport{Sauermann2006,
   author = {Sauermann, Jan},
@@ -590,6 +608,8 @@ format:
 
 <div class="publication" id="pub-Sauermann2005">
 <p>Sauermann, Jan (2005), <em>Registrierte Arbeitslosigkeit oder Erwerbslosigkeit: Gibt es das bessere Messkonzept?</em>, <em>Wirtschaft im Wandel</em>, 4/2005, Halle Institute for Economic Research, Halle</p>
+<div class="pub-actions"></div>
+
 </div>
 ```
 
@@ -614,6 +634,7 @@ format:
 .pub-direct-links p { margin: .15em 0; }
 .pub-direct-link { color: inherit; text-decoration: none; }
 .pub-direct-link:hover { text-decoration: underline; }
+.pub-actions > .pub-direct-link { font-size: .78em; }
 </style>
 <script>
 document.addEventListener('click', event => {
