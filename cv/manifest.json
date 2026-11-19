@@ -1,13 +1,19 @@
 {
-  "schema_version": 1,
-  "publication_revision": "a6560fb80047248dea1ed2c36dbc2a7b566973d3",
+  "schema_version": 2,
+  "publication_revision": "90413f44ccd127243f69b79e43f5996da073a6d6",
   "citations_tree": "357770f27ad0cc0d37869ce07f52dc7478c18501",
   "counts": {
     "journal_article": 15,
     "working_paper": 5,
     "other": 25,
     "refereeing_journals": 51,
-    "refereeing_funding": 5
+    "refereeing_funding": 5,
+    "refereeing_conference": 4,
+    "presentation_places_conference": 25,
+    "presentation_places_seminars": 34,
+    "presentation_places_policy": 11,
+    "presentation_places_comments": 3,
+    "press_outlets": 14
   },
   "statistics": {
     "scopus_total": 893,
@@ -15,10 +21,16 @@
   },
   "sha256": {
     "publications.tex": "09b48fac2a2abb7778bb875a22ab254db1745b249085ee1b2b81fa713cc63527",
-    "working-papers.tex": "77a3311266d9ee5522406d03298141c7cf8d385d1c2ef3ae7af409c425fac60b",
+    "working-papers.tex": "215b6cf8588cecb37857c00397794e6dba7b97885896703143cfac9a1639f7b0",
     "other-publications.tex": "553d4bc10f511f345eaf89ad789a2a8289b9816c040b34687ca5f2e3ef0a1598",
     "citation-statistics.tex": "8fdbae8e63ba8db116bda073c4f3343f11fdd7fc75b6f6f163eb870dbb236093",
     "refereeing-journals.tex": "978078634898f1efc54d9138e8e687b2aa26e85604afc1891d81ef1789e49923",
-    "refereeing-funding.tex": "33a0dc9a863c08819d9fb040345ee71f8d4979fbdd403058809290d0b5ebe1c7"
+    "refereeing-funding.tex": "33a0dc9a863c08819d9fb040345ee71f8d4979fbdd403058809290d0b5ebe1c7",
+    "refereeing-conferences.tex": "94d6e6ddc0c7ab027219cc302c065998ae862c25d21d3931eb37a82ee08dc17d",
+    "presentations-conference.tex": "87338a2dbf8fe22946d87de50e0dd98a052e39c03518df85ec103bc488bb532e",
+    "presentations-seminars.tex": "b53e64f0352d474ded05c5f74287c2b87a7691f623434136fb0fa3afa25bfd01",
+    "presentations-policy.tex": "36bb75b44f03fcde4e25af9bca743411bb4f24130b07e2c5c356b2a1a359ecc3",
+    "presentations-comments.tex": "3879a91c6ed1c490d369d844dc6bae18164f0a0a82a86c83f7dec038864960c5",
+    "media-press.tex": "934cc6b8a993e0198129166f3a6243919f2a410d5c503a5616f022fc28a198b7"
   }
 }
