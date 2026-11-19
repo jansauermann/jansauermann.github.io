@@ -52,6 +52,7 @@ jobs:
         run: |
           python3 -m unittest discover -s scripts/cv -p 'test_*.py'
           python3 -m unittest discover -s scripts/publications -p 'test_*.py'
+          node scripts/publications/test_news_visibility.cjs
       - name: Check activity export format
         id: inputs
         run: python3 scripts/cv/check_inputs.py --data-dir .cv-input/data
