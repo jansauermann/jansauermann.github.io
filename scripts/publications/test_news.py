@@ -14,24 +14,29 @@ def item(key='news', published='2026-11-19', closed='', text='Some **bold**, *it
 
 
 class NewsTests(unittest.TestCase):
-    def test_visibility_inclusive_dates_newest_first_and_markdown_preserved(self):
+    def test_all_entries_are_embedded_newest_first_with_date_windows(self):
         items=[item('older','2026-01-01'),item('future','2026-11-20'),
                item('expired','2025-01-01'),item('current',closed='2026-11-19')]
-        body,count=news.render(news.read_snapshot(json.dumps({'schema_version':1,'items':items})),dt.date(2026,11,19))
-        self.assertEqual(count,2)
+        body,count=news.render(news.read_snapshot(json.dumps({'schema_version':1,'items':items})))
+        self.assertEqual(count,4)
+        self.assertLess(body.index('November 20, 2026'),body.index('November 19, 2026'))
         self.assertLess(body.index('November 19, 2026'),body.index('January 1, 2026'))
         self.assertIn('**bold**, *italic*, and [linked](https://example.com)',body)
-        self.assertEqual(news.render([items[-1]],dt.date(2026,11,20))[1],0)
+        self.assertIn('data-news-id="expired"',body)
+        self.assertIn('data-news-id="future"',body)
+        self.assertIn('data-news-close="2026-11-19"',body)
+        self.assertEqual(body.count('hidden="hidden"'),4)
+        self.assertIn('Europe/Stockholm',body)
 
     def test_fourteen_calendar_months_clamp_month_end_and_leap_day(self):
         self.assertEqual(news.add_months(dt.date(2025,12,31),14),dt.date(2027,2,28))
         self.assertEqual(news.add_months(dt.date(2022,12,31),14),dt.date(2024,2,29))
-        self.assertEqual(news.render([item(published='2025-09-23')],dt.date(2026,11,23))[1],1)
-        self.assertEqual(news.render([item(published='2025-09-23')],dt.date(2026,11,24))[1],0)
+        body,_=news.render([item(published='2025-09-23')])
+        self.assertIn('data-news-close="2026-11-23"',body)
 
     def test_only_marked_body_changes(self):
         source='About me\n### News\n'+news.START+'\nOld news\n'+news.END+'\n### Teaching\nKeep this\n'
-        result,count=news.replace_section(source,[item()],dt.date(2026,11,19))
+        result,count=news.replace_section(source,[item()])
         self.assertTrue(result.startswith('About me\n### News\n'+news.START))
         self.assertTrue(result.endswith(news.END+'\n### Teaching\nKeep this\n'))
         self.assertNotIn('Old news',result)
@@ -62,7 +67,6 @@ class NewsRefreshTests(unittest.TestCase):
         self.save_manifest()
         self.addCleanup(patch.stopall)
         patch.object(refresh,'__file__',str(self.scripts/'refresh_publications.py')).start()
-        patch.object(news,'today_stockholm',return_value=dt.date(2026,11,19)).start()
 
     def save_manifest(self,rows=None):
         if rows is not None:(self.data/'News.json').write_text(json.dumps({'schema_version':1,'items':rows}))
@@ -73,8 +77,10 @@ class NewsRefreshTests(unittest.TestCase):
     def test_transition_preserves_news_then_updates_and_backs_up(self):
         refresh.update(self.site,self.data)
         self.assertEqual((self.site/'index.qmd').read_text(),self.original_index)
-        self.save_manifest([item()]);state=refresh.update(self.site,self.data)
-        self.assertTrue(state['news_enabled']);self.assertEqual(state['news_shown'],1)
+        self.save_manifest([item(),item('future','2026-12-01')]);state=refresh.update(self.site,self.data)
+        self.assertTrue(state['news_enabled']);self.assertEqual(state['news_items'],2)
+        self.assertEqual(state['news_visibility'],'browser')
+        self.assertIn('data-news-id="future"',(self.site/'index.qmd').read_text())
         self.assertIn('**November 19, 2026**:',(self.site/'index.qmd').read_text())
         backups=list((self.site/'.publication-backups').glob('index-*.qmd'))
         self.assertEqual(backups[0].read_text(),self.original_index)

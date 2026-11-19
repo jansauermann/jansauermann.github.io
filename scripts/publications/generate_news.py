@@ -4,17 +4,13 @@ import calendar
 import datetime as dt
 import json
 import re
-from zoneinfo import ZoneInfo
+from pathlib import Path
 
 START = '<!-- NEWS:START -->'
 END = '<!-- NEWS:END -->'
 FIELDS = {'id', 'date_pub', 'date_closer', 'text'}
 MONTHS = ('January', 'February', 'March', 'April', 'May', 'June',
           'July', 'August', 'September', 'October', 'November', 'December')
-
-
-def today_stockholm():
-    return dt.datetime.now(ZoneInfo('Europe/Stockholm')).date()
 
 
 def parse_date(value, field):
@@ -58,25 +54,29 @@ def read_snapshot(content):
     return data['items']
 
 
-def render(items, today=None):
-    today = today if today is not None else today_stockholm()
-    rows = []
+def render(items):
+    rows=[]
     for item in items:
-        published = parse_date(item['date_pub'], 'date_pub')
-        close = parse_date(item['date_closer'], 'date_closer') if item['date_closer'] else add_months(published, 14)
-        if published <= today <= close:
-            rows.append((published, item['text'].strip()))
-    # A stable sort preserves sheet order for items with the same publication date.
-    rows.sort(key=lambda row: row[0], reverse=True)
-    body = '\n\n'.join('**' + MONTHS[date.month - 1] + ' ' + str(date.day) + ', ' + str(date.year) + '**: ' + text
-                       for date, text in rows)
-    return body, len(rows)
+        published=parse_date(item['date_pub'],'date_pub')
+        closed=parse_date(item['date_closer'],'date_closer') if item['date_closer'] else add_months(published,14)
+        rows.append((published,closed,item['id'],item['text'].strip()))
+    # Include every entry. The visitor's browser applies the Stockholm date window.
+    rows.sort(key=lambda row:row[0],reverse=True)
+    blocks=[]
+    for published,closed,key,text in rows:
+        date=MONTHS[published.month-1]+' '+str(published.day)+', '+str(published.year)
+        attrs=('.news-item data-news-id="'+key+'" data-news-pub="'+published.isoformat()
+               +'" data-news-close="'+closed.isoformat()+'" hidden="hidden"')
+        blocks.append('::: {'+attrs+'}\n\n**'+date+'**: '+text+'\n\n:::')
+    script=Path(__file__).with_name('news_visibility.js').read_text(encoding='utf-8')
+    controls='```{=html}\n<style>.news-item[hidden] { display: none !important; }</style>\n<script>\n'+script+'\n</script>\n```'
+    return '\n\n'.join(blocks+[controls]),len(rows)
 
 
-def replace_section(source, items, today=None):
+def replace_section(source, items):
     if source.count(START) != 1 or source.count(END) != 1:
         raise ValueError('News: index.qmd must have exactly one NEWS:START/NEWS:END marker pair')
     before, rest = source.split(START, 1)
     _, after = rest.split(END, 1)
-    body, shown = render(items, today)
+    body, shown = render(items)
     return before + START + '\n\n' + body + '\n\n' + END + after, shown

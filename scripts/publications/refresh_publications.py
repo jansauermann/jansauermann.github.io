@@ -63,13 +63,13 @@ def update(site,fixture=None):
         files={name:download(f'https://raw.githubusercontent.com/{repo}/{revision}/data/{name}') for name in names}
     manifest=json.loads(files['manifest.json'])
     if manifest.get('schema_version')!=1:raise ValueError('Unsupported publication export schema')
-    news_content=None;news_shown=None
+    news_content=None;news_items=None
     if 'News.json' in manifest.get('sha256',{}):
         payload=fetch_file('News.json')
         if hashlib.sha256(payload).hexdigest()!=manifest['sha256']['News.json']:
             raise ValueError('Export integrity check failed: News.json')
         items=news.read_snapshot(payload)
-        news_content,news_shown=news.replace_section((site/'index.qmd').read_text(encoding='utf-8'),items)
+        news_content,news_items=news.replace_section((site/'index.qmd').read_text(encoding='utf-8'),items)
         news_content=news_content.encode('utf-8')
     else:
         previous=site/'.publication-sync/last-success.json'
@@ -113,10 +113,10 @@ def update(site,fixture=None):
     for path,data in pages.items():
         if old_pages[path]!=data:atomic_write(path,data)
     old=old_pages[site/target]
-    state={'revision':revision,'target':target,'checked_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'news_enabled':news_content is not None,'news_shown':news_shown,**stats}
+    state={'revision':revision,'target':target,'checked_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'news_enabled':news_content is not None,'news_visibility':'browser','news_items':news_items,**stats}
     atomic_write(site/'.publication-sync/last-success.json',(json.dumps(state,indent=2)+'\n').encode())
     print(('Updated ' if old!=content else 'Unchanged ')+target+f": {stats['shown']} publications. Data revision: {revision}")
-    if news_content is not None:print(f'Updated News: {news_shown} currently visible items (Europe/Stockholm).')
+    if news_content is not None:print(f'Updated News: {news_items} items; visibility follows the visitor’s current Stockholm date.')
     return state
 
 
