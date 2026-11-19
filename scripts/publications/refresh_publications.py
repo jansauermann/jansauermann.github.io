@@ -15,6 +15,7 @@ import subprocess
 import sys
 import tempfile
 import generate_research as generator
+import generate_news as news
 
 PUB_FIELDS=['id','category','entry_type','authors','title','year','journal','volume','issue','pages',
             'article_number','month','doi','issn','keywords','series','number','booktitle','institution',
@@ -51,6 +52,8 @@ def update(site,fixture=None):
     if not re.fullmatch(r'[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+',repo):raise ValueError('Invalid repository')
     if not re.fullmatch(r'[A-Za-z0-9_-]+',branch):raise ValueError('Invalid branch')
     names=('Pubs.csv','Pubs_CustomLinks.csv','manifest.json')
+    def fetch_file(name):
+        return (fixture/name).read_bytes() if fixture else download(f'https://raw.githubusercontent.com/{repo}/{revision}/data/{name}')
     if fixture:
         files={name:(fixture/name).read_bytes() for name in names};revision='local test'
     else:
@@ -60,6 +63,19 @@ def update(site,fixture=None):
         files={name:download(f'https://raw.githubusercontent.com/{repo}/{revision}/data/{name}') for name in names}
     manifest=json.loads(files['manifest.json'])
     if manifest.get('schema_version')!=1:raise ValueError('Unsupported publication export schema')
+    news_content=None;news_shown=None
+    if 'News.json' in manifest.get('sha256',{}):
+        payload=fetch_file('News.json')
+        if hashlib.sha256(payload).hexdigest()!=manifest['sha256']['News.json']:
+            raise ValueError('Export integrity check failed: News.json')
+        items=news.read_snapshot(payload)
+        news_content,news_shown=news.replace_section((site/'index.qmd').read_text(encoding='utf-8'),items)
+        news_content=news_content.encode('utf-8')
+    else:
+        previous=site/'.publication-sync/last-success.json'
+        if previous.exists() and json.loads(previous.read_text()).get('news_enabled'):
+            raise ValueError('News export is missing; previous pages retained. Check the Apps Script version.')
+        print('News export not available yet; existing News section retained. Update Apps Script to enable it.')
     for name,fields in [('Pubs.csv',PUB_FIELDS),('Pubs_CustomLinks.csv',LINK_FIELDS)]:
         if hashlib.sha256(files[name]).hexdigest()!=manifest['sha256'].get(name):raise ValueError('Export integrity check failed: '+name)
         headers=next(csv.reader(io.StringIO(files[name].decode('utf-8-sig'),newline='')),[])
@@ -77,24 +93,30 @@ def update(site,fixture=None):
     if target=='research.qmd':template=template.replace('title: "Research — preview"','title: "Research"')
     qmd,_,stats=generator.generate(pubs,links,template)
     content=qmd.encode('utf-8')
-    # Prepare all content before replacing any output. Individual BibTeX files go first.
+    # Validate/prepare both pages before replacing any output. Individual BibTeX files go first.
     assets={}
     for pub in pubs:
         if pub['category']=='other' and generator.show_bibtex(pub):
             pub_links=[l for l in links if l['publication_id']==pub['id']]
             assets[site/'bibtex/generated'/(pub['id']+'.bib')]=(generator.bibtex(pub,pub_links)+'\n').encode('utf-8')
-    destination=site/target
-    old=destination.read_bytes() if destination.exists() else None
-    if old!=content and old is not None:
-        digest=hashlib.sha256(old).hexdigest()[:16]
-        backup=site/'.publication-backups'/(destination.stem+'-'+digest+'.qmd')
-        if not backup.exists():atomic_write(backup,old)
+    pages={site/target:content}
+    if news_content is not None:pages[site/'index.qmd']=news_content
+    old_pages={path:path.read_bytes() if path.exists() else None for path in pages}
+    for destination,data in pages.items():
+        old=old_pages[destination]
+        if old!=data and old is not None:
+            digest=hashlib.sha256(old).hexdigest()[:16]
+            backup=site/'.publication-backups'/(destination.stem+'-'+digest+'.qmd')
+            if not backup.exists():atomic_write(backup,old)
     for path,data in assets.items():
         if not path.exists() or path.read_bytes()!=data:atomic_write(path,data)
-    if old!=content:atomic_write(destination,content)
-    state={'revision':revision,'target':target,'checked_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),**stats}
+    for path,data in pages.items():
+        if old_pages[path]!=data:atomic_write(path,data)
+    old=old_pages[site/target]
+    state={'revision':revision,'target':target,'checked_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'news_enabled':news_content is not None,'news_shown':news_shown,**stats}
     atomic_write(site/'.publication-sync/last-success.json',(json.dumps(state,indent=2)+'\n').encode())
     print(('Updated ' if old!=content else 'Unchanged ')+target+f": {stats['shown']} publications. Data revision: {revision}")
+    if news_content is not None:print(f'Updated News: {news_shown} currently visible items (Europe/Stockholm).')
     return state
 
 

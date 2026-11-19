@@ -11,4 +11,4 @@ trap 'status=$?; if [ "$status" -ne 0 ]; then /usr/bin/osascript -e '\''display 
 cd "$SITE_DIR"
 "$PYTHON_BIN" "$SCRIPT_DIR/refresh_publications.py" --site "$SITE_DIR"
 /usr/local/bin/quarto render
-/usr/bin/osascript -e 'display notification "Publication data refreshed and website rendered. Ready to review before your normal GitHub push." with title "Website ready"' || true
+/usr/bin/osascript -e 'display notification "Publications and News refreshed; website rendered. Ready to review before your normal GitHub push." with title "Website ready"' || true

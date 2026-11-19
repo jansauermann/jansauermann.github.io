@@ -45,6 +45,7 @@ Please [find my CV (pdf) here](https://jansauermann.github.io/files/fullcv_sauer
 
 ### News
 
+<!-- NEWS:START -->
 <!-- **December 1, 2026**: you can now submit your paper to the [9th Stockholm Uppsala Education Economics Workshop](educworkshop_2027.qmd) which takes place on May 11, 2027. The keynote presentation will be held by **Susan Dynarski (Harvard)**.
 -->
 
@@ -65,6 +66,7 @@ Please [find my CV (pdf) here](https://jansauermann.github.io/files/fullcv_sauer
 
 **September 23, 2025**: my paper "The effects of increasing compensatory resource allocation on student achievement" is now published as an IFAU Working Paper [here](https://www.ifau.se) or read the [Swedish-language report here](research.html#research-reports-and-other-publications)
 
+<!-- NEWS:END -->
 
 <!--
 
