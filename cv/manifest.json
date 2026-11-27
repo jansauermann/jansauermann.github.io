@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "publication_revision": "ceb60d198e925e06cc6e1cb8dddd9899d2f4afb0",
-  "citations_tree": "47292c788fbd9cd887e7dd399388ff63934dad59",
+  "citations_tree": "7825e6564eeca2dcdf762c7d375b5b71643841eb",
   "counts": {
     "journal_article": 15,
     "working_paper": 5,
@@ -16,14 +16,14 @@
     "press_outlets": 16
   },
   "statistics": {
-    "scopus_total": 896,
+    "scopus_total": 897,
     "scholar_h_index": 17
   },
   "sha256": {
     "publications.tex": "0b46819319950031fbb6c04547fe6a5f1c57d0ecde33729fc8588b5c6f48f79f",
     "working-papers.tex": "215b6cf8588cecb37857c00397794e6dba7b97885896703143cfac9a1639f7b0",
     "other-publications.tex": "4ddf2f6f8138d4c6d946865b0e0c8c57d8b9799cd647111d0833215fde9d9067",
-    "citation-statistics.tex": "46d0e2a5c2a7a12b94c7d718ac6cbc8d3187aa794daa1e7c8dcd3625ee961e39",
+    "citation-statistics.tex": "df2e414f45153eb2829143b6e2a7caac709f46755deefae3a2c06a0a2ba64a4c",
     "refereeing-journals.tex": "07da711462aeed52baa9e36872fe6ed03da541bd94977230f7d950618830cb6d",
     "refereeing-funding.tex": "33a0dc9a863c08819d9fb040345ee71f8d4979fbdd403058809290d0b5ebe1c7",
     "refereeing-conferences.tex": "4b4f667cb5df771fb64d46910bb6cdb814caff34a9e9a7f9df591e33c2c7f4c9",
